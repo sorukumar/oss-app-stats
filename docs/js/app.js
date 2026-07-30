@@ -75,24 +75,6 @@ async function loadProjectData(file) {
 }
 
 // ─── Rendering ──────────────────────────────────────────────────────────────
-function renderPulseBar(index) {
-    const projects = index.projects.filter(p => p.total_releases > 0);
-    const totalDownloads = projects.reduce((s, p) => s + p.total_downloads, 0);
-    const totalReleases = projects.reduce((s, p) => s + p.total_releases, 0);
-
-    return `
-        <div class="pulse-bar animate-in">
-            <div class="pulse-stat">
-                <span class="pulse-number">${formatNumber(totalDownloads)}</span>
-                <span class="pulse-label">Total Downloads (All Time)</span>
-            </div>
-            <div class="pulse-stat">
-                <span class="pulse-number">${formatNumber(totalReleases)}</span>
-                <span class="pulse-label">Releases Analyzed</span>
-            </div>
-        </div>
-    `;
-}
 
 function renderLeaderboard(index) {
     // Only show projects with releases
@@ -615,9 +597,6 @@ async function init() {
         const categoryOrder = ['Lightning', 'Wallets', 'Core Infrastructure', 'Exchanges', 'Block Open Source', 'Libraries & Tools'];
 
         let html = '';
-
-        // Pulse bar
-        html += renderPulseBar(index);
 
         // Insight cards
         html += renderInsightCards(allData);
