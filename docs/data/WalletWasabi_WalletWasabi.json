@@ -7,14 +7,14 @@
     "description": "Open-source, non-custodial, privacy preserving Bitcoin wallet for Windows, Linux, and Mac.",
     "stars": 2586,
     "forks": 561,
-    "open_issues": 316,
+    "open_issues": 314,
     "language": "C#",
     "license": "MIT",
     "homepage": "https://wasabiwallet.io",
     "html_url": "https://github.com/WalletWasabi/WalletWasabi"
   },
   "summary": {
-    "total_downloads": 9382717,
+    "total_downloads": 9382893,
     "total_releases": 83,
     "stable_releases": 72,
     "pre_releases": 11,
@@ -23,11 +23,11 @@
     "days_since_latest": 8,
     "avg_cadence_days": 40.5,
     "platform_breakdown": {
-      "Signatures": 4012943,
-      "Linux": 2042217,
-      "macOS": 1687752,
-      "Other": 198105,
-      "Windows": 1441700
+      "Signatures": 4012976,
+      "Linux": 2042281,
+      "macOS": 1687809,
+      "Other": 198107,
+      "Windows": 1441720
     }
   },
   "releases": [
@@ -37,8 +37,8 @@
       "published_at": "2026-07-22T14:45:40Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 23054,
-      "total_downloads": 23054,
+      "raw_downloads": 23154,
+      "total_downloads": 23154,
       "asset_count": 31,
       "assets": [
         {
@@ -51,210 +51,210 @@
         {
           "name": "SHA256SUMS.asc",
           "size_bytes": 1835,
-          "download_count": 3274,
+          "download_count": 3288,
           "platform": "Signatures",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "SHA256SUMS.wasabisig",
           "size_bytes": 97,
-          "download_count": 3092,
+          "download_count": 3106,
           "platform": "Signatures",
           "content_type": "application/octet-stream"
         },
         {
           "name": "Wasabi-2.8.1-arm64.AppImage",
           "size_bytes": 77036040,
-          "download_count": 239,
+          "download_count": 240,
           "platform": "Linux",
           "content_type": "application/octet-stream"
         },
         {
           "name": "Wasabi-2.8.1-arm64.AppImage.asc",
           "size_bytes": 488,
-          "download_count": 221,
+          "download_count": 222,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1-arm64.deb",
           "size_bytes": 70645412,
-          "download_count": 191,
+          "download_count": 192,
           "platform": "Linux",
           "content_type": "application/x-debian-package"
         },
         {
           "name": "Wasabi-2.8.1-arm64.deb.asc",
           "size_bytes": 488,
-          "download_count": 190,
+          "download_count": 191,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1-arm64.dmg",
           "size_bytes": 84194507,
-          "download_count": 4036,
+          "download_count": 4056,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "Wasabi-2.8.1-arm64.dmg.asc",
           "size_bytes": 488,
-          "download_count": 250,
+          "download_count": 251,
           "platform": "macOS",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1-linux-arm64.tar.gz",
           "size_bytes": 94241074,
-          "download_count": 223,
+          "download_count": 224,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "Wasabi-2.8.1-linux-arm64.tar.gz.asc",
           "size_bytes": 488,
-          "download_count": 215,
+          "download_count": 216,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1-linux-arm64.zip",
           "size_bytes": 94836315,
-          "download_count": 185,
+          "download_count": 186,
           "platform": "Linux",
           "content_type": "application/zip"
         },
         {
           "name": "Wasabi-2.8.1-linux-arm64.zip.asc",
           "size_bytes": 488,
-          "download_count": 186,
+          "download_count": 187,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1-linux-x64.tar.gz",
           "size_bytes": 96871468,
-          "download_count": 292,
+          "download_count": 297,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "Wasabi-2.8.1-linux-x64.tar.gz.asc",
           "size_bytes": 488,
-          "download_count": 242,
+          "download_count": 244,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1-linux-x64.zip",
           "size_bytes": 97489378,
-          "download_count": 192,
+          "download_count": 193,
           "platform": "Linux",
           "content_type": "application/zip"
         },
         {
           "name": "Wasabi-2.8.1-linux-x64.zip.asc",
           "size_bytes": 488,
-          "download_count": 191,
+          "download_count": 192,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1-macOS-arm64.zip",
           "size_bytes": 78502625,
-          "download_count": 191,
+          "download_count": 192,
           "platform": "macOS",
           "content_type": "application/zip"
         },
         {
           "name": "Wasabi-2.8.1-macOS-arm64.zip.asc",
           "size_bytes": 488,
-          "download_count": 192,
+          "download_count": 193,
           "platform": "macOS",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1-macOS-x64.zip",
           "size_bytes": 80872066,
-          "download_count": 189,
+          "download_count": 190,
           "platform": "macOS",
           "content_type": "application/zip"
         },
         {
           "name": "Wasabi-2.8.1-macOS-x64.zip.asc",
           "size_bytes": 488,
-          "download_count": 191,
+          "download_count": 192,
           "platform": "macOS",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1-win-x64.zip",
           "size_bytes": 94662356,
-          "download_count": 204,
+          "download_count": 205,
           "platform": "Other",
           "content_type": "application/zip"
         },
         {
           "name": "Wasabi-2.8.1-win-x64.zip.asc",
           "size_bytes": 488,
-          "download_count": 191,
+          "download_count": 192,
           "platform": "Signatures",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1.AppImage",
           "size_bytes": 79256056,
-          "download_count": 380,
+          "download_count": 382,
           "platform": "Linux",
           "content_type": "application/octet-stream"
         },
         {
           "name": "Wasabi-2.8.1.AppImage.asc",
           "size_bytes": 488,
-          "download_count": 250,
+          "download_count": 251,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1.deb",
           "size_bytes": 74991040,
-          "download_count": 1087,
+          "download_count": 1091,
           "platform": "Linux",
           "content_type": "application/x-debian-package"
         },
         {
           "name": "Wasabi-2.8.1.deb.asc",
           "size_bytes": 488,
-          "download_count": 422,
+          "download_count": 424,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1.dmg",
           "size_bytes": 86288398,
-          "download_count": 1360,
+          "download_count": 1369,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "Wasabi-2.8.1.dmg.asc",
           "size_bytes": 488,
-          "download_count": 231,
+          "download_count": 232,
           "platform": "macOS",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.1.msi",
           "size_bytes": 97165312,
-          "download_count": 2928,
+          "download_count": 2936,
           "platform": "Windows",
           "content_type": "application/x-msdownload"
         },
         {
           "name": "Wasabi-2.8.1.msi.asc",
           "size_bytes": 488,
-          "download_count": 292,
+          "download_count": 293,
           "platform": "Windows",
           "content_type": "application/pgp-keys"
         }
@@ -269,196 +269,196 @@
       "published_at": "2026-06-27T13:47:53Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 59390,
-      "total_downloads": 59390,
+      "raw_downloads": 59418,
+      "total_downloads": 59418,
       "asset_count": 27,
       "assets": [
         {
           "name": "SHA256SUMS",
           "size_bytes": 1112,
-          "download_count": 1829,
+          "download_count": 1830,
           "platform": "Signatures",
           "content_type": "application/octet-stream"
         },
         {
           "name": "SHA256SUMS.asc",
           "size_bytes": 1649,
-          "download_count": 8354,
+          "download_count": 8355,
           "platform": "Signatures",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "SHA256SUMS.wasabisig",
           "size_bytes": 97,
-          "download_count": 7741,
+          "download_count": 7742,
           "platform": "Signatures",
           "content_type": "application/octet-stream"
         },
         {
           "name": "Wasabi-2.8.0-arm64.deb",
           "size_bytes": 70466364,
-          "download_count": 807,
+          "download_count": 808,
           "platform": "Linux",
           "content_type": "application/x-debian-package"
         },
         {
           "name": "Wasabi-2.8.0-arm64.deb.asc",
           "size_bytes": 488,
-          "download_count": 795,
+          "download_count": 796,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.0-arm64.dmg",
           "size_bytes": 83842119,
-          "download_count": 9916,
+          "download_count": 9918,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "Wasabi-2.8.0-arm64.dmg.asc",
           "size_bytes": 488,
-          "download_count": 1000,
+          "download_count": 1001,
           "platform": "macOS",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.0-linux-arm64.tar.gz",
           "size_bytes": 93965206,
-          "download_count": 913,
+          "download_count": 914,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "Wasabi-2.8.0-linux-arm64.tar.gz.asc",
           "size_bytes": 488,
-          "download_count": 841,
+          "download_count": 842,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.0-linux-arm64.zip",
           "size_bytes": 94565835,
-          "download_count": 788,
+          "download_count": 789,
           "platform": "Linux",
           "content_type": "application/zip"
         },
         {
           "name": "Wasabi-2.8.0-linux-arm64.zip.asc",
           "size_bytes": 488,
-          "download_count": 784,
+          "download_count": 785,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.0-linux-x64.tar.gz",
           "size_bytes": 96592155,
-          "download_count": 1377,
+          "download_count": 1378,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "Wasabi-2.8.0-linux-x64.tar.gz.asc",
           "size_bytes": 488,
-          "download_count": 1032,
+          "download_count": 1033,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.0-linux-x64.zip",
           "size_bytes": 97218383,
-          "download_count": 844,
+          "download_count": 845,
           "platform": "Linux",
           "content_type": "application/zip"
         },
         {
           "name": "Wasabi-2.8.0-linux-x64.zip.asc",
           "size_bytes": 488,
-          "download_count": 836,
+          "download_count": 837,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.0-macOS-arm64.zip",
           "size_bytes": 78223547,
-          "download_count": 839,
+          "download_count": 840,
           "platform": "macOS",
           "content_type": "application/zip"
         },
         {
           "name": "Wasabi-2.8.0-macOS-arm64.zip.asc",
           "size_bytes": 488,
-          "download_count": 836,
+          "download_count": 837,
           "platform": "macOS",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.0-macOS-x64.zip",
           "size_bytes": 80593370,
-          "download_count": 838,
+          "download_count": 839,
           "platform": "macOS",
           "content_type": "application/zip"
         },
         {
           "name": "Wasabi-2.8.0-macOS-x64.zip.asc",
           "size_bytes": 488,
-          "download_count": 834,
+          "download_count": 835,
           "platform": "macOS",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.0-win-x64.zip",
           "size_bytes": 94383198,
-          "download_count": 878,
+          "download_count": 879,
           "platform": "Other",
           "content_type": "application/zip"
         },
         {
           "name": "Wasabi-2.8.0-win-x64.zip.asc",
           "size_bytes": 488,
-          "download_count": 838,
+          "download_count": 839,
           "platform": "Signatures",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.0.deb",
           "size_bytes": 74917664,
-          "download_count": 2471,
+          "download_count": 2472,
           "platform": "Linux",
           "content_type": "application/x-debian-package"
         },
         {
           "name": "Wasabi-2.8.0.deb.asc",
           "size_bytes": 488,
-          "download_count": 1403,
+          "download_count": 1404,
           "platform": "Linux",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.0.dmg",
           "size_bytes": 85911544,
-          "download_count": 3656,
+          "download_count": 3657,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "Wasabi-2.8.0.dmg.asc",
           "size_bytes": 488,
-          "download_count": 957,
+          "download_count": 958,
           "platform": "macOS",
           "content_type": "application/pgp-keys"
         },
         {
           "name": "Wasabi-2.8.0.msi",
           "size_bytes": 96829440,
-          "download_count": 6810,
+          "download_count": 6811,
           "platform": "Windows",
           "content_type": "application/x-msdownload"
         },
         {
           "name": "Wasabi-2.8.0.msi.asc",
           "size_bytes": 488,
-          "download_count": 1173,
+          "download_count": 1174,
           "platform": "Windows",
           "content_type": "application/pgp-keys"
         }
@@ -797,8 +797,8 @@
       "published_at": "2025-08-30T22:25:43Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 2704414,
-      "total_downloads": 2704414,
+      "raw_downloads": 2704462,
+      "total_downloads": 2704462,
       "asset_count": 21,
       "assets": [
         {
@@ -839,7 +839,7 @@
         {
           "name": "Wasabi-2.7.0-linux-x64.tar.gz",
           "size_bytes": 89490739,
-          "download_count": 648567,
+          "download_count": 648580,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
@@ -909,7 +909,7 @@
         {
           "name": "Wasabi-2.7.0.deb",
           "size_bytes": 69487660,
-          "download_count": 651479,
+          "download_count": 651492,
           "platform": "Linux",
           "content_type": "application/x-debian-package"
         },
@@ -923,7 +923,7 @@
         {
           "name": "Wasabi-2.7.0.dmg",
           "size_bytes": 80311599,
-          "download_count": 650347,
+          "download_count": 650360,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
@@ -937,7 +937,7 @@
         {
           "name": "Wasabi-2.7.0.msi",
           "size_bytes": 70049792,
-          "download_count": 661662,
+          "download_count": 661671,
           "platform": "Windows",
           "content_type": "application/x-msdownload"
         },
@@ -8595,7 +8595,7 @@
       "author": "nopara73"
     }
   ],
-  "fetched_at": "2026-07-30T18:58:47.766495+00:00",
+  "fetched_at": "2026-07-30T20:14:55.396072+00:00",
   "deep_dive": {
     "days_since_launch": 3302,
     "recent_stable_releases": [
@@ -8605,8 +8605,8 @@
         "published_at": "2026-07-22T14:45:40Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 23054,
-        "total_downloads": 23054,
+        "raw_downloads": 23154,
+        "total_downloads": 23154,
         "asset_count": 31,
         "assets": [
           {
@@ -8619,210 +8619,210 @@
           {
             "name": "SHA256SUMS.asc",
             "size_bytes": 1835,
-            "download_count": 3274,
+            "download_count": 3288,
             "platform": "Signatures",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "SHA256SUMS.wasabisig",
             "size_bytes": 97,
-            "download_count": 3092,
+            "download_count": 3106,
             "platform": "Signatures",
             "content_type": "application/octet-stream"
           },
           {
             "name": "Wasabi-2.8.1-arm64.AppImage",
             "size_bytes": 77036040,
-            "download_count": 239,
+            "download_count": 240,
             "platform": "Linux",
             "content_type": "application/octet-stream"
           },
           {
             "name": "Wasabi-2.8.1-arm64.AppImage.asc",
             "size_bytes": 488,
-            "download_count": 221,
+            "download_count": 222,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1-arm64.deb",
             "size_bytes": 70645412,
-            "download_count": 191,
+            "download_count": 192,
             "platform": "Linux",
             "content_type": "application/x-debian-package"
           },
           {
             "name": "Wasabi-2.8.1-arm64.deb.asc",
             "size_bytes": 488,
-            "download_count": 190,
+            "download_count": 191,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1-arm64.dmg",
             "size_bytes": 84194507,
-            "download_count": 4036,
+            "download_count": 4056,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "Wasabi-2.8.1-arm64.dmg.asc",
             "size_bytes": 488,
-            "download_count": 250,
+            "download_count": 251,
             "platform": "macOS",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1-linux-arm64.tar.gz",
             "size_bytes": 94241074,
-            "download_count": 223,
+            "download_count": 224,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "Wasabi-2.8.1-linux-arm64.tar.gz.asc",
             "size_bytes": 488,
-            "download_count": 215,
+            "download_count": 216,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1-linux-arm64.zip",
             "size_bytes": 94836315,
-            "download_count": 185,
+            "download_count": 186,
             "platform": "Linux",
             "content_type": "application/zip"
           },
           {
             "name": "Wasabi-2.8.1-linux-arm64.zip.asc",
             "size_bytes": 488,
-            "download_count": 186,
+            "download_count": 187,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1-linux-x64.tar.gz",
             "size_bytes": 96871468,
-            "download_count": 292,
+            "download_count": 297,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "Wasabi-2.8.1-linux-x64.tar.gz.asc",
             "size_bytes": 488,
-            "download_count": 242,
+            "download_count": 244,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1-linux-x64.zip",
             "size_bytes": 97489378,
-            "download_count": 192,
+            "download_count": 193,
             "platform": "Linux",
             "content_type": "application/zip"
           },
           {
             "name": "Wasabi-2.8.1-linux-x64.zip.asc",
             "size_bytes": 488,
-            "download_count": 191,
+            "download_count": 192,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1-macOS-arm64.zip",
             "size_bytes": 78502625,
-            "download_count": 191,
+            "download_count": 192,
             "platform": "macOS",
             "content_type": "application/zip"
           },
           {
             "name": "Wasabi-2.8.1-macOS-arm64.zip.asc",
             "size_bytes": 488,
-            "download_count": 192,
+            "download_count": 193,
             "platform": "macOS",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1-macOS-x64.zip",
             "size_bytes": 80872066,
-            "download_count": 189,
+            "download_count": 190,
             "platform": "macOS",
             "content_type": "application/zip"
           },
           {
             "name": "Wasabi-2.8.1-macOS-x64.zip.asc",
             "size_bytes": 488,
-            "download_count": 191,
+            "download_count": 192,
             "platform": "macOS",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1-win-x64.zip",
             "size_bytes": 94662356,
-            "download_count": 204,
+            "download_count": 205,
             "platform": "Other",
             "content_type": "application/zip"
           },
           {
             "name": "Wasabi-2.8.1-win-x64.zip.asc",
             "size_bytes": 488,
-            "download_count": 191,
+            "download_count": 192,
             "platform": "Signatures",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1.AppImage",
             "size_bytes": 79256056,
-            "download_count": 380,
+            "download_count": 382,
             "platform": "Linux",
             "content_type": "application/octet-stream"
           },
           {
             "name": "Wasabi-2.8.1.AppImage.asc",
             "size_bytes": 488,
-            "download_count": 250,
+            "download_count": 251,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1.deb",
             "size_bytes": 74991040,
-            "download_count": 1087,
+            "download_count": 1091,
             "platform": "Linux",
             "content_type": "application/x-debian-package"
           },
           {
             "name": "Wasabi-2.8.1.deb.asc",
             "size_bytes": 488,
-            "download_count": 422,
+            "download_count": 424,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1.dmg",
             "size_bytes": 86288398,
-            "download_count": 1360,
+            "download_count": 1369,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "Wasabi-2.8.1.dmg.asc",
             "size_bytes": 488,
-            "download_count": 231,
+            "download_count": 232,
             "platform": "macOS",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.1.msi",
             "size_bytes": 97165312,
-            "download_count": 2928,
+            "download_count": 2936,
             "platform": "Windows",
             "content_type": "application/x-msdownload"
           },
           {
             "name": "Wasabi-2.8.1.msi.asc",
             "size_bytes": 488,
-            "download_count": 292,
+            "download_count": 293,
             "platform": "Windows",
             "content_type": "application/pgp-keys"
           }
@@ -8837,196 +8837,196 @@
         "published_at": "2026-06-27T13:47:53Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 59390,
-        "total_downloads": 59390,
+        "raw_downloads": 59418,
+        "total_downloads": 59418,
         "asset_count": 27,
         "assets": [
           {
             "name": "SHA256SUMS",
             "size_bytes": 1112,
-            "download_count": 1829,
+            "download_count": 1830,
             "platform": "Signatures",
             "content_type": "application/octet-stream"
           },
           {
             "name": "SHA256SUMS.asc",
             "size_bytes": 1649,
-            "download_count": 8354,
+            "download_count": 8355,
             "platform": "Signatures",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "SHA256SUMS.wasabisig",
             "size_bytes": 97,
-            "download_count": 7741,
+            "download_count": 7742,
             "platform": "Signatures",
             "content_type": "application/octet-stream"
           },
           {
             "name": "Wasabi-2.8.0-arm64.deb",
             "size_bytes": 70466364,
-            "download_count": 807,
+            "download_count": 808,
             "platform": "Linux",
             "content_type": "application/x-debian-package"
           },
           {
             "name": "Wasabi-2.8.0-arm64.deb.asc",
             "size_bytes": 488,
-            "download_count": 795,
+            "download_count": 796,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.0-arm64.dmg",
             "size_bytes": 83842119,
-            "download_count": 9916,
+            "download_count": 9918,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "Wasabi-2.8.0-arm64.dmg.asc",
             "size_bytes": 488,
-            "download_count": 1000,
+            "download_count": 1001,
             "platform": "macOS",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.0-linux-arm64.tar.gz",
             "size_bytes": 93965206,
-            "download_count": 913,
+            "download_count": 914,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "Wasabi-2.8.0-linux-arm64.tar.gz.asc",
             "size_bytes": 488,
-            "download_count": 841,
+            "download_count": 842,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.0-linux-arm64.zip",
             "size_bytes": 94565835,
-            "download_count": 788,
+            "download_count": 789,
             "platform": "Linux",
             "content_type": "application/zip"
           },
           {
             "name": "Wasabi-2.8.0-linux-arm64.zip.asc",
             "size_bytes": 488,
-            "download_count": 784,
+            "download_count": 785,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.0-linux-x64.tar.gz",
             "size_bytes": 96592155,
-            "download_count": 1377,
+            "download_count": 1378,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "Wasabi-2.8.0-linux-x64.tar.gz.asc",
             "size_bytes": 488,
-            "download_count": 1032,
+            "download_count": 1033,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.0-linux-x64.zip",
             "size_bytes": 97218383,
-            "download_count": 844,
+            "download_count": 845,
             "platform": "Linux",
             "content_type": "application/zip"
           },
           {
             "name": "Wasabi-2.8.0-linux-x64.zip.asc",
             "size_bytes": 488,
-            "download_count": 836,
+            "download_count": 837,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.0-macOS-arm64.zip",
             "size_bytes": 78223547,
-            "download_count": 839,
+            "download_count": 840,
             "platform": "macOS",
             "content_type": "application/zip"
           },
           {
             "name": "Wasabi-2.8.0-macOS-arm64.zip.asc",
             "size_bytes": 488,
-            "download_count": 836,
+            "download_count": 837,
             "platform": "macOS",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.0-macOS-x64.zip",
             "size_bytes": 80593370,
-            "download_count": 838,
+            "download_count": 839,
             "platform": "macOS",
             "content_type": "application/zip"
           },
           {
             "name": "Wasabi-2.8.0-macOS-x64.zip.asc",
             "size_bytes": 488,
-            "download_count": 834,
+            "download_count": 835,
             "platform": "macOS",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.0-win-x64.zip",
             "size_bytes": 94383198,
-            "download_count": 878,
+            "download_count": 879,
             "platform": "Other",
             "content_type": "application/zip"
           },
           {
             "name": "Wasabi-2.8.0-win-x64.zip.asc",
             "size_bytes": 488,
-            "download_count": 838,
+            "download_count": 839,
             "platform": "Signatures",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.0.deb",
             "size_bytes": 74917664,
-            "download_count": 2471,
+            "download_count": 2472,
             "platform": "Linux",
             "content_type": "application/x-debian-package"
           },
           {
             "name": "Wasabi-2.8.0.deb.asc",
             "size_bytes": 488,
-            "download_count": 1403,
+            "download_count": 1404,
             "platform": "Linux",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.0.dmg",
             "size_bytes": 85911544,
-            "download_count": 3656,
+            "download_count": 3657,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "Wasabi-2.8.0.dmg.asc",
             "size_bytes": 488,
-            "download_count": 957,
+            "download_count": 958,
             "platform": "macOS",
             "content_type": "application/pgp-keys"
           },
           {
             "name": "Wasabi-2.8.0.msi",
             "size_bytes": 96829440,
-            "download_count": 6810,
+            "download_count": 6811,
             "platform": "Windows",
             "content_type": "application/x-msdownload"
           },
           {
             "name": "Wasabi-2.8.0.msi.asc",
             "size_bytes": 488,
-            "download_count": 1173,
+            "download_count": 1174,
             "platform": "Windows",
             "content_type": "application/pgp-keys"
           }
@@ -9365,8 +9365,8 @@
         "published_at": "2025-08-30T22:25:43Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 2704414,
-        "total_downloads": 2704414,
+        "raw_downloads": 2704462,
+        "total_downloads": 2704462,
         "asset_count": 21,
         "assets": [
           {
@@ -9407,7 +9407,7 @@
           {
             "name": "Wasabi-2.7.0-linux-x64.tar.gz",
             "size_bytes": 89490739,
-            "download_count": 648567,
+            "download_count": 648580,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
@@ -9477,7 +9477,7 @@
           {
             "name": "Wasabi-2.7.0.deb",
             "size_bytes": 69487660,
-            "download_count": 651479,
+            "download_count": 651492,
             "platform": "Linux",
             "content_type": "application/x-debian-package"
           },
@@ -9491,7 +9491,7 @@
           {
             "name": "Wasabi-2.7.0.dmg",
             "size_bytes": 80311599,
-            "download_count": 650347,
+            "download_count": 650360,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
@@ -9505,7 +9505,7 @@
           {
             "name": "Wasabi-2.7.0.msi",
             "size_bytes": 70049792,
-            "download_count": 661662,
+            "download_count": 661671,
             "platform": "Windows",
             "content_type": "application/x-msdownload"
           },

@@ -2,8 +2,8 @@ import json
 import os
 from datetime import datetime, timedelta
 
-RAW_FILE = os.path.join(os.path.dirname(__file__), "..", "..", "docs", "data", "ai_oss_raw.json")
-OUT_FILE = os.path.join(os.path.dirname(__file__), "..", "..", "docs", "data", "ai_oss.json")
+RAW_FILE = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "ai_oss_raw.json")
+OUT_FILE = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "ai_oss.json")
 
 def process_data():
     with open(RAW_FILE, "r") as f:

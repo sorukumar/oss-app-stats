@@ -76,15 +76,26 @@ async function loadProjectData(file) {
 
 // ─── Rendering ──────────────────────────────────────────────────────────────
 
-function renderLeaderboard(index) {
+function renderLeaderboard(allData) {
     // Only show projects with releases
-    const projects = index.projects.filter(p => p.total_releases > 0);
-    // Default sort by downloads
-    const sorted = [...projects].sort((a, b) => b.total_downloads - a.total_downloads);
+    const projects = allData.filter(d => d.summary.total_releases > 0).map(d => ({
+        ...d.project,
+        total_downloads: d.summary.total_downloads,
+        category: d.category,
+        total_releases: d.summary.total_releases,
+        latest_version: d.summary.latest_version,
+        days_since_latest: d.summary.days_since_latest,
+        file: d.project.owner + '_' + d.project.repo + '.json',
+        active_installs: d.releases && d.releases.length > 0 ? d.releases[0].total_downloads : 0
+    }));
+
+    // Default sort by active installs
+    const sorted = [...projects].sort((a, b) => b.active_installs - a.active_installs);
 
     let rows = sorted.map((p, i) => `
         <tr data-file="${p.file}" onclick="scrollToCard('${p.full_name}')" 
             data-downloads="${p.total_downloads}"
+            data-active="${p.active_installs}"
             data-category="${p.category}"
             data-releases="${p.total_releases}"
             data-stars="${p.stars}">
@@ -95,7 +106,8 @@ function renderLeaderboard(index) {
                     <span class="project-repo">${p.full_name}</span>
                 </div>
             </td>
-            <td class="number-cell">${p.total_downloads > 0 ? formatNumber(p.total_downloads) : '—'}</td>
+            <td class="number-cell">${p.active_installs > 0 ? formatNumber(p.active_installs) : '—'}</td>
+            <td class="number-cell hide-mobile">${p.total_downloads > 0 ? formatNumber(p.total_downloads) : '—'}</td>
             <td><span class="category-badge">${p.category}</span></td>
             <td class="number-cell hide-mobile">${p.total_releases}</td>
             <td class="tag-cell hide-mobile">${p.latest_version || '—'}</td>
@@ -113,7 +125,8 @@ function renderLeaderboard(index) {
                 <tr>
                     <th>#</th>
                     <th>Project</th>
-                    <th class="sort-active" data-sort="downloads" style="cursor:pointer">Downloads <span class="sort-icon">▼</span></th>
+                    <th class="sort-active sort-desc" data-sort="active" style="cursor:pointer">Active Installs <span class="sort-icon">▼</span></th>
+                    <th data-sort="downloads" style="cursor:pointer" class="hide-mobile">Total DLs <span class="sort-icon">▼</span></th>
                     <th data-sort="category" style="cursor:pointer">Category <span class="sort-icon">▼</span></th>
                     <th class="hide-mobile" data-sort="releases" style="cursor:pointer">Releases <span class="sort-icon">▼</span></th>
                     <th class="hide-mobile">Latest</th>
@@ -311,16 +324,26 @@ function renderInsightCards(allData) {
 }
 
 function renderDownloadsChart(allData) {
-    const withDownloads = allData
-        .filter(d => d.summary.total_downloads > 0)
-        .sort((a, b) => b.summary.total_downloads - a.summary.total_downloads);
-
+    const withDownloads = allData.filter(d => d.summary.total_downloads > 0);
     if (withDownloads.length === 0) return '';
+    
+    // Define category order
+    const categoryOrder = ['Lightning', 'Wallets', 'Core Infrastructure', 'Exchanges', 'Block Open Source', 'Libraries & Tools'];
+    
+    const availableCategories = new Set(withDownloads.map(d => d.category));
+    const categories = ['All', ...categoryOrder.filter(c => availableCategories.has(c))];
+
+    const tabsHtml = categories.map(cat => 
+        `<button class="chart-tab-btn ${cat === 'All' ? 'active' : ''}" data-category="${cat}">${cat}</button>`
+    ).join('');
 
     return `
         <h2 class="section-header">
             <i class="fas fa-chart-bar"></i> Who's Getting Downloaded?
         </h2>
+        <div class="chart-tabs">
+            ${tabsHtml}
+        </div>
         <div class="comparison-chart-container">
             <canvas id="downloads-comparison-chart"></canvas>
         </div>
@@ -342,71 +365,88 @@ function renderReleaseTimeline(allData) {
 }
 
 // ─── Chart Rendering ────────────────────────────────────────────────────────
+let downloadsChartInstance = null;
+
 function initDownloadsChart(allData) {
-    const withDownloads = allData
-        .filter(d => d.summary.total_downloads > 0)
-        .sort((a, b) => b.summary.total_downloads - a.summary.total_downloads);
-
-    if (withDownloads.length === 0) return;
-
     const ctx = document.getElementById('downloads-comparison-chart');
     if (!ctx) return;
 
-    const labels = withDownloads.map(d => d.project.name);
+    function renderChart(category) {
+        let filtered = allData.filter(d => d.summary.total_downloads > 0);
+        if (category !== 'All') {
+            filtered = filtered.filter(d => d.category === category);
+        }
+        filtered.sort((a, b) => b.summary.total_downloads - a.summary.total_downloads);
 
-    // Stack by platform
-    const platforms = ['Windows', 'macOS', 'Linux', 'Other'];
-    const datasets = platforms.map(platform => ({
-        label: platform,
-        data: withDownloads.map(d => (d.summary.platform_breakdown || {})[platform] || 0),
-        backgroundColor: PLATFORM_COLORS[platform],
-        borderRadius: 2,
-    }));
+        const labels = filtered.map(d => d.project.name);
+        const platforms = ['Windows', 'macOS', 'Linux', 'Source', 'Other'];
+        const datasets = platforms.map(platform => ({
+            label: platform,
+            data: filtered.map(d => (d.summary.platform_breakdown || {})[platform] || 0),
+            backgroundColor: PLATFORM_COLORS[platform],
+            borderRadius: 2,
+        }));
 
-    new Chart(ctx, {
-        type: 'bar',
-        data: { labels, datasets },
-        options: {
-            indexAxis: 'y',
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    position: 'bottom',
-                    labels: {
-                        usePointStyle: true,
-                        pointStyle: 'rect',
-                        padding: 15,
-                        font: { family: "'Inter', sans-serif", size: 11 },
-                        color: getComputedStyle(document.body).getPropertyValue('--oss-text-secondary').trim() || '#5F6C7E',
+        if (downloadsChartInstance) {
+            downloadsChartInstance.destroy();
+        }
+
+        downloadsChartInstance = new Chart(ctx, {
+            type: 'bar',
+            data: { labels, datasets },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            usePointStyle: true,
+                            pointStyle: 'rect',
+                            padding: 15,
+                            font: { family: "'Inter', sans-serif", size: 11 },
+                            color: getComputedStyle(document.body).getPropertyValue('--oss-text-secondary').trim() || '#5F6C7E',
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: (ctx) => `${ctx.dataset.label}: ${ctx.raw.toLocaleString()}`
+                        }
                     }
                 },
-                tooltip: {
-                    callbacks: {
-                        label: (ctx) => `${ctx.dataset.label}: ${ctx.raw.toLocaleString()}`
+                scales: {
+                    x: {
+                        stacked: true,
+                        ticks: {
+                            callback: (v) => formatNumber(v),
+                            font: { family: "'Inter', sans-serif", size: 11 },
+                            color: getComputedStyle(document.body).getPropertyValue('--oss-text-secondary').trim() || '#5F6C7E',
+                        },
+                        grid: { display: false },
+                    },
+                    y: {
+                        stacked: true,
+                        ticks: {
+                            font: { family: "'Inter', sans-serif", size: 12, weight: 600 },
+                            color: getComputedStyle(document.body).getPropertyValue('--oss-text').trim() || '#2A3342',
+                        },
+                        grid: { display: false },
                     }
-                }
-            },
-            scales: {
-                x: {
-                    stacked: true,
-                    ticks: {
-                        callback: (v) => formatNumber(v),
-                        font: { family: "'Inter', sans-serif", size: 11 },
-                        color: getComputedStyle(document.body).getPropertyValue('--oss-text-secondary').trim() || '#5F6C7E',
-                    },
-                    grid: { display: false },
-                },
-                y: {
-                    stacked: true,
-                    ticks: {
-                        font: { family: "'Inter', sans-serif", size: 12, weight: 600 },
-                        color: getComputedStyle(document.body).getPropertyValue('--oss-text').trim() || '#2A3342',
-                    },
-                    grid: { display: false },
                 }
             }
-        }
+        });
+    }
+
+    renderChart('All');
+
+    // Add event listeners to tabs
+    document.querySelectorAll('.chart-tab-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            document.querySelectorAll('.chart-tab-btn').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            renderChart(e.target.getAttribute('data-category'));
+        });
     });
 }
 
@@ -602,7 +642,7 @@ async function init() {
         html += renderInsightCards(allData);
 
         // Leaderboard
-        html += renderLeaderboard(index);
+        html += renderLeaderboard(allData);
 
         // Downloads comparison chart
         html += renderDownloadsChart(allData);

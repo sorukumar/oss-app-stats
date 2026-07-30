@@ -1,0 +1,4587 @@
+{
+  "project": {
+    "owner": "RoboSats",
+    "repo": "robosats",
+    "name": "RoboSats",
+    "full_name": "RoboSats/robosats",
+    "description": "A simple and private bitcoin exchange",
+    "stars": 1019,
+    "forks": 228,
+    "open_issues": 138,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "homepage": "https://learn.robosats.org",
+    "html_url": "https://github.com/RoboSats/robosats"
+  },
+  "summary": {
+    "total_downloads": 49503,
+    "total_releases": 61,
+    "stable_releases": 37,
+    "pre_releases": 24,
+    "latest_version": "v0.8.4-alpha",
+    "latest_date": "2026-01-14T14:15:10Z",
+    "days_since_latest": 197,
+    "avg_cadence_days": 39.6,
+    "platform_breakdown": {
+      "Linux": 26298,
+      "macOS": 1073,
+      "Windows": 2199,
+      "Other": 17573,
+      "Signatures": 2360
+    }
+  },
+  "releases": [
+    {
+      "tag": "v0.8.4-alpha",
+      "name": "v0.8.4-alpha",
+      "published_at": "2026-01-14T14:15:10Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 11716,
+      "total_downloads": 11716,
+      "asset_count": 14,
+      "assets": [
+        {
+          "name": "robosats-desktop-v0.8.4.alpha-linux-x64.fb0f138.zip",
+          "size_bytes": 205624400,
+          "download_count": 378,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.4.alpha-linux-x64.fb0f138.zip.asc",
+          "size_bytes": 659,
+          "download_count": 122,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.8.4.alpha-mac-darwin-x64.fb0f138.zip",
+          "size_bytes": 403469544,
+          "download_count": 178,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.4.alpha-mac-darwin-x64.fb0f138.zip.asc",
+          "size_bytes": 659,
+          "download_count": 56,
+          "platform": "macOS",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.8.4.alpha-win32-ia32.fb0f138.zip",
+          "size_bytes": 203212472,
+          "download_count": 537,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.4.alpha-win32-ia32.fb0f138.zip.asc",
+          "size_bytes": 659,
+          "download_count": 127,
+          "platform": "Windows",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.4.alpha-arm64-v8a.fb0f138.apk",
+          "size_bytes": 22779015,
+          "download_count": 8095,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.4.alpha-arm64-v8a.fb0f138.apk.asc",
+          "size_bytes": 659,
+          "download_count": 31,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.4.alpha-armeabi-v7a.fb0f138.apk",
+          "size_bytes": 22406291,
+          "download_count": 30,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.4.alpha-armeabi-v7a.fb0f138.apk.asc",
+          "size_bytes": 659,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.4.alpha-universal.fb0f138.apk",
+          "size_bytes": 45701690,
+          "download_count": 1891,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.4.alpha-universal.fb0f138.apk.asc",
+          "size_bytes": 659,
+          "download_count": 229,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.4.alpha-x86_64.fb0f138.apk",
+          "size_bytes": 23450741,
+          "download_count": 21,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.4.alpha-x86_64.fb0f138.apk.asc",
+          "size_bytes": 659,
+          "download_count": 7,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.8.4-alpha is now out! :rocket:\r\n\r\nThis is probably the release with the most widely spread contributors in this project's history. Thank you all! \r\n\r\n# Changes\r\n## What's new\r\n\r\n**TL;DR**\r\n\r\nMultiple UI improvements and bugs fixed.\r\n\r\n### For Users\r\n- Payment methods input clears when switched to Swap @aftermath2 \r\n- API errors are globally displayed in a toast message @keshav0479 \r\n- Bond displays bellow Premium in mobile view @keshav0479 \r\n- Orders are automatically sorted by premi",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.8.4-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.8.3-alpha",
+      "name": "v0.8.3-alpha",
+      "published_at": "2025-12-14T17:05:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1636,
+      "total_downloads": 1636,
+      "asset_count": 14,
+      "assets": [
+        {
+          "name": "robosats-desktop-v0.8.3.alpha-linux-x64.e0550f9.zip",
+          "size_bytes": 205489043,
+          "download_count": 67,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.3.alpha-linux-x64.e0550f9.zip.asc",
+          "size_bytes": 659,
+          "download_count": 36,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.8.3.alpha-mac-darwin-x64.e0550f9.zip",
+          "size_bytes": 403327511,
+          "download_count": 43,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.3.alpha-mac-darwin-x64.e0550f9.zip.asc",
+          "size_bytes": 659,
+          "download_count": 16,
+          "platform": "macOS",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.8.3.alpha-win32-ia32.e0550f9.zip",
+          "size_bytes": 203076825,
+          "download_count": 57,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.3.alpha-win32-ia32.e0550f9.zip.asc",
+          "size_bytes": 659,
+          "download_count": 29,
+          "platform": "Windows",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.3.alpha-arm64-v8a.e0550f9.apk",
+          "size_bytes": 22774919,
+          "download_count": 817,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.3.alpha-arm64-v8a.e0550f9.apk.asc",
+          "size_bytes": 659,
+          "download_count": 10,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.3.alpha-armeabi-v7a.e0550f9.apk",
+          "size_bytes": 22402195,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.3.alpha-armeabi-v7a.e0550f9.apk.asc",
+          "size_bytes": 659,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.3.alpha-universal.e0550f9.apk",
+          "size_bytes": 45697594,
+          "download_count": 467,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.3.alpha-universal.e0550f9.apk.asc",
+          "size_bytes": 659,
+          "download_count": 54,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.3.alpha-x86_64.e0550f9.apk",
+          "size_bytes": 23442549,
+          "download_count": 10,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.3.alpha-x86_64.e0550f9.apk.asc",
+          "size_bytes": 659,
+          "download_count": 6,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.8.3-alpha is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n\r\n**TL;DR**\r\n\r\n2 new coordinators, some bug fixing and security updates.\r\n\r\n### For Users\r\n- 2 new coordinators: WhitEyeSats (https://github.com/RoboSats/robosats/issues/2295) and Alice (https://github.com/RoboSats/robosats/issues/2309)\r\n- Telegram links removed\r\n- Nostr events now includes order descriptions\r\n- When the user tries to load the app in Tor Browser with incompatible browsing configuration, a warning message is ",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.8.3-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.8.2-alpha",
+      "name": "v0.8.2-alpha",
+      "published_at": "2025-10-08T15:08:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 2610,
+      "total_downloads": 2610,
+      "asset_count": 14,
+      "assets": [
+        {
+          "name": "robosats-desktop-v0.8.2.alpha-linux-x64.2503e6e.zip",
+          "size_bytes": 205464996,
+          "download_count": 120,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.2.alpha-linux-x64.2503e6e.zip.asc",
+          "size_bytes": 659,
+          "download_count": 40,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.8.2.alpha-mac-darwin-x64.2503e6e.zip",
+          "size_bytes": 403303280,
+          "download_count": 119,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.2.alpha-mac-darwin-x64.2503e6e.zip.asc",
+          "size_bytes": 659,
+          "download_count": 33,
+          "platform": "macOS",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.8.2.alpha-win32-ia32.2503e6e.zip",
+          "size_bytes": 203052770,
+          "download_count": 111,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.2.alpha-win32-ia32.2503e6e.zip.asc",
+          "size_bytes": 659,
+          "download_count": 40,
+          "platform": "Windows",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.2.alpha-arm64-v8a.2503e6e.apk",
+          "size_bytes": 22753987,
+          "download_count": 1108,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.2.alpha-arm64-v8a.2503e6e.apk.asc",
+          "size_bytes": 659,
+          "download_count": 12,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.2.alpha-armeabi-v7a.2503e6e.apk",
+          "size_bytes": 22377167,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.2.alpha-armeabi-v7a.2503e6e.apk.asc",
+          "size_bytes": 659,
+          "download_count": 3,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.2.alpha-universal.2503e6e.apk",
+          "size_bytes": 45672566,
+          "download_count": 864,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.2.alpha-universal.2503e6e.apk.asc",
+          "size_bytes": 659,
+          "download_count": 129,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.2.alpha-x86_64.2503e6e.apk",
+          "size_bytes": 23421617,
+          "download_count": 13,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.2.alpha-x86_64.2503e6e.apk.asc",
+          "size_bytes": 659,
+          "download_count": 4,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.8.2-alpha is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n\r\n**TL;DR**\r\n\r\nOrder description added as optional attribute. Library updates and bugs fixing.\r\n\r\n### For Users\r\n- Orders can now include descriptions. Available in \"Advanced Options\".\r\n- Aggregated Order's meta data from Federation's book is now displayed in Order's view (Before it was only displaying data from the host).\r\n- New Search dialog to help on-boarding users\r\n- Currency is locked to BTC in Swaps form\r\n- Revision o",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.8.2-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.8.1-alpha",
+      "name": "v0.8.1-alpha",
+      "published_at": "2025-08-12T15:00:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 2704,
+      "total_downloads": 2704,
+      "asset_count": 14,
+      "assets": [
+        {
+          "name": "robosats-desktop-v0.8.1.alpha-linux-x64.49924bd.zip",
+          "size_bytes": 205451666,
+          "download_count": 127,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.1.alpha-linux-x64.49924bd.zip.asc",
+          "size_bytes": 659,
+          "download_count": 29,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.8.1.alpha-mac-darwin-x64.49924bd.zip",
+          "size_bytes": 403289958,
+          "download_count": 53,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.1.alpha-mac-darwin-x64.49924bd.zip.asc",
+          "size_bytes": 659,
+          "download_count": 30,
+          "platform": "macOS",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.8.1.alpha-win32-ia32.49924bd.zip",
+          "size_bytes": 203039440,
+          "download_count": 150,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.1.alpha-win32-ia32.49924bd.zip.asc",
+          "size_bytes": 659,
+          "download_count": 38,
+          "platform": "Windows",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.1.alpha-arm64-v8a.49924bd.apk",
+          "size_bytes": 22505471,
+          "download_count": 801,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.1.alpha-arm64-v8a.49924bd.apk.asc",
+          "size_bytes": 659,
+          "download_count": 9,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.1.alpha-armeabi-v7a.49924bd.apk",
+          "size_bytes": 22132747,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.1.alpha-armeabi-v7a.49924bd.apk.asc",
+          "size_bytes": 659,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.1.alpha-universal.49924bd.apk",
+          "size_bytes": 45424050,
+          "download_count": 1289,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.1.alpha-universal.49924bd.apk.asc",
+          "size_bytes": 659,
+          "download_count": 138,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.1.alpha-x86_64.49924bd.apk",
+          "size_bytes": 23173101,
+          "download_count": 11,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.1.alpha-x86_64.49924bd.apk.asc",
+          "size_bytes": 659,
+          "download_count": 5,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.8.1-alpha is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n\r\n**TL;DR**\r\n- Brand new mobile app and mobile view\r\n- New in-app private notifications system using nostr\r\n- Revertible payments warning\r\n\r\n> [!Important]\r\n> The new app version might remove your garage, make sure you backup your tokens before upgrading\r\n\r\n\r\n### For Users\r\n\r\n- Nostr notifications following NIP-17. Coordinators now send nostr anonymous encrypted messages to robots. The client fetches federation's relays for ",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.8.1-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.8.0-alpha",
+      "name": "v0.8.0-alpha",
+      "published_at": "2025-07-14T13:41:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1471,
+      "total_downloads": 1471,
+      "asset_count": 14,
+      "assets": [
+        {
+          "name": "robosats-desktop-v0.8.0.alpha-linux-x64.zip",
+          "size_bytes": 205448766,
+          "download_count": 73,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.0.alpha-linux-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 16,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.8.0.alpha-mac-darwin-x64.zip",
+          "size_bytes": 403287049,
+          "download_count": 40,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.0.alpha-mac-darwin-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 13,
+          "platform": "macOS",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.8.0.alpha-win32-ia32.zip",
+          "size_bytes": 203036538,
+          "download_count": 52,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.8.0.alpha-win32-ia32.zip.asc",
+          "size_bytes": 659,
+          "download_count": 10,
+          "platform": "Windows",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.0.alpha-arm64-v8a.apk",
+          "size_bytes": 19322187,
+          "download_count": 619,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.0.alpha-arm64-v8a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 7,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.0.alpha-armeabi-v7a.apk",
+          "size_bytes": 18182479,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.0.alpha-armeabi-v7a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 3,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.0.alpha-universal.apk",
+          "size_bytes": 53397306,
+          "download_count": 568,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.0.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 47,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.8.0.alpha-x86_64.apk",
+          "size_bytes": 20247715,
+          "download_count": 8,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.8.0.alpha-x86_64.apk.asc",
+          "size_bytes": 659,
+          "download_count": 4,
+          "platform": "Linux",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.8.0 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For 3rd parties\r\n\r\n:warning: Coordinators will now require a valid nostr pubkey on headers: https://github.com/RoboSats/robosats/blob/development-docs/development/docs.md#authentication\r\n\r\n### For Users\r\n- Better custom payment methods tool\r\n<div align=\"center\">\r\n<img width=\"500\" alt=\"Screenshot from 2025-07-14 14-44-42\" src=\"https://github.com/user-attachments/assets/c2fc4fa6-4370-480b-8353-f303e36984d3\" />\r\n</div>\r\n\r\n- To av",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.8.0-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.7.9-alpha",
+      "name": "v0.7.9-alpha",
+      "published_at": "2025-06-26T09:51:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1129,
+      "total_downloads": 1129,
+      "asset_count": 14,
+      "assets": [
+        {
+          "name": "robosats-desktop-v0.7.9.alpha-linux-x64.zip",
+          "size_bytes": 205378955,
+          "download_count": 34,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.9.alpha-linux-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 12,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-desktop-v0.7.9.alpha-mac-darwin-x64.zip",
+          "size_bytes": 403217239,
+          "download_count": 29,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.9.alpha-mac-darwin-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 11,
+          "platform": "macOS",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-desktop-v0.7.9.alpha-win32-ia32.zip",
+          "size_bytes": 202966729,
+          "download_count": 53,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.9.alpha-win32-ia32.zip.asc",
+          "size_bytes": 659,
+          "download_count": 22,
+          "platform": "Windows",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.9.alpha-arm64-v8a.apk",
+          "size_bytes": 19250423,
+          "download_count": 473,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.9.alpha-arm64-v8a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 6,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.9.alpha-armeabi-v7a.apk",
+          "size_bytes": 18110715,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.9.alpha-armeabi-v7a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 5,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.9.alpha-universal.apk",
+          "size_bytes": 53325542,
+          "download_count": 423,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.9.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 39,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.9.alpha-x86_64.apk",
+          "size_bytes": 20175951,
+          "download_count": 7,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.9.alpha-x86_64.apk.asc",
+          "size_bytes": 659,
+          "download_count": 4,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.7.9 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For Users\r\n- Orders can be created now with a password (Advance settings). These orders won't appear in the public orders view and can be taken only if the robot inputs the same password.\r\n- Orders can be fetch now by URL in the Book view\r\n- New coordinator: FreedomSats\u00a0#2004 \r\n- Peach orders now available in Global orders book\r\n- Chat fix for Start9/Umbrel\r\n\r\n### For Coordinators\r\n- Traditional non-docker environment files up",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.9-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.7.8-alpha",
+      "name": "v0.7.8-alpha",
+      "published_at": "2025-05-27T18:48:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1405,
+      "total_downloads": 1405,
+      "asset_count": 13,
+      "assets": [
+        {
+          "name": "robosats-desktop-v0.7.8.alpha-linux-x64.zip",
+          "size_bytes": 205347245,
+          "download_count": 52,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.8.alpha-linux-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 26,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-desktop-v0.7.8.alpha-mac-darwin-x64.zip",
+          "size_bytes": 403185391,
+          "download_count": 21,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.8.alpha-win32-ia32.zip",
+          "size_bytes": 202935014,
+          "download_count": 67,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.8.alpha-win32-ia32.zip.asc",
+          "size_bytes": 659,
+          "download_count": 31,
+          "platform": "Windows",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.8.alpha-arm64-v8a.apk",
+          "size_bytes": 19222623,
+          "download_count": 609,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.8.alpha-arm64-v8a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 4,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.8.alpha-armeabi-v7a.apk",
+          "size_bytes": 18082915,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.8.alpha-armeabi-v7a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 3,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.8.alpha-universal.apk",
+          "size_bytes": 53297742,
+          "download_count": 522,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.8.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 39,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.8.alpha-x86_64.apk",
+          "size_bytes": 20148151,
+          "download_count": 14,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.8.alpha-x86_64.apk.asc",
+          "size_bytes": 659,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.7.8 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For Users\r\n\r\n- New coordinator: LibreBazaar https://github.com/RoboSats/robosats/issues/1903\r\n- New payment method: Nomad\r\n- Major libraries update\r\n- Coordinator ratings are now cryptographically verified\r\n- Private chat message are also sent as nip17 as part of the full migration of the chat to nostr\r\n- Fix Start9/Umbrel nostr relay connection\r\n- Fixed a situation where sometimes orders table loads in page 2\r\n- Android adapt",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.8-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.7.7-alpha",
+      "name": "v0.7.7-alpha",
+      "published_at": "2025-04-30T15:20:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1822,
+      "total_downloads": 1822,
+      "asset_count": 14,
+      "assets": [
+        {
+          "name": "robosats-desktop-v0.7.7.alpha-linux-x64.zip",
+          "size_bytes": 205234176,
+          "download_count": 47,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.7.alpha-linux-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 20,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-desktop-v0.7.7.alpha-mac-darwin-x64.zip",
+          "size_bytes": 403071914,
+          "download_count": 34,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.7.alpha-mac-darwin-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 19,
+          "platform": "macOS",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-desktop-v0.7.7.alpha-win32-ia32.zip",
+          "size_bytes": 202821927,
+          "download_count": 85,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.7.alpha-win32-ia32.zip.asc",
+          "size_bytes": 659,
+          "download_count": 38,
+          "platform": "Windows",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.7.alpha-arm64-v8a.apk",
+          "size_bytes": 19073565,
+          "download_count": 620,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.7.alpha-arm64-v8a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 4,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.7.alpha-armeabi-v7a.apk",
+          "size_bytes": 17933853,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.7.alpha-armeabi-v7a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 3,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.7.alpha-universal.apk",
+          "size_bytes": 53148680,
+          "download_count": 873,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.7.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 53,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.7.alpha-x86_64.apk",
+          "size_bytes": 19999089,
+          "download_count": 11,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.7.alpha-x86_64.apk.asc",
+          "size_bytes": 659,
+          "download_count": 5,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.7.7 is now out! :rocket:\r\n\r\n# Changes\r\n\r\nThis version of clients is not compatible with older versions of coordinators. Coordinators must upgrade first, make sure you don't upgrade your client while this is marked as **pre-release**. \r\n\r\n## What's new\r\n### For Users\r\n<img src=\"https://github.com/user-attachments/assets/cd1f9ed4-5201-4a01-b322-e2f574249948\" width=\"400\"/>\r\n\r\n- New coordinators view.\r\n- Available coordinator reviews signed by both the robot and the coordinator. \r\n\r\n<img",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.7-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.7.6-alpha",
+      "name": "v0.7.6-alpha",
+      "published_at": "2025-04-08T18:06:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1308,
+      "total_downloads": 1308,
+      "asset_count": 14,
+      "assets": [
+        {
+          "name": "robosats-desktop-v0.7.6.alpha-linux-x64.zip",
+          "size_bytes": 205227118,
+          "download_count": 69,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.6.alpha-linux-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 26,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-desktop-v0.7.6.alpha-mac-darwin-x64.zip",
+          "size_bytes": 403064850,
+          "download_count": 42,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.6.alpha-mac-darwin-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 23,
+          "platform": "macOS",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-desktop-v0.7.6.alpha-win32-ia32.zip",
+          "size_bytes": 202814868,
+          "download_count": 93,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.6.alpha-win32-ia32.zip.asc",
+          "size_bytes": 659,
+          "download_count": 25,
+          "platform": "Windows",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.6.alpha-arm64-v8a.apk",
+          "size_bytes": 19064836,
+          "download_count": 506,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.6.alpha-arm64-v8a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 9,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.6.alpha-armeabi-v7a.apk",
+          "size_bytes": 17925124,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.6.alpha-armeabi-v7a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 4,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.6.alpha-universal.apk",
+          "size_bytes": 53139955,
+          "download_count": 435,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.6.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 51,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.6.alpha-x86_64.apk",
+          "size_bytes": 19990360,
+          "download_count": 11,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.6.alpha-x86_64.apk.asc",
+          "size_bytes": 659,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.7.6 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For Users\r\n- Dispute statement now requires a contact method to be submitted.\r\n- Coordinator rating over nostr (BETA)\r\n- Token input now clears up blank spaces.\r\n- Added some messages to the trade workflow to answer the most common questions.\r\n### For Coordinators\r\n- Add cancel_status param to the cancel order action \r\n\r\n# Android\r\n\r\n**[Click to download universal RoboSats APK for Android](https://github.com/RoboSats/robosats/",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.6-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.7.5-alpha",
+      "name": "v0.7.5-alpha",
+      "published_at": "2025-03-22T22:34:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1269,
+      "total_downloads": 1269,
+      "asset_count": 14,
+      "assets": [
+        {
+          "name": "robosats-desktop-v0.7.5.alpha-linux-x64.zip",
+          "size_bytes": 205180860,
+          "download_count": 35,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.5.alpha-linux-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 17,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-desktop-v0.7.5.alpha-mac-darwin-x64.zip",
+          "size_bytes": 403018591,
+          "download_count": 35,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.5.alpha-mac-darwin-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 18,
+          "platform": "macOS",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-desktop-v0.7.5.alpha-win32-ia32.zip",
+          "size_bytes": 202768611,
+          "download_count": 51,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.5.alpha-win32-ia32.zip.asc",
+          "size_bytes": 659,
+          "download_count": 13,
+          "platform": "Windows",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.5.alpha-arm64-v8a.apk",
+          "size_bytes": 19019856,
+          "download_count": 617,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.5.alpha-arm64-v8a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 6,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.5.alpha-armeabi-v7a.apk",
+          "size_bytes": 17880144,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.5.alpha-armeabi-v7a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 3,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.5.alpha-universal.apk",
+          "size_bytes": 53094971,
+          "download_count": 392,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.5.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 59,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.5.alpha-x86_64.apk",
+          "size_bytes": 19945380,
+          "download_count": 9,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.5.alpha-x86_64.apk.asc",
+          "size_bytes": 659,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.7.5 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For Users\r\n- When Javascript is disabled a box appears to help the user to enable it @gitsofaryan\r\n- Users will now be advised when they select a coordinator not offering swamps in order creation @khadar1020\r\n### For Coordinators\r\n- Now orders stay public even if there is a non-confirmed Taker, allowing multiple robots to try to take the order @koalasat\r\n\r\n# Android\r\n\r\n**[Click to download universal RoboSats APK for Android](h",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.5-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.7.4-alpha",
+      "name": "v0.7.4-alpha",
+      "published_at": "2025-02-22T11:59:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1477,
+      "total_downloads": 1477,
+      "asset_count": 14,
+      "assets": [
+        {
+          "name": "robosats-desktop-v0.7.4.alpha-linux-x64.zip",
+          "size_bytes": 205580078,
+          "download_count": 61,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.4.alpha-linux-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 25,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-desktop-v0.7.4.alpha-mac-darwin-x64.zip",
+          "size_bytes": 203209728,
+          "download_count": 37,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.4.alpha-mac-darwin-x64.zip.asc",
+          "size_bytes": 659,
+          "download_count": 15,
+          "platform": "macOS",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-desktop-v0.7.4.alpha-win32-ia32.zip",
+          "size_bytes": 203187314,
+          "download_count": 110,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.4.alpha-win32-ia32.zip.asc",
+          "size_bytes": 659,
+          "download_count": 36,
+          "platform": "Windows",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.4.alpha-arm64-v8a.apk",
+          "size_bytes": 19017025,
+          "download_count": 521,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.4.alpha-arm64-v8a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 11,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.4.alpha-armeabi-v7a.apk",
+          "size_bytes": 17877313,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.4.alpha-armeabi-v7a.apk.asc",
+          "size_bytes": 659,
+          "download_count": 4,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.4.alpha-universal.apk",
+          "size_bytes": 53092144,
+          "download_count": 571,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.4.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 60,
+          "platform": "Signatures",
+          "content_type": "application/pgp-signature"
+        },
+        {
+          "name": "robosats-v0.7.4.alpha-x86_64.apk",
+          "size_bytes": 19942549,
+          "download_count": 7,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.4.alpha-x86_64.apk.asc",
+          "size_bytes": 659,
+          "download_count": 4,
+          "platform": "Linux",
+          "content_type": "application/pgp-signature"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.7.4 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For Users\r\n- You can now see @lnp2pbot orders on RoboSats mobile app @koalasat\r\n- Changed URLs to https://robosats.org and new onion @koalasat\r\n- Order creation view now displays all available payment methods @koalasat\r\n- Libraries updates @KoalaSat \r\n### For Coordinators\r\n- Test fixes @jerryfletcher21\r\n- Libraries updates @koalasat\r\n\r\n# Android\r\n\r\n**[Click to download universal RoboSats APK for Android](https://github.com/Rob",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.4-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.7.3-alpha",
+      "name": "v0.7.3-alpha",
+      "published_at": "2024-11-24T08:47:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3447,
+      "total_downloads": 3447,
+      "asset_count": 10,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 865,
+          "download_count": 45,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 34,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.7.3.alpha-linux-x64.zip",
+          "size_bytes": 207448535,
+          "download_count": 236,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.3.alpha-mac-darwin-x64.zip",
+          "size_bytes": 408399814,
+          "download_count": 133,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.3.alpha-win32-ia32.zip",
+          "size_bytes": 205523394,
+          "download_count": 334,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-v0.7.3.alpha-arm64-v8a.apk",
+          "size_bytes": 19016205,
+          "download_count": 954,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.3.alpha-armeabi-v7a.apk",
+          "size_bytes": 17876497,
+          "download_count": 24,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.3.alpha-universal.apk",
+          "size_bytes": 53091320,
+          "download_count": 1478,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.3.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 193,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.7.3.alpha-x86_64.apk",
+          "size_bytes": 19941733,
+          "download_count": 16,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.7.3 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n- Websockets now working on Android app: this enables instant chat and Nostr order book features! @koalasat\r\n- First external coordinator now available: you can now see @lnp2pbot orders on RoboSats UI by @koalasat\r\n- Better display coordinator info on the Create Order form @koalasat\r\n- Charts now depend on selected currency @femelo\r\n- Fixed exchange summary aggregatons @koalasat\r\n\r\n# Android\r\n\r\n**[Click to download universal RoboS",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.3-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.7.2-alpha",
+      "name": "v0.7.2-alpha",
+      "published_at": "2024-11-10T09:23:45Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 919,
+      "total_downloads": 919,
+      "asset_count": 11,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 963,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.7.2.alpha-linux-x64.zip",
+          "size_bytes": 207434487,
+          "download_count": 29,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.2.alpha-mac-darwin-x64.zip",
+          "size_bytes": 408385636,
+          "download_count": 26,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.2.alpha-win32-ia32.zip",
+          "size_bytes": 205509348,
+          "download_count": 39,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-v0.7.2.alpha-arm64-v8a.apk",
+          "size_bytes": 19021033,
+          "download_count": 486,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.2.alpha-armeabi-v7a.apk",
+          "size_bytes": 17856597,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.2.alpha-universal.apk",
+          "size_bytes": 53096860,
+          "download_count": 252,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.2.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 36,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.7.2.alpha-x86.apk",
+          "size_bytes": 15583020,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.2.alpha-x86_64.apk",
+          "size_bytes": 19921121,
+          "download_count": 6,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.7.2 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n- Recovery robot form improved @koalasat\r\n- Fast generate robot -> fast generate order @koalasat\r\n- Nostr order books @koalasat\r\n- Dependencies upgraded @koalasat\r\n- Many small bug fixes @koalasat\r\n- Add coordinator Alias to invoice description @koalasat\r\n\r\n# Android\r\n\r\n**[Click to download universal RoboSats APK for Android](https://github.com/RoboSats/robosats/releases/download/v0.7.2-alpha/robosats-v0.7.2.alpha-universal.apk)**",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.2-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.7.1-alpha",
+      "name": "v0.7.1-alpha",
+      "published_at": "2024-11-02T21:47:39Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 542,
+      "total_downloads": 542,
+      "asset_count": 10,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 963,
+          "download_count": 5,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.reckless-satoshi.asc",
+          "size_bytes": 659,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.7.1.alpha-linux-x64.zip",
+          "size_bytes": 207429153,
+          "download_count": 19,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.1.alpha-mac-darwin-x64.zip",
+          "size_bytes": 408380350,
+          "download_count": 16,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.1.alpha-win32-ia32.zip",
+          "size_bytes": 205504013,
+          "download_count": 19,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-v0.7.1.alpha-arm64-v8a.apk",
+          "size_bytes": 19009522,
+          "download_count": 325,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.1.alpha-armeabi-v7a.apk",
+          "size_bytes": 17845086,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.1.alpha-universal.apk",
+          "size_bytes": 53085349,
+          "download_count": 130,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.1.alpha-x86.apk",
+          "size_bytes": 15571513,
+          "download_count": 5,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.1.alpha-x86_64.apk",
+          "size_bytes": 19909610,
+          "download_count": 5,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.7.1 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n- Multiple performance improvements @koalasat\r\n- Better and faster web notifications @koalasat\r\n- Bug fixes related to cache @koalasat\r\n- Fix version updagrade dialog @koalasat\r\n- Android notification disable button @koalasat\r\n- Remove Experimental and Satstralia coordinators @koalasat\r\n- Fix robot avatar generation in Web @koalasat\r\n- uppercase invoices on QR codes @fiatjaf\r\n\r\n# Android\r\n\r\n**[Click to download universal RoboSats ",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.1-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "desktop-af62693",
+      "name": "robosats-desktop-af62693",
+      "published_at": "2024-09-10T00:56:04Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/desktop-af62693",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.7.0-alpha",
+      "name": "v0.7.0-alpha",
+      "published_at": "2024-09-10T00:45:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1913,
+      "total_downloads": 1913,
+      "asset_count": 11,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 945,
+          "download_count": 29,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-desktop-v0.7.0-linux-x64.zip",
+          "size_bytes": 207407792,
+          "download_count": 46,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.0-mac-darwin-x64.zip",
+          "size_bytes": 408358668,
+          "download_count": 33,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-desktop-v0.7.0-win32-ia32.zip",
+          "size_bytes": 205482647,
+          "download_count": 32,
+          "platform": "Windows",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "robosats-v0.7.0.alpha-arm64-v8a.apk",
+          "size_bytes": 18996238,
+          "download_count": 1110,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.0.alpha-armeabi-v7a.apk",
+          "size_bytes": 17831802,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.0.alpha-universal.apk",
+          "size_bytes": 53072069,
+          "download_count": 508,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.0.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 97,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.7.0.alpha-x86.apk",
+          "size_bytes": 15558229,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.7.0.alpha-x86_64.apk",
+          "size_bytes": 19896326,
+          "download_count": 9,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.7.0 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n- Android built-in torified notifications @koalasat\r\n- Desktop App for Windows / Mac / Linux by @amitpanwar789 (SoB internship)\r\n- Order book is now Nostr enabled and shared with Mostr by @koalasat\r\n- Bug fixes and regression fixes caused with LND v18 upgrade\r\n- New currency DZA by @koalasat\r\n- Utils and fixes by @jerryfletcher21\r\n\r\n# Android\r\n\r\n**[Click to download universal RoboSats APK for Android](https://github.com/RoboSats/r",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.0-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-444ca99",
+      "name": "robosats-android-444ca99",
+      "published_at": "2024-07-13T16:12:48Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 187,
+      "total_downloads": 187,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "robosats-444ca99-arm64-v8a.apk",
+          "size_bytes": 18993970,
+          "download_count": 125,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-444ca99-armeabi-v7a.apk",
+          "size_bytes": 17829530,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-444ca99-universal.apk",
+          "size_bytes": 53069797,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-444ca99-x86.apk",
+          "size_bytes": 15555961,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-444ca99-x86_64.apk",
+          "size_bytes": 19894058,
+          "download_count": 10,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-444ca99",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.6.3-alpha",
+      "name": "v0.6.3-alpha",
+      "published_at": "2024-07-07T13:58:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 2225,
+      "total_downloads": 2225,
+      "asset_count": 8,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 621,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.6.3.alpha-arm64-v8a.apk",
+          "size_bytes": 18974118,
+          "download_count": 1655,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.3.alpha-armeabi-v7a.apk",
+          "size_bytes": 17809682,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.3.alpha-universal.apk",
+          "size_bytes": 49258202,
+          "download_count": 443,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.3.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 72,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.6.3.alpha-x86.apk",
+          "size_bytes": 15536105,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.3.alpha-x86_64.apk",
+          "size_bytes": 16082459,
+          "download_count": 8,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.6.3 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n- Manually add new coordinators @KoalaSat\r\n- Polished for CLN coordinators by @jerryfletcher21 and @daywalker90\r\n- New feature rich notificaitons endpoint at `/api/notifications` by @koalaSat\r\n- Turn on/off the built in Tor node on Android (allows use with Orbot) @KoalaSat\r\n- Remove robot avatars from coordinator (better coordinator performance)\r\n- Several small bugs and UI issues mostly by @KoalaSats and @jerryfletcher21\r\n- Impro",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.6.3-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-62c16c0",
+      "name": "robosats-android-62c16c0",
+      "published_at": "2024-07-07T11:18:30Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 24,
+      "total_downloads": 24,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "robosats-62c16c0-arm64-v8a.apk",
+          "size_bytes": 18973638,
+          "download_count": 12,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-62c16c0-armeabi-v7a.apk",
+          "size_bytes": 17809202,
+          "download_count": 3,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-62c16c0-universal.apk",
+          "size_bytes": 49257722,
+          "download_count": 3,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-62c16c0-x86.apk",
+          "size_bytes": 15535625,
+          "download_count": 3,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-62c16c0-x86_64.apk",
+          "size_bytes": 16081979,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-62c16c0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-17a077b",
+      "name": "robosats-android-17a077b",
+      "published_at": "2024-06-25T17:10:14Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 102,
+      "total_downloads": 102,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "robosats-17a077b-arm64-v8a.apk",
+          "size_bytes": 18968954,
+          "download_count": 70,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-17a077b-armeabi-v7a.apk",
+          "size_bytes": 17804518,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-17a077b-universal.apk",
+          "size_bytes": 49253038,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-17a077b-x86.apk",
+          "size_bytes": 15530941,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-17a077b-x86_64.apk",
+          "size_bytes": 16077295,
+          "download_count": 7,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-17a077b",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.6.2-alpha",
+      "name": "v0.6.2-alpha",
+      "published_at": "2024-05-16T18:50:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3176,
+      "total_downloads": 3176,
+      "asset_count": 8,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 621,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 16,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.6.2.alpha-arm64-v8a.apk",
+          "size_bytes": 18970682,
+          "download_count": 2396,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.2.alpha-armeabi-v7a.apk",
+          "size_bytes": 17806246,
+          "download_count": 60,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.2.alpha-universal.apk",
+          "size_bytes": 49254766,
+          "download_count": 585,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.2.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 74,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.6.2.alpha-x86.apk",
+          "size_bytes": 15532669,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.2.alpha-x86_64.apk",
+          "size_bytes": 16079023,
+          "download_count": 14,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.6.2 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\nWe only fixed a regression introduced in v0.6.1 that makes the depth chart crash.\r\n\r\n# Android\r\n\r\n**[Click to download universal RoboSats APK for Android](https://github.com/RoboSats/robosats/releases/download/v0.6.2-alpha/robosats-v0.6.2.alpha-universal.apk)**\r\nSmaller bundles for each CPU architecture available in the attachments.\r\n\r\n### Verify the app using GPG:\r\n\r\n1. [Download the ascii armored signature](https://github.com/Re",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.6.2-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.6.1-alpha",
+      "name": "v0.6.1-alpha",
+      "published_at": "2024-05-12T21:17:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1445,
+      "total_downloads": 1445,
+      "asset_count": 8,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 513,
+          "download_count": 27,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.6.1.alpha-arm64-v8a.apk",
+          "size_bytes": 18980382,
+          "download_count": 686,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.1.alpha-armeabi-v7a.apk",
+          "size_bytes": 17815946,
+          "download_count": 24,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.1.alpha-universal.apk",
+          "size_bytes": 49264470,
+          "download_count": 573,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.1.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 96,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.6.1.alpha-x86.apk",
+          "size_bytes": 15542373,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.6.1.alpha-x86_64.apk",
+          "size_bytes": 16088723,
+          "download_count": 8,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.6.1 is now out! :rocket:\r\n\r\n## What's new\r\n### Android app comes back stronger than ever!\r\nAfter we skipped several Android app releases in order to focus on the decentralization, now the Android app comes back with all the strength. The Android app is now THE BEST WAY to use RoboSats. The It's a full RoboSats self-hosted client, it connects to all RoboSats coordinators and can generate robot identities fully locally. All of the networking is torified by default and now torification ",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.6.1-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-441eddb",
+      "name": "robosats-android-441eddb",
+      "published_at": "2024-05-08T21:51:17Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 115,
+      "total_downloads": 115,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "robosats-441eddb-arm64-v8a.apk",
+          "size_bytes": 18970146,
+          "download_count": 93,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-441eddb-armeabi-v7a.apk",
+          "size_bytes": 17805710,
+          "download_count": 5,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-441eddb-universal.apk",
+          "size_bytes": 49254234,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-441eddb-x86.apk",
+          "size_bytes": 15532133,
+          "download_count": 4,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-441eddb-x86_64.apk",
+          "size_bytes": 16078487,
+          "download_count": 4,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-441eddb",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-3b18f6a",
+      "name": "robosats-android-3b18f6a",
+      "published_at": "2024-05-01T18:47:13Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 98,
+      "total_downloads": 98,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "robosats-3b18f6a-arm64-v8a.apk",
+          "size_bytes": 18974074,
+          "download_count": 72,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-3b18f6a-armeabi-v7a.apk",
+          "size_bytes": 17809642,
+          "download_count": 5,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-3b18f6a-universal.apk",
+          "size_bytes": 49258162,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-3b18f6a-x86.apk",
+          "size_bytes": 15536065,
+          "download_count": 6,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-3b18f6a-x86_64.apk",
+          "size_bytes": 16082419,
+          "download_count": 4,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-3b18f6a",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-ea3ff1c",
+      "name": "robosats-android-ea3ff1c",
+      "published_at": "2024-04-30T21:01:52Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 225,
+      "total_downloads": 225,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "robosats-ea3ff1c-arm64-v8a.apk",
+          "size_bytes": 18974058,
+          "download_count": 127,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-ea3ff1c-armeabi-v7a.apk",
+          "size_bytes": 17809622,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-ea3ff1c-universal.apk",
+          "size_bytes": 49258146,
+          "download_count": 72,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-ea3ff1c-x86.apk",
+          "size_bytes": 15536049,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-ea3ff1c-x86_64.apk",
+          "size_bytes": 16082403,
+          "download_count": 9,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-ea3ff1c",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-1c11ecb",
+      "name": "robosats-android-1c11ecb",
+      "published_at": "2024-03-31T15:31:43Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 123,
+      "total_downloads": 123,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "robosats-1c11ecb-arm64-v8a.apk",
+          "size_bytes": 15238531,
+          "download_count": 88,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-1c11ecb-armeabi-v7a.apk",
+          "size_bytes": 14577323,
+          "download_count": 5,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-1c11ecb-universal.apk",
+          "size_bytes": 42421198,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-1c11ecb-x86.apk",
+          "size_bytes": 15405171,
+          "download_count": 4,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-1c11ecb-x86_64.apk",
+          "size_bytes": 15951525,
+          "download_count": 5,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-1c11ecb",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.6.0-alpha",
+      "name": "v0.6.0-alpha The Federation Layer",
+      "published_at": "2024-03-17T15:18:43Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "RoboSats v0.6.0 is now out! :rocket:\r\n\r\n# Changes\r\n## New Features\r\n### Decentralization\r\nRoboSats v0.6.0 introduces a major upgrade, introducing the RoboSats Federation, a decentralized system of independent coordinators to host orders, enhancing the platform's robustness and user experience. This version is a significant step towards decentralization, allowing users to interact with any coordinator seamlessly.\r\n\r\nIt's crucial to choose trustworthy coordinators due to the potential risks of mal",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.6.0-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.5.4-alpha",
+      "name": "v0.5.4-alpha",
+      "published_at": "2024-01-22T11:22:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "RoboSats v0.5.4 is now out! :rocket: RoboSats client apps before v0.5.1 are no longer be compatible.\r\n\r\n# Changes\r\nThis is a minor release with some small enhancements and bug fixes. This is the last release before the federated client release.\r\n\r\n- Dependency updates and security fixes.\r\n- Coordinator serves robot hash_ids needed for >v0.6.0 client side robot identity generator.\r\n- Recommended and minimum onchain fees for payouts are now more accurate.\r\n- Devfund node has moved. The new node no",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.5.4-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.5.3-alpha",
+      "name": "v0.5.3-alpha Now we see each other.",
+      "published_at": "2023-10-18T09:25:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1701,
+      "total_downloads": 1701,
+      "asset_count": 8,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 621,
+          "download_count": 21,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.5.3.alpha-arm64-v8a.apk",
+          "size_bytes": 27913772,
+          "download_count": 519,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.3.alpha-armeabi-v7a.apk",
+          "size_bytes": 23302896,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.3.alpha-universal.apk",
+          "size_bytes": 103306327,
+          "download_count": 984,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.3.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 114,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.5.3.alpha-x86.apk",
+          "size_bytes": 27437856,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.3.alpha-x86_64.apk",
+          "size_bytes": 29585754,
+          "download_count": 15,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.5.3 is now out! :rocket: RoboSats client apps before v0.5.1 are no longer be compatible.\r\n\r\n# Changes\r\n## New Features: Face to face.\r\nWe have introduced a new feature, F2F (Face-to-Face), allowing users to add a location for face-to-face cash trades. The book page now displays a map with all F2F orders. For privacy reasons, the exact location of your order is slightly randomized (uniform random 15 x 15 Km noise) when you click on the map to locate it. This means it's not possible to",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.5.3-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.5.2-alpha",
+      "name": "v0.5.2-alpha",
+      "published_at": "2023-09-08T16:31:00Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 554,
+      "total_downloads": 554,
+      "asset_count": 8,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 621,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 5,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.5.2.alpha-arm64-v8a.apk",
+          "size_bytes": 27631494,
+          "download_count": 164,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.2.alpha-armeabi-v7a.apk",
+          "size_bytes": 23020618,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.2.alpha-universal.apk",
+          "size_bytes": 103024045,
+          "download_count": 300,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.2.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 42,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.5.2.alpha-x86.apk",
+          "size_bytes": 27155578,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.2.alpha-x86_64.apk",
+          "size_bytes": 29303476,
+          "download_count": 9,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.5.2 is now out! :rocket: RoboSats client apps before v0.5.1 might no longer be compatible!\r\n\r\n## Changes:\r\n- New language: Swahili. Thank you @turizspace!\r\n- Improved French and Italian translations. Thank you @LeoSpyke and @jinformatique !\r\n- Update CLN (core-lightning) plugin (@daywalker91) and CLN base version to v23.08\r\n- Add verbose order logs to coordinator panel: a detailed timestamped record of every change to an order from creation to finalization.\r\n- Improved invoice descri",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.5.2-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.5.1-alpha",
+      "name": "v0.5.1-alpha",
+      "published_at": "2023-05-29T18:36:45Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 817,
+      "total_downloads": 817,
+      "asset_count": 8,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 513,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.5.1.alpha-arm64-v8a.apk",
+          "size_bytes": 27599778,
+          "download_count": 193,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.1.alpha-armeabi-v7a.apk",
+          "size_bytes": 22988906,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.1.alpha-universal.apk",
+          "size_bytes": 102992333,
+          "download_count": 500,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.1.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 67,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.5.1.alpha-x86.apk",
+          "size_bytes": 27123862,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.1.alpha-x86_64.apk",
+          "size_bytes": 29271760,
+          "download_count": 8,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.5.1 is now out! :rocket:\r\n\r\n## Changes:\r\n- CLN (core-lightning) can now be used as robosats coordinator node vendor. It is however, experimental, and not recommended in mainnet. Thank you for this great contribution @daywalker91 !\r\n- Full rework of the Lnproxy feature by @shyfire131 . Thank you!\r\n- Chat now allows multiple line inputs by @shyfire131\r\n- RoboSats client should now work inside of Blixt's webln browser. Thank you @SynthLock for the tips and debugging!\r\n- API requests to ",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.5.1-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.5.0-alpha",
+      "name": "v0.5.0-alpha",
+      "published_at": "2023-05-10T10:01:14Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 492,
+      "total_downloads": 492,
+      "asset_count": 8,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 621,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.5.0.alpha-arm64-v8a.apk",
+          "size_bytes": 33632089,
+          "download_count": 97,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.0.alpha-armeabi-v7a.apk",
+          "size_bytes": 26605979,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.0.alpha-universal.apk",
+          "size_bytes": 120955343,
+          "download_count": 293,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.0.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 54,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.5.0.alpha-x86.apk",
+          "size_bytes": 34273323,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.5.0.alpha-x86_64.apk",
+          "size_bytes": 36175818,
+          "download_count": 12,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "First release of the v0.5 minor version. :rocket: This one comes with a lot of the pre-requisites needed for a coordinator backend that is fully enabled for the federated frontend. We are now ~80% in our development towards the MVP federation, soon initiating the decentralization RoboSats!\r\n\r\n## Important\r\n\r\nTLDR; Existing robots will stop working on the next release if you do not update ASAP your client to v0.5.0. In addition, other robots will see your status as \"Inactive\" (red dot) until you ",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.5.0-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.3-alpha",
+      "name": "v0.4.3-alpha",
+      "published_at": "2023-04-10T17:52:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 537,
+      "total_downloads": 537,
+      "asset_count": 8,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 513,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.4.3.alpha-arm64-v8a.apk",
+          "size_bytes": 33607769,
+          "download_count": 131,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.4.3.alpha-armeabi-v7a.apk",
+          "size_bytes": 26581659,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.4.3.alpha-universal.apk",
+          "size_bytes": 120931019,
+          "download_count": 259,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.4.3.alpha-universal.apk.asc",
+          "size_bytes": 659,
+          "download_count": 50,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.4.3.alpha-x86.apk",
+          "size_bytes": 34249003,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.4.3.alpha-x86_64.apk",
+          "size_bytes": 36151498,
+          "download_count": 16,
+          "platform": "Linux",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.4.3-alpha is now out! :rocket:\r\n\r\nThis release has many small fixes and new features:\r\n- Support for Iranian Toman (IRT) by @HT696\r\n- Order book performance improved by ~50%\r\n- Android app now launches your Telegram client or LN wallet when tapping on the QR codes.\r\n- Fix \"no robot\" error on Android app\r\n- Add multi-architecture builds for Android (size of APK down from ~120MB to ~30MB)\r\n- Improved order book column management (DataGrid updated to MUI-X v6)\r\n- Up-to-date Spanish tran",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.4.3-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.2-alpha",
+      "name": "v0.4.2-alpha",
+      "published_at": "2023-03-18T10:00:04Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 519,
+      "total_downloads": 519,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "CHECKSUMS.SHA256",
+          "size_bytes": 94,
+          "download_count": 35,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "CHECKSUMS.SHA256.asc",
+          "size_bytes": 659,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        },
+        {
+          "name": "robosats-v0.4.2.alpha.apk",
+          "size_bytes": 120921871,
+          "download_count": 416,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.4.2.alpha.apk.asc",
+          "size_bytes": 659,
+          "download_count": 53,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.4.2-alpha is now out! :rocket:\r\n\r\nThis release has only some minor UI improvements a big coordinator bug fix:\r\n- Fixes onchain payout race-condition. LN payouts are also more reliable.\r\n- New UI elements when a order with onchain payout finished. Now users are shown temporarily (up to 60 seconds) a spinner \"sending coins...\" with a link to mempool space for their address. Then, it shows the TXID.\r\n- Fix small UI bug where current rate price would not show on maker form until the curr",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.4.2-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.1-alpha",
+      "name": "v0.4.1-alpha",
+      "published_at": "2023-03-11T00:05:07Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 286,
+      "total_downloads": 286,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "robosats-v0.4.1.alpha.apk",
+          "size_bytes": 120904399,
+          "download_count": 276,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-v0.4.1.alpha.apk.asc",
+          "size_bytes": 659,
+          "download_count": 10,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "RoboSats v0.4.1-alpha is now out! :rocket:\r\n\r\nThis release has some minor UI improvements and fixes:\r\n- Swap orders are now more descriptive. The order details and the maker form are explicit about the Sats you will send or receive via LN or Onchain.\r\n- Android app now handles well all bad requests to the coordinator (thanks @KoalaSat !)\r\n- Clicking \"Confirm fiat sent\" on chat now requires a double confirmation.\r\n- Some other small fixes: fixed UI bug on escrow submission textfield prompt; add p",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.4.1-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-06558f1",
+      "name": "robosats-android-06558f1",
+      "published_at": "2023-03-09T17:29:30Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 21,
+      "total_downloads": 21,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-06558f1.apk",
+          "size_bytes": 120900791,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-06558f1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.0-alpha",
+      "name": "v0.4.0-alpha",
+      "published_at": "2023-03-05T13:10:13Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 151,
+      "total_downloads": 151,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-v0.4.0.alpha.apk",
+          "size_bytes": 120900623,
+          "download_count": 151,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "This release has a few fixes and new features over v0.3.4:\r\n- New Robot page (Thanks you for all the input [Bitcoin Design Community](https://github.com/BitcoinDesign) @GBKS @Bosch-0 @pedromvpg @IamSanjana and specially to @BrodaDemi and @domrishe)\r\n- New user onboarding dialog (Thanks you for your designs and inspiration @BrodaDemi and @domrishe)\r\n- New robot Recovery dialog.\r\n- New feature: Robot Garage. The garage is a backlog of your multiple robots. It helps you switch easily between identi",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.4.0-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.4-alpha",
+      "name": "v0.3.4-alpha",
+      "published_at": "2023-02-12T15:10:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 132,
+      "total_downloads": 132,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-v0.3.4.alpha.apk",
+          "size_bytes": 120645911,
+          "download_count": 132,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "This release has a few fixes and new features over v0.3.3:\r\n- New UI elements for BTC swaps. Interface wording now matches the selected mode (fiat or swap). For example a \"Buy\" order is now a \"Swap In\" order. Mode (fiat/swap) can be switched in the \"settings\", \"offers\" and \"create\" pages.\r\n- Swaps are now denominated in Sats.\r\n- Fix numeric input for small amounts (smaller than zero) when taking orders with range.\r\n- Fix Telegram notifications for takers.\r\n- Fix `undefined` telegram bot and toke",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.3.4-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.3-alpha",
+      "name": "v0.3.3-alpha",
+      "published_at": "2022-12-08T15:42:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 246,
+      "total_downloads": 246,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-v0.3.3.alpha.apk",
+          "size_bytes": 120644971,
+          "download_count": 246,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "# Changelog\n\n## [v0.3.3-alpha](https://github.com/Reckless-Satoshi/robosats/tree/v0.3.3-alpha) (2022-12-08)\n\n[Full Changelog](https://github.com/Reckless-Satoshi/robosats/compare/v0.3.2-alpha...v0.3.3-alpha)\n\n**Merged pull requests:**\n\n- Bump pillow from 7.0.0 to 9.3.0 [\\#332](https://github.com/Reckless-Satoshi/robosats/pull/332) ([dependabot[bot]](https://github.com/apps/dependabot))\n\n## [v0.3.2-alpha](https://github.com/Reckless-Satoshi/robosats/tree/v0.3.2-alpha) (2022-11-28)\n\n[Full Changelo",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.3.3-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.2-alpha",
+      "name": "v0.3.2-alpha",
+      "published_at": "2022-11-28T09:03:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-v0.3.2.alpha.apk",
+          "size_bytes": 120680211,
+          "download_count": 37,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "This only has release has a few fixes over v0.3.1\r\n- Waiting for payout info and waiting for escrow prompts were swapped, now they display to the correct user.\r\n- Lnproxy request use the `apiClient` service with the serialized response. It is now available on Android app too.\r\n- Correctly detects on Web if coordinator runs over mainnet/testnet bitcoin without hiding the unsafe/selfhosted alert.\r\n\r\n\r\n# Docker Images\r\n\r\n[Coordinator Backend Image v0.3.2-alpha (Docker Hub)](https://hub.docker.com/r",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.3.2-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-f7d4648",
+      "name": "robosats-android-f7d4648",
+      "published_at": "2022-11-27T21:40:02Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 17,
+      "total_downloads": 17,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-f7d4648.apk",
+          "size_bytes": 120680207,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-f7d4648",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.1-alpha",
+      "name": "v0.3.1-alpha",
+      "published_at": "2022-11-26T12:15:46Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 46,
+      "total_downloads": 46,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-v0.3.1.alpha.apk",
+          "size_bytes": 120659031,
+          "download_count": 46,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "This release introduces:\r\n- New Trade Box, Order Page and Notification components.\r\n- Order status will keep refreshing even if the user is browsing the order book or adjusting settings.\r\n- Notifications will fire wherever you are in the app. Browser tab blinks if you are on another tab.\r\n- New buyer payout form with advanced options. \r\n- User can choose the routing budget (now you can receive payouts to expensive wallets e.g Muun, you pay the routing fee). \r\n- User can wrap their invoice with L",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.3.1-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-9feccde",
+      "name": "robosats-android-9feccde",
+      "published_at": "2022-11-24T19:17:15Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 17,
+      "total_downloads": 17,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-9feccde.apk",
+          "size_bytes": 120659015,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-9feccde",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-6b2dedc",
+      "name": "robosats-android-6b2dedc",
+      "published_at": "2022-11-22T15:31:39Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 22,
+      "total_downloads": 22,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-6b2dedc.apk",
+          "size_bytes": 120656927,
+          "download_count": 22,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-6b2dedc",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.0-alpha",
+      "name": "v0.3.0-alpha",
+      "published_at": "2022-11-17T18:11:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 449,
+      "total_downloads": 449,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-v0.3.0.alpha.apk",
+          "size_bytes": 120654599,
+          "download_count": 449,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "This release introduces\r\n- New Navigation. Full redo of RoboSats Basic main.tsx and data structures.\r\n- New Coordinator mode\r\n- New Mainnet / Testnet switch (only on Android app)\r\n- The new Turtle Mode chat (use when your connection is slow, much more stable but slower: it's not a real time chat, but almost)\r\n- Many small fixes.\r\n\r\n:warning: This release introduces new routes and a few API changes. It might render previous frontend releases incompatible: update is highly recommended.\r\n\r\n_A RoboS",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.3.0-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-7f731df",
+      "name": "robosats-android-7f731df",
+      "published_at": "2022-11-15T18:32:53Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 19,
+      "total_downloads": 19,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-7f731df.apk",
+          "size_bytes": 120654531,
+          "download_count": 19,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-7f731df",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-df78637",
+      "name": "robosats-android-df78637",
+      "published_at": "2022-11-11T10:37:42Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 20,
+      "total_downloads": 20,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-df78637.apk",
+          "size_bytes": 120654483,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-df78637",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-7c2f6e1",
+      "name": "robosats-android-7c2f6e1",
+      "published_at": "2022-11-07T13:04:35Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 15,
+      "total_downloads": 15,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-7c2f6e1.apk",
+          "size_bytes": 120652891,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-7c2f6e1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-9273ba0",
+      "name": "robosats-android-9273ba0",
+      "published_at": "2022-11-06T18:28:56Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 25,
+      "total_downloads": 25,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-9273ba0.apk",
+          "size_bytes": 120652675,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-9273ba0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-3bae399",
+      "name": "robosats-android-3bae399",
+      "published_at": "2022-11-02T19:49:18Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 14,
+      "total_downloads": 14,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-3bae399.apk",
+          "size_bytes": 120653919,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-3bae399",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-cafc63b",
+      "name": "robosats-android-cafc63b",
+      "published_at": "2022-10-25T21:52:57Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 24,
+      "total_downloads": 24,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "robosats-cafc63b.apk",
+          "size_bytes": 120608311,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-debug-cafc63b.apk",
+          "size_bytes": 189441966,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-cafc63b",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.2.2-alpha",
+      "name": "v0.2.2-alpha",
+      "published_at": "2022-10-22T17:07:39Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 24,
+      "total_downloads": 24,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-v0.2.2.alpha.apk",
+          "size_bytes": 120608115,
+          "download_count": 24,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "This release introduces\r\n- The new Maker Form\r\n- New match making system on order maker\r\n- RoboSats PRO concep demo (Interactive fully customizable layout with widgets, drag and drop, then freeze the UI) . Check it out at unsafe.robosats.com/pro\r\n- New Web websocket System\r\n- API v0 documentation\r\n- Loading avatar placeholder animation \r\n- A large refactor of the frontend (many new functional components)\r\n- Persist data on Android\r\n- New currencies\r\n- New language : Chinese (simplified and tradi",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.2.2-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-f3d36fb",
+      "name": "robosats-android-f3d36fb",
+      "published_at": "2022-10-16T17:13:36Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 38,
+      "total_downloads": 38,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "robosats-debug-f3d36fb.apk",
+          "size_bytes": 189441146,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-f3d36fb.apk",
+          "size_bytes": 120607911,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-f3d36fb",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-27154d5",
+      "name": "robosats-android-27154d5",
+      "published_at": "2022-10-10T17:06:47Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 40,
+      "total_downloads": 40,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "robosats-27154d5.apk",
+          "size_bytes": 120569635,
+          "download_count": 32,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-debug-27154d5.apk",
+          "size_bytes": 189394234,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "Persist Data on Android #274\r\n\r\n* Android Cookies\r\n\r\n* Android Fix POST headers\r\n\r\n* Format\r\n\r\n* App & Cookies Working\r\n\r\n* Fix token on UserGen",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-27154d5",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-9bda934",
+      "name": "robosats-android-9bda934",
+      "published_at": "2022-10-07T14:21:25Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 27,
+      "total_downloads": 27,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "robosats-9bda934.apk",
+          "size_bytes": 120135156,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-debug-9bda934.apk",
+          "size_bytes": 188852739,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-9bda934",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-36cf156",
+      "name": "robosats-android-36cf156",
+      "published_at": "2022-10-04T17:04:45Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 23,
+      "total_downloads": 23,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "robosats-36cf156.apk",
+          "size_bytes": 120040004,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-debug-36cf156.apk",
+          "size_bytes": 188750141,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-36cf156",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.2.1-alpha",
+      "name": "v0.2.1-alpha",
+      "published_at": "2022-09-29T16:53:48Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 28,
+      "total_downloads": 28,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-v0.2.1.alpha.apk",
+          "size_bytes": 167204177,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "This patch includes the new BookTable component. This is the first alpha release with an Android APK for testing. \r\n\r\nFeatures of the new book table component:\r\n- Responsive to any screen size.\r\n- Displays columns according to importance (only shows most important columns that fit in the screen)\r\n- Has 3 new columns: time to public expiration, escrow/invoice submission timer, order ID.\r\n- Colors the premium according to attractiveness (small color and thickness effect).\r\n- Has a new fullscreen m",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.2.1-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-ab4d83b",
+      "name": "robosats-android-ab4d83b",
+      "published_at": "2022-09-28T20:38:08Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 57,
+      "total_downloads": 57,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "robosats-ab4d83b.apk",
+          "size_bytes": 167204009,
+          "download_count": 39,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "robosats-debug-ab4d83b.apk",
+          "size_bytes": 244580986,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "# Android Pre-release\r\n\r\nAndroid pre-release for testing. This pre-release has @KoalaSat  #247 webview with torified requests. While the app is not fully functional (no cookies and therefore no permanent robot and no authenticated requests are possible), it would be great to start testing Tor requests in different systems.\r\n\r\nThis releases has two assets that you can download below: release-like .apk (159 Mb) and a debug .APK (233 MB). The debug APK is specially useful at this stage as it will s",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-ab4d83b",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.2.0-alpha",
+      "name": "v0.2.0-alpha",
+      "published_at": "2022-09-22T22:44:50Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is the **first RoboSats alpha release**! :tada: \r\nOur previous release was nicknamed \"Minimum Viable Project\". With the first alpha release we intend to have a higher cadence of releases, sticking to semantic versioning. This is needed in order to ensure compatibility with the distributed clients (e.g. sovereign node apps or Android app)\r\n\r\nGiven that the API is still fluid, the major version will be 0 for the next few iterations. RoboSats web client, node client, and Android client, now ch",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.2.0-alpha",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "android-b4fac4c",
+      "name": "robosats-alpha-b4fac4c",
+      "published_at": "2022-07-14T19:52:39Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 17,
+      "total_downloads": 17,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "robosats-b4fac4c.apk",
+          "size_bytes": 28242841,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "# Android Pre-release\nTo be prepared for Android releases.\n\nApp should not be used as of now. It uses the clearnet unsafe tor2web bridge.",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/android-b4fac4c",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.1.0-mvp",
+      "name": "robosats v0.1.0-mvp",
+      "published_at": "2022-01-31T17:38:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is the first RoboSats release!\ud83c\udf89 This release contains the full stack of the RoboSats peer-to-peer exchange at the stage of minimum viable product (MVP). The platform has been built using a python-django backend and a user friendly react-mui frontend.\r\n\r\n**IMPORTANT:** A RoboSats release simply marks a milestone in development. The release is relevant for RoboSats developers and platform operator. In addition, it gives us an opportunity to release a note summarizing all of the new cool featu",
+      "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.1.0-mvp",
+      "author": "Reckless-Satoshi"
+    }
+  ],
+  "fetched_at": "2026-07-30T20:14:44.926305+00:00",
+  "deep_dive": {
+    "days_since_launch": 1443,
+    "recent_stable_releases": [
+      {
+        "tag": "v0.8.4-alpha",
+        "name": "v0.8.4-alpha",
+        "published_at": "2026-01-14T14:15:10Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 11716,
+        "total_downloads": 11716,
+        "asset_count": 14,
+        "assets": [
+          {
+            "name": "robosats-desktop-v0.8.4.alpha-linux-x64.fb0f138.zip",
+            "size_bytes": 205624400,
+            "download_count": 378,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.4.alpha-linux-x64.fb0f138.zip.asc",
+            "size_bytes": 659,
+            "download_count": 122,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-desktop-v0.8.4.alpha-mac-darwin-x64.fb0f138.zip",
+            "size_bytes": 403469544,
+            "download_count": 178,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.4.alpha-mac-darwin-x64.fb0f138.zip.asc",
+            "size_bytes": 659,
+            "download_count": 56,
+            "platform": "macOS",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-desktop-v0.8.4.alpha-win32-ia32.fb0f138.zip",
+            "size_bytes": 203212472,
+            "download_count": 537,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.4.alpha-win32-ia32.fb0f138.zip.asc",
+            "size_bytes": 659,
+            "download_count": 127,
+            "platform": "Windows",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.4.alpha-arm64-v8a.fb0f138.apk",
+            "size_bytes": 22779015,
+            "download_count": 8095,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.4.alpha-arm64-v8a.fb0f138.apk.asc",
+            "size_bytes": 659,
+            "download_count": 31,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.4.alpha-armeabi-v7a.fb0f138.apk",
+            "size_bytes": 22406291,
+            "download_count": 30,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.4.alpha-armeabi-v7a.fb0f138.apk.asc",
+            "size_bytes": 659,
+            "download_count": 14,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.4.alpha-universal.fb0f138.apk",
+            "size_bytes": 45701690,
+            "download_count": 1891,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.4.alpha-universal.fb0f138.apk.asc",
+            "size_bytes": 659,
+            "download_count": 229,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.4.alpha-x86_64.fb0f138.apk",
+            "size_bytes": 23450741,
+            "download_count": 21,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.4.alpha-x86_64.fb0f138.apk.asc",
+            "size_bytes": 659,
+            "download_count": 7,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.8.4-alpha is now out! :rocket:\r\n\r\nThis is probably the release with the most widely spread contributors in this project's history. Thank you all! \r\n\r\n# Changes\r\n## What's new\r\n\r\n**TL;DR**\r\n\r\nMultiple UI improvements and bugs fixed.\r\n\r\n### For Users\r\n- Payment methods input clears when switched to Swap @aftermath2 \r\n- API errors are globally displayed in a toast message @keshav0479 \r\n- Bond displays bellow Premium in mobile view @keshav0479 \r\n- Orders are automatically sorted by premi",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.8.4-alpha",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.8.3-alpha",
+        "name": "v0.8.3-alpha",
+        "published_at": "2025-12-14T17:05:31Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1636,
+        "total_downloads": 1636,
+        "asset_count": 14,
+        "assets": [
+          {
+            "name": "robosats-desktop-v0.8.3.alpha-linux-x64.e0550f9.zip",
+            "size_bytes": 205489043,
+            "download_count": 67,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.3.alpha-linux-x64.e0550f9.zip.asc",
+            "size_bytes": 659,
+            "download_count": 36,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-desktop-v0.8.3.alpha-mac-darwin-x64.e0550f9.zip",
+            "size_bytes": 403327511,
+            "download_count": 43,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.3.alpha-mac-darwin-x64.e0550f9.zip.asc",
+            "size_bytes": 659,
+            "download_count": 16,
+            "platform": "macOS",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-desktop-v0.8.3.alpha-win32-ia32.e0550f9.zip",
+            "size_bytes": 203076825,
+            "download_count": 57,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.3.alpha-win32-ia32.e0550f9.zip.asc",
+            "size_bytes": 659,
+            "download_count": 29,
+            "platform": "Windows",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.3.alpha-arm64-v8a.e0550f9.apk",
+            "size_bytes": 22774919,
+            "download_count": 817,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.3.alpha-arm64-v8a.e0550f9.apk.asc",
+            "size_bytes": 659,
+            "download_count": 10,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.3.alpha-armeabi-v7a.e0550f9.apk",
+            "size_bytes": 22402195,
+            "download_count": 17,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.3.alpha-armeabi-v7a.e0550f9.apk.asc",
+            "size_bytes": 659,
+            "download_count": 7,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.3.alpha-universal.e0550f9.apk",
+            "size_bytes": 45697594,
+            "download_count": 467,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.3.alpha-universal.e0550f9.apk.asc",
+            "size_bytes": 659,
+            "download_count": 54,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.3.alpha-x86_64.e0550f9.apk",
+            "size_bytes": 23442549,
+            "download_count": 10,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.3.alpha-x86_64.e0550f9.apk.asc",
+            "size_bytes": 659,
+            "download_count": 6,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.8.3-alpha is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n\r\n**TL;DR**\r\n\r\n2 new coordinators, some bug fixing and security updates.\r\n\r\n### For Users\r\n- 2 new coordinators: WhitEyeSats (https://github.com/RoboSats/robosats/issues/2295) and Alice (https://github.com/RoboSats/robosats/issues/2309)\r\n- Telegram links removed\r\n- Nostr events now includes order descriptions\r\n- When the user tries to load the app in Tor Browser with incompatible browsing configuration, a warning message is ",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.8.3-alpha",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.8.2-alpha",
+        "name": "v0.8.2-alpha",
+        "published_at": "2025-10-08T15:08:55Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 2610,
+        "total_downloads": 2610,
+        "asset_count": 14,
+        "assets": [
+          {
+            "name": "robosats-desktop-v0.8.2.alpha-linux-x64.2503e6e.zip",
+            "size_bytes": 205464996,
+            "download_count": 120,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.2.alpha-linux-x64.2503e6e.zip.asc",
+            "size_bytes": 659,
+            "download_count": 40,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-desktop-v0.8.2.alpha-mac-darwin-x64.2503e6e.zip",
+            "size_bytes": 403303280,
+            "download_count": 119,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.2.alpha-mac-darwin-x64.2503e6e.zip.asc",
+            "size_bytes": 659,
+            "download_count": 33,
+            "platform": "macOS",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-desktop-v0.8.2.alpha-win32-ia32.2503e6e.zip",
+            "size_bytes": 203052770,
+            "download_count": 111,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.2.alpha-win32-ia32.2503e6e.zip.asc",
+            "size_bytes": 659,
+            "download_count": 40,
+            "platform": "Windows",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.2.alpha-arm64-v8a.2503e6e.apk",
+            "size_bytes": 22753987,
+            "download_count": 1108,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.2.alpha-arm64-v8a.2503e6e.apk.asc",
+            "size_bytes": 659,
+            "download_count": 12,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.2.alpha-armeabi-v7a.2503e6e.apk",
+            "size_bytes": 22377167,
+            "download_count": 14,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.2.alpha-armeabi-v7a.2503e6e.apk.asc",
+            "size_bytes": 659,
+            "download_count": 3,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.2.alpha-universal.2503e6e.apk",
+            "size_bytes": 45672566,
+            "download_count": 864,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.2.alpha-universal.2503e6e.apk.asc",
+            "size_bytes": 659,
+            "download_count": 129,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.2.alpha-x86_64.2503e6e.apk",
+            "size_bytes": 23421617,
+            "download_count": 13,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.2.alpha-x86_64.2503e6e.apk.asc",
+            "size_bytes": 659,
+            "download_count": 4,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.8.2-alpha is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n\r\n**TL;DR**\r\n\r\nOrder description added as optional attribute. Library updates and bugs fixing.\r\n\r\n### For Users\r\n- Orders can now include descriptions. Available in \"Advanced Options\".\r\n- Aggregated Order's meta data from Federation's book is now displayed in Order's view (Before it was only displaying data from the host).\r\n- New Search dialog to help on-boarding users\r\n- Currency is locked to BTC in Swaps form\r\n- Revision o",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.8.2-alpha",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.8.1-alpha",
+        "name": "v0.8.1-alpha",
+        "published_at": "2025-08-12T15:00:03Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 2704,
+        "total_downloads": 2704,
+        "asset_count": 14,
+        "assets": [
+          {
+            "name": "robosats-desktop-v0.8.1.alpha-linux-x64.49924bd.zip",
+            "size_bytes": 205451666,
+            "download_count": 127,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.1.alpha-linux-x64.49924bd.zip.asc",
+            "size_bytes": 659,
+            "download_count": 29,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-desktop-v0.8.1.alpha-mac-darwin-x64.49924bd.zip",
+            "size_bytes": 403289958,
+            "download_count": 53,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.1.alpha-mac-darwin-x64.49924bd.zip.asc",
+            "size_bytes": 659,
+            "download_count": 30,
+            "platform": "macOS",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-desktop-v0.8.1.alpha-win32-ia32.49924bd.zip",
+            "size_bytes": 203039440,
+            "download_count": 150,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.1.alpha-win32-ia32.49924bd.zip.asc",
+            "size_bytes": 659,
+            "download_count": 38,
+            "platform": "Windows",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.1.alpha-arm64-v8a.49924bd.apk",
+            "size_bytes": 22505471,
+            "download_count": 801,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.1.alpha-arm64-v8a.49924bd.apk.asc",
+            "size_bytes": 659,
+            "download_count": 9,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.1.alpha-armeabi-v7a.49924bd.apk",
+            "size_bytes": 22132747,
+            "download_count": 18,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.1.alpha-armeabi-v7a.49924bd.apk.asc",
+            "size_bytes": 659,
+            "download_count": 6,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.1.alpha-universal.49924bd.apk",
+            "size_bytes": 45424050,
+            "download_count": 1289,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.1.alpha-universal.49924bd.apk.asc",
+            "size_bytes": 659,
+            "download_count": 138,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.1.alpha-x86_64.49924bd.apk",
+            "size_bytes": 23173101,
+            "download_count": 11,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.1.alpha-x86_64.49924bd.apk.asc",
+            "size_bytes": 659,
+            "download_count": 5,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.8.1-alpha is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n\r\n**TL;DR**\r\n- Brand new mobile app and mobile view\r\n- New in-app private notifications system using nostr\r\n- Revertible payments warning\r\n\r\n> [!Important]\r\n> The new app version might remove your garage, make sure you backup your tokens before upgrading\r\n\r\n\r\n### For Users\r\n\r\n- Nostr notifications following NIP-17. Coordinators now send nostr anonymous encrypted messages to robots. The client fetches federation's relays for ",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.8.1-alpha",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.8.0-alpha",
+        "name": "v0.8.0-alpha",
+        "published_at": "2025-07-14T13:41:42Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1471,
+        "total_downloads": 1471,
+        "asset_count": 14,
+        "assets": [
+          {
+            "name": "robosats-desktop-v0.8.0.alpha-linux-x64.zip",
+            "size_bytes": 205448766,
+            "download_count": 73,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.0.alpha-linux-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 16,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-desktop-v0.8.0.alpha-mac-darwin-x64.zip",
+            "size_bytes": 403287049,
+            "download_count": 40,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.0.alpha-mac-darwin-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 13,
+            "platform": "macOS",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-desktop-v0.8.0.alpha-win32-ia32.zip",
+            "size_bytes": 203036538,
+            "download_count": 52,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.8.0.alpha-win32-ia32.zip.asc",
+            "size_bytes": 659,
+            "download_count": 10,
+            "platform": "Windows",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.0.alpha-arm64-v8a.apk",
+            "size_bytes": 19322187,
+            "download_count": 619,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.0.alpha-arm64-v8a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 7,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.0.alpha-armeabi-v7a.apk",
+            "size_bytes": 18182479,
+            "download_count": 11,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.0.alpha-armeabi-v7a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 3,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.0.alpha-universal.apk",
+            "size_bytes": 53397306,
+            "download_count": 568,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.0.alpha-universal.apk.asc",
+            "size_bytes": 659,
+            "download_count": 47,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.8.0.alpha-x86_64.apk",
+            "size_bytes": 20247715,
+            "download_count": 8,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.8.0.alpha-x86_64.apk.asc",
+            "size_bytes": 659,
+            "download_count": 4,
+            "platform": "Linux",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.8.0 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For 3rd parties\r\n\r\n:warning: Coordinators will now require a valid nostr pubkey on headers: https://github.com/RoboSats/robosats/blob/development-docs/development/docs.md#authentication\r\n\r\n### For Users\r\n- Better custom payment methods tool\r\n<div align=\"center\">\r\n<img width=\"500\" alt=\"Screenshot from 2025-07-14 14-44-42\" src=\"https://github.com/user-attachments/assets/c2fc4fa6-4370-480b-8353-f303e36984d3\" />\r\n</div>\r\n\r\n- To av",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.8.0-alpha",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.7.9-alpha",
+        "name": "v0.7.9-alpha",
+        "published_at": "2025-06-26T09:51:34Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1129,
+        "total_downloads": 1129,
+        "asset_count": 14,
+        "assets": [
+          {
+            "name": "robosats-desktop-v0.7.9.alpha-linux-x64.zip",
+            "size_bytes": 205378955,
+            "download_count": 34,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.9.alpha-linux-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 12,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-desktop-v0.7.9.alpha-mac-darwin-x64.zip",
+            "size_bytes": 403217239,
+            "download_count": 29,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.9.alpha-mac-darwin-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 11,
+            "platform": "macOS",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-desktop-v0.7.9.alpha-win32-ia32.zip",
+            "size_bytes": 202966729,
+            "download_count": 53,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.9.alpha-win32-ia32.zip.asc",
+            "size_bytes": 659,
+            "download_count": 22,
+            "platform": "Windows",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.9.alpha-arm64-v8a.apk",
+            "size_bytes": 19250423,
+            "download_count": 473,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.9.alpha-arm64-v8a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 6,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.9.alpha-armeabi-v7a.apk",
+            "size_bytes": 18110715,
+            "download_count": 11,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.9.alpha-armeabi-v7a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 5,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.9.alpha-universal.apk",
+            "size_bytes": 53325542,
+            "download_count": 423,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.9.alpha-universal.apk.asc",
+            "size_bytes": 659,
+            "download_count": 39,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.9.alpha-x86_64.apk",
+            "size_bytes": 20175951,
+            "download_count": 7,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.9.alpha-x86_64.apk.asc",
+            "size_bytes": 659,
+            "download_count": 4,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.7.9 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For Users\r\n- Orders can be created now with a password (Advance settings). These orders won't appear in the public orders view and can be taken only if the robot inputs the same password.\r\n- Orders can be fetch now by URL in the Book view\r\n- New coordinator: FreedomSats\u00a0#2004 \r\n- Peach orders now available in Global orders book\r\n- Chat fix for Start9/Umbrel\r\n\r\n### For Coordinators\r\n- Traditional non-docker environment files up",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.9-alpha",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.7.8-alpha",
+        "name": "v0.7.8-alpha",
+        "published_at": "2025-05-27T18:48:47Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1405,
+        "total_downloads": 1405,
+        "asset_count": 13,
+        "assets": [
+          {
+            "name": "robosats-desktop-v0.7.8.alpha-linux-x64.zip",
+            "size_bytes": 205347245,
+            "download_count": 52,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.8.alpha-linux-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 26,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-desktop-v0.7.8.alpha-mac-darwin-x64.zip",
+            "size_bytes": 403185391,
+            "download_count": 21,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.8.alpha-win32-ia32.zip",
+            "size_bytes": 202935014,
+            "download_count": 67,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.8.alpha-win32-ia32.zip.asc",
+            "size_bytes": 659,
+            "download_count": 31,
+            "platform": "Windows",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.8.alpha-arm64-v8a.apk",
+            "size_bytes": 19222623,
+            "download_count": 609,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.8.alpha-arm64-v8a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 4,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.8.alpha-armeabi-v7a.apk",
+            "size_bytes": 18082915,
+            "download_count": 14,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.8.alpha-armeabi-v7a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 3,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.8.alpha-universal.apk",
+            "size_bytes": 53297742,
+            "download_count": 522,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.8.alpha-universal.apk.asc",
+            "size_bytes": 659,
+            "download_count": 39,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.8.alpha-x86_64.apk",
+            "size_bytes": 20148151,
+            "download_count": 14,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.8.alpha-x86_64.apk.asc",
+            "size_bytes": 659,
+            "download_count": 3,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.7.8 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For Users\r\n\r\n- New coordinator: LibreBazaar https://github.com/RoboSats/robosats/issues/1903\r\n- New payment method: Nomad\r\n- Major libraries update\r\n- Coordinator ratings are now cryptographically verified\r\n- Private chat message are also sent as nip17 as part of the full migration of the chat to nostr\r\n- Fix Start9/Umbrel nostr relay connection\r\n- Fixed a situation where sometimes orders table loads in page 2\r\n- Android adapt",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.8-alpha",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.7.7-alpha",
+        "name": "v0.7.7-alpha",
+        "published_at": "2025-04-30T15:20:59Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1822,
+        "total_downloads": 1822,
+        "asset_count": 14,
+        "assets": [
+          {
+            "name": "robosats-desktop-v0.7.7.alpha-linux-x64.zip",
+            "size_bytes": 205234176,
+            "download_count": 47,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.7.alpha-linux-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 20,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-desktop-v0.7.7.alpha-mac-darwin-x64.zip",
+            "size_bytes": 403071914,
+            "download_count": 34,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.7.alpha-mac-darwin-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 19,
+            "platform": "macOS",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-desktop-v0.7.7.alpha-win32-ia32.zip",
+            "size_bytes": 202821927,
+            "download_count": 85,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.7.alpha-win32-ia32.zip.asc",
+            "size_bytes": 659,
+            "download_count": 38,
+            "platform": "Windows",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.7.alpha-arm64-v8a.apk",
+            "size_bytes": 19073565,
+            "download_count": 620,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.7.alpha-arm64-v8a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 4,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.7.alpha-armeabi-v7a.apk",
+            "size_bytes": 17933853,
+            "download_count": 10,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.7.alpha-armeabi-v7a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 3,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.7.alpha-universal.apk",
+            "size_bytes": 53148680,
+            "download_count": 873,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.7.alpha-universal.apk.asc",
+            "size_bytes": 659,
+            "download_count": 53,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.7.alpha-x86_64.apk",
+            "size_bytes": 19999089,
+            "download_count": 11,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.7.alpha-x86_64.apk.asc",
+            "size_bytes": 659,
+            "download_count": 5,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.7.7 is now out! :rocket:\r\n\r\n# Changes\r\n\r\nThis version of clients is not compatible with older versions of coordinators. Coordinators must upgrade first, make sure you don't upgrade your client while this is marked as **pre-release**. \r\n\r\n## What's new\r\n### For Users\r\n<img src=\"https://github.com/user-attachments/assets/cd1f9ed4-5201-4a01-b322-e2f574249948\" width=\"400\"/>\r\n\r\n- New coordinators view.\r\n- Available coordinator reviews signed by both the robot and the coordinator. \r\n\r\n<img",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.7-alpha",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.7.6-alpha",
+        "name": "v0.7.6-alpha",
+        "published_at": "2025-04-08T18:06:29Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1308,
+        "total_downloads": 1308,
+        "asset_count": 14,
+        "assets": [
+          {
+            "name": "robosats-desktop-v0.7.6.alpha-linux-x64.zip",
+            "size_bytes": 205227118,
+            "download_count": 69,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.6.alpha-linux-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 26,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-desktop-v0.7.6.alpha-mac-darwin-x64.zip",
+            "size_bytes": 403064850,
+            "download_count": 42,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.6.alpha-mac-darwin-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 23,
+            "platform": "macOS",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-desktop-v0.7.6.alpha-win32-ia32.zip",
+            "size_bytes": 202814868,
+            "download_count": 93,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.6.alpha-win32-ia32.zip.asc",
+            "size_bytes": 659,
+            "download_count": 25,
+            "platform": "Windows",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.6.alpha-arm64-v8a.apk",
+            "size_bytes": 19064836,
+            "download_count": 506,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.6.alpha-arm64-v8a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 9,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.6.alpha-armeabi-v7a.apk",
+            "size_bytes": 17925124,
+            "download_count": 11,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.6.alpha-armeabi-v7a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 4,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.6.alpha-universal.apk",
+            "size_bytes": 53139955,
+            "download_count": 435,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.6.alpha-universal.apk.asc",
+            "size_bytes": 659,
+            "download_count": 51,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.6.alpha-x86_64.apk",
+            "size_bytes": 19990360,
+            "download_count": 11,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.6.alpha-x86_64.apk.asc",
+            "size_bytes": 659,
+            "download_count": 3,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.7.6 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For Users\r\n- Dispute statement now requires a contact method to be submitted.\r\n- Coordinator rating over nostr (BETA)\r\n- Token input now clears up blank spaces.\r\n- Added some messages to the trade workflow to answer the most common questions.\r\n### For Coordinators\r\n- Add cancel_status param to the cancel order action \r\n\r\n# Android\r\n\r\n**[Click to download universal RoboSats APK for Android](https://github.com/RoboSats/robosats/",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.6-alpha",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.7.5-alpha",
+        "name": "v0.7.5-alpha",
+        "published_at": "2025-03-22T22:34:59Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1269,
+        "total_downloads": 1269,
+        "asset_count": 14,
+        "assets": [
+          {
+            "name": "robosats-desktop-v0.7.5.alpha-linux-x64.zip",
+            "size_bytes": 205180860,
+            "download_count": 35,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.5.alpha-linux-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 17,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-desktop-v0.7.5.alpha-mac-darwin-x64.zip",
+            "size_bytes": 403018591,
+            "download_count": 35,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.5.alpha-mac-darwin-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 18,
+            "platform": "macOS",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-desktop-v0.7.5.alpha-win32-ia32.zip",
+            "size_bytes": 202768611,
+            "download_count": 51,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.5.alpha-win32-ia32.zip.asc",
+            "size_bytes": 659,
+            "download_count": 13,
+            "platform": "Windows",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.5.alpha-arm64-v8a.apk",
+            "size_bytes": 19019856,
+            "download_count": 617,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.5.alpha-arm64-v8a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 6,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.5.alpha-armeabi-v7a.apk",
+            "size_bytes": 17880144,
+            "download_count": 11,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.5.alpha-armeabi-v7a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 3,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.5.alpha-universal.apk",
+            "size_bytes": 53094971,
+            "download_count": 392,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.5.alpha-universal.apk.asc",
+            "size_bytes": 659,
+            "download_count": 59,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.5.alpha-x86_64.apk",
+            "size_bytes": 19945380,
+            "download_count": 9,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.5.alpha-x86_64.apk.asc",
+            "size_bytes": 659,
+            "download_count": 3,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.7.5 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For Users\r\n- When Javascript is disabled a box appears to help the user to enable it @gitsofaryan\r\n- Users will now be advised when they select a coordinator not offering swamps in order creation @khadar1020\r\n### For Coordinators\r\n- Now orders stay public even if there is a non-confirmed Taker, allowing multiple robots to try to take the order @koalasat\r\n\r\n# Android\r\n\r\n**[Click to download universal RoboSats APK for Android](h",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.5-alpha",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.7.4-alpha",
+        "name": "v0.7.4-alpha",
+        "published_at": "2025-02-22T11:59:56Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1477,
+        "total_downloads": 1477,
+        "asset_count": 14,
+        "assets": [
+          {
+            "name": "robosats-desktop-v0.7.4.alpha-linux-x64.zip",
+            "size_bytes": 205580078,
+            "download_count": 61,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.4.alpha-linux-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 25,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-desktop-v0.7.4.alpha-mac-darwin-x64.zip",
+            "size_bytes": 203209728,
+            "download_count": 37,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.4.alpha-mac-darwin-x64.zip.asc",
+            "size_bytes": 659,
+            "download_count": 15,
+            "platform": "macOS",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-desktop-v0.7.4.alpha-win32-ia32.zip",
+            "size_bytes": 203187314,
+            "download_count": 110,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.4.alpha-win32-ia32.zip.asc",
+            "size_bytes": 659,
+            "download_count": 36,
+            "platform": "Windows",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.4.alpha-arm64-v8a.apk",
+            "size_bytes": 19017025,
+            "download_count": 521,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.4.alpha-arm64-v8a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 11,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.4.alpha-armeabi-v7a.apk",
+            "size_bytes": 17877313,
+            "download_count": 15,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.4.alpha-armeabi-v7a.apk.asc",
+            "size_bytes": 659,
+            "download_count": 4,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.4.alpha-universal.apk",
+            "size_bytes": 53092144,
+            "download_count": 571,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.4.alpha-universal.apk.asc",
+            "size_bytes": 659,
+            "download_count": 60,
+            "platform": "Signatures",
+            "content_type": "application/pgp-signature"
+          },
+          {
+            "name": "robosats-v0.7.4.alpha-x86_64.apk",
+            "size_bytes": 19942549,
+            "download_count": 7,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.4.alpha-x86_64.apk.asc",
+            "size_bytes": 659,
+            "download_count": 4,
+            "platform": "Linux",
+            "content_type": "application/pgp-signature"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.7.4 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n### For Users\r\n- You can now see @lnp2pbot orders on RoboSats mobile app @koalasat\r\n- Changed URLs to https://robosats.org and new onion @koalasat\r\n- Order creation view now displays all available payment methods @koalasat\r\n- Libraries updates @KoalaSat \r\n### For Coordinators\r\n- Test fixes @jerryfletcher21\r\n- Libraries updates @koalasat\r\n\r\n# Android\r\n\r\n**[Click to download universal RoboSats APK for Android](https://github.com/Rob",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.4-alpha",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.7.3-alpha",
+        "name": "v0.7.3-alpha",
+        "published_at": "2024-11-24T08:47:23Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 3447,
+        "total_downloads": 3447,
+        "asset_count": 10,
+        "assets": [
+          {
+            "name": "CHECKSUMS.SHA256",
+            "size_bytes": 865,
+            "download_count": 45,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "CHECKSUMS.SHA256.asc",
+            "size_bytes": 659,
+            "download_count": 34,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-desktop-v0.7.3.alpha-linux-x64.zip",
+            "size_bytes": 207448535,
+            "download_count": 236,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.3.alpha-mac-darwin-x64.zip",
+            "size_bytes": 408399814,
+            "download_count": 133,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-desktop-v0.7.3.alpha-win32-ia32.zip",
+            "size_bytes": 205523394,
+            "download_count": 334,
+            "platform": "Windows",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "robosats-v0.7.3.alpha-arm64-v8a.apk",
+            "size_bytes": 19016205,
+            "download_count": 954,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.3.alpha-armeabi-v7a.apk",
+            "size_bytes": 17876497,
+            "download_count": 24,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.3.alpha-universal.apk",
+            "size_bytes": 53091320,
+            "download_count": 1478,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "robosats-v0.7.3.alpha-universal.apk.asc",
+            "size_bytes": 659,
+            "download_count": 193,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          },
+          {
+            "name": "robosats-v0.7.3.alpha-x86_64.apk",
+            "size_bytes": 19941733,
+            "download_count": 16,
+            "platform": "Linux",
+            "content_type": "application/vnd.android.package-archive"
+          }
+        ],
+        "body_excerpt": "RoboSats v0.7.3 is now out! :rocket:\r\n\r\n# Changes\r\n## What's new\r\n- Websockets now working on Android app: this enables instant chat and Nostr order book features! @koalasat\r\n- First external coordinator now available: you can now see @lnp2pbot orders on RoboSats UI by @koalasat\r\n- Better display coordinator info on the Create Order form @koalasat\r\n- Charts now depend on selected currency @femelo\r\n- Fixed exchange summary aggregatons @koalasat\r\n\r\n# Android\r\n\r\n**[Click to download universal RoboS",
+        "html_url": "https://github.com/RoboSats/robosats/releases/tag/v0.7.3-alpha",
+        "author": "github-actions[bot]"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 908.1,
+      "median_gap_hours": 697.3
+    }
+  },
+  "category": "Core Infrastructure"
+}

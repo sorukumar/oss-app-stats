@@ -7,7 +7,7 @@
     "description": "Bitcoin Core integration/staging tree",
     "stars": 89730,
     "forks": 39171,
-    "open_issues": 687,
+    "open_issues": 688,
     "language": "C++",
     "license": "MIT",
     "homepage": "https://bitcoincore.org/en/download",
@@ -978,7 +978,7 @@
       "author": "sipa"
     }
   ],
-  "fetched_at": "2026-07-30T18:58:36.165910+00:00",
+  "fetched_at": "2026-07-30T20:14:38.586882+00:00",
   "deep_dive": {
     "days_since_launch": 3537,
     "recent_stable_releases": [

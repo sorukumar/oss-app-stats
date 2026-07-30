@@ -1,0 +1,1410 @@
+{
+  "project": {
+    "owner": "breez",
+    "repo": "breezmobile",
+    "name": "Breez",
+    "full_name": "breez/breezmobile",
+    "description": null,
+    "stars": 592,
+    "forks": 137,
+    "open_issues": 91,
+    "language": "Dart",
+    "license": "GPL-3.0",
+    "homepage": "https://breez.technology",
+    "html_url": "https://github.com/breez/breezmobile"
+  },
+  "summary": {
+    "total_downloads": 6432,
+    "total_releases": 55,
+    "stable_releases": 0,
+    "pre_releases": 55,
+    "latest_version": "0.17.bugfixes.5",
+    "latest_date": "2025-01-14T12:02:07Z",
+    "days_since_latest": 562,
+    "avg_cadence_days": null,
+    "platform_breakdown": {
+      "Other": 6122,
+      "Signatures": 310
+    }
+  },
+  "releases": [
+    {
+      "tag": "0.17.bugfixes.5",
+      "name": "0.17 Bug fixes",
+      "published_at": "2025-01-14T12:02:07Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 2251,
+      "total_downloads": 2251,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "1736769048-1.apk",
+          "size_bytes": 58603268,
+          "download_count": 2200,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 28,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 23,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Bug fixes\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:\r\n\r\nDownload ```1736769048-1.apk```, ```SHA256SUMS``` and ```SHA256SUMS.asc``` from the release assets:\r\n\r\n```\r\ncurl \\\r\n-LO https://github.com/breez/breezmobile/releases/dow",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.17.bugfixes.5",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.17.bugfixes.4",
+      "name": "0.17 Bug fixes",
+      "published_at": "2024-12-05T14:23:01Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 143,
+      "total_downloads": 143,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "1733260939-1.apk",
+          "size_bytes": 58611460,
+          "download_count": 137,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 4,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 2,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Bug fixes\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:\r\n\r\nDownload ```1733260939-1.apk```, ```SHA256SUMS``` and ```SHA256SUMS.asc``` from the release assets:\r\n\r\n```\r\ncurl \\\r\n-LO https://github.com/breez/breezmobile/releases/dow",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.17.bugfixes.4",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.17.bugfixes.3",
+      "name": "0.17 Bug fixes",
+      "published_at": "2024-10-16T12:12:58Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 160,
+      "total_downloads": 160,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "1728412244-1.apk",
+          "size_bytes": 58611460,
+          "download_count": 154,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 4,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 2,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Bug fixes\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:\r\n\r\nDownload ```1728412244-1.apk```, ```SHA256SUMS``` and ```SHA256SUMS.asc``` from the release assets:\r\n\r\n```\r\ncurl \\\r\n-LO https://github.com/breez/breezmobile/releases/dow",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.17.bugfixes.3",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.17.bugfixes.2",
+      "name": "0.17 Bug fixes",
+      "published_at": "2024-07-09T12:28:15Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 262,
+      "total_downloads": 262,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "1719493197-1.apk",
+          "size_bytes": 58573544,
+          "download_count": 248,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Blockchain sync improvements\r\n* Fix UI when using Czech\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:\r\n\r\nDownload ```1718089732-1.apk```, ```SHA256SUMS``` and ```SHA256SUMS.asc``` from the release assets:\r\n\r\n```\r\ncurl \\\r\n-LO htt",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.17.bugfixes.2",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.17.lnd",
+      "name": "0.17 lnd",
+      "published_at": "2024-07-03T12:34:31Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 89,
+      "total_downloads": 89,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "1718089732-1.apk",
+          "size_bytes": 58495720,
+          "download_count": 74,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Update LND to 0.17.5\r\n* Improved neutrino sync\r\n* Added better UI for collaborative channel closures.\r\n* Improved payments reliability in case of long routes.\r\n* Added localization for Bulgarian language.\r\n* Improved readability on shareable items on payment details.\r\n* Checkboxes can now be checked by tapping on the corresponding label.\r\n* Updated Apps section.\r\n* Added Value Time splits support to podcasts.\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll nee",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.17.lnd",
+      "author": "JssDWt"
+    },
+    {
+      "tag": "0.16.bugfixes",
+      "name": "0.16 Bug Fixes",
+      "published_at": "2023-10-24T09:42:29Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 448,
+      "total_downloads": 448,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "1697539298-1.apk",
+          "size_bytes": 57832826,
+          "download_count": 420,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 16,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Bug fixes\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:\r\n\r\nDownload ```1697539298-1.apk```, ```SHA256SUMS``` and ```SHA256SUMS.asc``` from the release assets:\r\n\r\n```\r\ncurl \\\r\n-LO https://github.com/breez/breezmobile/releases/dow",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.16.bugfixes",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.16.hotfix",
+      "name": "0.16 HotFix",
+      "published_at": "2023-09-22T10:21:39Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 119,
+      "total_downloads": 119,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "1695315644-1.apk",
+          "size_bytes": 57820538,
+          "download_count": 104,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Optimize routing settings for shorter paths\r\n* Bug fixes\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:\r\n\r\nDownload ```1695315644-1.apk```, ```SHA256SUMS``` and ```SHA256SUMS.asc``` from the release assets:\r\n\r\n```\r\ncurl \\\r\n-LO ht",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.16.hotfix",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.16.lnd",
+      "name": "0.16 lnd",
+      "published_at": "2023-09-17T13:15:41Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 85,
+      "total_downloads": 85,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "1694612754-1.apk",
+          "size_bytes": 60118489,
+          "download_count": 71,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Update to lnd 16.4\r\n* The Bitcoin Company widget added to Apps\r\n* Greek and Slovak translations\r\n* NFC support on iOS (NTAG 424 DNA cards)\r\n* Allow users to switch between Google Drive accounts\r\n* Fix Google sign In errors on CalyxOS & GrapheneOS\r\n* Click to select min/max amounts in LNURL-Pay\r\n* Display transaction information in refund \r\n* UI improvements & bug fixes\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your syste",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.16.lnd",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.15.refund_hotfix",
+      "name": "0.15 Refund Hotfix",
+      "published_at": "2023-04-09T15:16:07Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 466,
+      "total_downloads": 466,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "1681054500-1.apk",
+          "size_bytes": 58530636,
+          "download_count": 410,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 32,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 24,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Fix refund button\r\n* Remove last sweep tx from rescan\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:\r\n\r\nDownload ```1681054500-1.apk```, ```SHA256SUMS``` and ```SHA256SUMS.asc``` from the release assets:\r\n\r\n```\r\ncurl \\\r\n-LO https",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.15.refund_hotfix",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.15.fixpack",
+      "name": "0.15 Fix Pack",
+      "published_at": "2023-04-04T16:48:46Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 47,
+      "total_downloads": 47,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "1680812670-1.apk",
+          "size_bytes": 58538828,
+          "download_count": 39,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 4,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 4,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\nBug fixes and enhancements\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:\r\n\r\nDownload ```1680812670-1.apk```, ```SHA256SUMS``` and ```SHA256SUMS.asc``` from the release assets:\r\n\r\n```\r\ncurl \\\r\n-LO https://github.com/breez/breezmobi",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.15.fixpack",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.15.httpsync",
+      "name": "0.15 http Sync",
+      "published_at": "2023-02-05T13:24:11Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 230,
+      "total_downloads": 230,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "1675611964-1.apk",
+          "size_bytes": 57686796,
+          "download_count": 170,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "breez.aar.zip",
+          "size_bytes": 13647771,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Neutrino sync over http\r\n* Add Tor support\r\n* Add German translation \r\n* Changed scan library\r\n* Fix episode ID in TLV\r\n* Various bug fixes\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:\r\n\r\nDownload ```1675611964-1.apk```, ```SHA",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.15.httpsync",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.15.hf1",
+      "name": "0.15 Hotfix 1",
+      "published_at": "2022-12-10T19:30:02Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 145,
+      "total_downloads": 145,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "1670596850-1.apk",
+          "size_bytes": 56600850,
+          "download_count": 103,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "breez.aar.3.zip",
+          "size_bytes": 13637685,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 18,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Swedish translation  \ud83c\uddf8\ud83c\uddea\r\n* Show BTC address when notifications are disabled\r\n* Display lock transaction information in Send to BTC Address\r\n* Move POS charge button to the bottom\r\n* Update theme styles\r\n* Add episode ID to TLV\r\n* Bug fixes\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In orde",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.15.hf1",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.15.lnd.hf1",
+      "name": "0.15 lnd hf1",
+      "published_at": "2022-10-23T10:09:53Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 142,
+      "total_downloads": 142,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "1666517910-1.apk",
+          "size_bytes": 56535145,
+          "download_count": 111,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "breez.aar.zip",
+          "size_bytes": 13635127,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 228,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Changes\r\n* Improvements to lnd 15.3 rollout\r\n\r\n### Verifying the release\r\nIn order to verify the release, you'll need `gpg` or `gpg2` installed on your system. Breez puts hashes of the release files in a `SHA256SUM` file. The `SHA256SUM` file is then signed with the Breez GPG key. In order to verify the signatures, complete the following steps:\r\n\r\nDownload ```1666517910-1.apk```, ```SHA256SUMS``` and ```SHA256SUMS.asc``` from the release assets:\r\n\r\n```\r\ncurl \\\r\n-LO https://github.com/breez/b",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.15.lnd.hf1",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.15.lnd",
+      "name": "0.15 lnd update ",
+      "published_at": "2022-10-22T19:23:10Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 40,
+      "total_downloads": 40,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "1666105151-1.apk",
+          "size_bytes": 56535145,
+          "download_count": 36,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "breez.aar.zip",
+          "size_bytes": 13635372,
+          "download_count": 4,
+          "platform": "Other",
+          "content_type": "application/zip"
+        }
+      ],
+      "body_excerpt": "* Update the underlying Lightning library (to lnd 0.15.3).\r\n* Bug fixes.",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.15.lnd",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.clip",
+      "name": "0.12 Clipping ",
+      "published_at": "2022-08-23T12:14:05Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 103,
+      "total_downloads": 103,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "1661190196-1.apk",
+          "size_bytes": 55506785,
+          "download_count": 82,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "breez.aar.zip",
+          "size_bytes": 12212493,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 83,
+          "download_count": 10,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Create clips of your favorite podcasts and share them in social networks.\r\n* Bug fixes.",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.clip",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.bugfixes",
+      "name": "0.12 Bug Fixes",
+      "published_at": "2022-08-14T10:30:54Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 60,
+      "total_downloads": 60,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "1660471316-1.apk",
+          "size_bytes": 59507928,
+          "download_count": 51,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "breez.aar.zip",
+          "size_bytes": 20630788,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/zip"
+        }
+      ],
+      "body_excerpt": "* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.bugfixes",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.upnext",
+      "name": "0.12 Up Next",
+      "published_at": "2022-08-10T12:41:23Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 34,
+      "total_downloads": 34,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "1660050720-1.apk",
+          "size_bytes": 59512024,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "breez.aar.zip",
+          "size_bytes": 20630791,
+          "download_count": 6,
+          "platform": "Other",
+          "content_type": "application/zip"
+        }
+      ],
+      "body_excerpt": "* \"Up Next\"  support in Podcasts: episodes can be queued and the playback order rearranged from the up-next view on the player screen.\r\n* Switch between list and icons layout in your podcast library.\r\n* Added support for Italian. \r\n* Added LNCal to our Apps. \r\n* Improve NFC support for Point-of-Sale checkout. \r\n* Bug fixes.",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.upnext",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.toppodcasts",
+      "name": "0.12 Top Podcasts ",
+      "published_at": "2022-07-03T15:48:08Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 99,
+      "total_downloads": 99,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1656698898-1.apk",
+          "size_bytes": 47944434,
+          "download_count": 99,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* New 'My Top Podcasts' screen \r\n* Support NFC in Point-of-Sale checkout \r\n* Added Wavlake to the Apps screen \r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.toppodcasts",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.sp3",
+      "name": "0.12 Service Pack 3",
+      "published_at": "2022-05-30T10:15:33Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 70,
+      "total_downloads": 70,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1653897482-1.apk",
+          "size_bytes": 48013607,
+          "download_count": 70,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Improved NFC support when the app is in the foreground \r\n* Default note setting added to POS\r\n* Geyser app added to the Apps section\r\n* Backup additional application data\r\n* Fiat value display in Transactions screen\r\n* French \ud83c\uddeb\ud83c\uddf7 translation\r\n* Display destination image in lnurl-pay payments \r\n* Experimental fee limit for Lightning payments fee limit\r\n* Added more playback speed options in our podcast player\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.sp3",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.sp2",
+      "name": "0.12 Bug Fixes ",
+      "published_at": "2022-04-07T10:47:01Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 105,
+      "total_downloads": 105,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1649270723-1.apk",
+          "size_bytes": 47793559,
+          "download_count": 105,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.sp2",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.salesreport",
+      "name": "0.12 Sales Report ",
+      "published_at": "2022-03-30T11:53:37Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 42,
+      "total_downloads": 42,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1648477431-1.apk",
+          "size_bytes": 47693661,
+          "download_count": 42,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Added sales summary report to Point-of-Sale transactions screen\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.salesreport",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.pcloud",
+      "name": "0.12 pCloud ",
+      "published_at": "2022-03-09T09:56:34Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 50,
+      "total_downloads": 50,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1646763137-1.apk",
+          "size_bytes": 47664896,
+          "download_count": 50,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Backup: added pCloud support\r\n* Boostagrams: increased message size to 128 characters and added avatar name to metadata\r\n* POS: improved receipt layout\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.pcloud",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.bf2",
+      "name": "0.12 Bug Fixes",
+      "published_at": "2022-02-18T19:01:56Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 53,
+      "total_downloads": 53,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1645083338-1.apk",
+          "size_bytes": 47570603,
+          "download_count": 53,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "Small enhancements and bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.bf2",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.sort-pos",
+      "name": "0.12 Sort POS Items",
+      "published_at": "2022-02-11T06:35:41Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1644502599-1.apk",
+          "size_bytes": 47574699,
+          "download_count": 37,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Sort POS items\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.sort-pos",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.webdavfolders",
+      "name": "0.12 Improve WebDav",
+      "published_at": "2022-02-02T14:38:02Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 28,
+      "total_downloads": 28,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1643731631-1.apk",
+          "size_bytes": 47336209,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Support WevDav folders\r\n* Improve cache management\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.webdavfolders",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.lud17",
+      "name": "0.12.lud17",
+      "published_at": "2022-01-26T18:02:16Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 22,
+      "total_downloads": 22,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1643306083-1.apk",
+          "size_bytes": 47209233,
+          "download_count": 22,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Support new LNURL schemes\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.lud17",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.sp",
+      "name": "0.12 Service Pack",
+      "published_at": "2022-01-05T12:46:12Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1642332025-1.apk",
+          "size_bytes": 48540152,
+          "download_count": 37,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Made progress with Spanish, Finnish and Portuguese translations.\r\n* Google Services dependency is optional. \r\n* Podcast player enhancements: per-episode art, volume boost, refresh and new episodes indication. \r\n* Added sms4sats to Apps.\r\n* Various bug fixes and enhancements.",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.sp",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.fixpack",
+      "name": "0.12 FixPack",
+      "published_at": "2021-11-11T08:37:20Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 82,
+      "total_downloads": 82,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1636611594-1.apk",
+          "size_bytes": 49048842,
+          "download_count": 82,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Fix crash in new installs on some devices\r\n* QR support for Lightning addresses\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.fixpack",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.bd",
+      "name": "0.12 BD",
+      "published_at": "2021-11-08T10:47:25Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 29,
+      "total_downloads": 29,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1636302490-1.apk",
+          "size_bytes": 49044746,
+          "download_count": 29,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Update Neutrino to support upcoming Taproot activation\r\n* Per-episode splits support in podcasts\r\n* Reduced encryption key to 12 words\r\n* Improved pay-before-sync\r\n* EUR symbol position determined by locale\r\n* POS purchases have a new icon and now linked to Sale view\r\n* Support fiat value in CSV export in POS\r\n* Improved QR codes by using uppercase letters\r\n* Reduced cache size\r\n* Other bug fixes and small improvements",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.bd",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.sleep",
+      "name": "0.12 Sleep",
+      "published_at": "2021-09-30T08:12:41Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 93,
+      "total_downloads": 93,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1632928397-1.apk",
+          "size_bytes": 48700490,
+          "download_count": 93,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Add sleep functionality to the podcast player\r\n* Boostagram dialog is now the default on Boost\r\n* Fix PIN screen on small displays",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.sleep",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.lnaddrees",
+      "name": "0.12 Lightning Address",
+      "published_at": "2021-09-09T09:55:00Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 51,
+      "total_downloads": 51,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1631278037-1.apk",
+          "size_bytes": 40738482,
+          "download_count": 51,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Support sending to a Lightning address via Send> Paste (see: https://lightningaddress.com/)\r\n* Long press the Boost button to send a Boostagram\r\n* Added links support to the QR scanner\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.lnaddrees",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.bugs",
+      "name": "0.12 Bug fixes",
+      "published_at": "2021-08-10T07:43:57Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 49,
+      "total_downloads": 49,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1628577017-1.apk",
+          "size_bytes": 41303730,
+          "download_count": 49,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.bugs",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.kollider",
+      "name": "0.12 Kollider",
+      "published_at": "2021-08-01T10:47:10Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 36,
+      "total_downloads": 36,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1627593981-1.apk",
+          "size_bytes": 41299634,
+          "download_count": 36,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Added Kollider to Apps\r\n* Various enhancements and fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.kollider",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.lnurlpay",
+      "name": "0.12 LNURL-Pay ",
+      "published_at": "2021-07-15T22:23:47Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 49,
+      "total_downloads": 49,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1626350353-1.apk",
+          "size_bytes": 41213513,
+          "download_count": 49,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Support LNURL-Pay\r\n* Improvements and bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.lnurlpay",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.remote-server-backup",
+      "name": "0.12 Remote Server Backup",
+      "published_at": "2021-07-08T10:01:32Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 49,
+      "total_downloads": 49,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1625665414-1.apk",
+          "size_bytes": 41164361,
+          "download_count": 49,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Remote server backup: you can now backup Breez to Nextcloud or other WebDav servers.\r\n* Bug fixes.",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.remote-server-backup",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.podcast-refresh",
+      "name": "0.12 Podcast Refresh",
+      "published_at": "2021-06-29T16:44:48Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 18,
+      "total_downloads": 18,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1624980978-1.apk",
+          "size_bytes": 41115209,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Automatically refresh when clicking on a podcast in the Library view\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.podcast-refresh",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.fixes",
+      "name": "0.12 Fixes",
+      "published_at": "2021-06-23T09:52:31Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 14,
+      "total_downloads": 14,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1624443456-1.apk",
+          "size_bytes": 41102921,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Add spaces to Amount input field\r\n* Neutrino sync process UI fix\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.fixes",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.12.lnd",
+      "name": "0.12 lnd ",
+      "published_at": "2021-06-21T16:11:36Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 15,
+      "total_downloads": 15,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1624182627-1.apk",
+          "size_bytes": 41102921,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Upgrade to lnd 0.12.1\r\n* Change payments list date format\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.12.lnd",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.11.remove_roullette",
+      "name": "0.11 Remove Lightning Roulette",
+      "published_at": "2021-06-19T06:43:38Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 21,
+      "total_downloads": 21,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1623943478-1.apk",
+          "size_bytes": 40762889,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Remove Lightning Roulette from Apps\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.11.remove_roullette",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.11.new-view",
+      "name": "0.11 New Podcasts View",
+      "published_at": "2021-05-31T18:14:32Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 452,
+      "total_downloads": 452,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1622464129-1.apk",
+          "size_bytes": 40754811,
+          "download_count": 452,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* 'New' view shows recently added podcasts\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.11.new-view",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.11.custom-amounts",
+      "name": "0.11 Custom Amounts",
+      "published_at": "2021-05-29T16:45:47Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 12,
+      "total_downloads": 12,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1622189719-1.apk",
+          "size_bytes": 40808040,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Support custom amounts for podcasts stream and boost\r\n* Persist last podcast episode when the app closes\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.11.custom-amounts",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.11.flutter2",
+      "name": "Flutter 2",
+      "published_at": "2021-05-25T09:03:47Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 7,
+      "total_downloads": 7,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1621944616-1.apk",
+          "size_bytes": 40779368,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Increase client request timeout\r\n* Flutter 2 migration",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.11.flutter2",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.11.azteco",
+      "name": "",
+      "published_at": "2021-05-12T12:20:24Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 31,
+      "total_downloads": 31,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1620810112-1.apk",
+          "size_bytes": 39483694,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Add Azteco widget to Apps\r\n* Improve on-chain transactions broadcast",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.11.azteco",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.11.share-podcast",
+      "name": "",
+      "published_at": "2021-05-03T11:57:40Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 20,
+      "total_downloads": 20,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1620060506-1.apk",
+          "size_bytes": 39471303,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* Share a Breez link to a podcast or an episode\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.11.share-podcast",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.11.podcasts",
+      "name": "0.11 Podcasts",
+      "published_at": "2021-03-24T12:52:21Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "1618405563-1.apk",
+          "size_bytes": 39434184,
+          "download_count": 37,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "* In-app podcast player (podcasting 2.0): find, subscribe & listen to your favorite podcasts, pay & tip the creators directly.\r\n* UI revamp\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.11.podcasts",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.11.improvement",
+      "name": "0.11 Various Improvements",
+      "published_at": "2021-01-18T21:55:45Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "* Send to BTC Address now excludes mining fees unless 'Use All Funds' is checked\r\n* Added LN Markets widget to Breez's marketplace\r\n* On-chain sync and backup optimizations\r\n* Print POS transactions\r\n* New QR screen\r\n* Hide balance (new asterisks state in addition to sats/BTC)\r\n* Improved 'Closed Channel' information\r\n* Better UI for a multi-line payment description",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.11.improvement",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.11.rc",
+      "name": "0.11 Release Candidate",
+      "published_at": "2020-10-23T11:09:25Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "* Raised limit to 4M sats. \r\n* Instant bootstrap. \r\n* Zero-conf channels. \r\n* On-demand zero-conf channel creation. \r\n* MPP send. \r\n* Zero channel reserve for new Breez channels. \r\n* Home screen revamped. \r\n* Upgrade to lnd v0.11.",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.11.rc",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.9.graph",
+      "name": "0.9 Graph Optimizations",
+      "published_at": "2020-06-14T10:15:07Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "* Optimize graph fetching for faster sync (via http) and retry mechanism for payments in case of outdated graph\r\n* Add Lightning Roulette and GraafOne to Breez's marketplace\r\n* Unhide fiat value in the home screen\r\n* Incremental background chain scan\r\n* Various bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.9.graph",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.9.keysend",
+      "name": "0.9 KeySend",
+      "published_at": "2020-04-18T17:44:38Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "* Upgrade to lnd 0.9.2\r\n* Paste Node ID to spontaneously pay an lnd node (running with --accept-key-send)\r\n* Added FixedFloat to Breez's marketplace\r\n* Support for 'breez:' deep links",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.9.keysend",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.8.pos",
+      "name": "0.8 Point-of-Sale",
+      "published_at": "2020-03-27T11:03:03Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "Introducing a new :zap:Point-of-Sale:zap: mode:\r\n* Simple keypad interface for receiving lightning payments.\r\n* Items catalog for fast charge of predefined products (create, edit, delete & search).\r\n* Charge with sats, BTC or selected fiat currencies (USD, EUR, GBP and JPY) value.\r\n* Set a Manager Password to prevent sending funds by unauthorized personnel.\r\n* Support LNURL-channel for increased capacity.",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.8.pos",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.8.reverse_swap",
+      "name": "0.8 Reverse Swap",
+      "published_at": "2020-01-27T14:29:53Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "* 'Remove Funds' now uses Boltz reverse Submarine Swap service\r\n* Better support for hodl invoices\r\n* Buy bitcoin using credit card is now available in the US (via MoonPay)\r\n* Buy bitcoin with SEPA Euro bank transfers (via MoonPay)\r\n* Improved biometrics and PIN screen\r\n* Limit the size of Neutrino db and delete unnecessary filters after validation\r\n* Change 'Sat' unit to 'sats'\r\n* Paste invoice is fixed in Android 10\r\n* Fix crash when syncing old wallets\r\n* Other bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.8.reverse_swap",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.8.improvements",
+      "name": "0.8 Improvements",
+      "published_at": "2019-12-12T21:59:16Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "* Lightning fast on-boarding: initialize Neutrino from last available checkpoint.\r\n* Support lnurl-withdraw via link or scan.\r\n* Biometric support: use fingerprint on Android or Face ID/Touch ID on iPhone to access Breez.\r\n* Pay instantly w/o waiting for on-chain sync.\r\n* Improved graph synchronization.\r\n* Fix refund crash when using non-bech32 address.\r\n* Bug fixes.",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.8.improvements",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.7-openbeta",
+      "name": "0.7 Open Beta",
+      "published_at": "2019-07-10T15:21:17Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "Updated to the latest lnd (0.7), Neutrino and btcwallet.",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.7-openbeta",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.5.9-openbeta",
+      "name": "0.5.9 Open Beta",
+      "published_at": "2019-06-15T19:26:00Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "* iOS support\r\n* Sync UI\r\n* Bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.5.9-openbeta",
+      "author": "kingonly"
+    },
+    {
+      "tag": "0.5.8-openbeta",
+      "name": "0.5.8 Open Beta",
+      "published_at": "2019-04-21T20:04:41Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "* Add background ChannelsWatcher job\r\n* Expose Bitcoin Node (BIP 157 only) configuration\r\n* Add pre-image information for new payments\r\n* Improve bootstrap flow\r\n* Additional bug fixes",
+      "html_url": "https://github.com/breez/breezmobile/releases/tag/0.5.8-openbeta",
+      "author": "kingonly"
+    }
+  ],
+  "fetched_at": "2026-07-30T20:15:05.815040+00:00",
+  "deep_dive": {
+    "days_since_launch": 2094,
+    "recent_stable_releases": [],
+    "velocity": {
+      "avg_gap_hours": 0,
+      "median_gap_hours": 0
+    }
+  },
+  "category": "Wallets"
+}

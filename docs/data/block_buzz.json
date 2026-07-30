@@ -5,16 +5,16 @@
     "name": "Buzz",
     "full_name": "block/buzz",
     "description": "A hive mind communication platform",
-    "stars": 18216,
-    "forks": 1763,
-    "open_issues": 1163,
+    "stars": 18269,
+    "forks": 1771,
+    "open_issues": 1166,
     "language": "Rust",
     "license": "Apache-2.0",
     "homepage": "",
     "html_url": "https://github.com/block/buzz"
   },
   "summary": {
-    "total_downloads": 124761,
+    "total_downloads": 127410,
     "total_releases": 100,
     "stable_releases": 99,
     "pre_releases": 1,
@@ -23,10 +23,10 @@
     "days_since_latest": 0,
     "avg_cadence_days": 0.5,
     "platform_breakdown": {
-      "macOS": 57851,
-      "Linux": 12115,
-      "Windows": 26923,
-      "Other": 27868,
+      "macOS": 58317,
+      "Linux": 12238,
+      "Windows": 27199,
+      "Other": 29652,
       "Signatures": 4
     }
   },
@@ -37,42 +37,42 @@
       "published_at": "2026-07-29T21:58:28Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 11438,
-      "total_downloads": 11438,
+      "raw_downloads": 12196,
+      "total_downloads": 12196,
       "asset_count": 5,
       "assets": [
         {
           "name": "Buzz_0.5.2_aarch64.dmg",
           "size_bytes": 88323416,
-          "download_count": 6028,
+          "download_count": 6464,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "Buzz_0.5.2_amd64.AppImage",
           "size_bytes": 134375928,
-          "download_count": 913,
+          "download_count": 980,
           "platform": "Linux",
           "content_type": "application/vnd.appimage"
         },
         {
           "name": "Buzz_0.5.2_amd64.deb",
           "size_bytes": 70853472,
-          "download_count": 471,
+          "download_count": 504,
           "platform": "Linux",
           "content_type": "application/x-debian-package"
         },
         {
           "name": "Buzz_0.5.2_x64-setup_alpha-unsigned.exe",
           "size_bytes": 42697935,
-          "download_count": 3565,
+          "download_count": 3766,
           "platform": "Windows",
           "content_type": "application/x-msdownload"
         },
         {
           "name": "Buzz_0.5.2_x64.dmg",
           "size_bytes": 70837327,
-          "download_count": 461,
+          "download_count": 482,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         }
@@ -87,21 +87,21 @@
       "published_at": "2026-07-29T15:47:27Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 3182,
-      "total_downloads": 3182,
+      "raw_downloads": 3188,
+      "total_downloads": 3188,
       "asset_count": 5,
       "assets": [
         {
           "name": "Buzz_0.5.1_aarch64.dmg",
           "size_bytes": 88248110,
-          "download_count": 1784,
+          "download_count": 1788,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "Buzz_0.5.1_amd64.AppImage",
           "size_bytes": 137349624,
-          "download_count": 266,
+          "download_count": 268,
           "platform": "Linux",
           "content_type": "application/vnd.appimage"
         },
@@ -137,35 +137,35 @@
       "published_at": "2026-07-28T14:23:22Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 9522,
-      "total_downloads": 9522,
+      "raw_downloads": 9528,
+      "total_downloads": 9528,
       "asset_count": 5,
       "assets": [
         {
           "name": "Buzz_0.5.0_aarch64.dmg",
           "size_bytes": 88102934,
-          "download_count": 5510,
+          "download_count": 5511,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "Buzz_0.5.0_amd64.AppImage",
           "size_bytes": 137087480,
-          "download_count": 786,
+          "download_count": 787,
           "platform": "Linux",
           "content_type": "application/vnd.appimage"
         },
         {
           "name": "Buzz_0.5.0_amd64.deb",
           "size_bytes": 70515846,
-          "download_count": 430,
+          "download_count": 433,
           "platform": "Linux",
           "content_type": "application/x-debian-package"
         },
         {
           "name": "Buzz_0.5.0_x64-setup_alpha-unsigned.exe",
           "size_bytes": 42558633,
-          "download_count": 2430,
+          "download_count": 2431,
           "platform": "Windows",
           "content_type": "application/x-msdownload"
         },
@@ -187,8 +187,8 @@
       "published_at": "2026-07-25T13:58:37Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 21029,
-      "total_downloads": 21029,
+      "raw_downloads": 21047,
+      "total_downloads": 21047,
       "asset_count": 5,
       "assets": [
         {
@@ -208,21 +208,21 @@
         {
           "name": "Buzz_0.4.26_amd64.deb",
           "size_bytes": 70137878,
-          "download_count": 2172,
+          "download_count": 2188,
           "platform": "Linux",
           "content_type": "application/x-debian-package"
         },
         {
           "name": "Buzz_0.4.26_x64-setup_alpha-unsigned.exe",
           "size_bytes": 42407189,
-          "download_count": 4553,
+          "download_count": 4554,
           "platform": "Windows",
           "content_type": "application/x-msdownload"
         },
         {
           "name": "Buzz_0.4.26_x64.dmg",
           "size_bytes": 70391418,
-          "download_count": 659,
+          "download_count": 660,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         }
@@ -1473,14 +1473,14 @@
       "published_at": "2026-07-10T21:01:59Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 15,
-      "total_downloads": 15,
+      "raw_downloads": 16,
+      "total_downloads": 16,
       "asset_count": 3,
       "assets": [
         {
           "name": "Buzz_0.4.0_aarch64.dmg",
           "size_bytes": 77598833,
-          "download_count": 11,
+          "download_count": 12,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
@@ -2633,14 +2633,14 @@
       "published_at": "2026-06-14T03:25:11Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 8,
-      "total_downloads": 8,
+      "raw_downloads": 9,
+      "total_downloads": 9,
       "asset_count": 4,
       "assets": [
         {
           "name": "Buzz_0.3.21_aarch64.dmg",
           "size_bytes": 51135032,
-          "download_count": 2,
+          "download_count": 3,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
@@ -3906,14 +3906,14 @@
       "published_at": "2026-05-04T20:39:24Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 3,
-      "total_downloads": 3,
+      "raw_downloads": 4,
+      "total_downloads": 4,
       "asset_count": 1,
       "assets": [
         {
           "name": "Sprout_0.0.2_aarch64.dmg",
           "size_bytes": 36604449,
-          "download_count": 3,
+          "download_count": 4,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         }
@@ -3989,7 +3989,7 @@
       "author": "github-actions[bot]"
     }
   ],
-  "fetched_at": "2026-07-30T18:58:35.158484+00:00",
+  "fetched_at": "2026-07-30T20:12:07.781593+00:00",
   "deep_dive": {
     "days_since_launch": 87,
     "recent_stable_releases": [
@@ -3999,42 +3999,42 @@
         "published_at": "2026-07-29T21:58:28Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 11438,
-        "total_downloads": 11438,
+        "raw_downloads": 12196,
+        "total_downloads": 12196,
         "asset_count": 5,
         "assets": [
           {
             "name": "Buzz_0.5.2_aarch64.dmg",
             "size_bytes": 88323416,
-            "download_count": 6028,
+            "download_count": 6464,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "Buzz_0.5.2_amd64.AppImage",
             "size_bytes": 134375928,
-            "download_count": 913,
+            "download_count": 980,
             "platform": "Linux",
             "content_type": "application/vnd.appimage"
           },
           {
             "name": "Buzz_0.5.2_amd64.deb",
             "size_bytes": 70853472,
-            "download_count": 471,
+            "download_count": 504,
             "platform": "Linux",
             "content_type": "application/x-debian-package"
           },
           {
             "name": "Buzz_0.5.2_x64-setup_alpha-unsigned.exe",
             "size_bytes": 42697935,
-            "download_count": 3565,
+            "download_count": 3766,
             "platform": "Windows",
             "content_type": "application/x-msdownload"
           },
           {
             "name": "Buzz_0.5.2_x64.dmg",
             "size_bytes": 70837327,
-            "download_count": 461,
+            "download_count": 482,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           }
@@ -4049,21 +4049,21 @@
         "published_at": "2026-07-29T15:47:27Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 3182,
-        "total_downloads": 3182,
+        "raw_downloads": 3188,
+        "total_downloads": 3188,
         "asset_count": 5,
         "assets": [
           {
             "name": "Buzz_0.5.1_aarch64.dmg",
             "size_bytes": 88248110,
-            "download_count": 1784,
+            "download_count": 1788,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "Buzz_0.5.1_amd64.AppImage",
             "size_bytes": 137349624,
-            "download_count": 266,
+            "download_count": 268,
             "platform": "Linux",
             "content_type": "application/vnd.appimage"
           },
@@ -4099,35 +4099,35 @@
         "published_at": "2026-07-28T14:23:22Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 9522,
-        "total_downloads": 9522,
+        "raw_downloads": 9528,
+        "total_downloads": 9528,
         "asset_count": 5,
         "assets": [
           {
             "name": "Buzz_0.5.0_aarch64.dmg",
             "size_bytes": 88102934,
-            "download_count": 5510,
+            "download_count": 5511,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "Buzz_0.5.0_amd64.AppImage",
             "size_bytes": 137087480,
-            "download_count": 786,
+            "download_count": 787,
             "platform": "Linux",
             "content_type": "application/vnd.appimage"
           },
           {
             "name": "Buzz_0.5.0_amd64.deb",
             "size_bytes": 70515846,
-            "download_count": 430,
+            "download_count": 433,
             "platform": "Linux",
             "content_type": "application/x-debian-package"
           },
           {
             "name": "Buzz_0.5.0_x64-setup_alpha-unsigned.exe",
             "size_bytes": 42558633,
-            "download_count": 2430,
+            "download_count": 2431,
             "platform": "Windows",
             "content_type": "application/x-msdownload"
           },
@@ -4149,8 +4149,8 @@
         "published_at": "2026-07-25T13:58:37Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 21029,
-        "total_downloads": 21029,
+        "raw_downloads": 21047,
+        "total_downloads": 21047,
         "asset_count": 5,
         "assets": [
           {
@@ -4170,21 +4170,21 @@
           {
             "name": "Buzz_0.4.26_amd64.deb",
             "size_bytes": 70137878,
-            "download_count": 2172,
+            "download_count": 2188,
             "platform": "Linux",
             "content_type": "application/x-debian-package"
           },
           {
             "name": "Buzz_0.4.26_x64-setup_alpha-unsigned.exe",
             "size_bytes": 42407189,
-            "download_count": 4553,
+            "download_count": 4554,
             "platform": "Windows",
             "content_type": "application/x-msdownload"
           },
           {
             "name": "Buzz_0.4.26_x64.dmg",
             "size_bytes": 70391418,
-            "download_count": 659,
+            "download_count": 660,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           }

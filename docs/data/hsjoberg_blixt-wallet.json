@@ -1,0 +1,1814 @@
+{
+  "project": {
+    "owner": "hsjoberg",
+    "repo": "blixt-wallet",
+    "name": "Blixt",
+    "full_name": "hsjoberg/blixt-wallet",
+    "description": "Bitcoin Lightning Wallet with focus on usability and user experience",
+    "stars": 426,
+    "forks": 82,
+    "open_issues": 311,
+    "language": "TypeScript",
+    "license": "MIT",
+    "homepage": "https://blixtwallet.github.io",
+    "html_url": "https://github.com/smolcars/blixt-wallet"
+  },
+  "summary": {
+    "total_downloads": 11798,
+    "total_releases": 38,
+    "stable_releases": 38,
+    "pre_releases": 0,
+    "latest_version": "v0.9.0",
+    "latest_date": "2026-02-18T16:05:23Z",
+    "days_since_latest": 162,
+    "avg_cadence_days": 47.2,
+    "platform_breakdown": {
+      "Other": 11798
+    }
+  },
+  "releases": [
+    {
+      "tag": "v0.9.0",
+      "name": "v0.9.0",
+      "published_at": "2026-02-18T16:05:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1693,
+      "total_downloads": 1693,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.9.0.apk",
+          "size_bytes": 119674837,
+          "download_count": 1646,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.9.0.apk",
+          "size_bytes": 119669745,
+          "download_count": 47,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "Blixt Wallet rises once again. Enjoy this release with reliability improvements, bug fixes, and new features.\r\n\r\n## Common:\r\n\r\n- Updated lnd to v0.20.0\r\n- Added a new automatic channel opener\r\n  The app will now ask you whether you want to open a channel when there are available onchain funds, and it's possible to set a custom sat/vbyte fee rate\r\n- Added support for BIP177\r\n- Added searchability to the Settings screen\r\n- Cleaned up settings and added a new Power User Tools screen that contains a",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.9.0",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.8.0",
+      "name": "v0.8.0",
+      "published_at": "2025-07-01T21:13:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 809,
+      "total_downloads": 809,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.8.0.apk",
+          "size_bytes": 113426705,
+          "download_count": 713,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.8.0.apk",
+          "size_bytes": 113421625,
+          "download_count": 96,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        }
+      ],
+      "body_excerpt": "Let's go, Blixt Wallet v0.8.0 is here! \u26a1\r\n\r\n## Common\r\n\r\n- Migrated the app to React Native New Architecture. This should result in a more rapid app\r\n- Changed the lnd backend to our new open-source [react-native-turbo-lnd](https://github.com/hsjoberg/react-native-turbo-lnd) lib\r\n- Changed Tor backend by our new open-source [react-native-nitro-tor](https://github.com/niteshbalusu11/react-native-nitro-tor) lib\r\n- Changed Sqlite backend by our new open-source [react-native-turbo-sqlite](https://gi",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.8.0",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.7.1",
+      "name": "v0.7.1",
+      "published_at": "2025-01-23T17:45:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 782,
+      "total_downloads": 782,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.7.1.apk",
+          "size_bytes": 88688524,
+          "download_count": 647,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.7.1.apk",
+          "size_bytes": 88683436,
+          "download_count": 102,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 73896881,
+          "download_count": 33,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Update lnd to 0.18.4, [fixes LN channel vulnerability](https://bitcoinops.org/en/newsletters/2024/12/13/#vulnerability-allowing-theft-from-ln-channels-with-miner-assistance)\r\n\r\n\r\n## SHA256 Hashes\r\n\r\n```\r\nbb520f1d0d5b2d9588cc4a5f82caca28e4e20022189b55a5f89765768aaa4300 blixt-wallet-mainnet-0.7.1.apk\r\nbbd3ff1c56ecf3b481ca040d3ac423ca270d6bb104caea6370a03c50ea713a94 blixt-wallet-testnet-0.7.1.apk\r\nb2366c41b8043ddf130dd4ba07db6cdab69e0ca5f5fa6f0c20fabe66195d1a78 Lndmobile.aar\r\n```",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.7.1",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.7.0",
+      "name": "v0.7.0",
+      "published_at": "2024-09-04T18:34:40Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 997,
+      "total_downloads": 997,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-v0.7.0.apk",
+          "size_bytes": 85805740,
+          "download_count": 801,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-v0.7.0.apk",
+          "size_bytes": 85797548,
+          "download_count": 151,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 68534045,
+          "download_count": 45,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Blixt Wallet v0.7.0 is here! Enjoy this release with new features and bug fixes. \u26a1\ufe0f\r\n\r\n## Common\r\n\r\n- Updated to lnd v0.18.2\r\n- Fixed syncing issues in Neutrino SPV. Chain syncing should now be more reliable\r\n- New syncing nodes have been added in different regions around the world:  `uswest.blixtwallet.com` (Seattle), `europe.blixtwallet.com` (Germany), and `asia.blixtwallet.com` (Singapore). New wallets will automatically use these. In order to reset your bitcoin node setting, hold on \"Set Bit",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.7.0",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.6.9-420",
+      "name": "0.6.9-420",
+      "published_at": "2023-11-21T22:20:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1466,
+      "total_downloads": 1466,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.6.9-420.apk",
+          "size_bytes": 76443329,
+          "download_count": 1108,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.6.9-420.apk",
+          "size_bytes": 76439233,
+          "download_count": 264,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 57666985,
+          "download_count": 94,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "The final frontier is here for the 0.6.x release line, v0.6.9-420. Nice!\r\n\r\nThis one has a great new feature for Android, [Lightning Box](https://github.com/hsjoberg/lightning-box).\r\n\r\nLightning Box is a [Lightning Address](https://lightningaddress.com) provider for mobile nodes like Blixt Wallet, letting you receive Lightning Address payments directly to your phone.\r\nThis works in conjunction with the Persistent Mode released in v0.6.9, which allows Blixt Wallet to stay active in the background",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.9-420",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.6.9",
+      "name": "",
+      "published_at": "2023-11-09T23:01:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 349,
+      "total_downloads": 349,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.6.9.apk",
+          "size_bytes": 76422849,
+          "download_count": 249,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.6.9.apk",
+          "size_bytes": 76418753,
+          "download_count": 80,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 57665643,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Blixt Wallet is back with version 0.6.9. Nice!\r\n\r\nThis release has a lot of goodies, such as Simple Taproot Channels support, new robust Tor implementation for Android and support for a bunch of new languages.\r\nWith the new Persistent Mode on Android you can keep Blixt Wallet running all the time in the background.\r\n\r\nHappy Blixting! \u26a1\ufe0f\ud83d\udfe1\r\n\r\n## Changelog\r\n\r\n### Common\r\n\r\n* Updated to lnd 0.17.1\r\n* Speedloader (\"LN channel sync\") has been improved with support for bsdiff patches\r\n  This means you ",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.9",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.6.8",
+      "name": "0.6.8",
+      "published_at": "2023-06-27T23:22:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 934,
+      "total_downloads": 934,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.6.8.apk",
+          "size_bytes": 91972316,
+          "download_count": 707,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.6.8.apk",
+          "size_bytes": 91968220,
+          "download_count": 193,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 56125584,
+          "download_count": 34,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Blixt Wallet v0.6.8 is here and we have an important new feature called Speedloader!\r\n\r\n*Speedloader* syncs the wallet's channel database (\"channel graph\") on startup. This is important for payment pathfinding and will make sure you have an up-to-date database.\r\n\r\nIn previous versions of Blixt Wallet, the channel database would only sync with Lightning peers when the app is active (or when the background sync job runs on Android). This can be problematic as it may lead to missed channel updates,",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.8",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.6.7",
+      "name": "0.6.7",
+      "published_at": "2023-05-03T17:17:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 742,
+      "total_downloads": 742,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.6.7.apk",
+          "size_bytes": 91029734,
+          "download_count": 475,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.6.7.apk",
+          "size_bytes": 91021542,
+          "download_count": 242,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 55304327,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Enjoy this smaller release together with lnd 0.16.2 while we work on bigger things to come.\r\n\r\n### Common\r\n\r\n* Updated lnd to v0.16.2\r\n* Added fee estimation for Lightning payments\r\n* Added the ability to use all available onchain funds when manually opening a channel\r\n* Added the ability to create a wallet with a passphrase (25h word)\r\n\r\n### Android\r\n\r\n* Merged app GUI and lnd to the same process, this should help with app stability\r\n\r\n\r\n## Contributors\r\n\r\n- Hampus Sj\u00f6berg\r\n- Nitesh Balusu\r\n- e",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.7",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.6.6",
+      "name": "v0.6.6",
+      "published_at": "2023-04-07T02:15:04Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 349,
+      "total_downloads": 349,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.6.6.apk",
+          "size_bytes": 90752438,
+          "download_count": 212,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.6.6.apk",
+          "size_bytes": 90748342,
+          "download_count": 118,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 55021334,
+          "download_count": 19,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Blixt Wallet is back, more robust than ever before. Enjoy this release together with [lnd v0.16](https://github.com/lightningnetwork/lnd/blob/master/docs/release-notes/release-notes-0.16.0.md).\r\n\r\n## Common\r\n\r\n* Updated lnd to v0.16\r\n* Added support for bimodal pathfinding (based on Pickhardt payments). Enable it in Settings!\r\n* Added the ability to set a label for a contact in the contact list\r\n* Sats amount on Overview screen is now grouped\r\n\r\n## Android\r\n* Lowered the scheduled sync job inter",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.6",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.6.5",
+      "name": "v0.6.5",
+      "published_at": "2023-03-16T23:01:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 268,
+      "total_downloads": 268,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.6.5.apk",
+          "size_bytes": 87643574,
+          "download_count": 174,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.6.5.apk",
+          "size_bytes": 87639478,
+          "download_count": 69,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 51843022,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Added the ability to set maximum LN fee for a payment, proportional to the amount\r\n* Added the ability to change lnd log level\r\n* Fixed a bug where a paid amount-less invoice would show up as 0\r\n* Minor fixes\r\n\r\n## SHA256 hashes\r\n\r\n```\r\n966213594b8696534eb839bbdc90938f24dece104476b58ed4113b5688b971c9  Lndmobile.aar\r\n2e4956f2ef6d4084421133c134a9a3fa8592cdef67d888095d39d1d3ae662bbc  blixt-wallet-mainnet-0.6.5.apk\r\n804b9437bd0c27afc10e183be8757145c30098fe6e3507962849c17e715d1fea  blixt-wallet-tes",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.5",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.6.4",
+      "name": "v0.6.4",
+      "published_at": "2023-02-16T15:42:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 243,
+      "total_downloads": 243,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.6.4.apk",
+          "size_bytes": 87635382,
+          "download_count": 140,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.6.4.apk",
+          "size_bytes": 87631286,
+          "download_count": 86,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 51842018,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Added the ability to restore with passphrase (25th word)\r\n* Add the ability to change language on the welcome screen\r\n* Fixed notifications not working on Android 13\r\n* Fixed a bug where the \"Force close\" button would appear when restoring channels via SCB\r\n* Fixed QR code not working for Keysend Experiment\r\n* Fixed camera not working for Keysend Experiment\r\n\r\n## Contributors\r\n\r\n- Hampus Sj\u00f6berg\r\n- DarthCoin\r\n- Kevin Cai\r\n- Nitesh Balusu\r\n- eikion5\r\n\r\n## SHA256 hashes\r\n\r\n```\r\n42c1b8203dc422401",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.4",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.6.3",
+      "name": "v0.6.3",
+      "published_at": "2023-01-21T17:36:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 222,
+      "total_downloads": 222,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.6.3.apk",
+          "size_bytes": 87643574,
+          "download_count": 107,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.6.3.apk",
+          "size_bytes": 87639478,
+          "download_count": 90,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 51841873,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Meraviglioso! The app has been translated to Italian\r\n* Fixed disabling strict lnd channel off not working properly. See more information in https://github.com/hsjoberg/blixt-wallet/releases/tag/v0.6.2\r\n   Note: in order to restore the channels that got pruned, you need to either restore a wallet or create a new wallet from scratch running Blixt Wallet 0.6.3\r\n* Fixed a bug where attempting to copy data to clipboard in the Lightning network info modal would crash the app\r\n* Fixed app crashes in",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.3",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.6.2",
+      "name": "v0.6.2",
+      "published_at": "2023-01-14T23:59:14Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 125,
+      "total_downloads": 125,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.6.2.apk",
+          "size_bytes": 87639478,
+          "download_count": 73,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.6.2.apk",
+          "size_bytes": 87631286,
+          "download_count": 36,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 51841708,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* The app has been translated to Croatian!\r\n* Updated lnd to v0.15.5\r\n* Lnd's strict graph db channel pruning config is now disabled by default.\r\nStrict graph pruning is a feature that more aggressively prunes channels that are deemed unusable from lnd's channel database. This database is used for payment pathfinding among other things.\r\nWe've found that this strict pruning is causing routing failures to several lightning nodes within the network, because the algorithm pruned too many channels, ",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.2",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.6.1",
+      "name": "v0.6.1",
+      "published_at": "2022-11-16T21:17:10Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 405,
+      "total_downloads": 405,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.6.1.apk",
+          "size_bytes": 87524790,
+          "download_count": 132,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.6.1.apk",
+          "size_bytes": 87520694,
+          "download_count": 137,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 51791508,
+          "download_count": 136,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Common\r\n\r\n* Fixed a bug regarding the fee calculation causing the max limit to be 10 satoshi\r\n* Fixed a bug where Multi-Path Payments would still be enabled even if the setting is disabled\r\n* All wallets, including already created ones, now default to Multi-Path Payments being enabled by default\r\n* Added the ability to force-close a channel that is stuck in \"Waiting for close\" state\r\n\r\n### macOS\r\n\r\n* Fixed a bug where deeplinks would not work if the app is not already started\r\n\r\n### Contribu",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.1",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.6.0",
+      "name": "v0.6.0",
+      "published_at": "2022-11-02T14:49:58Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 133,
+      "total_downloads": 133,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.6.0.apk",
+          "size_bytes": 87520694,
+          "download_count": 69,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.6.0.apk",
+          "size_bytes": 87516598,
+          "download_count": 48,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 51791508,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "<div>\r\n<a href=\"https://play.google.com/apps/testing/com.blixtwallet\"><img alt=\"Get it on Google Play\" height=\"38\" src=\"https://blixtwallet.github.io/assets/images/google-play-badge-2.png\" /></a>&nbsp;\r\n<a href=\"https://testflight.apple.com/join/EXvGhRzS\"><img alt=\"Download on the App Store\" height=\"38\" src=\"https://blixtwallet.github.io/assets/images/appstore-badge.svg\" /></a>&nbsp;\r\n</div>\r\n&nbsp;\r\n\r\n__Blixt Wallet__ is back and we have a lot of exciting news!\r\n\r\nHere are the highlights:\r\n\r\n# ",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.0",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.5.2",
+      "name": "v0.5.2 hotfix release",
+      "published_at": "2022-10-10T14:43:43Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 169,
+      "total_downloads": 169,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.5.2.apk",
+          "size_bytes": 91234131,
+          "download_count": 74,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.5.2.apk",
+          "size_bytes": 91230035,
+          "download_count": 81,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 51763067,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This is an important hotfix release.\r\n\r\n* Updated lnd to v0.15.2-beta in order to fix a bug where Blixt Wallet would not successfully sync the chain under certain conditions.",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.5.2",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.5.1",
+      "name": "v0.5.1",
+      "published_at": "2022-03-04T10:38:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 508,
+      "total_downloads": 508,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.5.1.apk",
+          "size_bytes": 90582867,
+          "download_count": 240,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.5.1.apk",
+          "size_bytes": 90578771,
+          "download_count": 135,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 50890463,
+          "download_count": 133,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Common\r\n\r\n* Fixed a bug where app would fail to start because of an lnd configuration error\r\n* Added a status indicator to the Drawer\r\n  Red: Wallet is starting up\r\n  Orange: Waiting for channels to come online\r\n  Green: Wallet is ready\r\n* Updated lnd to v0.14.2-beta\r\n* Fixed a bug where LNURL-withdraw would permanently freeze\r\n\r\n### iOS\r\n\r\n* Added the ability to enable Tor before creating/restoring a wallet\r\n",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.5.1",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.5.0",
+      "name": "v0.5.0",
+      "published_at": "2022-02-18T22:00:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 78,
+      "total_downloads": 78,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.5.0.apk",
+          "size_bytes": 94018422,
+          "download_count": 38,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.5.0.apk",
+          "size_bytes": 94014326,
+          "download_count": 30,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 50752522,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Common\r\n\r\n* Added the ability to do a wallet rescan \r\n* Dunder LSP now works with LNURL-withdraw\r\n* Added support for `blixtwallet:` deeplinking\r\n* Fixed a bug where some payments would fail if a name was set in settings\r\n* Fixed a bug where Keysend Experiment would say that a payment succeeded when it actually failed\r\n* Fixed a bug where LNURL-withdraw would fail because comma was used for decimal separation instead of period\r\n\r\n### Android\r\n\r\n* Exporting channel backup now lets you choose ",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.5.0",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.4.1",
+      "name": "v0.4.1",
+      "published_at": "2022-01-13T01:15:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 123,
+      "total_downloads": 123,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.4.1.apk",
+          "size_bytes": 92121164,
+          "download_count": 65,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.4.1.apk",
+          "size_bytes": 92112972,
+          "download_count": 33,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 49025105,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Common\r\n\r\n* Added the ability to set invoice expiry, this is an app-wide setting\r\n\r\n### Android\r\n\r\n* Fixed a bug where the app would not start on devices running Android 12",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.4.1",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.4.0",
+      "name": "v0.4.0",
+      "published_at": "2022-01-12T00:48:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 75,
+      "total_downloads": 75,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.4.0.apk",
+          "size_bytes": 92112872,
+          "download_count": 36,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.4.0.apk",
+          "size_bytes": 92104680,
+          "download_count": 27,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 49025105,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Happy New Year!\r\nThis marks the first Blixt Wallet release of 2022.\r\n\r\n### Common\r\n\r\n* Updated lnd to 0.14.1-beta\r\n* When restoring a wallet, recovery info is now displayed on the Chain sync modal\r\n* Once a wallet restore is completed, this is displayed on the Overview screen\r\n* Available on-chain balance is now displayed on Withdrawal and Open Channel screens\r\n* Total capacity is now shown for a channel in the channel list\r\n* A notice has been added to the Overview screen when a channel is bein",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.4.0",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.11",
+      "name": "v0.3.11",
+      "published_at": "2021-11-06T01:54:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 163,
+      "total_downloads": 163,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.3.11.apk",
+          "size_bytes": 89274344,
+          "download_count": 58,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.3.11.apk",
+          "size_bytes": 89270248,
+          "download_count": 91,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 46157799,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Common\r\n\r\n* Updated lnd to v0.14.0-beta.rc2\r\n   This version contains an important fix for the Neutrino client in preparation for the Taproot activation\r\n* Added the ability to get node information by node id (find it in Settings)\r\n\r\n### Android\r\n\r\n* Fixed a bug where an error returned on the Keysend experiment would crash the app\r\n\r\n### iOS\r\n\r\n* Added back Keysend Experiment!",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.11",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.10",
+      "name": "v0.3.10",
+      "published_at": "2021-11-04T13:01:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 81,
+      "total_downloads": 81,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.3.10.apk",
+          "size_bytes": 89253864,
+          "download_count": 36,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.3.10.apk",
+          "size_bytes": 89249768,
+          "download_count": 30,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 46136463,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Common\r\n* Updated to lnd 0.14.0-beta.rc1\r\n* Added commitment fee information to channel list\r\n* Added the ability to set a custom on-chain explorer URL\r\n* Fixed LNURL LUD-17 implementation to be spec compliant \r\n* Minor fixes\r\n\r\n### iOS\r\n\r\n* Attempting to mitigate crashes when sending payments\r\n* Temporarily disabled the Keysend experiment\r\n",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.10",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.9",
+      "name": "v0.3.9",
+      "published_at": "2021-10-27T10:48:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 68,
+      "total_downloads": 68,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.3.9.apk",
+          "size_bytes": 88926184,
+          "download_count": 35,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.3.9.apk",
+          "size_bytes": 88922088,
+          "download_count": 24,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 46033565,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Common\r\n\r\n* Wumbo channel support -- You can now open and operate large Lightning channels \r\n* \"Channel anchor\" commitment type have been disabled\r\n* Fixed a bug where manual channel opening would not work if custom fee rate was used\r\n* Minor fixes\r\n\r\n### Android\r\n\r\n* Fixed a bug where leaving the app by pressing the back button would result in a crash\r\n\r\n### iOS\r\n\r\n* iPad layout support",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.9",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.8",
+      "name": "v0.3.8",
+      "published_at": "2021-10-20T00:00:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 76,
+      "total_downloads": 76,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.3.8.apk",
+          "size_bytes": 88659944,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.3.8.apk",
+          "size_bytes": 88655848,
+          "download_count": 33,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 45762344,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Fixed a bug where manual channel opening would not work\r\n* Added the ability to change fee rate when manually opening a channel",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.8",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.7",
+      "name": "v0.3.7",
+      "published_at": "2021-10-07T21:11:15Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 68,
+      "total_downloads": 68,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.3.7.apk",
+          "size_bytes": 88620461,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.3.7.apk",
+          "size_bytes": 88616365,
+          "download_count": 29,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 45762344,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Common\r\n\r\n* Minor fixes\r\n\r\n### iOS\r\n\r\n* Tor on iOS! \ud83d\udd25\r\n  This release adds experimental support for embedded Tor to Blixt Wallet. Enable it in Settings under the \"Experiments\" category",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.7",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.6",
+      "name": "v0.3.6",
+      "published_at": "2021-10-04T20:16:10Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 79,
+      "total_downloads": 79,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.3.6.apk",
+          "size_bytes": 90021293,
+          "download_count": 34,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.3.6.apk",
+          "size_bytes": 90017197,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 47068897,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Hotfix release to address CVE-2021-41591/ CVE-2021-41592 / CVE-2021-41593\r\nhttps://lists.linuxfoundation.org/pipermail/lightning-dev/2021-October/003257.html\r\n\r\n* Updated lnd to 0.13.3 to address Lightning vulnerabilities (CVE-2021-41591/ CVE-2021-41592 / CVE-2021-41593)",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.6",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.5",
+      "name": "v0.3.5",
+      "published_at": "2021-10-04T15:14:09Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 71,
+      "total_downloads": 71,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.3.5.apk",
+          "size_bytes": 89959853,
+          "download_count": 30,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.3.5.apk",
+          "size_bytes": 89955757,
+          "download_count": 30,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 47001399,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Implemented LNURL-pay extension LUD-18, a protocol for sending payer name and other information together with the payment\r\n* Updated to react-native 0.66.0\r\n* Minor fixes",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.5",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.4",
+      "name": "v0.3.4",
+      "published_at": "2021-09-30T10:56:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 79,
+      "total_downloads": 79,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.3.4.apk",
+          "size_bytes": 86690230,
+          "download_count": 35,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.3.4.apk",
+          "size_bytes": 86686134,
+          "download_count": 32,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 47001402,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Fixed an issue where errors wouldn't be displayed when attempting to pay an invoice\r\n* Increased the payment fee limit from 50 sats to 2500 sats\r\n* Changed the trigger for pad layout, more pads should now use the pad layout instead",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.4",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.3",
+      "name": "v0.3.3",
+      "published_at": "2021-09-06T15:46:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 69,
+      "total_downloads": 69,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.3.3.apk",
+          "size_bytes": 86709745,
+          "download_count": 36,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.3.3.apk",
+          "size_bytes": 86705649,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 46995648,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Common\r\n\r\n* Work around connectivity issues for users with channels with the Blixt LSP Node\r\n* Added the Keysend Experiment to the app drawer\r\n* You can now send a chat message together with the Keysend payment!\r\n* Improved the pay dialog for LNURL-pay\r\n* Added the ability to send name together with a comment for LNURL-pay\r\n* Removed \"Send to Lightning Address\" from Settings, find it in the drawer instead\r\n* LNURL spec compliance fixes\r\n* Minor improvements and bug fixes\r\n\r\n### Android\r\n\r\n* ",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.3",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.2",
+      "name": "v0.3.2",
+      "published_at": "2021-09-03T13:02:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 74,
+      "total_downloads": 74,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.3.2.apk",
+          "size_bytes": 86676977,
+          "download_count": 29,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.3.2.apk",
+          "size_bytes": 86672881,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 46995648,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Fixed a typo in the default invoice description\r\n* Services & Contacts list is now sorted in alphabetical order",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.2",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.1",
+      "name": "v0.3.1",
+      "published_at": "2021-09-01T22:37:08Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 74,
+      "total_downloads": 74,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-3.0.1.apk",
+          "size_bytes": 86681073,
+          "download_count": 30,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-3.0.1.apk",
+          "size_bytes": 86672881,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 46995648,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Fixed payment image not working for LNURL-pay payments",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.1",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.3.0",
+      "name": "v0.3.0",
+      "published_at": "2021-09-01T22:30:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 72,
+      "total_downloads": 72,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-3.0.0.apk",
+          "size_bytes": 86681073,
+          "download_count": 33,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.3.0.apk",
+          "size_bytes": 86672881,
+          "download_count": 27,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 46995648,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "\r\n### Common\r\n\r\n* App Drawer \ud83d\udd25\r\nThe app now features an app drawer, containing common wallet functionality\r\n* Lightning Contacts & Services \ud83d\udd25\r\nA new Contact list has been added for Lightning Addresses and LNURL codes\r\nFind it in the app drawer add all your friends!\r\n* LNURL-pay payments now retain their description within the transaction log\r\n* Fixed a bug where on-chain transactions weren't broadcasted properly\r\n\r\n### Android\r\n\r\n* Modal blur effect has been removed",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.3.0",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.2.5",
+      "name": "",
+      "published_at": "2021-08-24T00:03:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 78,
+      "total_downloads": 78,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.2.5.apk",
+          "size_bytes": 91836971,
+          "download_count": 32,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.2.5.apk",
+          "size_bytes": 91832875,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 46995648,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Added the ability to send to Lightning Addresses. \ud83d\udd25\r\n  Lightning Address is a new way of paying on Lightning.\r\n  By using an email-like format, there's no need for QR-codes anymore.\r\n  Learn more about this on https://lightningaddress.com.\r\n  Find the option in Settings. Receiving support for Blixt Wallet users is in planning stages right now. \r\n* Added support for bitcoin address BIP21 ?lightning fallback scheme\r\n* Added support for non-bech32 LNURL codes (LUD-17)\r\n* Minor bug fixes",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.2.5",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.2.4",
+      "name": "v0.2.4",
+      "published_at": "2021-07-25T16:04:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 71,
+      "total_downloads": 71,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.2.4.apk",
+          "size_bytes": 86560550,
+          "download_count": 27,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.2.4.apk",
+          "size_bytes": 86556454,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 46995648,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Updated lnd to 0.13.1-beta\r\n* Fixed copy to working in lnd log view\r\n* Waiting for lightning network graph sync is no longer required before paying (can be enabled in Settings)",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.2.4",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.2.3",
+      "name": "v0.2.3",
+      "published_at": "2021-06-24T10:14:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 41,
+      "total_downloads": 41,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.2.3.apk",
+          "size_bytes": 86490927,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.2.3.apk",
+          "size_bytes": 86482735,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 46952893,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Updated to lnd 0.13.0\r\n* Fixed a bug where withdrawing on-chain to legacy addresses would not work",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.2.3",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.2.2",
+      "name": "v0.2.2",
+      "published_at": "2021-05-10T00:36:06Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 45,
+      "total_downloads": 45,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.2.2.apk",
+          "size_bytes": 83799855,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.2.2.apk",
+          "size_bytes": 83791663,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 45102252,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Fixed a bug regarding automatic channel openings\r\n- Added the ability to manually set fee rate when withdrawing on-chain funds",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.2.2",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.2.1",
+      "name": "v0.2.1",
+      "published_at": "2021-04-21T20:22:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 55,
+      "total_downloads": 55,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.2.1.apk",
+          "size_bytes": 83742511,
+          "download_count": 19,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.2.1.apk",
+          "size_bytes": 83738415,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 45102252,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Testnet: Change the default Bitcoin node to `testnet.blixtwallet.com`",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.2.1",
+      "author": "hsjoberg"
+    },
+    {
+      "tag": "v0.2.0",
+      "name": "v0.2.0",
+      "published_at": "2021-04-21T00:27:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 64,
+      "total_downloads": 64,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "blixt-wallet-mainnet-0.2.0.apk",
+          "size_bytes": 83742511,
+          "download_count": 26,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "blixt-wallet-testnet-0.2.0.apk",
+          "size_bytes": 83738415,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "Lndmobile.aar",
+          "size_bytes": 45102314,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Common:\r\n* WebLN browser is now enabled by default for all new wallets\r\n* Autopilot will now only open channels towards Blixt's official lightning node\r\n\r\n### Android:\r\n* BREAKING CHANGE: Changed LNURL-auth implementation to be standard compliant\r\n* Fixed a bug where Tor integration would make the app fail to start under certain circumstances\r\n* The app now targets Android SDK 30\r\n\r\n### iOS:\r\n* LNURL-auth is now available on the iOS version",
+      "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.2.0",
+      "author": "hsjoberg"
+    }
+  ],
+  "fetched_at": "2026-07-30T20:15:04.458389+00:00",
+  "deep_dive": {
+    "days_since_launch": 1764,
+    "recent_stable_releases": [
+      {
+        "tag": "v0.9.0",
+        "name": "v0.9.0",
+        "published_at": "2026-02-18T16:05:23Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1693,
+        "total_downloads": 1693,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-0.9.0.apk",
+            "size_bytes": 119674837,
+            "download_count": 1646,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-0.9.0.apk",
+            "size_bytes": 119669745,
+            "download_count": 47,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          }
+        ],
+        "body_excerpt": "Blixt Wallet rises once again. Enjoy this release with reliability improvements, bug fixes, and new features.\r\n\r\n## Common:\r\n\r\n- Updated lnd to v0.20.0\r\n- Added a new automatic channel opener\r\n  The app will now ask you whether you want to open a channel when there are available onchain funds, and it's possible to set a custom sat/vbyte fee rate\r\n- Added support for BIP177\r\n- Added searchability to the Settings screen\r\n- Cleaned up settings and added a new Power User Tools screen that contains a",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.9.0",
+        "author": "hsjoberg"
+      },
+      {
+        "tag": "v0.8.0",
+        "name": "v0.8.0",
+        "published_at": "2025-07-01T21:13:32Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 809,
+        "total_downloads": 809,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-0.8.0.apk",
+            "size_bytes": 113426705,
+            "download_count": 713,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-0.8.0.apk",
+            "size_bytes": 113421625,
+            "download_count": 96,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          }
+        ],
+        "body_excerpt": "Let's go, Blixt Wallet v0.8.0 is here! \u26a1\r\n\r\n## Common\r\n\r\n- Migrated the app to React Native New Architecture. This should result in a more rapid app\r\n- Changed the lnd backend to our new open-source [react-native-turbo-lnd](https://github.com/hsjoberg/react-native-turbo-lnd) lib\r\n- Changed Tor backend by our new open-source [react-native-nitro-tor](https://github.com/niteshbalusu11/react-native-nitro-tor) lib\r\n- Changed Sqlite backend by our new open-source [react-native-turbo-sqlite](https://gi",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.8.0",
+        "author": "hsjoberg"
+      },
+      {
+        "tag": "v0.7.1",
+        "name": "v0.7.1",
+        "published_at": "2025-01-23T17:45:19Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 782,
+        "total_downloads": 782,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-0.7.1.apk",
+            "size_bytes": 88688524,
+            "download_count": 647,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-0.7.1.apk",
+            "size_bytes": 88683436,
+            "download_count": 102,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "Lndmobile.aar",
+            "size_bytes": 73896881,
+            "download_count": 33,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "* Update lnd to 0.18.4, [fixes LN channel vulnerability](https://bitcoinops.org/en/newsletters/2024/12/13/#vulnerability-allowing-theft-from-ln-channels-with-miner-assistance)\r\n\r\n\r\n## SHA256 Hashes\r\n\r\n```\r\nbb520f1d0d5b2d9588cc4a5f82caca28e4e20022189b55a5f89765768aaa4300 blixt-wallet-mainnet-0.7.1.apk\r\nbbd3ff1c56ecf3b481ca040d3ac423ca270d6bb104caea6370a03c50ea713a94 blixt-wallet-testnet-0.7.1.apk\r\nb2366c41b8043ddf130dd4ba07db6cdab69e0ca5f5fa6f0c20fabe66195d1a78 Lndmobile.aar\r\n```",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.7.1",
+        "author": "hsjoberg"
+      },
+      {
+        "tag": "v0.7.0",
+        "name": "v0.7.0",
+        "published_at": "2024-09-04T18:34:40Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 997,
+        "total_downloads": 997,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-v0.7.0.apk",
+            "size_bytes": 85805740,
+            "download_count": 801,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-v0.7.0.apk",
+            "size_bytes": 85797548,
+            "download_count": 151,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "Lndmobile.aar",
+            "size_bytes": 68534045,
+            "download_count": 45,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "Blixt Wallet v0.7.0 is here! Enjoy this release with new features and bug fixes. \u26a1\ufe0f\r\n\r\n## Common\r\n\r\n- Updated to lnd v0.18.2\r\n- Fixed syncing issues in Neutrino SPV. Chain syncing should now be more reliable\r\n- New syncing nodes have been added in different regions around the world:  `uswest.blixtwallet.com` (Seattle), `europe.blixtwallet.com` (Germany), and `asia.blixtwallet.com` (Singapore). New wallets will automatically use these. In order to reset your bitcoin node setting, hold on \"Set Bit",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.7.0",
+        "author": "hsjoberg"
+      },
+      {
+        "tag": "v0.6.9-420",
+        "name": "0.6.9-420",
+        "published_at": "2023-11-21T22:20:18Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1466,
+        "total_downloads": 1466,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-0.6.9-420.apk",
+            "size_bytes": 76443329,
+            "download_count": 1108,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-0.6.9-420.apk",
+            "size_bytes": 76439233,
+            "download_count": 264,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "Lndmobile.aar",
+            "size_bytes": 57666985,
+            "download_count": 94,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "The final frontier is here for the 0.6.x release line, v0.6.9-420. Nice!\r\n\r\nThis one has a great new feature for Android, [Lightning Box](https://github.com/hsjoberg/lightning-box).\r\n\r\nLightning Box is a [Lightning Address](https://lightningaddress.com) provider for mobile nodes like Blixt Wallet, letting you receive Lightning Address payments directly to your phone.\r\nThis works in conjunction with the Persistent Mode released in v0.6.9, which allows Blixt Wallet to stay active in the background",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.9-420",
+        "author": "hsjoberg"
+      },
+      {
+        "tag": "v0.6.9",
+        "name": "",
+        "published_at": "2023-11-09T23:01:03Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 349,
+        "total_downloads": 349,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-0.6.9.apk",
+            "size_bytes": 76422849,
+            "download_count": 249,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-0.6.9.apk",
+            "size_bytes": 76418753,
+            "download_count": 80,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "Lndmobile.aar",
+            "size_bytes": 57665643,
+            "download_count": 20,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "Blixt Wallet is back with version 0.6.9. Nice!\r\n\r\nThis release has a lot of goodies, such as Simple Taproot Channels support, new robust Tor implementation for Android and support for a bunch of new languages.\r\nWith the new Persistent Mode on Android you can keep Blixt Wallet running all the time in the background.\r\n\r\nHappy Blixting! \u26a1\ufe0f\ud83d\udfe1\r\n\r\n## Changelog\r\n\r\n### Common\r\n\r\n* Updated to lnd 0.17.1\r\n* Speedloader (\"LN channel sync\") has been improved with support for bsdiff patches\r\n  This means you ",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.9",
+        "author": "hsjoberg"
+      },
+      {
+        "tag": "v0.6.8",
+        "name": "0.6.8",
+        "published_at": "2023-06-27T23:22:41Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 934,
+        "total_downloads": 934,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-0.6.8.apk",
+            "size_bytes": 91972316,
+            "download_count": 707,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-0.6.8.apk",
+            "size_bytes": 91968220,
+            "download_count": 193,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "Lndmobile.aar",
+            "size_bytes": 56125584,
+            "download_count": 34,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "Blixt Wallet v0.6.8 is here and we have an important new feature called Speedloader!\r\n\r\n*Speedloader* syncs the wallet's channel database (\"channel graph\") on startup. This is important for payment pathfinding and will make sure you have an up-to-date database.\r\n\r\nIn previous versions of Blixt Wallet, the channel database would only sync with Lightning peers when the app is active (or when the background sync job runs on Android). This can be problematic as it may lead to missed channel updates,",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.8",
+        "author": "hsjoberg"
+      },
+      {
+        "tag": "v0.6.7",
+        "name": "0.6.7",
+        "published_at": "2023-05-03T17:17:20Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 742,
+        "total_downloads": 742,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-0.6.7.apk",
+            "size_bytes": 91029734,
+            "download_count": 475,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-0.6.7.apk",
+            "size_bytes": 91021542,
+            "download_count": 242,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "Lndmobile.aar",
+            "size_bytes": 55304327,
+            "download_count": 25,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "Enjoy this smaller release together with lnd 0.16.2 while we work on bigger things to come.\r\n\r\n### Common\r\n\r\n* Updated lnd to v0.16.2\r\n* Added fee estimation for Lightning payments\r\n* Added the ability to use all available onchain funds when manually opening a channel\r\n* Added the ability to create a wallet with a passphrase (25h word)\r\n\r\n### Android\r\n\r\n* Merged app GUI and lnd to the same process, this should help with app stability\r\n\r\n\r\n## Contributors\r\n\r\n- Hampus Sj\u00f6berg\r\n- Nitesh Balusu\r\n- e",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.7",
+        "author": "hsjoberg"
+      },
+      {
+        "tag": "v0.6.6",
+        "name": "v0.6.6",
+        "published_at": "2023-04-07T02:15:04Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 349,
+        "total_downloads": 349,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-0.6.6.apk",
+            "size_bytes": 90752438,
+            "download_count": 212,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-0.6.6.apk",
+            "size_bytes": 90748342,
+            "download_count": 118,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "Lndmobile.aar",
+            "size_bytes": 55021334,
+            "download_count": 19,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "Blixt Wallet is back, more robust than ever before. Enjoy this release together with [lnd v0.16](https://github.com/lightningnetwork/lnd/blob/master/docs/release-notes/release-notes-0.16.0.md).\r\n\r\n## Common\r\n\r\n* Updated lnd to v0.16\r\n* Added support for bimodal pathfinding (based on Pickhardt payments). Enable it in Settings!\r\n* Added the ability to set a label for a contact in the contact list\r\n* Sats amount on Overview screen is now grouped\r\n\r\n## Android\r\n* Lowered the scheduled sync job inter",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.6",
+        "author": "hsjoberg"
+      },
+      {
+        "tag": "v0.6.5",
+        "name": "v0.6.5",
+        "published_at": "2023-03-16T23:01:41Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 268,
+        "total_downloads": 268,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-0.6.5.apk",
+            "size_bytes": 87643574,
+            "download_count": 174,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-0.6.5.apk",
+            "size_bytes": 87639478,
+            "download_count": 69,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "Lndmobile.aar",
+            "size_bytes": 51843022,
+            "download_count": 25,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "* Added the ability to set maximum LN fee for a payment, proportional to the amount\r\n* Added the ability to change lnd log level\r\n* Fixed a bug where a paid amount-less invoice would show up as 0\r\n* Minor fixes\r\n\r\n## SHA256 hashes\r\n\r\n```\r\n966213594b8696534eb839bbdc90938f24dece104476b58ed4113b5688b971c9  Lndmobile.aar\r\n2e4956f2ef6d4084421133c134a9a3fa8592cdef67d888095d39d1d3ae662bbc  blixt-wallet-mainnet-0.6.5.apk\r\n804b9437bd0c27afc10e183be8757145c30098fe6e3507962849c17e715d1fea  blixt-wallet-tes",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.5",
+        "author": "hsjoberg"
+      },
+      {
+        "tag": "v0.6.4",
+        "name": "v0.6.4",
+        "published_at": "2023-02-16T15:42:59Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 243,
+        "total_downloads": 243,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-0.6.4.apk",
+            "size_bytes": 87635382,
+            "download_count": 140,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-0.6.4.apk",
+            "size_bytes": 87631286,
+            "download_count": 86,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "Lndmobile.aar",
+            "size_bytes": 51842018,
+            "download_count": 17,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "* Added the ability to restore with passphrase (25th word)\r\n* Add the ability to change language on the welcome screen\r\n* Fixed notifications not working on Android 13\r\n* Fixed a bug where the \"Force close\" button would appear when restoring channels via SCB\r\n* Fixed QR code not working for Keysend Experiment\r\n* Fixed camera not working for Keysend Experiment\r\n\r\n## Contributors\r\n\r\n- Hampus Sj\u00f6berg\r\n- DarthCoin\r\n- Kevin Cai\r\n- Nitesh Balusu\r\n- eikion5\r\n\r\n## SHA256 hashes\r\n\r\n```\r\n42c1b8203dc422401",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.4",
+        "author": "hsjoberg"
+      },
+      {
+        "tag": "v0.6.3",
+        "name": "v0.6.3",
+        "published_at": "2023-01-21T17:36:29Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 222,
+        "total_downloads": 222,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "blixt-wallet-mainnet-0.6.3.apk",
+            "size_bytes": 87643574,
+            "download_count": 107,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "blixt-wallet-testnet-0.6.3.apk",
+            "size_bytes": 87639478,
+            "download_count": 90,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "Lndmobile.aar",
+            "size_bytes": 51841873,
+            "download_count": 25,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "* Meraviglioso! The app has been translated to Italian\r\n* Fixed disabling strict lnd channel off not working properly. See more information in https://github.com/hsjoberg/blixt-wallet/releases/tag/v0.6.2\r\n   Note: in order to restore the channels that got pruned, you need to either restore a wallet or create a new wallet from scratch running Blixt Wallet 0.6.3\r\n* Fixed a bug where attempting to copy data to clipboard in the Lightning network info modal would crash the app\r\n* Fixed app crashes in",
+        "html_url": "https://github.com/smolcars/blixt-wallet/releases/tag/v0.6.3",
+        "author": "hsjoberg"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 2452.2,
+      "median_gap_hours": 1326.1
+    }
+  },
+  "category": "Wallets"
+}

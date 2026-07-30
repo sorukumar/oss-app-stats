@@ -14,7 +14,7 @@
     "html_url": "https://github.com/ElementsProject/lightning"
   },
   "summary": {
-    "total_downloads": 527284,
+    "total_downloads": 527298,
     "total_releases": 100,
     "stable_releases": 63,
     "pre_releases": 37,
@@ -23,9 +23,9 @@
     "days_since_latest": 8,
     "avg_cadence_days": 47.2,
     "platform_breakdown": {
-      "Linux": 159502,
-      "Other": 204968,
-      "Signatures": 162814
+      "Linux": 159510,
+      "Other": 204970,
+      "Signatures": 162818
     }
   },
   "releases": [
@@ -35,56 +35,56 @@
       "published_at": "2026-07-22T16:16:01Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 1442,
-      "total_downloads": 1442,
+      "raw_downloads": 1449,
+      "total_downloads": 1449,
       "asset_count": 7,
       "assets": [
         {
           "name": "clightning-v26.06.6-Fedora-40-amd64.tar.gz",
           "size_bytes": 250698171,
-          "download_count": 184,
+          "download_count": 185,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "clightning-v26.06.6-Ubuntu-22.04-amd64.tar.xz",
           "size_bytes": 36812148,
-          "download_count": 195,
+          "download_count": 196,
           "platform": "Linux",
           "content_type": "application/x-xz"
         },
         {
           "name": "clightning-v26.06.6-Ubuntu-24.04-amd64.tar.xz",
           "size_bytes": 36545908,
-          "download_count": 221,
+          "download_count": 222,
           "platform": "Linux",
           "content_type": "application/x-xz"
         },
         {
           "name": "clightning-v26.06.6-Ubuntu-26.04-amd64.tar.xz",
           "size_bytes": 44379192,
-          "download_count": 189,
+          "download_count": 190,
           "platform": "Linux",
           "content_type": "application/x-xz"
         },
         {
           "name": "clightning-v26.06.6.zip",
           "size_bytes": 33696203,
-          "download_count": 239,
+          "download_count": 240,
           "platform": "Other",
           "content_type": "application/zip"
         },
         {
           "name": "SHA256SUMS-v26.06.6",
           "size_bytes": 535,
-          "download_count": 210,
+          "download_count": 211,
           "platform": "Signatures",
           "content_type": "application/octet-stream"
         },
         {
           "name": "SHA256SUMS-v26.06.6.asc",
           "size_bytes": 2122,
-          "download_count": 204,
+          "download_count": 205,
           "platform": "Signatures",
           "content_type": "text/plain"
         }
@@ -99,56 +99,56 @@
       "published_at": "2026-06-29T05:07:02Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 5496,
-      "total_downloads": 5496,
+      "raw_downloads": 5503,
+      "total_downloads": 5503,
       "asset_count": 7,
       "assets": [
         {
           "name": "clightning-v26.06.2-Fedora-40-amd64.tar.gz",
           "size_bytes": 250694711,
-          "download_count": 752,
+          "download_count": 753,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "clightning-v26.06.2-Ubuntu-22.04-amd64.tar.xz",
           "size_bytes": 36814704,
-          "download_count": 810,
+          "download_count": 811,
           "platform": "Linux",
           "content_type": "application/x-xz"
         },
         {
           "name": "clightning-v26.06.2-Ubuntu-24.04-amd64.tar.xz",
           "size_bytes": 36555200,
-          "download_count": 793,
+          "download_count": 794,
           "platform": "Linux",
           "content_type": "application/x-xz"
         },
         {
           "name": "clightning-v26.06.2-Ubuntu-26.04-amd64.tar.xz",
           "size_bytes": 44376572,
-          "download_count": 755,
+          "download_count": 756,
           "platform": "Linux",
           "content_type": "application/x-xz"
         },
         {
           "name": "clightning-v26.06.2.zip",
           "size_bytes": 33694821,
-          "download_count": 817,
+          "download_count": 818,
           "platform": "Other",
           "content_type": "application/zip"
         },
         {
           "name": "SHA256SUMS-v26.06.2",
           "size_bytes": 535,
-          "download_count": 790,
+          "download_count": 791,
           "platform": "Signatures",
           "content_type": "application/x-troff-man"
         },
         {
           "name": "SHA256SUMS-v26.06.2.asc",
           "size_bytes": 833,
-          "download_count": 779,
+          "download_count": 780,
           "platform": "Signatures",
           "content_type": "text/plain"
         }
@@ -5861,7 +5861,7 @@
       "author": "cdecker"
     }
   ],
-  "fetched_at": "2026-07-30T18:58:55.679230+00:00",
+  "fetched_at": "2026-07-30T20:15:14.855687+00:00",
   "deep_dive": {
     "days_since_launch": 2952,
     "recent_stable_releases": [
@@ -5871,56 +5871,56 @@
         "published_at": "2026-07-22T16:16:01Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 1442,
-        "total_downloads": 1442,
+        "raw_downloads": 1449,
+        "total_downloads": 1449,
         "asset_count": 7,
         "assets": [
           {
             "name": "clightning-v26.06.6-Fedora-40-amd64.tar.gz",
             "size_bytes": 250698171,
-            "download_count": 184,
+            "download_count": 185,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "clightning-v26.06.6-Ubuntu-22.04-amd64.tar.xz",
             "size_bytes": 36812148,
-            "download_count": 195,
+            "download_count": 196,
             "platform": "Linux",
             "content_type": "application/x-xz"
           },
           {
             "name": "clightning-v26.06.6-Ubuntu-24.04-amd64.tar.xz",
             "size_bytes": 36545908,
-            "download_count": 221,
+            "download_count": 222,
             "platform": "Linux",
             "content_type": "application/x-xz"
           },
           {
             "name": "clightning-v26.06.6-Ubuntu-26.04-amd64.tar.xz",
             "size_bytes": 44379192,
-            "download_count": 189,
+            "download_count": 190,
             "platform": "Linux",
             "content_type": "application/x-xz"
           },
           {
             "name": "clightning-v26.06.6.zip",
             "size_bytes": 33696203,
-            "download_count": 239,
+            "download_count": 240,
             "platform": "Other",
             "content_type": "application/zip"
           },
           {
             "name": "SHA256SUMS-v26.06.6",
             "size_bytes": 535,
-            "download_count": 210,
+            "download_count": 211,
             "platform": "Signatures",
             "content_type": "application/octet-stream"
           },
           {
             "name": "SHA256SUMS-v26.06.6.asc",
             "size_bytes": 2122,
-            "download_count": 204,
+            "download_count": 205,
             "platform": "Signatures",
             "content_type": "text/plain"
           }
@@ -5935,56 +5935,56 @@
         "published_at": "2026-06-29T05:07:02Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 5496,
-        "total_downloads": 5496,
+        "raw_downloads": 5503,
+        "total_downloads": 5503,
         "asset_count": 7,
         "assets": [
           {
             "name": "clightning-v26.06.2-Fedora-40-amd64.tar.gz",
             "size_bytes": 250694711,
-            "download_count": 752,
+            "download_count": 753,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "clightning-v26.06.2-Ubuntu-22.04-amd64.tar.xz",
             "size_bytes": 36814704,
-            "download_count": 810,
+            "download_count": 811,
             "platform": "Linux",
             "content_type": "application/x-xz"
           },
           {
             "name": "clightning-v26.06.2-Ubuntu-24.04-amd64.tar.xz",
             "size_bytes": 36555200,
-            "download_count": 793,
+            "download_count": 794,
             "platform": "Linux",
             "content_type": "application/x-xz"
           },
           {
             "name": "clightning-v26.06.2-Ubuntu-26.04-amd64.tar.xz",
             "size_bytes": 44376572,
-            "download_count": 755,
+            "download_count": 756,
             "platform": "Linux",
             "content_type": "application/x-xz"
           },
           {
             "name": "clightning-v26.06.2.zip",
             "size_bytes": 33694821,
-            "download_count": 817,
+            "download_count": 818,
             "platform": "Other",
             "content_type": "application/zip"
           },
           {
             "name": "SHA256SUMS-v26.06.2",
             "size_bytes": 535,
-            "download_count": 790,
+            "download_count": 791,
             "platform": "Signatures",
             "content_type": "application/x-troff-man"
           },
           {
             "name": "SHA256SUMS-v26.06.2.asc",
             "size_bytes": 833,
-            "download_count": 779,
+            "download_count": 780,
             "platform": "Signatures",
             "content_type": "text/plain"
           }

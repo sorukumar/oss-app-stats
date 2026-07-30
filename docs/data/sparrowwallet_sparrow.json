@@ -14,7 +14,7 @@
     "html_url": "https://github.com/sparrowwallet/sparrow"
   },
   "summary": {
-    "total_downloads": 2409382,
+    "total_downloads": 2409671,
     "total_releases": 78,
     "stable_releases": 70,
     "pre_releases": 8,
@@ -23,11 +23,11 @@
     "days_since_latest": 0,
     "avg_cadence_days": 30.8,
     "platform_breakdown": {
-      "macOS": 484006,
-      "Other": 493745,
-      "Signatures": 311464,
-      "Windows": 381029,
-      "Linux": 739138
+      "macOS": 484113,
+      "Other": 493805,
+      "Signatures": 311515,
+      "Windows": 381059,
+      "Linux": 739179
     }
   },
   "releases": [
@@ -37,49 +37,49 @@
       "published_at": "2026-07-30T09:03:48Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 1740,
-      "total_downloads": 1740,
+      "raw_downloads": 2017,
+      "total_downloads": 2017,
       "asset_count": 18,
       "assets": [
         {
           "name": "Sparrow-2.5.3-aarch64.dmg",
           "size_bytes": 95654354,
-          "download_count": 567,
+          "download_count": 651,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "sparrow-2.5.3-manifest.txt",
           "size_bytes": 1543,
-          "download_count": 259,
+          "download_count": 309,
           "platform": "Other",
           "content_type": "text/plain"
         },
         {
           "name": "sparrow-2.5.3-manifest.txt.asc",
           "size_bytes": 910,
-          "download_count": 250,
+          "download_count": 300,
           "platform": "Signatures",
           "content_type": "application/octet-stream"
         },
         {
           "name": "Sparrow-2.5.3-x86_64.dmg",
           "size_bytes": 97563478,
-          "download_count": 100,
+          "download_count": 121,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "Sparrow-2.5.3.msi",
           "size_bytes": 98648064,
-          "download_count": 199,
+          "download_count": 227,
           "platform": "Windows",
           "content_type": "application/octet-stream"
         },
         {
           "name": "Sparrow-2.5.3.zip",
           "size_bytes": 97325352,
-          "download_count": 68,
+          "download_count": 75,
           "platform": "Other",
           "content_type": "application/zip"
         },
@@ -135,35 +135,35 @@
         {
           "name": "sparrowwallet-2.5.3-1.x86_64.rpm",
           "size_bytes": 102096758,
-          "download_count": 22,
+          "download_count": 23,
           "platform": "Linux",
           "content_type": "application/x-rpm"
         },
         {
           "name": "sparrowwallet-2.5.3-aarch64.tar.gz",
           "size_bytes": 102991969,
-          "download_count": 9,
+          "download_count": 11,
           "platform": "Linux",
           "content_type": "application/x-gzip"
         },
         {
           "name": "sparrowwallet-2.5.3-x86_64.tar.gz",
           "size_bytes": 102212288,
-          "download_count": 79,
+          "download_count": 100,
           "platform": "Linux",
           "content_type": "application/x-gzip"
         },
         {
           "name": "sparrowwallet_2.5.3-1_amd64.deb",
           "size_bytes": 95556544,
-          "download_count": 141,
+          "download_count": 153,
           "platform": "Linux",
           "content_type": "application/octet-stream"
         },
         {
           "name": "sparrowwallet_2.5.3-1_arm64.deb",
           "size_bytes": 95456768,
-          "download_count": 15,
+          "download_count": 16,
           "platform": "Linux",
           "content_type": "application/octet-stream"
         }
@@ -178,49 +178,49 @@
       "published_at": "2026-05-31T12:17:34Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 98969,
-      "total_downloads": 98969,
+      "raw_downloads": 98976,
+      "total_downloads": 98976,
       "asset_count": 18,
       "assets": [
         {
           "name": "Sparrow-2.5.2-aarch64.dmg",
           "size_bytes": 95525311,
-          "download_count": 37954,
+          "download_count": 37955,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "sparrow-2.5.2-manifest.txt",
           "size_bytes": 1543,
-          "download_count": 10225,
+          "download_count": 10226,
           "platform": "Other",
           "content_type": "text/plain"
         },
         {
           "name": "sparrow-2.5.2-manifest.txt.asc",
           "size_bytes": 910,
-          "download_count": 10008,
+          "download_count": 10009,
           "platform": "Signatures",
           "content_type": "application/octet-stream"
         },
         {
           "name": "Sparrow-2.5.2-x86_64.dmg",
           "size_bytes": 97610168,
-          "download_count": 12239,
+          "download_count": 12240,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "Sparrow-2.5.2.msi",
           "size_bytes": 97415168,
-          "download_count": 12311,
+          "download_count": 12313,
           "platform": "Windows",
           "content_type": "application/octet-stream"
         },
         {
           "name": "Sparrow-2.5.2.zip",
           "size_bytes": 97270771,
-          "download_count": 4994,
+          "download_count": 4995,
           "platform": "Other",
           "content_type": "application/zip"
         },
@@ -319,8 +319,8 @@
       "published_at": "2026-05-22T16:22:41Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 31574,
-      "total_downloads": 31574,
+      "raw_downloads": 31575,
+      "total_downloads": 31575,
       "asset_count": 18,
       "assets": [
         {
@@ -417,7 +417,7 @@
         {
           "name": "sparrowwallet-2.5.1-1.x86_64.rpm",
           "size_bytes": 102032482,
-          "download_count": 225,
+          "download_count": 226,
           "platform": "Linux",
           "content_type": "application/x-rpm"
         },
@@ -601,8 +601,8 @@
       "published_at": "2026-03-10T09:07:00Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 91621,
-      "total_downloads": 91621,
+      "raw_downloads": 91624,
+      "total_downloads": 91624,
       "asset_count": 18,
       "assets": [
         {
@@ -671,14 +671,14 @@
         {
           "name": "sparrowserver-2.4.2-x86_64.tar.gz",
           "size_bytes": 107478398,
-          "download_count": 262,
+          "download_count": 263,
           "platform": "Linux",
           "content_type": "application/x-gzip"
         },
         {
           "name": "sparrowserver_2.4.2-1_amd64.deb",
           "size_bytes": 102068120,
-          "download_count": 358,
+          "download_count": 359,
           "platform": "Linux",
           "content_type": "application/octet-stream"
         },
@@ -692,7 +692,7 @@
         {
           "name": "sparrowwallet-2.4.2-1.aarch64.rpm",
           "size_bytes": 108362318,
-          "download_count": 290,
+          "download_count": 291,
           "platform": "Linux",
           "content_type": "application/x-rpm"
         },
@@ -5254,8 +5254,8 @@
       "published_at": "2022-08-04T11:46:15Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 45271,
-      "total_downloads": 45271,
+      "raw_downloads": 45272,
+      "total_downloads": 45272,
       "asset_count": 9,
       "assets": [
         {
@@ -5275,7 +5275,7 @@
         {
           "name": "sparrow-1.6.6-manifest.txt",
           "size_bytes": 621,
-          "download_count": 7311,
+          "download_count": 7312,
           "platform": "Other",
           "content_type": "text/plain"
         },
@@ -7873,7 +7873,7 @@
       "author": "craigraw"
     }
   ],
-  "fetched_at": "2026-07-30T18:58:39.896566+00:00",
+  "fetched_at": "2026-07-30T20:14:46.830439+00:00",
   "deep_dive": {
     "days_since_launch": 2299,
     "recent_stable_releases": [
@@ -7883,49 +7883,49 @@
         "published_at": "2026-07-30T09:03:48Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 1740,
-        "total_downloads": 1740,
+        "raw_downloads": 2017,
+        "total_downloads": 2017,
         "asset_count": 18,
         "assets": [
           {
             "name": "Sparrow-2.5.3-aarch64.dmg",
             "size_bytes": 95654354,
-            "download_count": 567,
+            "download_count": 651,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "sparrow-2.5.3-manifest.txt",
             "size_bytes": 1543,
-            "download_count": 259,
+            "download_count": 309,
             "platform": "Other",
             "content_type": "text/plain"
           },
           {
             "name": "sparrow-2.5.3-manifest.txt.asc",
             "size_bytes": 910,
-            "download_count": 250,
+            "download_count": 300,
             "platform": "Signatures",
             "content_type": "application/octet-stream"
           },
           {
             "name": "Sparrow-2.5.3-x86_64.dmg",
             "size_bytes": 97563478,
-            "download_count": 100,
+            "download_count": 121,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "Sparrow-2.5.3.msi",
             "size_bytes": 98648064,
-            "download_count": 199,
+            "download_count": 227,
             "platform": "Windows",
             "content_type": "application/octet-stream"
           },
           {
             "name": "Sparrow-2.5.3.zip",
             "size_bytes": 97325352,
-            "download_count": 68,
+            "download_count": 75,
             "platform": "Other",
             "content_type": "application/zip"
           },
@@ -7981,35 +7981,35 @@
           {
             "name": "sparrowwallet-2.5.3-1.x86_64.rpm",
             "size_bytes": 102096758,
-            "download_count": 22,
+            "download_count": 23,
             "platform": "Linux",
             "content_type": "application/x-rpm"
           },
           {
             "name": "sparrowwallet-2.5.3-aarch64.tar.gz",
             "size_bytes": 102991969,
-            "download_count": 9,
+            "download_count": 11,
             "platform": "Linux",
             "content_type": "application/x-gzip"
           },
           {
             "name": "sparrowwallet-2.5.3-x86_64.tar.gz",
             "size_bytes": 102212288,
-            "download_count": 79,
+            "download_count": 100,
             "platform": "Linux",
             "content_type": "application/x-gzip"
           },
           {
             "name": "sparrowwallet_2.5.3-1_amd64.deb",
             "size_bytes": 95556544,
-            "download_count": 141,
+            "download_count": 153,
             "platform": "Linux",
             "content_type": "application/octet-stream"
           },
           {
             "name": "sparrowwallet_2.5.3-1_arm64.deb",
             "size_bytes": 95456768,
-            "download_count": 15,
+            "download_count": 16,
             "platform": "Linux",
             "content_type": "application/octet-stream"
           }
@@ -8024,49 +8024,49 @@
         "published_at": "2026-05-31T12:17:34Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 98969,
-        "total_downloads": 98969,
+        "raw_downloads": 98976,
+        "total_downloads": 98976,
         "asset_count": 18,
         "assets": [
           {
             "name": "Sparrow-2.5.2-aarch64.dmg",
             "size_bytes": 95525311,
-            "download_count": 37954,
+            "download_count": 37955,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "sparrow-2.5.2-manifest.txt",
             "size_bytes": 1543,
-            "download_count": 10225,
+            "download_count": 10226,
             "platform": "Other",
             "content_type": "text/plain"
           },
           {
             "name": "sparrow-2.5.2-manifest.txt.asc",
             "size_bytes": 910,
-            "download_count": 10008,
+            "download_count": 10009,
             "platform": "Signatures",
             "content_type": "application/octet-stream"
           },
           {
             "name": "Sparrow-2.5.2-x86_64.dmg",
             "size_bytes": 97610168,
-            "download_count": 12239,
+            "download_count": 12240,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "Sparrow-2.5.2.msi",
             "size_bytes": 97415168,
-            "download_count": 12311,
+            "download_count": 12313,
             "platform": "Windows",
             "content_type": "application/octet-stream"
           },
           {
             "name": "Sparrow-2.5.2.zip",
             "size_bytes": 97270771,
-            "download_count": 4994,
+            "download_count": 4995,
             "platform": "Other",
             "content_type": "application/zip"
           },
@@ -8165,8 +8165,8 @@
         "published_at": "2026-05-22T16:22:41Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 31574,
-        "total_downloads": 31574,
+        "raw_downloads": 31575,
+        "total_downloads": 31575,
         "asset_count": 18,
         "assets": [
           {
@@ -8263,7 +8263,7 @@
           {
             "name": "sparrowwallet-2.5.1-1.x86_64.rpm",
             "size_bytes": 102032482,
-            "download_count": 225,
+            "download_count": 226,
             "platform": "Linux",
             "content_type": "application/x-rpm"
           },
@@ -8447,8 +8447,8 @@
         "published_at": "2026-03-10T09:07:00Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 91621,
-        "total_downloads": 91621,
+        "raw_downloads": 91624,
+        "total_downloads": 91624,
         "asset_count": 18,
         "assets": [
           {
@@ -8517,14 +8517,14 @@
           {
             "name": "sparrowserver-2.4.2-x86_64.tar.gz",
             "size_bytes": 107478398,
-            "download_count": 262,
+            "download_count": 263,
             "platform": "Linux",
             "content_type": "application/x-gzip"
           },
           {
             "name": "sparrowserver_2.4.2-1_amd64.deb",
             "size_bytes": 102068120,
-            "download_count": 358,
+            "download_count": 359,
             "platform": "Linux",
             "content_type": "application/octet-stream"
           },
@@ -8538,7 +8538,7 @@
           {
             "name": "sparrowwallet-2.4.2-1.aarch64.rpm",
             "size_bytes": 108362318,
-            "download_count": 290,
+            "download_count": 291,
             "platform": "Linux",
             "content_type": "application/x-rpm"
           },

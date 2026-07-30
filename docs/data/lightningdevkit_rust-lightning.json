@@ -4,10 +4,10 @@
     "repo": "rust-lightning",
     "name": "LDK",
     "full_name": "lightningdevkit/rust-lightning",
-    "description": "A Complete Bitcoin Lightning Library in Rust.\nHandles the core functionality of the Lightning Network, allowing clients to implement custom wallet, chain interactions, storage and network logic without enforcing a specific runtime.\n",
-    "stars": 0,
-    "forks": 0,
-    "open_issues": 0,
+    "description": "Active development happens on git.rust-bitcoin.org, this repo is a mirror of https://git.rust-bitcoin.org/lightningdevkit/rust-lightning",
+    "stars": 1365,
+    "forks": 477,
+    "open_issues": 278,
     "language": "Rust",
     "license": false,
     "homepage": null,
@@ -1468,7 +1468,7 @@
       "author": "crates.io"
     }
   ],
-  "fetched_at": "2026-07-30T18:58:57.297536+00:00",
+  "fetched_at": "2026-07-30T20:15:16.636354+00:00",
   "deep_dive": {
     "days_since_launch": 3079,
     "recent_stable_releases": [

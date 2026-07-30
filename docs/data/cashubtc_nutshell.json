@@ -1,0 +1,822 @@
+{
+  "project": {
+    "owner": "cashubtc",
+    "repo": "nutshell",
+    "name": "Cashu",
+    "full_name": "cashubtc/nutshell",
+    "description": "Chaumian ecash wallet and mint for Bitcoin",
+    "stars": 493,
+    "forks": 174,
+    "open_issues": 147,
+    "language": "Python",
+    "license": "MIT",
+    "homepage": "https://docs.cashu.space",
+    "html_url": "https://github.com/cashubtc/nutshell"
+  },
+  "summary": {
+    "total_downloads": 158,
+    "total_releases": 33,
+    "stable_releases": 28,
+    "pre_releases": 5,
+    "latest_version": "0.20.3",
+    "latest_date": "2026-07-22T08:33:49Z",
+    "days_since_latest": 8,
+    "avg_cadence_days": 44.7,
+    "platform_breakdown": {
+      "Other": 158
+    }
+  },
+  "releases": [
+    {
+      "tag": "0.20.3",
+      "name": "0.20.3",
+      "published_at": "2026-07-22T08:33:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "# Nutshell 0.20.3\r\n\r\n> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint (and wallet). Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\nNutshell 0.20.3 adds P2BK and Spark support, plus mint UX and reliability improvements.\r\n\r\n## Notable Changes\r\n\r\n### Mint\r\n- **NUT-28 P2BK (Pay-to-Blinded-Key):** lock ecash to a receiver without revealing their pubkey to the mint (silent payments / payment unlinkability).\r\n- **Spark L2 wallet",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.20.3",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.20.2",
+      "name": "0.20.2",
+      "published_at": "2026-07-03T09:39:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "# Nutshell 0.20.2\r\n\r\nNutshell 0.20.2 is mostly a hardening release for the mint and wallet.\r\n\r\n## Notable Changes\r\n\r\n### Mint\r\n- **Hardened NUT-29 batched minting:** batch minting endpoints now enforce authentication and apply stricter validation/length limits on incoming batch requests.\r\n- **More reliable pending-proof and melt-quote resolution:** fixed hangs from internal settlement failures.\r\n- **Quote and subscription IDs now use UUIDv7** for improved uniqueness and sortability.\r\n- **Websock",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.20.2",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.20.1",
+      "name": "0.20.1",
+      "published_at": "2026-05-31T14:22:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n# Notable Changes\r\n## Features\r\n### NUT-29 Batched Minting\r\nThe mint now supports [NUT-29](https://github.com/cashubtc/nuts/blob/main/29.md) batched minting, allowing multiple mint quotes to be processed in a single batch operation. New endpoints `POST /v1/mint/quote/bolt11/check` and `POST /v1/mint/bolt11/batch` have been add",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.20.1",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.20.0",
+      "name": "0.20.0",
+      "published_at": "2026-03-31T16:43:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n# Keysets V2\r\nNutshell is now using the new [keyset V2](https://github.com/cashubtc/nuts/blob/main/02.md) format which due to its larger size prevents keyset ID collisions.\r\n\r\n## Notable changes\r\n### Mint\r\n- management CLI improvements\r\n- database optimizations\r\n- USD support for Blink backend\r\n\r\n### Wallet\r\n- create P2PK lock",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.20.0",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.19.2",
+      "name": "0.19.2",
+      "published_at": "2026-02-19T13:49:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n## What's Changed\r\n* feat(core+cli): add NUT-18 Payment Request support by @a1denvalu3 in https://github.com/cashubtc/nutshell/pull/891\r\n* fix: no witness if no spending condition by @callebtc in https://github.com/cashubtc/nutshell/pull/894\r\n* fix: tests by @callebtc in https://github.com/cashubtc/nutshell/pull/895\r\n* bump to",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.19.2",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.19.0",
+      "name": "0.19.0",
+      "published_at": "2026-02-13T16:29:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## Wallet\r\n- Lightning address support via npubx.cash\r\n\r\n## Mint\r\n- Background sync for unpaid invoices\r\n- Tor service\r\n\r\n## NUTs\r\n- new P2PK spending rules (https://github.com/cashubtc/nutshell/pull/842)\r\n- keyset metadata in keysets response (https://github.com/cashubtc/nutshell/pull/868)\r\n\r\n## What's Changed\r\n* Fix a typo in an error message by @jooray in https://github.com/cashubtc/nutshell/pull/836\r\n* Wallet: remove nostr by @callebtc in https://github.com/cashubtc/nutshell/pull/833\r\n* docs",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.19.0",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.18.2",
+      "name": "0.18.2",
+      "published_at": "2025-11-21T09:44:30Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 40,
+      "total_downloads": 40,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "cashu-0.18.2-py3-none-any.whl",
+          "size_bytes": 7131371,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "cashu-0.18.2.tar.gz",
+          "size_bytes": 7032365,
+          "download_count": 24,
+          "platform": "Other",
+          "content_type": "application/x-gzip"
+        }
+      ],
+      "body_excerpt": " This release introduces updated default mint fees and several bug fixes across both the mint and wallet.\r\n\r\n## Default Fees\r\n\r\nNew mints now use a default fee of `100 ppk`. This value can be changed via the `.env` parameter:\r\n\r\n```\r\nMINT_INPUT_FEE_PPK=100\r\n```\r\n\r\n### Recap: How Cashu fees work\r\n\r\nFees in Cashu are based on the number of inputs in a transaction (see [NUT-02](https://github.com/cashubtc/nuts/blob/main/02.md#fees)). Each proof counted as an input contributes linearly to total fees",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.18.2",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.18.1",
+      "name": "0.18.1",
+      "published_at": "2025-11-05T00:18:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 18,
+      "total_downloads": 18,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "cashu-0.18.1-py3-none-any.whl",
+          "size_bytes": 13899022,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "cashu-0.18.1.tar.gz",
+          "size_bytes": 13729090,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/x-gzip"
+        }
+      ],
+      "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n## Fixes\r\n- Clean up large witnesses that might contaminate the database due to the lack of a size check on the HTLC preimage size.\r\n- Remove timeout for Lightning backend HTTP connections.\r\n\r\n## What's Changed\r\n* Mint: migration to clean up overly large witnesses by @callebtc in https://github.com/cashubtc/nutshell/pull/817\r\n",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.18.1",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.18.0",
+      "name": "0.18.0",
+      "published_at": "2025-10-28T11:58:21Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 24,
+      "total_downloads": 24,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "cashu-0.18.0-py3-none-any.whl",
+          "size_bytes": 13898046,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "cashu-0.18.0.tar.gz",
+          "size_bytes": 13728310,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/x-gzip"
+        }
+      ],
+      "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n### New Features\r\n\r\n#### Mint management via gRPC\r\nMint management gRPC server for integration with management UI [Orchard](https://github.com/orangeshyguy21/orchard) and a CLI tool that can send commands to the Mint while it's running.\r\n\r\n### Additional Protocol Updates\r\n- NUT-04: Create invoices with a description.\r\n\r\n### Fi",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.18.0",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.17.1",
+      "name": "0.17.1",
+      "published_at": "2025-06-01T10:23:11Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This release includes a hotfix for the updated LNbits v1 backend API. \r\n\r\n## What's Changed\r\n* Add NUT-23 setting constant by @callebtc in https://github.com/cashubtc/nutshell/pull/763\r\n* Another changes for LNbits API by @iWarpBTC in https://github.com/cashubtc/nutshell/pull/739\r\n\r\n\r\n**Full Changelog**: https://github.com/cashubtc/nutshell/compare/0.17.0...0.17.1",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.17.1",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.17.0",
+      "name": "0.17.0",
+      "published_at": "2025-05-19T10:47:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n### New Features\r\n\r\n#### Blind Authentication\r\n- **Limit mint access using Clear and Blind Authentication.** Nutshell now supports **NUT-21** and **NUT-22**, enabling the use of OAuth 2.0 identity providers like Keycloak (or any compatible provider). This allows you to create closed systems where only **registered users** of a",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.17.0",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.17.0-rc1",
+      "name": "0.17.0-rc1",
+      "published_at": "2025-05-13T16:02:49Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "> [!IMPORTANT]\r\n>\r\n> This release candidate is not meant to be used in production.\r\n\r\n> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n### New Features\r\n\r\n#### Blind Authentication\r\n- **Limit mint access using Clear and Blind Authentication.** Nutshell now supports **NUT-21** and **NUT-22**, enabling the use of OAuth 2.0 identity providers like Keycloak (or any compatible pr",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.17.0-rc1",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.16.5",
+      "name": "0.16.5",
+      "published_at": "2025-01-29T21:41:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This maintenance release contains various bug fixes for the mint and the wallet. Most notably, overpaid Lightning fees are now issued to the user at the next restart of the mint in cases where the mint has crashed or turned off while an outgoing Lightning payment was still pending.\r\n\r\n## What's Changed\r\n* Add restart policy for Redis Docker container by @callebtc in https://github.com/cashubtc/nutshell/pull/687\r\n* update asyncpg 0.29.0 -> 0.30.0 to make Python 3.13 happy by @prusnak in https://g",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.16.5",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.16.4",
+      "name": "0.16.4",
+      "published_at": "2025-01-03T23:02:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This release brings two new protocol spec updates to nutshell, NUT-19 and NUT-20 (thank you @lollerfirst). It also includes a new HTTP compression middleware (thank you @ok300) and several bug fixes.\r\n\r\n> [!NOTE]\r\n>\r\n> Don't forget to run `poetry install` if you update nutshell from the GitHub repository.\r\n\r\n## NUT-19: Cached Response\r\nThe nutshell mint now supports [NUT-19](https://github.com/cashubtc/nuts/blob/main/19.md) cached responses using [Redis](https://redis.io/). The mint will replay ",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.16.4",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.16.3",
+      "name": "0.16.3",
+      "published_at": "2024-11-14T14:41:26Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is a service update fixing a number of bugs and other minor issues.\r\n\r\n## Mint\r\n* bolt11 invoices with different units on the same mint now settle externally via the Lightning network\r\n* Turn on multipath payments (MPP) by default for LND and CLN\r\n* NUT-06: Signal alternative URLs to reach the mint from using `.env` var `MINT_INFO_URLS`\r\n* Fix: Signal NUT-14 support (HTLCs) in info endpoint\r\n* Fix: Return LN preimage in lookup of successful melt quote\r\n\r\n## Wallet\r\n* Store Lightning invoice",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.16.3",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.16.2",
+      "name": "0.16.2",
+      "published_at": "2024-11-04T08:07:13Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## 0.16.2\r\n\r\nThis hot fix disables a feature introduced in 0.16.1 that prevented proofs from getting stuck in case where the Lightning backend is detected to be malfunctioning. In that case, the mint would lock all Lightning payments and return the error \"Melt is disabled. Please contact the operator.\". \r\n\r\nTests have shown that this feature triggers in too many unrelated cases which is why it is disabled by default now. To manually turn on this feature, set the `.env` variable `MINT_DISABLE_MEL",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.16.2",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.16.1",
+      "name": "0.16.1",
+      "published_at": "2024-10-30T14:48:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This update brings several bug fixes and stability improvements to nutshell. It also adds support for LND via gRPC.\r\n\r\n## Mint\r\n\r\n- Support for LND via gRPC for `LndRPCWallet`\r\n- NUT-15 Multinut payments for `CLNRestWallet`\r\n- Stability improvements\r\n\r\n## Wallet\r\n- Several minor bug fixes\r\n\r\n## Protocol\r\n- NUT-06: Announce local time\r\n- NUT-06: Announce icon URL with the `.env` flag `MINT_INFO_ICON`\r\n- NUT-04: Mint invoices with a description\r\n- Fix: HTLC signature model \r\n\r\n## Updating\r\n\r\n**Not",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.16.1",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.16.0",
+      "name": "0.16.0",
+      "published_at": "2024-07-25T10:06:27Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is major release comes with a ton of new features, bug fixes, performance improvements, and protocol updates. We have a new binary token format that is smaller, the wallet got a lot smarter with coin selection, the nutshell mint and wallet now support ecash fees, WebSocket updates, Multinut payments, and much more. \r\n\r\n_This release includes a database migration for the mint. Make sure to back up your mint database before upgrading._\r\n\r\n# New features\r\n\r\n### New binary token format\r\n\r\nThe C",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.16.0",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.16.0-rc3",
+      "name": "0.16.0-rc3",
+      "published_at": "2024-07-24T05:19:38Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is a huge major release with tons of new features, bug fixes, performance improvements, and protocol updates. We have a new binary token format that is smaller, the wallet got a lot smarter with coin selection, the nutshell mint and wallet now support ecash fees, WebSocket updates, Multinut payments, and so much more. \r\n\r\n_This release includes a database migration for the mint. Make sure to back up your mint database before upgrading._\r\n\r\n# New features\r\n\r\n### New binary token format\r\n\r\nTh",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.16.0-rc3",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.16.0-rc2",
+      "name": "0.16.0-rc2",
+      "published_at": "2024-07-17T12:18:18Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 16,
+      "total_downloads": 16,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "cashu-0.16.0-py3-none-any.whl",
+          "size_bytes": 13641768,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "cashu-0.16.0.tar.gz",
+          "size_bytes": 13456543,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/x-gzip"
+        }
+      ],
+      "body_excerpt": "This is a huge major release with tons of new features, bug fixes, performance improvements, and protocol updates. We have a new binary token format that is smaller, the wallet got a lot smarter with coin selection, the nutshell mint and wallet now support ecash fees, WebSocket updates, Multinut payments, and so much more. \r\n\r\n_This release includes a database migration for the mint. Make sure to back up your mint database before upgrading._\r\n\r\n# New features\r\n\r\n### New binary token format\r\n\r\nTh",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.16.0-rc2",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.16.0-rc1",
+      "name": "0.16.0-rc1",
+      "published_at": "2024-07-16T09:16:45Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 11,
+      "total_downloads": 11,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "cashu-0.16.0-py3-none-any.whl",
+          "size_bytes": 13641329,
+          "download_count": 6,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "cashu-0.16.0.tar.gz",
+          "size_bytes": 13456414,
+          "download_count": 5,
+          "platform": "Other",
+          "content_type": "application/x-gzip"
+        }
+      ],
+      "body_excerpt": "This is a huge major release with tons of new features, bug fixes, performance improvements, and protocol updates. We have a new binary token format that is smaller, the wallet got a lot smarter with coin selection, the nutshell mint and wallet now support ecash fees, WebSocket updates, Multinut payments, and so much more. \r\n\r\n_This release includes a database migration for the mint. Make sure to back up your mint database before upgrading._\r\n\r\n# New features\r\n\r\n### New binary token format\r\n\r\nTh",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.16.0-rc1",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.15.3",
+      "name": "0.15.3",
+      "published_at": "2024-04-19T10:12:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n\r\n_This release includes a database migration for the mint. Make sure to back up your mint database before upgrading._\r\n\r\nThis update improves the crash resistance of a mint. If the mint should fail during an outgoing Lightning payment, the startup routine will now pick up those payments and invalidate all pending proofs associated with them if the payment succeeded. \r\n\r\nThe wallet can now check pending invoices thanks to work by @Guilospanck using the command `cashu invoices`",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.15.3",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.15.2",
+      "name": "0.15.2",
+      "published_at": "2024-03-26T21:02:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This update introduces a built-in  rate limiter to the mint. It also includes multiple improvements for automated testing of USD backends and various other stability updates and bug fixes. \r\n\r\n### Mint\r\n* Mint: Add Slowapi rate limiter by @callebtc in https://github.com/cashubtc/nutshell/pull/481\r\n* Mint: FakeWallet support for USD by @callebtc in https://github.com/cashubtc/nutshell/pull/488\r\n* Set `sat` and `usd` wallets separately in `.env` (`MINT_BACKEND_BOLT11_SAT`, `MINT_BACKEND_BOLT11_USD",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.15.2",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.15.1",
+      "name": "0.15.1",
+      "published_at": "2024-03-17T12:31:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This update introduces Blink as a Lightning backend for the mint and includes various other housekeeping items with smaller bug fixes. \r\n\r\n_This release includes a database migration for the mint. Make sure to back up your mint database before upgrading._\r\n\r\n### Mint\r\n- Add Blink as a Lightning funding source\r\n- Fix: Quote expiry with absolute Unix time\r\n- Fix: Catch `CashuErrors` and print them nicely\r\n- Fix: Do not check MeltQuote status before payment attempt\r\n- Fix: Mint seed encryption `cas",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.15.1",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.15.0",
+      "name": "0.15.0",
+      "published_at": "2024-02-15T17:38:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "# Nutshell upgrades to Cashu v1\r\n\r\nThe [Cashu protocol](https://github.com/cashubtc/nuts/) has recently been updated to its first stable version. This release of Nutshell now supports the v1 protocol. The Cashu v1 protocol paves the way for Ecash with multiple denominations (sat, msat, usd, ...) and payment methods (Lightning, On-chain, ...). This update has been a long time in the making, with significant changes in the overall software architecture and several database migrations.\r\n\r\n*Mint run",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.15.0",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.14.1",
+      "name": "0.14.1",
+      "published_at": "2023-12-19T09:37:04Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## Updates in a Nutshell\r\n\r\n- Stateless Mint: Nutshell mint can now be run \"stateless\" meaning that all state is in the database. This is a step towards being able to run multiple mints workers in parallel for heavy load scenarios.\r\n- Max balance for mints: a new `MINT_MAX_BALANCE` environment flag makes sure that the mint can only hold a maximum amount.\r\n- CLI: Create an invoice without blocking with `cashu invoice <amount> -n`\r\n\r\n## What's Changed\r\n* Mint: Add LndRest and regtest tests by @cal",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.14.1",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.14.0",
+      "name": "0.14.0",
+      "published_at": "2023-11-14T19:39:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 19,
+      "total_downloads": 19,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "cashu-0.14.0-py3-none-any.whl",
+          "size_bytes": 13523414,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "cashu-0.14.0.tar.gz",
+          "size_bytes": 13396665,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/x-gzip"
+        }
+      ],
+      "body_excerpt": "Nutshell `0.14.0` brings many new features and improvements. These include a completely redesigned approach to use ecash spending conditions (programmable ecash) and the ability to transact offline (using offline signature validation). Protocol changes are according to the new [specifications](https://github.com/cashubtc/nuts/) NUT-10, NUT-11, and NUT-12.\r\n\r\n## Protocol updates\r\n**Well-known spending conditions**\r\n\r\nNutshell now supports [NUT-10](https://github.com/cashubtc/nuts/blob/main/10.md)",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.14.0",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.14.0-rc2",
+      "name": "DLEQ + P2PK - RC2",
+      "published_at": "2023-10-18T13:25:50Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is a release candidate for Cashu Nutshell 0.14.0.\r\n\r\n## What's Changed\r\n* Ledger: add more type hints by @callebtc in https://github.com/cashubtc/nutshell/pull/330\r\n* Docker: Add wallet daemon and `docker-compose.yml` by @callebtc in https://github.com/cashubtc/nutshell/pull/321\r\n* Wallet: fix secret derivation & new CLI command `cashu selfpay` by @callebtc in https://github.com/cashubtc/nutshell/pull/331\r\n* update readme by @callebtc in https://github.com/cashubtc/nutshell/pull/336\r\n* read",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.14.0-rc2",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.13.0",
+      "name": "0.13.0 \u2013 Ecash backups",
+      "published_at": "2023-07-26T10:52:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This update marks a significant milestone in the journey of Cashu. Cashu aims to be\u00a0an open ecash protocol for the web built on Bitcoin. In order to fulfill this promise, ecash must become easy and safe to use. One of the big challenges for ecash lies in its barer asset nature: if you lose your wallet, your funds are gone. Not anymore!\r\n\r\n## Background: Deterministic secret derivation\r\n\r\nTypically, ecash is minted by generating random data and receiving a mint's blind signature on it. However, w",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.13.0",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.12.3",
+      "name": "0.12.3 - P2PK",
+      "published_at": "2023-07-08T21:19:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## Pay to pubkey \u2013 P2PK\r\n\r\n> Getting ready for a new type of Nostr zaps\r\n\r\nThis Nutshell release introduces a new token lock type called [Pay-to-Pubkey](https://github.com/cashubtc/cashu/pull/270) or P2PK. This allows you to create ecash tokens that can only be spent by their designated recipient. A token locked with P2PK can be posted online without any third party being able to spend it. \r\n\r\n### Using P2PK\r\n\r\n- The receiver generates a public key lock via `cashu lock`. \r\n- The sender locks tok",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.12.3",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.12.1-hotfix",
+      "name": "0.12.1",
+      "published_at": "2023-06-23T18:30:07Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This release includes a ton of performance and stability improvements!\r\n\r\n# NUTs:\r\n- Dynamic change output amounts ([NUT-08 update](https://github.com/cashubtc/nuts/pull/5))\r\n\r\n# Mint:\r\n- Use `httpx` library instead of `requests` for asynchronous operations\r\n- Transition from using DB locks to asyncio locks (for compatibility with RaspberryPi systems and LNbits)\r\n\r\n# Wallet:\r\n- Huge performance increase thanks to db optimizations\r\n- Multimint swaps in Nutshell! Enter `cashu swap` or use the wall",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.12.1-hotfix",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.12.0",
+      "name": "Big nut energy",
+      "published_at": "2023-05-12T15:34:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 30,
+      "total_downloads": 30,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "cashu-0.12.0-py3-none-any.whl",
+          "size_bytes": 13481496,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "cashu-0.12.0.tar.gz",
+          "size_bytes": 13366421,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/x-gzip"
+        }
+      ],
+      "body_excerpt": "# So many new things\r\n\r\n## Wallet REST API, TokenV3, coin selection\r\nThis new release of Nutshell will make you go nuts!\r\n\r\n## Wallet: New TokenV3 format\r\nThe new [TokenV3 format](https://github.com/cashubtc/nuts/blob/main/00.md#023---v3-tokens) makes it a lot easier to parse Cashu tokens. It is already supported by all known Cashu wallets.\r\n*  by @callebtc in https://github.com/cashubtc/cashu/pull/149\r\n\r\n## Wallet: coin selection of all tokens from old epochs \r\nIf the a mint rotates its keys to",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.12.0",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.10.0",
+      "name": "NUT-08: Lower Lightning fees",
+      "published_at": "2023-03-19T14:38:16Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "- Implements [NUT-08](https://github.com/cashubtc/nuts/blob/main/08.md): mint returns overpaid Lightning fees to wallet\r\n- New FakeWallet backend for testing\r\n- PostgreSQL support enabled (@trbouma) \r\n- CLI improvements (@sihamon)\r\n- Use Pydantic settings class\r\n\r\n**Mint runners:** a few config flags have changed with 0.10.0:\r\n\r\n```bash\r\nMINT_SERVER_HOST -> MINT_LISTEN_HOST\r\nMINT_SERVER_PORT -> MINT_LISTEN_PORT\r\nLNBITS_ENDPOINT -> MINT_LNBITS_ENDPOINT\r\nLNBITS_KEY -> MINT_LNBITS_KEY\r\n```\r\n\r\n**New",
+      "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.10.0",
+      "author": "callebtc"
+    }
+  ],
+  "fetched_at": "2026-07-30T20:15:22.848998+00:00",
+  "deep_dive": {
+    "days_since_launch": 1220,
+    "recent_stable_releases": [
+      {
+        "tag": "0.20.3",
+        "name": "0.20.3",
+        "published_at": "2026-07-22T08:33:49Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 0,
+        "total_downloads": 0,
+        "asset_count": 0,
+        "assets": [],
+        "body_excerpt": "# Nutshell 0.20.3\r\n\r\n> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint (and wallet). Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\nNutshell 0.20.3 adds P2BK and Spark support, plus mint UX and reliability improvements.\r\n\r\n## Notable Changes\r\n\r\n### Mint\r\n- **NUT-28 P2BK (Pay-to-Blinded-Key):** lock ecash to a receiver without revealing their pubkey to the mint (silent payments / payment unlinkability).\r\n- **Spark L2 wallet",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.20.3",
+        "author": "callebtc"
+      },
+      {
+        "tag": "0.20.2",
+        "name": "0.20.2",
+        "published_at": "2026-07-03T09:39:41Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 0,
+        "total_downloads": 0,
+        "asset_count": 0,
+        "assets": [],
+        "body_excerpt": "# Nutshell 0.20.2\r\n\r\nNutshell 0.20.2 is mostly a hardening release for the mint and wallet.\r\n\r\n## Notable Changes\r\n\r\n### Mint\r\n- **Hardened NUT-29 batched minting:** batch minting endpoints now enforce authentication and apply stricter validation/length limits on incoming batch requests.\r\n- **More reliable pending-proof and melt-quote resolution:** fixed hangs from internal settlement failures.\r\n- **Quote and subscription IDs now use UUIDv7** for improved uniqueness and sortability.\r\n- **Websock",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.20.2",
+        "author": "callebtc"
+      },
+      {
+        "tag": "0.20.1",
+        "name": "0.20.1",
+        "published_at": "2026-05-31T14:22:32Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 0,
+        "total_downloads": 0,
+        "asset_count": 0,
+        "assets": [],
+        "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n# Notable Changes\r\n## Features\r\n### NUT-29 Batched Minting\r\nThe mint now supports [NUT-29](https://github.com/cashubtc/nuts/blob/main/29.md) batched minting, allowing multiple mint quotes to be processed in a single batch operation. New endpoints `POST /v1/mint/quote/bolt11/check` and `POST /v1/mint/bolt11/batch` have been add",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.20.1",
+        "author": "callebtc"
+      },
+      {
+        "tag": "0.20.0",
+        "name": "0.20.0",
+        "published_at": "2026-03-31T16:43:35Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 0,
+        "total_downloads": 0,
+        "asset_count": 0,
+        "assets": [],
+        "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n# Keysets V2\r\nNutshell is now using the new [keyset V2](https://github.com/cashubtc/nuts/blob/main/02.md) format which due to its larger size prevents keyset ID collisions.\r\n\r\n## Notable changes\r\n### Mint\r\n- management CLI improvements\r\n- database optimizations\r\n- USD support for Blink backend\r\n\r\n### Wallet\r\n- create P2PK lock",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.20.0",
+        "author": "callebtc"
+      },
+      {
+        "tag": "0.19.2",
+        "name": "0.19.2",
+        "published_at": "2026-02-19T13:49:20Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 0,
+        "total_downloads": 0,
+        "asset_count": 0,
+        "assets": [],
+        "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n## What's Changed\r\n* feat(core+cli): add NUT-18 Payment Request support by @a1denvalu3 in https://github.com/cashubtc/nutshell/pull/891\r\n* fix: no witness if no spending condition by @callebtc in https://github.com/cashubtc/nutshell/pull/894\r\n* fix: tests by @callebtc in https://github.com/cashubtc/nutshell/pull/895\r\n* bump to",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.19.2",
+        "author": "callebtc"
+      },
+      {
+        "tag": "0.19.0",
+        "name": "0.19.0",
+        "published_at": "2026-02-13T16:29:35Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 0,
+        "total_downloads": 0,
+        "asset_count": 0,
+        "assets": [],
+        "body_excerpt": "## Wallet\r\n- Lightning address support via npubx.cash\r\n\r\n## Mint\r\n- Background sync for unpaid invoices\r\n- Tor service\r\n\r\n## NUTs\r\n- new P2PK spending rules (https://github.com/cashubtc/nutshell/pull/842)\r\n- keyset metadata in keysets response (https://github.com/cashubtc/nutshell/pull/868)\r\n\r\n## What's Changed\r\n* Fix a typo in an error message by @jooray in https://github.com/cashubtc/nutshell/pull/836\r\n* Wallet: remove nostr by @callebtc in https://github.com/cashubtc/nutshell/pull/833\r\n* docs",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.19.0",
+        "author": "callebtc"
+      },
+      {
+        "tag": "0.18.2",
+        "name": "0.18.2",
+        "published_at": "2025-11-21T09:44:30Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 40,
+        "total_downloads": 40,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "cashu-0.18.2-py3-none-any.whl",
+            "size_bytes": 7131371,
+            "download_count": 16,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "cashu-0.18.2.tar.gz",
+            "size_bytes": 7032365,
+            "download_count": 24,
+            "platform": "Other",
+            "content_type": "application/x-gzip"
+          }
+        ],
+        "body_excerpt": " This release introduces updated default mint fees and several bug fixes across both the mint and wallet.\r\n\r\n## Default Fees\r\n\r\nNew mints now use a default fee of `100 ppk`. This value can be changed via the `.env` parameter:\r\n\r\n```\r\nMINT_INPUT_FEE_PPK=100\r\n```\r\n\r\n### Recap: How Cashu fees work\r\n\r\nFees in Cashu are based on the number of inputs in a transaction (see [NUT-02](https://github.com/cashubtc/nuts/blob/main/02.md#fees)). Each proof counted as an input contributes linearly to total fees",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.18.2",
+        "author": "callebtc"
+      },
+      {
+        "tag": "0.18.1",
+        "name": "0.18.1",
+        "published_at": "2025-11-05T00:18:03Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 18,
+        "total_downloads": 18,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "cashu-0.18.1-py3-none-any.whl",
+            "size_bytes": 13899022,
+            "download_count": 7,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "cashu-0.18.1.tar.gz",
+            "size_bytes": 13729090,
+            "download_count": 11,
+            "platform": "Other",
+            "content_type": "application/x-gzip"
+          }
+        ],
+        "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n## Fixes\r\n- Clean up large witnesses that might contaminate the database due to the lack of a size check on the HTLC preimage size.\r\n- Remove timeout for Lightning backend HTTP connections.\r\n\r\n## What's Changed\r\n* Mint: migration to clean up overly large witnesses by @callebtc in https://github.com/cashubtc/nutshell/pull/817\r\n",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.18.1",
+        "author": "callebtc"
+      },
+      {
+        "tag": "0.18.0",
+        "name": "0.18.0",
+        "published_at": "2025-10-28T11:58:21Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 24,
+        "total_downloads": 24,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "cashu-0.18.0-py3-none-any.whl",
+            "size_bytes": 13898046,
+            "download_count": 15,
+            "platform": "Other",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "cashu-0.18.0.tar.gz",
+            "size_bytes": 13728310,
+            "download_count": 9,
+            "platform": "Other",
+            "content_type": "application/x-gzip"
+          }
+        ],
+        "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n### New Features\r\n\r\n#### Mint management via gRPC\r\nMint management gRPC server for integration with management UI [Orchard](https://github.com/orangeshyguy21/orchard) and a CLI tool that can send commands to the Mint while it's running.\r\n\r\n### Additional Protocol Updates\r\n- NUT-04: Create invoices with a description.\r\n\r\n### Fi",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.18.0",
+        "author": "callebtc"
+      },
+      {
+        "tag": "0.17.1",
+        "name": "0.17.1",
+        "published_at": "2025-06-01T10:23:11Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 0,
+        "total_downloads": 0,
+        "asset_count": 0,
+        "assets": [],
+        "body_excerpt": "This release includes a hotfix for the updated LNbits v1 backend API. \r\n\r\n## What's Changed\r\n* Add NUT-23 setting constant by @callebtc in https://github.com/cashubtc/nutshell/pull/763\r\n* Another changes for LNbits API by @iWarpBTC in https://github.com/cashubtc/nutshell/pull/739\r\n\r\n\r\n**Full Changelog**: https://github.com/cashubtc/nutshell/compare/0.17.0...0.17.1",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.17.1",
+        "author": "callebtc"
+      },
+      {
+        "tag": "0.17.0",
+        "name": "0.17.0",
+        "published_at": "2025-05-19T10:47:18Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 0,
+        "total_downloads": 0,
+        "asset_count": 0,
+        "assets": [],
+        "body_excerpt": "> [!CAUTION]\r\n>\r\n> This release includes a database migration for the mint. Ensure you back up your database before upgrading your Nutshell instance to avoid data loss.\r\n\r\n### New Features\r\n\r\n#### Blind Authentication\r\n- **Limit mint access using Clear and Blind Authentication.** Nutshell now supports **NUT-21** and **NUT-22**, enabling the use of OAuth 2.0 identity providers like Keycloak (or any compatible provider). This allows you to create closed systems where only **registered users** of a",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.17.0",
+        "author": "callebtc"
+      },
+      {
+        "tag": "0.16.5",
+        "name": "0.16.5",
+        "published_at": "2025-01-29T21:41:20Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 0,
+        "total_downloads": 0,
+        "asset_count": 0,
+        "assets": [],
+        "body_excerpt": "This maintenance release contains various bug fixes for the mint and the wallet. Most notably, overpaid Lightning fees are now issued to the user at the next restart of the mint in cases where the mint has crashed or turned off while an outgoing Lightning payment was still pending.\r\n\r\n## What's Changed\r\n* Add restart policy for Redis Docker container by @callebtc in https://github.com/cashubtc/nutshell/pull/687\r\n* update asyncpg 0.29.0 -> 0.30.0 to make Python 3.13 happy by @prusnak in https://g",
+        "html_url": "https://github.com/cashubtc/nutshell/releases/tag/0.16.5",
+        "author": "callebtc"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 1174.8,
+      "median_gap_hours": 787.3
+    }
+  },
+  "category": "Lightning"
+}

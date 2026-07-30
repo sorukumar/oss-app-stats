@@ -14,7 +14,7 @@
     "html_url": "https://github.com/bisq-network/bisq"
   },
   "summary": {
-    "total_downloads": 3738518,
+    "total_downloads": 3738609,
     "total_releases": 147,
     "stable_releases": 118,
     "pre_releases": 29,
@@ -23,10 +23,10 @@
     "days_since_latest": 6,
     "avg_cadence_days": 31.6,
     "platform_breakdown": {
-      "Signatures": 518122,
-      "Linux": 749834,
-      "Windows": 1531289,
-      "macOS": 740545,
+      "Signatures": 518145,
+      "Linux": 749858,
+      "Windows": 1531321,
+      "macOS": 740557,
       "Other": 198728
     }
   },
@@ -37,8 +37,8 @@
       "published_at": "2026-07-24T00:08:34Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 13138,
-      "total_downloads": 13138,
+      "raw_downloads": 13227,
+      "total_downloads": 13227,
       "asset_count": 13,
       "assets": [
         {
@@ -51,84 +51,84 @@
         {
           "name": "Bisq-64bit-1.10.4.deb",
           "size_bytes": 411644316,
-          "download_count": 2296,
+          "download_count": 2310,
           "platform": "Linux",
           "content_type": "application/vnd.debian.binary-package"
         },
         {
           "name": "Bisq-64bit-1.10.4.deb.asc",
           "size_bytes": 833,
-          "download_count": 867,
+          "download_count": 875,
           "platform": "Linux",
           "content_type": "text/plain"
         },
         {
           "name": "Bisq-64bit-1.10.4.exe",
           "size_bytes": 435645440,
-          "download_count": 3197,
+          "download_count": 3218,
           "platform": "Windows",
           "content_type": "application/x-msdownload"
         },
         {
           "name": "Bisq-64bit-1.10.4.exe.asc",
           "size_bytes": 833,
-          "download_count": 926,
+          "download_count": 935,
           "platform": "Windows",
           "content_type": "text/plain"
         },
         {
           "name": "Bisq-64bit-1.10.4.rpm",
           "size_bytes": 427027077,
-          "download_count": 120,
+          "download_count": 121,
           "platform": "Linux",
           "content_type": "application/x-rpm"
         },
         {
           "name": "Bisq-64bit-1.10.4.rpm.asc",
           "size_bytes": 833,
-          "download_count": 44,
+          "download_count": 45,
           "platform": "Linux",
           "content_type": "text/plain"
         },
         {
           "name": "Bisq-aarch64-1.10.4.dmg",
           "size_bytes": 439794677,
-          "download_count": 1588,
+          "download_count": 1595,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "Bisq-aarch64-1.10.4.dmg.asc",
           "size_bytes": 833,
-          "download_count": 271,
+          "download_count": 272,
           "platform": "macOS",
           "content_type": "text/plain"
         },
         {
           "name": "Bisq-x86_64-1.10.4.dmg",
           "size_bytes": 441273044,
-          "download_count": 1089,
+          "download_count": 1091,
           "platform": "macOS",
           "content_type": "application/x-apple-diskimage"
         },
         {
           "name": "Bisq-x86_64-1.10.4.dmg.asc",
           "size_bytes": 833,
-          "download_count": 99,
+          "download_count": 101,
           "platform": "macOS",
           "content_type": "text/plain"
         },
         {
           "name": "E222AA02.asc",
           "size_bytes": 3167,
-          "download_count": 1047,
+          "download_count": 1050,
           "platform": "Signatures",
           "content_type": "text/plain"
         },
         {
           "name": "signingkey.asc",
           "size_bytes": 9,
-          "download_count": 1564,
+          "download_count": 1584,
           "platform": "Signatures",
           "content_type": "text/plain"
         }
@@ -5891,8 +5891,8 @@
       "published_at": "2021-03-03T12:38:54Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 33602,
-      "total_downloads": 33602,
+      "raw_downloads": 33603,
+      "total_downloads": 33603,
       "asset_count": 16,
       "assets": [
         {
@@ -5947,7 +5947,7 @@
         {
           "name": "Bisq-64bit-1.5.9.exe",
           "size_bytes": 169084520,
-          "download_count": 13154,
+          "download_count": 13155,
           "platform": "Windows",
           "content_type": "application/x-msdownload"
         },
@@ -6018,8 +6018,8 @@
       "published_at": "2021-03-01T14:26:42Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 3019,
-      "total_downloads": 3019,
+      "raw_downloads": 3020,
+      "total_downloads": 3020,
       "asset_count": 16,
       "assets": [
         {
@@ -6074,7 +6074,7 @@
         {
           "name": "Bisq-64bit-1.5.8.exe",
           "size_bytes": 169134640,
-          "download_count": 696,
+          "download_count": 697,
           "platform": "Windows",
           "content_type": "application/x-msdownload"
         },
@@ -15007,7 +15007,7 @@
       "author": "cbeams"
     }
   ],
-  "fetched_at": "2026-07-30T18:59:00.475417+00:00",
+  "fetched_at": "2026-07-30T20:15:27.124492+00:00",
   "deep_dive": {
     "days_since_launch": 4242,
     "recent_stable_releases": [
@@ -15017,8 +15017,8 @@
         "published_at": "2026-07-24T00:08:34Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 13138,
-        "total_downloads": 13138,
+        "raw_downloads": 13227,
+        "total_downloads": 13227,
         "asset_count": 13,
         "assets": [
           {
@@ -15031,84 +15031,84 @@
           {
             "name": "Bisq-64bit-1.10.4.deb",
             "size_bytes": 411644316,
-            "download_count": 2296,
+            "download_count": 2310,
             "platform": "Linux",
             "content_type": "application/vnd.debian.binary-package"
           },
           {
             "name": "Bisq-64bit-1.10.4.deb.asc",
             "size_bytes": 833,
-            "download_count": 867,
+            "download_count": 875,
             "platform": "Linux",
             "content_type": "text/plain"
           },
           {
             "name": "Bisq-64bit-1.10.4.exe",
             "size_bytes": 435645440,
-            "download_count": 3197,
+            "download_count": 3218,
             "platform": "Windows",
             "content_type": "application/x-msdownload"
           },
           {
             "name": "Bisq-64bit-1.10.4.exe.asc",
             "size_bytes": 833,
-            "download_count": 926,
+            "download_count": 935,
             "platform": "Windows",
             "content_type": "text/plain"
           },
           {
             "name": "Bisq-64bit-1.10.4.rpm",
             "size_bytes": 427027077,
-            "download_count": 120,
+            "download_count": 121,
             "platform": "Linux",
             "content_type": "application/x-rpm"
           },
           {
             "name": "Bisq-64bit-1.10.4.rpm.asc",
             "size_bytes": 833,
-            "download_count": 44,
+            "download_count": 45,
             "platform": "Linux",
             "content_type": "text/plain"
           },
           {
             "name": "Bisq-aarch64-1.10.4.dmg",
             "size_bytes": 439794677,
-            "download_count": 1588,
+            "download_count": 1595,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "Bisq-aarch64-1.10.4.dmg.asc",
             "size_bytes": 833,
-            "download_count": 271,
+            "download_count": 272,
             "platform": "macOS",
             "content_type": "text/plain"
           },
           {
             "name": "Bisq-x86_64-1.10.4.dmg",
             "size_bytes": 441273044,
-            "download_count": 1089,
+            "download_count": 1091,
             "platform": "macOS",
             "content_type": "application/x-apple-diskimage"
           },
           {
             "name": "Bisq-x86_64-1.10.4.dmg.asc",
             "size_bytes": 833,
-            "download_count": 99,
+            "download_count": 101,
             "platform": "macOS",
             "content_type": "text/plain"
           },
           {
             "name": "E222AA02.asc",
             "size_bytes": 3167,
-            "download_count": 1047,
+            "download_count": 1050,
             "platform": "Signatures",
             "content_type": "text/plain"
           },
           {
             "name": "signingkey.asc",
             "size_bytes": 9,
-            "download_count": 1564,
+            "download_count": 1584,
             "platform": "Signatures",
             "content_type": "text/plain"
           }

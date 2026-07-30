@@ -4,10 +4,10 @@
     "repo": "rust-bitcoin",
     "name": "rust-bitcoin",
     "full_name": "rust-bitcoin/rust-bitcoin",
-    "description": "General purpose library for using and interoperating with Bitcoin.",
-    "stars": 0,
-    "forks": 0,
-    "open_issues": 0,
+    "description": "Rust Bitcoin library",
+    "stars": 2653,
+    "forks": 995,
+    "open_issues": 498,
     "language": "Rust",
     "license": false,
     "homepage": null,
@@ -2328,7 +2328,7 @@
       "author": "crates.io"
     }
   ],
-  "fetched_at": "2026-07-30T18:59:01.849677+00:00",
+  "fetched_at": "2026-07-30T20:15:28.312967+00:00",
   "deep_dive": {
     "days_since_launch": 3957,
     "recent_stable_releases": [

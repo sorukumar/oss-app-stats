@@ -1,0 +1,246 @@
+{
+  "project": {
+    "owner": "bitkey",
+    "repo": "bitkey",
+    "name": "Bitkey",
+    "full_name": "bitkey/bitkey",
+    "description": "A self-contained read-only CD/USB stick with everything you need to perform highly secure air-gapped Bitcoin transactions. Offline cold storage made (slightly more) practical.",
+    "stars": 275,
+    "forks": 91,
+    "open_issues": 36,
+    "language": "JavaScript",
+    "license": "",
+    "homepage": "https://bitkey.io",
+    "html_url": "https://github.com/bitkey/bitkey"
+  },
+  "summary": {
+    "total_downloads": 988,
+    "total_releases": 5,
+    "stable_releases": 5,
+    "pre_releases": 0,
+    "latest_version": "14.2.0-community-1.13",
+    "latest_date": "2018-04-15T20:33:11Z",
+    "days_since_latest": 3027,
+    "avg_cadence_days": 9.0,
+    "platform_breakdown": {
+      "Linux": 988
+    }
+  },
+  "releases": [
+    {
+      "tag": "14.2.0-community-1.13",
+      "name": "14.2.0-community-1.13",
+      "published_at": "2018-04-15T20:33:11Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 870,
+      "total_downloads": 870,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "turnkey-bitkey-14.2.0-jessie-amd64-community-1.13.iso",
+          "size_bytes": 799014912,
+          "download_count": 870,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "  * Added:\r\n    - Armory Wallet\r\n    - Base43 decoder\r\n  * Upgraded:\r\n    - BIP39 wallet 0.3.5\r\n    - Electrum 3.1.2\r\n    - Electrum-DASH 2.9.4\r\n    - Electrum-LTC 3.1.2.1\r\n    - MyEtherWallet 3.21.07\r\n\r\nSHA256SUM:\r\nca2dcb73a9d2efdf5602399b374cfcf02833c442095e52d4ce0193227c18d2de *turnkey-bitkey-14.2.0-jessie-amd64-community-1.13.iso",
+      "html_url": "https://github.com/bitkey/bitkey/releases/tag/14.2.0-community-1.13",
+      "author": "estevaocm"
+    },
+    {
+      "tag": "14.2.0-community-1.12",
+      "name": "14.2.0-community-1.12",
+      "published_at": "2018-03-21T03:29:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 68,
+      "total_downloads": 68,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "turnkey-bitkey-14.2.0-jessie-amd64-community-1.12.iso",
+          "size_bytes": 785383424,
+          "download_count": 68,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Added:\r\n  - keepassxc\r\n* Upgraded:\r\n  - BIP39 wallet 0.3.4 \r\n  - Electrum 3.1.1 \r\n  - MyEtherWallet 3.21.01\r\n\r\nSHA256SUM:\r\n5af031c3bfe9371a88006bf6604116c7b98829a43ebfccb66da884e3aef2bb08 *turnkey-bitkey-14.2.0-jessie-amd64-community-1.12.iso",
+      "html_url": "https://github.com/bitkey/bitkey/releases/tag/14.2.0-community-1.12",
+      "author": "estevaocm"
+    },
+    {
+      "tag": "14.2.0-qrscan-altcoins-1.11-fixed",
+      "name": "14.2.0-qrscan-altcoins-1.11-fixed",
+      "published_at": "2018-03-10T21:26:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 28,
+      "total_downloads": 28,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "turnkey-bitkey-14.2.0-jessie-amd64-qrscan-altcoins-1.11.iso",
+          "size_bytes": 781189120,
+          "download_count": 28,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* Added KeePassX\r\n* Upgraded Electrum 3.1\r\n\r\nSHA256\r\n00d639f626d1bd8bf6651737cbe8eec39c1a5ec5f14073f91ef66e23f50e23ba *turnkey-bitkey-14.2.0-jessie-amd64-qrscan-altcoins-1.11.iso",
+      "html_url": "https://github.com/bitkey/bitkey/releases/tag/14.2.0-qrscan-altcoins-1.11-fixed",
+      "author": "estevaocm"
+    },
+    {
+      "tag": "14.2.0-qrscan-altcoins-1.11",
+      "name": "14.2.0-qrscan-altcoins-1.11",
+      "published_at": "2018-03-10T20:27:43Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "* Added KeePassX\r\n* Upgraded Electrum 3.1",
+      "html_url": "https://github.com/bitkey/bitkey/releases/tag/14.2.0-qrscan-altcoins-1.11",
+      "author": "estevaocm"
+    },
+    {
+      "tag": "14.2.0-qrscan-altcoins-1.10",
+      "name": "14.2.0-qrscan-altcoins-1.10",
+      "published_at": "2018-03-09T02:21:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 22,
+      "total_downloads": 22,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "turnkey-bitkey-14.2.0-jessie-amd64-qrscan-altcoins-1.10.iso",
+          "size_bytes": 779091968,
+          "download_count": 22,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* QR code scanning now supported to achieve true air gap.\r\n* Updated wallets and tools.\r\n* Added wallets for several cryptocurrencies (see README and changelog).\r\n* Packages hash codes checked during build.",
+      "html_url": "https://github.com/bitkey/bitkey/releases/tag/14.2.0-qrscan-altcoins-1.10",
+      "author": "estevaocm"
+    }
+  ],
+  "fetched_at": "2026-07-30T20:15:06.643971+00:00",
+  "deep_dive": {
+    "days_since_launch": 37,
+    "recent_stable_releases": [
+      {
+        "tag": "14.2.0-community-1.13",
+        "name": "14.2.0-community-1.13",
+        "published_at": "2018-04-15T20:33:11Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 870,
+        "total_downloads": 870,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "turnkey-bitkey-14.2.0-jessie-amd64-community-1.13.iso",
+            "size_bytes": 799014912,
+            "download_count": 870,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "  * Added:\r\n    - Armory Wallet\r\n    - Base43 decoder\r\n  * Upgraded:\r\n    - BIP39 wallet 0.3.5\r\n    - Electrum 3.1.2\r\n    - Electrum-DASH 2.9.4\r\n    - Electrum-LTC 3.1.2.1\r\n    - MyEtherWallet 3.21.07\r\n\r\nSHA256SUM:\r\nca2dcb73a9d2efdf5602399b374cfcf02833c442095e52d4ce0193227c18d2de *turnkey-bitkey-14.2.0-jessie-amd64-community-1.13.iso",
+        "html_url": "https://github.com/bitkey/bitkey/releases/tag/14.2.0-community-1.13",
+        "author": "estevaocm"
+      },
+      {
+        "tag": "14.2.0-community-1.12",
+        "name": "14.2.0-community-1.12",
+        "published_at": "2018-03-21T03:29:42Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 68,
+        "total_downloads": 68,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "turnkey-bitkey-14.2.0-jessie-amd64-community-1.12.iso",
+            "size_bytes": 785383424,
+            "download_count": 68,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "* Added:\r\n  - keepassxc\r\n* Upgraded:\r\n  - BIP39 wallet 0.3.4 \r\n  - Electrum 3.1.1 \r\n  - MyEtherWallet 3.21.01\r\n\r\nSHA256SUM:\r\n5af031c3bfe9371a88006bf6604116c7b98829a43ebfccb66da884e3aef2bb08 *turnkey-bitkey-14.2.0-jessie-amd64-community-1.12.iso",
+        "html_url": "https://github.com/bitkey/bitkey/releases/tag/14.2.0-community-1.12",
+        "author": "estevaocm"
+      },
+      {
+        "tag": "14.2.0-qrscan-altcoins-1.11-fixed",
+        "name": "14.2.0-qrscan-altcoins-1.11-fixed",
+        "published_at": "2018-03-10T21:26:31Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 28,
+        "total_downloads": 28,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "turnkey-bitkey-14.2.0-jessie-amd64-qrscan-altcoins-1.11.iso",
+            "size_bytes": 781189120,
+            "download_count": 28,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "* Added KeePassX\r\n* Upgraded Electrum 3.1\r\n\r\nSHA256\r\n00d639f626d1bd8bf6651737cbe8eec39c1a5ec5f14073f91ef66e23f50e23ba *turnkey-bitkey-14.2.0-jessie-amd64-qrscan-altcoins-1.11.iso",
+        "html_url": "https://github.com/bitkey/bitkey/releases/tag/14.2.0-qrscan-altcoins-1.11-fixed",
+        "author": "estevaocm"
+      },
+      {
+        "tag": "14.2.0-qrscan-altcoins-1.11",
+        "name": "14.2.0-qrscan-altcoins-1.11",
+        "published_at": "2018-03-10T20:27:43Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 0,
+        "total_downloads": 0,
+        "asset_count": 0,
+        "assets": [],
+        "body_excerpt": "* Added KeePassX\r\n* Upgraded Electrum 3.1",
+        "html_url": "https://github.com/bitkey/bitkey/releases/tag/14.2.0-qrscan-altcoins-1.11",
+        "author": "estevaocm"
+      },
+      {
+        "tag": "14.2.0-qrscan-altcoins-1.10",
+        "name": "14.2.0-qrscan-altcoins-1.10",
+        "published_at": "2018-03-09T02:21:25Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 22,
+        "total_downloads": 22,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "turnkey-bitkey-14.2.0-jessie-amd64-qrscan-altcoins-1.10.iso",
+            "size_bytes": 779091968,
+            "download_count": 22,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "* QR code scanning now supported to achieve true air gap.\r\n* Updated wallets and tools.\r\n* Added wallets for several cryptocurrencies (see README and changelog).\r\n* Packages hash codes checked during build.",
+        "html_url": "https://github.com/bitkey/bitkey/releases/tag/14.2.0-qrscan-altcoins-1.10",
+        "author": "estevaocm"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 226.5,
+      "median_gap_hours": 246.1
+    }
+  },
+  "category": "Wallets"
+}

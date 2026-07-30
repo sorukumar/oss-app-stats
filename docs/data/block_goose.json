@@ -5,29 +5,29 @@
     "name": "Goose",
     "full_name": "block/goose",
     "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-    "stars": 51972,
-    "forks": 5814,
-    "open_issues": 400,
+    "stars": 51976,
+    "forks": 5815,
+    "open_issues": 399,
     "language": "Rust",
     "license": "Apache-2.0",
     "homepage": "https://goose-docs.ai/",
     "html_url": "https://github.com/aaif-goose/goose"
   },
   "summary": {
-    "total_downloads": 1412870,
+    "total_downloads": 1413842,
     "total_releases": 145,
     "stable_releases": 135,
     "pre_releases": 10,
     "latest_version": "v1.45.0",
     "latest_date": "2026-07-29T20:11:39Z",
-    "days_since_latest": 0,
+    "days_since_latest": 1,
     "avg_cadence_days": 4.6,
     "platform_breakdown": {
-      "Other": 562973,
-      "Linux": 647128,
-      "macOS": 45193,
-      "Source": 33,
-      "Windows": 157543
+      "Other": 563324,
+      "Linux": 647526,
+      "macOS": 45295,
+      "Source": 34,
+      "Windows": 157663
     }
   },
   "releases": [
@@ -37,14 +37,14 @@
       "published_at": "2026-07-29T20:11:39Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 5180,
-      "total_downloads": 5180,
+      "raw_downloads": 5538,
+      "total_downloads": 5538,
       "asset_count": 31,
       "assets": [
         {
           "name": "download_cli.sh",
           "size_bytes": 14706,
-          "download_count": 95,
+          "download_count": 97,
           "platform": "Other",
           "content_type": "raw"
         },
@@ -58,21 +58,21 @@
         {
           "name": "Goose-1.45.0-1.x86_64.rpm",
           "size_bytes": 171161545,
-          "download_count": 42,
+          "download_count": 43,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-aarch64-apple-darwin.tar.bz2",
           "size_bytes": 77050338,
-          "download_count": 197,
+          "download_count": 211,
           "platform": "macOS",
           "content_type": "raw"
         },
         {
           "name": "goose-aarch64-apple-darwin.tar.gz",
           "size_bytes": 87103542,
-          "download_count": 68,
+          "download_count": 93,
           "platform": "macOS",
           "content_type": "raw"
         },
@@ -93,14 +93,14 @@
         {
           "name": "goose-aarch64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 82915958,
-          "download_count": 141,
+          "download_count": 154,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-aarch64-unknown-linux-gnu.tar.gz",
           "size_bytes": 94084817,
-          "download_count": 65,
+          "download_count": 88,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -128,7 +128,7 @@
         {
           "name": "goose-source-v1.45.0.zip",
           "size_bytes": 315905266,
-          "download_count": 23,
+          "download_count": 24,
           "platform": "Source",
           "content_type": "raw"
         },
@@ -142,21 +142,21 @@
         {
           "name": "Goose-win32-x64.zip",
           "size_bytes": 250678094,
-          "download_count": 1164,
+          "download_count": 1220,
           "platform": "Windows",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-apple-darwin.tar.bz2",
           "size_bytes": 79198275,
-          "download_count": 129,
+          "download_count": 141,
           "platform": "macOS",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-apple-darwin.tar.gz",
           "size_bytes": 90316487,
-          "download_count": 23,
+          "download_count": 26,
           "platform": "macOS",
           "content_type": "raw"
         },
@@ -170,7 +170,7 @@
         {
           "name": "goose-x86_64-pc-windows-msvc.zip",
           "size_bytes": 79764805,
-          "download_count": 243,
+          "download_count": 260,
           "platform": "Windows",
           "content_type": "raw"
         },
@@ -191,14 +191,14 @@
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 83463956,
-          "download_count": 380,
+          "download_count": 410,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.gz",
           "size_bytes": 94138295,
-          "download_count": 133,
+          "download_count": 183,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -212,35 +212,35 @@
         {
           "name": "goose-x86_64-unknown-linux-musl.tar.gz",
           "size_bytes": 49934681,
-          "download_count": 18,
+          "download_count": 20,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "Goose.zip",
           "size_bytes": 209967747,
-          "download_count": 1960,
+          "download_count": 2053,
           "platform": "Other",
           "content_type": "raw"
         },
         {
           "name": "goose_1.45.0_amd64-vulkan.deb",
           "size_bytes": 167404340,
-          "download_count": 131,
+          "download_count": 137,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose_1.45.0_amd64.deb",
           "size_bytes": 164526614,
-          "download_count": 111,
+          "download_count": 114,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "Goose_intel_mac.zip",
           "size_bytes": 224977411,
-          "download_count": 117,
+          "download_count": 122,
           "platform": "Other",
           "content_type": "raw"
         },
@@ -254,7 +254,7 @@
         {
           "name": "io.github.block.Goose_stable_x86_64.flatpak",
           "size_bytes": 154362432,
-          "download_count": 36,
+          "download_count": 38,
           "platform": "Linux",
           "content_type": "raw"
         }
@@ -269,14 +269,14 @@
       "published_at": "2026-07-23T19:18:27Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 21492,
-      "total_downloads": 21492,
+      "raw_downloads": 21500,
+      "total_downloads": 21500,
       "asset_count": 29,
       "assets": [
         {
           "name": "download_cli.sh",
           "size_bytes": 14706,
-          "download_count": 384,
+          "download_count": 385,
           "platform": "Other",
           "content_type": "raw"
         },
@@ -297,7 +297,7 @@
         {
           "name": "goose-aarch64-apple-darwin.tar.bz2",
           "size_bytes": 76640516,
-          "download_count": 1829,
+          "download_count": 1830,
           "platform": "macOS",
           "content_type": "raw"
         },
@@ -325,7 +325,7 @@
         {
           "name": "goose-aarch64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 82083168,
-          "download_count": 702,
+          "download_count": 703,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -409,14 +409,14 @@
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 82676547,
-          "download_count": 1717,
+          "download_count": 1719,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.gz",
           "size_bytes": 93316783,
-          "download_count": 594,
+          "download_count": 595,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -472,7 +472,7 @@
         {
           "name": "io.github.block.Goose_stable_x86_64.flatpak",
           "size_bytes": 155532488,
-          "download_count": 211,
+          "download_count": 213,
           "platform": "Linux",
           "content_type": "raw"
         }
@@ -487,14 +487,14 @@
       "published_at": "2026-07-14T09:46:27Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 46375,
-      "total_downloads": 46375,
+      "raw_downloads": 46414,
+      "total_downloads": 46414,
       "asset_count": 29,
       "assets": [
         {
           "name": "download_cli.sh",
           "size_bytes": 14706,
-          "download_count": 5938,
+          "download_count": 5944,
           "platform": "Other",
           "content_type": "raw"
         },
@@ -522,7 +522,7 @@
         {
           "name": "goose-aarch64-apple-darwin.tar.gz",
           "size_bytes": 86244928,
-          "download_count": 1312,
+          "download_count": 1317,
           "platform": "macOS",
           "content_type": "raw"
         },
@@ -550,7 +550,7 @@
         {
           "name": "goose-aarch64-unknown-linux-gnu.tar.gz",
           "size_bytes": 93309659,
-          "download_count": 1348,
+          "download_count": 1353,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -627,21 +627,21 @@
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 82585086,
-          "download_count": 8270,
+          "download_count": 8276,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.gz",
           "size_bytes": 93184950,
-          "download_count": 2320,
+          "download_count": 2330,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-unknown-linux-musl.tar.bz2",
           "size_bytes": 43430434,
-          "download_count": 368,
+          "download_count": 372,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -669,7 +669,7 @@
         {
           "name": "goose_1.43.0_amd64.deb",
           "size_bytes": 164062386,
-          "download_count": 805,
+          "download_count": 808,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -923,8 +923,8 @@
       "published_at": "2026-07-03T00:26:40Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 32661,
-      "total_downloads": 32661,
+      "raw_downloads": 32665,
+      "total_downloads": 32665,
       "asset_count": 29,
       "assets": [
         {
@@ -979,7 +979,7 @@
         {
           "name": "goose-aarch64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 81494416,
-          "download_count": 1101,
+          "download_count": 1102,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -1063,7 +1063,7 @@
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 82208906,
-          "download_count": 2782,
+          "download_count": 2785,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -1809,8 +1809,8 @@
       "published_at": "2026-06-03T19:37:45Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 38705,
-      "total_downloads": 38705,
+      "raw_downloads": 38716,
+      "total_downloads": 38716,
       "asset_count": 29,
       "assets": [
         {
@@ -1956,7 +1956,7 @@
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.gz",
           "size_bytes": 85743263,
-          "download_count": 2378,
+          "download_count": 2389,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -2245,8 +2245,8 @@
       "published_at": "2026-05-22T00:42:05Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 18826,
-      "total_downloads": 18826,
+      "raw_downloads": 18828,
+      "total_downloads": 18828,
       "asset_count": 29,
       "assets": [
         {
@@ -2406,7 +2406,7 @@
         {
           "name": "goose-x86_64-unknown-linux-musl.tar.gz",
           "size_bytes": 49466745,
-          "download_count": 145,
+          "download_count": 147,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -3641,8 +3641,8 @@
       "published_at": "2026-03-31T05:59:28Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 15891,
-      "total_downloads": 15891,
+      "raw_downloads": 15897,
+      "total_downloads": 15897,
       "asset_count": 12,
       "assets": [
         {
@@ -3697,7 +3697,7 @@
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 67151725,
-          "download_count": 7074,
+          "download_count": 7080,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -3740,8 +3740,8 @@
       "published_at": "2026-03-18T10:51:45Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 23611,
-      "total_downloads": 23611,
+      "raw_downloads": 23612,
+      "total_downloads": 23612,
       "asset_count": 12,
       "assets": [
         {
@@ -3796,7 +3796,7 @@
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 67087874,
-          "download_count": 11197,
+          "download_count": 11198,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -5459,8 +5459,8 @@
       "published_at": "2026-01-27T23:46:48Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 6129,
-      "total_downloads": 6129,
+      "raw_downloads": 6148,
+      "total_downloads": 6148,
       "asset_count": 11,
       "assets": [
         {
@@ -5515,7 +5515,7 @@
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 38787718,
-          "download_count": 1512,
+          "download_count": 1531,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -7965,8 +7965,8 @@
       "published_at": "2025-09-30T19:44:22Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 56755,
-      "total_downloads": 56755,
+      "raw_downloads": 56766,
+      "total_downloads": 56766,
       "asset_count": 11,
       "assets": [
         {
@@ -8021,7 +8021,7 @@
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 73154315,
-          "download_count": 41852,
+          "download_count": 41863,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -12283,14 +12283,14 @@
       "published_at": "2025-01-30T05:20:18Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 18595,
-      "total_downloads": 18595,
+      "raw_downloads": 19132,
+      "total_downloads": 19132,
       "asset_count": 234,
       "assets": [
         {
           "name": "download_cli.sh",
           "size_bytes": 14706,
-          "download_count": 2791,
+          "download_count": 3025,
           "platform": "Other",
           "content_type": "raw"
         },
@@ -13004,7 +13004,7 @@
         {
           "name": "goose-aarch64-apple-darwin.tar.bz2",
           "size_bytes": 77050338,
-          "download_count": 793,
+          "download_count": 837,
           "platform": "macOS",
           "content_type": "raw"
         },
@@ -13032,7 +13032,7 @@
         {
           "name": "goose-aarch64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 82915958,
-          "download_count": 44,
+          "download_count": 46,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -13095,14 +13095,14 @@
         {
           "name": "Goose-win32-x64.zip",
           "size_bytes": 250678094,
-          "download_count": 459,
+          "download_count": 486,
           "platform": "Windows",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-apple-darwin.tar.bz2",
           "size_bytes": 79198275,
-          "download_count": 38,
+          "download_count": 40,
           "platform": "macOS",
           "content_type": "raw"
         },
@@ -13116,7 +13116,7 @@
         {
           "name": "goose-x86_64-pc-windows-gnu.zip",
           "size_bytes": 50403345,
-          "download_count": 2439,
+          "download_count": 2440,
           "platform": "Windows",
           "content_type": "raw"
         },
@@ -13130,7 +13130,7 @@
         {
           "name": "goose-x86_64-pc-windows-msvc.zip",
           "size_bytes": 79764805,
-          "download_count": 417,
+          "download_count": 440,
           "platform": "Windows",
           "content_type": "raw"
         },
@@ -13151,7 +13151,7 @@
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
           "size_bytes": 83463956,
-          "download_count": 1981,
+          "download_count": 2172,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -13165,7 +13165,7 @@
         {
           "name": "goose-x86_64-unknown-linux-musl.tar.bz2",
           "size_bytes": 43686651,
-          "download_count": 25,
+          "download_count": 26,
           "platform": "Linux",
           "content_type": "raw"
         },
@@ -13179,7 +13179,7 @@
         {
           "name": "Goose.zip",
           "size_bytes": 209967747,
-          "download_count": 306,
+          "download_count": 317,
           "platform": "Other",
           "content_type": "raw"
         },
@@ -13893,7 +13893,7 @@
         {
           "name": "Goose_intel_mac.zip",
           "size_bytes": 224977411,
-          "download_count": 40,
+          "download_count": 41,
           "platform": "Other",
           "content_type": "raw"
         },
@@ -14278,9 +14278,9 @@
       "published_at": "2025-01-17T19:46:33Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 56328,
-      "total_downloads": 56328,
-      "asset_count": 781,
+      "raw_downloads": 56304,
+      "total_downloads": 56304,
+      "asset_count": 785,
       "assets": [
         {
           "name": "download_cli.sh",
@@ -16740,6 +16740,20 @@
           "content_type": "raw"
         },
         {
+          "name": "Goose-1.45.0.canary+022c17c-1.x86_64-vulkan.rpm",
+          "size_bytes": 175987605,
+          "download_count": 0,
+          "platform": "Linux",
+          "content_type": "raw"
+        },
+        {
+          "name": "Goose-1.45.0.canary+022c17c-1.x86_64.rpm",
+          "size_bytes": 171947589,
+          "download_count": 0,
+          "platform": "Linux",
+          "content_type": "raw"
+        },
+        {
           "name": "Goose-1.45.0.canary+1a9b19d-1.x86_64-vulkan.rpm",
           "size_bytes": 175984005,
           "download_count": 0,
@@ -16930,85 +16944,85 @@
         },
         {
           "name": "goose-aarch64-apple-darwin.tar.bz2",
-          "size_bytes": 77961599,
-          "download_count": 1,
+          "size_bytes": 77967767,
+          "download_count": 0,
           "platform": "macOS",
           "content_type": "raw"
         },
         {
           "name": "goose-aarch64-apple-darwin.tar.gz",
-          "size_bytes": 88022149,
-          "download_count": 1,
+          "size_bytes": 88050161,
+          "download_count": 0,
           "platform": "macOS",
           "content_type": "raw"
         },
         {
           "name": "goose-aarch64-unknown-linux-gnu-vulkan.tar.bz2",
-          "size_bytes": 89636937,
-          "download_count": 1,
+          "size_bytes": 89661203,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-aarch64-unknown-linux-gnu-vulkan.tar.gz",
-          "size_bytes": 104226176,
-          "download_count": 1,
+          "size_bytes": 104216454,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-aarch64-unknown-linux-gnu.tar.bz2",
-          "size_bytes": 83852371,
-          "download_count": 1,
+          "size_bytes": 83858219,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-aarch64-unknown-linux-gnu.tar.gz",
-          "size_bytes": 95061420,
-          "download_count": 1,
+          "size_bytes": 95066417,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-aarch64-unknown-linux-musl.tar.bz2",
-          "size_bytes": 43616967,
-          "download_count": 1,
+          "size_bytes": 43681111,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-aarch64-unknown-linux-musl.tar.gz",
-          "size_bytes": 49197866,
-          "download_count": 1,
+          "size_bytes": 49188410,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "Goose-win32-x64-cuda.zip",
-          "size_bytes": 424143807,
-          "download_count": 1,
+          "size_bytes": 424117456,
+          "download_count": 0,
           "platform": "Windows",
           "content_type": "raw"
         },
         {
           "name": "Goose-win32-x64.zip",
-          "size_bytes": 251506589,
-          "download_count": 1,
+          "size_bytes": 251484859,
+          "download_count": 0,
           "platform": "Windows",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-apple-darwin.tar.bz2",
-          "size_bytes": 80158487,
-          "download_count": 1,
+          "size_bytes": 80148405,
+          "download_count": 0,
           "platform": "macOS",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-apple-darwin.tar.gz",
-          "size_bytes": 91253963,
-          "download_count": 1,
+          "size_bytes": 91236856,
+          "download_count": 0,
           "platform": "macOS",
           "content_type": "raw"
         },
@@ -17021,64 +17035,64 @@
         },
         {
           "name": "goose-x86_64-pc-windows-msvc-cuda.zip",
-          "size_bytes": 253241600,
-          "download_count": 1,
+          "size_bytes": 253215260,
+          "download_count": 0,
           "platform": "Windows",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-pc-windows-msvc.zip",
-          "size_bytes": 80604382,
-          "download_count": 1,
+          "size_bytes": 80582663,
+          "download_count": 0,
           "platform": "Windows",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-unknown-linux-gnu-vulkan.tar.bz2",
-          "size_bytes": 90262900,
-          "download_count": 1,
+          "size_bytes": 90255563,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-unknown-linux-gnu-vulkan.tar.gz",
-          "size_bytes": 104074049,
-          "download_count": 1,
+          "size_bytes": 104057732,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
-          "size_bytes": 84461153,
-          "download_count": 1,
+          "size_bytes": 84439480,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-unknown-linux-gnu.tar.gz",
-          "size_bytes": 95048275,
-          "download_count": 1,
+          "size_bytes": 95060814,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-unknown-linux-musl.tar.bz2",
-          "size_bytes": 44575760,
-          "download_count": 1,
+          "size_bytes": 44560868,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "goose-x86_64-unknown-linux-musl.tar.gz",
-          "size_bytes": 51011136,
-          "download_count": 1,
+          "size_bytes": 50994840,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "Goose.zip",
-          "size_bytes": 211024644,
-          "download_count": 1,
+          "size_bytes": 211041794,
+          "download_count": 0,
           "platform": "Other",
           "content_type": "raw"
         },
@@ -19533,6 +19547,20 @@
           "content_type": "raw"
         },
         {
+          "name": "goose_1.45.0-canary+022c17c_amd64-vulkan.deb",
+          "size_bytes": 168063084,
+          "download_count": 0,
+          "platform": "Linux",
+          "content_type": "raw"
+        },
+        {
+          "name": "goose_1.45.0-canary+022c17c_amd64.deb",
+          "size_bytes": 165246780,
+          "download_count": 0,
+          "platform": "Linux",
+          "content_type": "raw"
+        },
+        {
           "name": "goose_1.45.0-canary+1a9b19d_amd64-vulkan.deb",
           "size_bytes": 168119676,
           "download_count": 0,
@@ -19723,8 +19751,8 @@
         },
         {
           "name": "Goose_intel_mac.zip",
-          "size_bytes": 220532394,
-          "download_count": 1,
+          "size_bytes": 220513188,
+          "download_count": 0,
           "platform": "Other",
           "content_type": "raw"
         },
@@ -19737,15 +19765,15 @@
         },
         {
           "name": "io.github.block.Goose_stable_x86_64-vulkan.flatpak",
-          "size_bytes": 158289928,
-          "download_count": 1,
+          "size_bytes": 159842824,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         },
         {
           "name": "io.github.block.Goose_stable_x86_64.flatpak",
-          "size_bytes": 155063360,
-          "download_count": 1,
+          "size_bytes": 156467488,
+          "download_count": 0,
           "platform": "Linux",
           "content_type": "raw"
         }
@@ -19982,7 +20010,7 @@
       "author": "baxen"
     }
   ],
-  "fetched_at": "2026-07-30T18:58:32.263175+00:00",
+  "fetched_at": "2026-07-30T20:12:05.449258+00:00",
   "deep_dive": {
     "days_since_launch": 686,
     "recent_stable_releases": [
@@ -19992,14 +20020,14 @@
         "published_at": "2026-07-29T20:11:39Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 5180,
-        "total_downloads": 5180,
+        "raw_downloads": 5538,
+        "total_downloads": 5538,
         "asset_count": 31,
         "assets": [
           {
             "name": "download_cli.sh",
             "size_bytes": 14706,
-            "download_count": 95,
+            "download_count": 97,
             "platform": "Other",
             "content_type": "raw"
           },
@@ -20013,21 +20041,21 @@
           {
             "name": "Goose-1.45.0-1.x86_64.rpm",
             "size_bytes": 171161545,
-            "download_count": 42,
+            "download_count": 43,
             "platform": "Linux",
             "content_type": "raw"
           },
           {
             "name": "goose-aarch64-apple-darwin.tar.bz2",
             "size_bytes": 77050338,
-            "download_count": 197,
+            "download_count": 211,
             "platform": "macOS",
             "content_type": "raw"
           },
           {
             "name": "goose-aarch64-apple-darwin.tar.gz",
             "size_bytes": 87103542,
-            "download_count": 68,
+            "download_count": 93,
             "platform": "macOS",
             "content_type": "raw"
           },
@@ -20048,14 +20076,14 @@
           {
             "name": "goose-aarch64-unknown-linux-gnu.tar.bz2",
             "size_bytes": 82915958,
-            "download_count": 141,
+            "download_count": 154,
             "platform": "Linux",
             "content_type": "raw"
           },
           {
             "name": "goose-aarch64-unknown-linux-gnu.tar.gz",
             "size_bytes": 94084817,
-            "download_count": 65,
+            "download_count": 88,
             "platform": "Linux",
             "content_type": "raw"
           },
@@ -20083,7 +20111,7 @@
           {
             "name": "goose-source-v1.45.0.zip",
             "size_bytes": 315905266,
-            "download_count": 23,
+            "download_count": 24,
             "platform": "Source",
             "content_type": "raw"
           },
@@ -20097,21 +20125,21 @@
           {
             "name": "Goose-win32-x64.zip",
             "size_bytes": 250678094,
-            "download_count": 1164,
+            "download_count": 1220,
             "platform": "Windows",
             "content_type": "raw"
           },
           {
             "name": "goose-x86_64-apple-darwin.tar.bz2",
             "size_bytes": 79198275,
-            "download_count": 129,
+            "download_count": 141,
             "platform": "macOS",
             "content_type": "raw"
           },
           {
             "name": "goose-x86_64-apple-darwin.tar.gz",
             "size_bytes": 90316487,
-            "download_count": 23,
+            "download_count": 26,
             "platform": "macOS",
             "content_type": "raw"
           },
@@ -20125,7 +20153,7 @@
           {
             "name": "goose-x86_64-pc-windows-msvc.zip",
             "size_bytes": 79764805,
-            "download_count": 243,
+            "download_count": 260,
             "platform": "Windows",
             "content_type": "raw"
           },
@@ -20146,14 +20174,14 @@
           {
             "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
             "size_bytes": 83463956,
-            "download_count": 380,
+            "download_count": 410,
             "platform": "Linux",
             "content_type": "raw"
           },
           {
             "name": "goose-x86_64-unknown-linux-gnu.tar.gz",
             "size_bytes": 94138295,
-            "download_count": 133,
+            "download_count": 183,
             "platform": "Linux",
             "content_type": "raw"
           },
@@ -20167,35 +20195,35 @@
           {
             "name": "goose-x86_64-unknown-linux-musl.tar.gz",
             "size_bytes": 49934681,
-            "download_count": 18,
+            "download_count": 20,
             "platform": "Linux",
             "content_type": "raw"
           },
           {
             "name": "Goose.zip",
             "size_bytes": 209967747,
-            "download_count": 1960,
+            "download_count": 2053,
             "platform": "Other",
             "content_type": "raw"
           },
           {
             "name": "goose_1.45.0_amd64-vulkan.deb",
             "size_bytes": 167404340,
-            "download_count": 131,
+            "download_count": 137,
             "platform": "Linux",
             "content_type": "raw"
           },
           {
             "name": "goose_1.45.0_amd64.deb",
             "size_bytes": 164526614,
-            "download_count": 111,
+            "download_count": 114,
             "platform": "Linux",
             "content_type": "raw"
           },
           {
             "name": "Goose_intel_mac.zip",
             "size_bytes": 224977411,
-            "download_count": 117,
+            "download_count": 122,
             "platform": "Other",
             "content_type": "raw"
           },
@@ -20209,7 +20237,7 @@
           {
             "name": "io.github.block.Goose_stable_x86_64.flatpak",
             "size_bytes": 154362432,
-            "download_count": 36,
+            "download_count": 38,
             "platform": "Linux",
             "content_type": "raw"
           }
@@ -20224,14 +20252,14 @@
         "published_at": "2026-07-23T19:18:27Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 21492,
-        "total_downloads": 21492,
+        "raw_downloads": 21500,
+        "total_downloads": 21500,
         "asset_count": 29,
         "assets": [
           {
             "name": "download_cli.sh",
             "size_bytes": 14706,
-            "download_count": 384,
+            "download_count": 385,
             "platform": "Other",
             "content_type": "raw"
           },
@@ -20252,7 +20280,7 @@
           {
             "name": "goose-aarch64-apple-darwin.tar.bz2",
             "size_bytes": 76640516,
-            "download_count": 1829,
+            "download_count": 1830,
             "platform": "macOS",
             "content_type": "raw"
           },
@@ -20280,7 +20308,7 @@
           {
             "name": "goose-aarch64-unknown-linux-gnu.tar.bz2",
             "size_bytes": 82083168,
-            "download_count": 702,
+            "download_count": 703,
             "platform": "Linux",
             "content_type": "raw"
           },
@@ -20364,14 +20392,14 @@
           {
             "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
             "size_bytes": 82676547,
-            "download_count": 1717,
+            "download_count": 1719,
             "platform": "Linux",
             "content_type": "raw"
           },
           {
             "name": "goose-x86_64-unknown-linux-gnu.tar.gz",
             "size_bytes": 93316783,
-            "download_count": 594,
+            "download_count": 595,
             "platform": "Linux",
             "content_type": "raw"
           },
@@ -20427,7 +20455,7 @@
           {
             "name": "io.github.block.Goose_stable_x86_64.flatpak",
             "size_bytes": 155532488,
-            "download_count": 211,
+            "download_count": 213,
             "platform": "Linux",
             "content_type": "raw"
           }
@@ -20442,14 +20470,14 @@
         "published_at": "2026-07-14T09:46:27Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 46375,
-        "total_downloads": 46375,
+        "raw_downloads": 46414,
+        "total_downloads": 46414,
         "asset_count": 29,
         "assets": [
           {
             "name": "download_cli.sh",
             "size_bytes": 14706,
-            "download_count": 5938,
+            "download_count": 5944,
             "platform": "Other",
             "content_type": "raw"
           },
@@ -20477,7 +20505,7 @@
           {
             "name": "goose-aarch64-apple-darwin.tar.gz",
             "size_bytes": 86244928,
-            "download_count": 1312,
+            "download_count": 1317,
             "platform": "macOS",
             "content_type": "raw"
           },
@@ -20505,7 +20533,7 @@
           {
             "name": "goose-aarch64-unknown-linux-gnu.tar.gz",
             "size_bytes": 93309659,
-            "download_count": 1348,
+            "download_count": 1353,
             "platform": "Linux",
             "content_type": "raw"
           },
@@ -20582,21 +20610,21 @@
           {
             "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
             "size_bytes": 82585086,
-            "download_count": 8270,
+            "download_count": 8276,
             "platform": "Linux",
             "content_type": "raw"
           },
           {
             "name": "goose-x86_64-unknown-linux-gnu.tar.gz",
             "size_bytes": 93184950,
-            "download_count": 2320,
+            "download_count": 2330,
             "platform": "Linux",
             "content_type": "raw"
           },
           {
             "name": "goose-x86_64-unknown-linux-musl.tar.bz2",
             "size_bytes": 43430434,
-            "download_count": 368,
+            "download_count": 372,
             "platform": "Linux",
             "content_type": "raw"
           },
@@ -20624,7 +20652,7 @@
           {
             "name": "goose_1.43.0_amd64.deb",
             "size_bytes": 164062386,
-            "download_count": 805,
+            "download_count": 808,
             "platform": "Linux",
             "content_type": "raw"
           },
@@ -20878,8 +20906,8 @@
         "published_at": "2026-07-03T00:26:40Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 32661,
-        "total_downloads": 32661,
+        "raw_downloads": 32665,
+        "total_downloads": 32665,
         "asset_count": 29,
         "assets": [
           {
@@ -20934,7 +20962,7 @@
           {
             "name": "goose-aarch64-unknown-linux-gnu.tar.bz2",
             "size_bytes": 81494416,
-            "download_count": 1101,
+            "download_count": 1102,
             "platform": "Linux",
             "content_type": "raw"
           },
@@ -21018,7 +21046,7 @@
           {
             "name": "goose-x86_64-unknown-linux-gnu.tar.bz2",
             "size_bytes": 82208906,
-            "download_count": 2782,
+            "download_count": 2785,
             "platform": "Linux",
             "content_type": "raw"
           },
@@ -21764,8 +21792,8 @@
         "published_at": "2026-06-03T19:37:45Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 38705,
-        "total_downloads": 38705,
+        "raw_downloads": 38716,
+        "total_downloads": 38716,
         "asset_count": 29,
         "assets": [
           {
@@ -21911,7 +21939,7 @@
           {
             "name": "goose-x86_64-unknown-linux-gnu.tar.gz",
             "size_bytes": 85743263,
-            "download_count": 2378,
+            "download_count": 2389,
             "platform": "Linux",
             "content_type": "raw"
           },
@@ -22200,8 +22228,8 @@
         "published_at": "2026-05-22T00:42:05Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 18826,
-        "total_downloads": 18826,
+        "raw_downloads": 18828,
+        "total_downloads": 18828,
         "asset_count": 29,
         "assets": [
           {
@@ -22361,7 +22389,7 @@
           {
             "name": "goose-x86_64-unknown-linux-musl.tar.gz",
             "size_bytes": 49466745,
-            "download_count": 145,
+            "download_count": 147,
             "platform": "Linux",
             "content_type": "raw"
           },

@@ -22,21 +22,26 @@ import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Load .env file manually (avoids python-dotenv dependency)
+env_path = Path(__file__).parent.parent / '.env'
+if env_path.exists():
+    with open(env_path) as f:
+        for line in f:
+            if line.strip() and not line.startswith('#') and '=' in line:
+                key, val = line.strip().split('=', 1)
+                os.environ[key.strip()] = val.strip().strip('"\'')
+
 # ─── Configuration ───────────────────────────────────────────────────────────
 
 PROJECTS = [
-    {
-        "category": "Block Open Source",
-        "repos": [
-            {"owner": "block", "repo": "goose", "name": "Goose"},
-            {"owner": "block", "repo": "buzz", "name": "Buzz"},
-        ]
-    },
     {
         "category": "Core Infrastructure",
         "repos": [
             {"owner": "bitcoin", "repo": "bitcoin", "name": "Bitcoin Core"},
             {"owner": "btcpayserver", "repo": "btcpayserver", "name": "BTCPay Server"},
+            {"owner": "mempool", "repo": "mempool", "name": "Mempool.space"},
+            {"owner": "joinmarket-webui", "repo": "joinmarket-webui", "name": "Jam"},
+            {"owner": "RoboSats", "repo": "robosats", "name": "RoboSats"},
         ]
     },
     {
@@ -48,6 +53,12 @@ PROJECTS = [
             {"owner": "Blockstream", "repo": "green_android", "name": "Green Wallet"},
             {"owner": "nunchuk-io", "repo": "nunchuk-desktop", "name": "Nunchuk"},
             {"owner": "WalletWasabi", "repo": "WalletWasabi", "name": "Wasabi Wallet"},
+            {"owner": "ZeusLN", "repo": "zeus", "name": "Zeus"},
+            {"owner": "ACINQ", "repo": "phoenix", "name": "Phoenix"},
+            {"owner": "MutinyWallet", "repo": "mutiny-web", "name": "Mutiny Wallet"},
+            {"owner": "hsjoberg", "repo": "blixt-wallet", "name": "Blixt"},
+            {"owner": "breez", "repo": "breezmobile", "name": "Breez"},
+            {"owner": "bitkey", "repo": "bitkey", "name": "Bitkey"},
         ]
     },
     {
@@ -57,6 +68,10 @@ PROJECTS = [
             {"owner": "ElementsProject", "repo": "lightning", "name": "Core Lightning"},
             {"owner": "ACINQ", "repo": "eclair", "name": "Eclair"},
             {"owner": "lightningdevkit", "repo": "rust-lightning", "name": "LDK", "source": "crates", "crate_name": "lightning"},
+            {"owner": "lnbits", "repo": "lnbits", "name": "LNBits"},
+            {"owner": "fedimint", "repo": "fedimint", "name": "Fedimint"},
+            {"owner": "cashubtc", "repo": "nutshell", "name": "Cashu"},
+            {"owner": "getAlby", "repo": "lightning-browser-extension", "name": "Alby"},
         ]
     },
     {
@@ -70,6 +85,7 @@ PROJECTS = [
         "repos": [
             {"owner": "bitcoinj", "repo": "bitcoinj", "name": "bitcoinj"},
             {"owner": "rust-bitcoin", "repo": "rust-bitcoin", "name": "rust-bitcoin", "source": "crates", "crate_name": "bitcoin"},
+            {"owner": "bitcoindevkit", "repo": "bdk", "name": "BDK", "source": "crates", "crate_name": "bdk"},
         ]
     },
 ]
@@ -222,16 +238,32 @@ def fetch_crates_project(project: dict) -> dict:
         )
         days_since_latest = (now - latest_date).days
 
+    # Fetch GitHub stats if owner/repo are provided
+    github_stars = 0
+    github_forks = 0
+    github_issues = 0
+    github_description = crate.get('description', '')
+    if project.get('owner') and project.get('repo'):
+        repo_url = f"https://api.github.com/repos/{project['owner']}/{project['repo']}"
+        print(f"  → GET {repo_url} (for crates.io stats)")
+        repo_info = github_api_get(repo_url)
+        if repo_info and isinstance(repo_info, dict):
+            github_stars = repo_info.get('stargazers_count', 0)
+            github_forks = repo_info.get('forks_count', 0)
+            github_issues = repo_info.get('open_issues_count', 0)
+            if repo_info.get('description'):
+                github_description = repo_info.get('description')
+
     return {
         'project': {
             'owner': project['owner'],
             'repo': project['repo'],
             'name': project['name'],
             'full_name': f"{project['owner']}/{project['repo']}",
-            'description': crate.get('description', ''),
-            'stars': 0, # crates.io doesn't expose stars in this API
-            'forks': 0,
-            'open_issues': 0,
+            'description': github_description,
+            'stars': github_stars, # Fetched from GitHub if available
+            'forks': github_forks,
+            'open_issues': github_issues,
             'language': 'Rust',
             'license': crate.get('exact_match', False), 
             'homepage': crate.get('homepage', ''),

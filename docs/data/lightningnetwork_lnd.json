@@ -14,7 +14,7 @@
     "html_url": "https://github.com/lightningnetwork/lnd"
   },
   "summary": {
-    "total_downloads": 2295510,
+    "total_downloads": 2295551,
     "total_releases": 189,
     "stable_releases": 70,
     "pre_releases": 119,
@@ -23,12 +23,12 @@
     "days_since_latest": 21,
     "avg_cadence_days": 43.6,
     "platform_breakdown": {
-      "macOS": 168518,
-      "Other": 403309,
-      "Linux": 1148505,
-      "Source": 76631,
-      "Windows": 245055,
-      "Signatures": 253492
+      "macOS": 168522,
+      "Other": 403317,
+      "Linux": 1148523,
+      "Source": 76633,
+      "Windows": 245061,
+      "Signatures": 253495
     }
   },
   "releases": [
@@ -38,126 +38,126 @@
       "published_at": "2026-07-08T20:21:13Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 9277,
-      "total_downloads": 9277,
+      "raw_downloads": 9295,
+      "total_downloads": 9295,
       "asset_count": 23,
       "assets": [
         {
           "name": "lnd-darwin-amd64-v0.20.2-beta.tar.gz",
           "size_bytes": 46336831,
-          "download_count": 505,
+          "download_count": 506,
           "platform": "macOS",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-darwin-arm64-v0.20.2-beta.tar.gz",
           "size_bytes": 43452059,
-          "download_count": 505,
+          "download_count": 506,
           "platform": "macOS",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-freebsd-386-v0.20.2-beta.tar.gz",
           "size_bytes": 42735141,
-          "download_count": 503,
+          "download_count": 504,
           "platform": "Other",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-freebsd-amd64-v0.20.2-beta.tar.gz",
           "size_bytes": 45309337,
-          "download_count": 503,
+          "download_count": 504,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-freebsd-arm-v0.20.2-beta.tar.gz",
           "size_bytes": 42184069,
-          "download_count": 503,
+          "download_count": 504,
           "platform": "Other",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-linux-386-v0.20.2-beta.tar.gz",
           "size_bytes": 42831904,
-          "download_count": 503,
+          "download_count": 504,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-linux-amd64-v0.20.2-beta.tar.gz",
           "size_bytes": 45346233,
-          "download_count": 625,
+          "download_count": 626,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-linux-arm64-v0.20.2-beta.tar.gz",
           "size_bytes": 41359193,
-          "download_count": 526,
+          "download_count": 527,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-linux-armv6-v0.20.2-beta.tar.gz",
           "size_bytes": 42253843,
-          "download_count": 503,
+          "download_count": 504,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-linux-armv7-v0.20.2-beta.tar.gz",
           "size_bytes": 42215218,
-          "download_count": 504,
+          "download_count": 505,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-netbsd-amd64-v0.20.2-beta.tar.gz",
           "size_bytes": 45067663,
-          "download_count": 503,
+          "download_count": 504,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-openbsd-amd64-v0.20.2-beta.tar.gz",
           "size_bytes": 45141297,
-          "download_count": 503,
+          "download_count": 504,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-source-v0.20.2-beta.tar.gz",
           "size_bytes": 5703483,
-          "download_count": 505,
+          "download_count": 506,
           "platform": "Source",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-windows-386-v0.20.2-beta.zip",
           "size_bytes": 41763215,
-          "download_count": 503,
+          "download_count": 504,
           "platform": "Windows",
           "content_type": "application/zip"
         },
         {
           "name": "lnd-windows-amd64-v0.20.2-beta.zip",
           "size_bytes": 46641215,
-          "download_count": 507,
+          "download_count": 508,
           "platform": "Windows",
           "content_type": "application/zip"
         },
         {
           "name": "lnd-windows-arm-v0.20.2-beta.zip",
           "size_bytes": 40222389,
-          "download_count": 503,
+          "download_count": 504,
           "platform": "Windows",
           "content_type": "application/zip"
         },
         {
           "name": "manifest-georgetsagk-v0.20.2-beta.sig",
           "size_bytes": 566,
-          "download_count": 509,
+          "download_count": 510,
           "platform": "Signatures",
           "content_type": "application/pgp-signature"
         },
@@ -171,7 +171,7 @@
         {
           "name": "manifest-v0.20.2-beta.txt",
           "size_bytes": 4743,
-          "download_count": 529,
+          "download_count": 530,
           "platform": "Other",
           "content_type": "text/plain"
         },
@@ -390,126 +390,126 @@
       "published_at": "2026-06-30T10:51:21Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 14055,
-      "total_downloads": 14055,
+      "raw_downloads": 14075,
+      "total_downloads": 14075,
       "asset_count": 27,
       "assets": [
         {
           "name": "lnd-darwin-amd64-v0.21.1-beta.tar.gz",
           "size_bytes": 48542742,
-          "download_count": 721,
+          "download_count": 722,
           "platform": "macOS",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-darwin-arm64-v0.21.1-beta.tar.gz",
           "size_bytes": 45384226,
-          "download_count": 716,
+          "download_count": 717,
           "platform": "macOS",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-freebsd-386-v0.21.1-beta.tar.gz",
           "size_bytes": 44869363,
-          "download_count": 708,
+          "download_count": 709,
           "platform": "Other",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-freebsd-amd64-v0.21.1-beta.tar.gz",
           "size_bytes": 47410534,
-          "download_count": 709,
+          "download_count": 710,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-freebsd-arm-v0.21.1-beta.tar.gz",
           "size_bytes": 44340192,
-          "download_count": 707,
+          "download_count": 708,
           "platform": "Other",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-linux-386-v0.21.1-beta.tar.gz",
           "size_bytes": 44982606,
-          "download_count": 709,
+          "download_count": 710,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-linux-amd64-v0.21.1-beta.tar.gz",
           "size_bytes": 47455278,
-          "download_count": 989,
+          "download_count": 991,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-linux-arm64-v0.21.1-beta.tar.gz",
           "size_bytes": 43133085,
-          "download_count": 793,
+          "download_count": 794,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-linux-armv6-v0.21.1-beta.tar.gz",
           "size_bytes": 44430006,
-          "download_count": 706,
+          "download_count": 707,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-linux-armv7-v0.21.1-beta.tar.gz",
           "size_bytes": 44380653,
-          "download_count": 708,
+          "download_count": 709,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-netbsd-amd64-v0.21.1-beta.tar.gz",
           "size_bytes": 47169699,
-          "download_count": 703,
+          "download_count": 704,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-openbsd-amd64-v0.21.1-beta.tar.gz",
           "size_bytes": 47236464,
-          "download_count": 702,
+          "download_count": 703,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-source-v0.21.1-beta.tar.gz",
           "size_bytes": 6262510,
-          "download_count": 726,
+          "download_count": 727,
           "platform": "Source",
           "content_type": "application/gzip"
         },
         {
           "name": "lnd-windows-386-v0.21.1-beta.zip",
           "size_bytes": 44127494,
-          "download_count": 705,
+          "download_count": 706,
           "platform": "Windows",
           "content_type": "application/zip"
         },
         {
           "name": "lnd-windows-amd64-v0.21.1-beta.zip",
           "size_bytes": 48829992,
-          "download_count": 727,
+          "download_count": 728,
           "platform": "Windows",
           "content_type": "application/zip"
         },
         {
           "name": "lnd-windows-arm64-v0.21.1-beta.zip",
           "size_bytes": 43633384,
-          "download_count": 703,
+          "download_count": 704,
           "platform": "Windows",
           "content_type": "application/zip"
         },
         {
           "name": "manifest-georgetsagk-v0.21.1-beta.sig",
           "size_bytes": 566,
-          "download_count": 549,
+          "download_count": 550,
           "platform": "Signatures",
           "content_type": "application/pgp-signature"
         },
@@ -544,7 +544,7 @@
         {
           "name": "manifest-v0.21.1-beta.txt",
           "size_bytes": 4749,
-          "download_count": 989,
+          "download_count": 991,
           "platform": "Other",
           "content_type": "text/plain"
         },
@@ -2438,8 +2438,8 @@
       "published_at": "2025-08-21T18:46:00Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 90035,
-      "total_downloads": 90035,
+      "raw_downloads": 90038,
+      "total_downloads": 90038,
       "asset_count": 26,
       "assets": [
         {
@@ -2494,7 +2494,7 @@
         {
           "name": "lnd-linux-arm64-v0.19.3-beta.tar.gz",
           "size_bytes": 39936151,
-          "download_count": 6330,
+          "download_count": 6331,
           "platform": "Linux",
           "content_type": "application/gzip"
         },
@@ -2578,7 +2578,7 @@
         {
           "name": "manifest-roasbeef-v0.19.3-beta.sig",
           "size_bytes": 119,
-          "download_count": 7681,
+          "download_count": 7682,
           "platform": "Signatures",
           "content_type": "application/octet-stream"
         },
@@ -2592,7 +2592,7 @@
         {
           "name": "manifest-v0.19.3-beta.txt",
           "size_bytes": 4743,
-          "download_count": 7723,
+          "download_count": 7724,
           "platform": "Other",
           "content_type": "text/plain"
         },
@@ -37891,7 +37891,7 @@
       "author": "Roasbeef"
     }
   ],
-  "fetched_at": "2026-07-30T18:58:53.690548+00:00",
+  "fetched_at": "2026-07-30T20:15:12.411393+00:00",
   "deep_dive": {
     "days_since_launch": 3465,
     "recent_stable_releases": [
@@ -37901,126 +37901,126 @@
         "published_at": "2026-07-08T20:21:13Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 9277,
-        "total_downloads": 9277,
+        "raw_downloads": 9295,
+        "total_downloads": 9295,
         "asset_count": 23,
         "assets": [
           {
             "name": "lnd-darwin-amd64-v0.20.2-beta.tar.gz",
             "size_bytes": 46336831,
-            "download_count": 505,
+            "download_count": 506,
             "platform": "macOS",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-darwin-arm64-v0.20.2-beta.tar.gz",
             "size_bytes": 43452059,
-            "download_count": 505,
+            "download_count": 506,
             "platform": "macOS",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-freebsd-386-v0.20.2-beta.tar.gz",
             "size_bytes": 42735141,
-            "download_count": 503,
+            "download_count": 504,
             "platform": "Other",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-freebsd-amd64-v0.20.2-beta.tar.gz",
             "size_bytes": 45309337,
-            "download_count": 503,
+            "download_count": 504,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-freebsd-arm-v0.20.2-beta.tar.gz",
             "size_bytes": 42184069,
-            "download_count": 503,
+            "download_count": 504,
             "platform": "Other",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-linux-386-v0.20.2-beta.tar.gz",
             "size_bytes": 42831904,
-            "download_count": 503,
+            "download_count": 504,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-linux-amd64-v0.20.2-beta.tar.gz",
             "size_bytes": 45346233,
-            "download_count": 625,
+            "download_count": 626,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-linux-arm64-v0.20.2-beta.tar.gz",
             "size_bytes": 41359193,
-            "download_count": 526,
+            "download_count": 527,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-linux-armv6-v0.20.2-beta.tar.gz",
             "size_bytes": 42253843,
-            "download_count": 503,
+            "download_count": 504,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-linux-armv7-v0.20.2-beta.tar.gz",
             "size_bytes": 42215218,
-            "download_count": 504,
+            "download_count": 505,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-netbsd-amd64-v0.20.2-beta.tar.gz",
             "size_bytes": 45067663,
-            "download_count": 503,
+            "download_count": 504,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-openbsd-amd64-v0.20.2-beta.tar.gz",
             "size_bytes": 45141297,
-            "download_count": 503,
+            "download_count": 504,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-source-v0.20.2-beta.tar.gz",
             "size_bytes": 5703483,
-            "download_count": 505,
+            "download_count": 506,
             "platform": "Source",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-windows-386-v0.20.2-beta.zip",
             "size_bytes": 41763215,
-            "download_count": 503,
+            "download_count": 504,
             "platform": "Windows",
             "content_type": "application/zip"
           },
           {
             "name": "lnd-windows-amd64-v0.20.2-beta.zip",
             "size_bytes": 46641215,
-            "download_count": 507,
+            "download_count": 508,
             "platform": "Windows",
             "content_type": "application/zip"
           },
           {
             "name": "lnd-windows-arm-v0.20.2-beta.zip",
             "size_bytes": 40222389,
-            "download_count": 503,
+            "download_count": 504,
             "platform": "Windows",
             "content_type": "application/zip"
           },
           {
             "name": "manifest-georgetsagk-v0.20.2-beta.sig",
             "size_bytes": 566,
-            "download_count": 509,
+            "download_count": 510,
             "platform": "Signatures",
             "content_type": "application/pgp-signature"
           },
@@ -38034,7 +38034,7 @@
           {
             "name": "manifest-v0.20.2-beta.txt",
             "size_bytes": 4743,
-            "download_count": 529,
+            "download_count": 530,
             "platform": "Other",
             "content_type": "text/plain"
           },
@@ -38077,126 +38077,126 @@
         "published_at": "2026-06-30T10:51:21Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 14055,
-        "total_downloads": 14055,
+        "raw_downloads": 14075,
+        "total_downloads": 14075,
         "asset_count": 27,
         "assets": [
           {
             "name": "lnd-darwin-amd64-v0.21.1-beta.tar.gz",
             "size_bytes": 48542742,
-            "download_count": 721,
+            "download_count": 722,
             "platform": "macOS",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-darwin-arm64-v0.21.1-beta.tar.gz",
             "size_bytes": 45384226,
-            "download_count": 716,
+            "download_count": 717,
             "platform": "macOS",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-freebsd-386-v0.21.1-beta.tar.gz",
             "size_bytes": 44869363,
-            "download_count": 708,
+            "download_count": 709,
             "platform": "Other",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-freebsd-amd64-v0.21.1-beta.tar.gz",
             "size_bytes": 47410534,
-            "download_count": 709,
+            "download_count": 710,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-freebsd-arm-v0.21.1-beta.tar.gz",
             "size_bytes": 44340192,
-            "download_count": 707,
+            "download_count": 708,
             "platform": "Other",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-linux-386-v0.21.1-beta.tar.gz",
             "size_bytes": 44982606,
-            "download_count": 709,
+            "download_count": 710,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-linux-amd64-v0.21.1-beta.tar.gz",
             "size_bytes": 47455278,
-            "download_count": 989,
+            "download_count": 991,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-linux-arm64-v0.21.1-beta.tar.gz",
             "size_bytes": 43133085,
-            "download_count": 793,
+            "download_count": 794,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-linux-armv6-v0.21.1-beta.tar.gz",
             "size_bytes": 44430006,
-            "download_count": 706,
+            "download_count": 707,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-linux-armv7-v0.21.1-beta.tar.gz",
             "size_bytes": 44380653,
-            "download_count": 708,
+            "download_count": 709,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-netbsd-amd64-v0.21.1-beta.tar.gz",
             "size_bytes": 47169699,
-            "download_count": 703,
+            "download_count": 704,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-openbsd-amd64-v0.21.1-beta.tar.gz",
             "size_bytes": 47236464,
-            "download_count": 702,
+            "download_count": 703,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-source-v0.21.1-beta.tar.gz",
             "size_bytes": 6262510,
-            "download_count": 726,
+            "download_count": 727,
             "platform": "Source",
             "content_type": "application/gzip"
           },
           {
             "name": "lnd-windows-386-v0.21.1-beta.zip",
             "size_bytes": 44127494,
-            "download_count": 705,
+            "download_count": 706,
             "platform": "Windows",
             "content_type": "application/zip"
           },
           {
             "name": "lnd-windows-amd64-v0.21.1-beta.zip",
             "size_bytes": 48829992,
-            "download_count": 727,
+            "download_count": 728,
             "platform": "Windows",
             "content_type": "application/zip"
           },
           {
             "name": "lnd-windows-arm64-v0.21.1-beta.zip",
             "size_bytes": 43633384,
-            "download_count": 703,
+            "download_count": 704,
             "platform": "Windows",
             "content_type": "application/zip"
           },
           {
             "name": "manifest-georgetsagk-v0.21.1-beta.sig",
             "size_bytes": 566,
-            "download_count": 549,
+            "download_count": 550,
             "platform": "Signatures",
             "content_type": "application/pgp-signature"
           },
@@ -38231,7 +38231,7 @@
           {
             "name": "manifest-v0.21.1-beta.txt",
             "size_bytes": 4749,
-            "download_count": 989,
+            "download_count": 991,
             "platform": "Other",
             "content_type": "text/plain"
           },
@@ -38858,8 +38858,8 @@
         "published_at": "2025-08-21T18:46:00Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 90035,
-        "total_downloads": 90035,
+        "raw_downloads": 90038,
+        "total_downloads": 90038,
         "asset_count": 26,
         "assets": [
           {
@@ -38914,7 +38914,7 @@
           {
             "name": "lnd-linux-arm64-v0.19.3-beta.tar.gz",
             "size_bytes": 39936151,
-            "download_count": 6330,
+            "download_count": 6331,
             "platform": "Linux",
             "content_type": "application/gzip"
           },
@@ -38998,7 +38998,7 @@
           {
             "name": "manifest-roasbeef-v0.19.3-beta.sig",
             "size_bytes": 119,
-            "download_count": 7681,
+            "download_count": 7682,
             "platform": "Signatures",
             "content_type": "application/octet-stream"
           },
@@ -39012,7 +39012,7 @@
           {
             "name": "manifest-v0.19.3-beta.txt",
             "size_bytes": 4743,
-            "download_count": 7723,
+            "download_count": 7724,
             "platform": "Other",
             "content_type": "text/plain"
           },

@@ -14,7 +14,7 @@
     "html_url": "https://github.com/Blockstream/green_android"
   },
   "summary": {
-    "total_downloads": 34961,
+    "total_downloads": 34963,
     "total_releases": 119,
     "stable_releases": 102,
     "pre_releases": 17,
@@ -23,7 +23,7 @@
     "days_since_latest": 43,
     "avg_cadence_days": 25.7,
     "platform_breakdown": {
-      "Other": 32867,
+      "Other": 32869,
       "Signatures": 2094
     }
   },
@@ -34,14 +34,14 @@
       "published_at": "2026-06-17T15:20:57Z",
       "is_prerelease": false,
       "is_draft": false,
-      "raw_downloads": 1426,
-      "total_downloads": 1426,
+      "raw_downloads": 1428,
+      "total_downloads": 1428,
       "asset_count": 2,
       "assets": [
         {
           "name": "BlockstreamGreen-v5.5.1-productionGoogle-release.apk",
           "size_bytes": 190644777,
-          "download_count": 1411,
+          "download_count": 1413,
           "platform": "Other",
           "content_type": "application/vnd.android.package-archive"
         },
@@ -3465,7 +3465,7 @@
       "author": "RCasatta"
     }
   ],
-  "fetched_at": "2026-07-30T18:58:44.633381+00:00",
+  "fetched_at": "2026-07-30T20:14:51.849189+00:00",
   "deep_dive": {
     "days_since_launch": 2647,
     "recent_stable_releases": [
@@ -3475,14 +3475,14 @@
         "published_at": "2026-06-17T15:20:57Z",
         "is_prerelease": false,
         "is_draft": false,
-        "raw_downloads": 1426,
-        "total_downloads": 1426,
+        "raw_downloads": 1428,
+        "total_downloads": 1428,
         "asset_count": 2,
         "assets": [
           {
             "name": "BlockstreamGreen-v5.5.1-productionGoogle-release.apk",
             "size_bytes": 190644777,
-            "download_count": 1411,
+            "download_count": 1413,
             "platform": "Other",
             "content_type": "application/vnd.android.package-archive"
           },

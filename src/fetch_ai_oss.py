@@ -10,7 +10,9 @@ HEADERS = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.
 REPOS = [
     "ollama/ollama",
     "openclaw/openclaw",
-    "NousResearch/hermes-agent"
+    "NousResearch/hermes-agent",
+    "block/goose",
+    "block/buzz"
 ]
 
 def fetch_repo_data(repo_name):
@@ -67,6 +69,8 @@ def main():
             results[repo] = data
             
     out_path = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "ai_oss_raw.json")
+    # Ensure directory exists
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w") as f:
         json.dump(results, f, indent=2)
     print(f"Saved raw data to {out_path}")

@@ -1,0 +1,1232 @@
+{
+  "project": {
+    "owner": "lnbits",
+    "repo": "lnbits",
+    "name": "LNBits",
+    "full_name": "lnbits/lnbits",
+    "description": "LNbits, free and open-source Lightning wallet and accounts system.",
+    "stars": 1223,
+    "forks": 418,
+    "open_issues": 76,
+    "language": "Python",
+    "license": "MIT",
+    "homepage": "https://lnbits.com",
+    "html_url": "https://github.com/lnbits/lnbits"
+  },
+  "summary": {
+    "total_downloads": 457,
+    "total_releases": 57,
+    "stable_releases": 53,
+    "pre_releases": 4,
+    "latest_version": "v1.5.6",
+    "latest_date": "2026-07-15T13:37:38Z",
+    "days_since_latest": 15,
+    "avg_cadence_days": 31.5,
+    "platform_breakdown": {
+      "Linux": 457
+    }
+  },
+  "releases": [
+    {
+      "tag": "v1.5.6",
+      "name": "v1.5.6",
+      "published_at": "2026-07-15T13:37:38Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 11,
+      "total_downloads": 11,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.5.6.AppImage",
+          "size_bytes": 121717952,
+          "download_count": 11,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        }
+      ],
+      "body_excerpt": "## What's Changed\r\n* refactor: set `extension` field for payments by @motorina0 in https://github.com/lnbits/lnbits/pull/4031\r\n* NWC funding source: Reduce polling by @blackcoffeexbt in https://github.com/lnbits/lnbits/pull/4008\r\n* CI: appimage upload-urls with `gh upload` command by @dni in https://github.com/lnbits/lnbits/pull/4036\r\n* feat: use lnbits price aggregator to save loads of request by @dni in https://github.com/lnbits/lnbits/pull/4026\r\n* feat: keep funding source on default reset, f",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.6",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.5.5",
+      "name": "v1.5.5",
+      "published_at": "2026-07-08T12:02:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.5.5.AppImage",
+          "size_bytes": 121705664,
+          "download_count": 5,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        }
+      ],
+      "body_excerpt": "A pretty big release: LNbits v1.5.5 adds Revolut and Square as a fiat funding methods, and improves payment reliability across multiple backends. There are also a bunch of frontend and backend optimizations, including faster theming, cached exchange rates, better payment polling, improved CSV exports, and OIDC/SSO fixes, extension profiles. This release also includes new AI-agent friendly docs and guardrails, dependency updates, and plenty of small fixes that make LNbits feel faster, cleaner, an",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.5",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.5.4",
+      "name": "v1.5.4 - Hanzy",
+      "published_at": "2026-04-23T13:54:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 26,
+      "total_downloads": 26,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.5.4.AppImage",
+          "size_bytes": 121296064,
+          "download_count": 26,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This is a minor release, mostly focused on a hotfix for the AppImage install. It also includes some light refactoring and UI fixes.\r\n\r\nWe\u2019ve also added the ability to cap the number of users or extensions on an instance, for those providing LNbits as a service.\r\n\r\nWelcome new contributors @satcat21 and @karans-repo \ud83e\udd73\r\n\r\n## What's Changed\r\n* fix: use `--offline` for `uv` by @motorina0 in https://github.com/lnbits/lnbits/pull/3896\r\n* feat: optimize QR code value for bach32 by @motorina0 in https:/",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.4",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.5.3",
+      "name": "v1.5.3 - Hanzy",
+      "published_at": "2026-03-30T06:27:44Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 21,
+      "total_downloads": 21,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.5.3.AppImage",
+          "size_bytes": 120685760,
+          "download_count": 21,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## What's Changed\r\n* [feat] reset the first install token by @motorina0 in https://github.com/lnbits/lnbits/pull/3894\r\n\r\n\r\n**Full Changelog**: https://github.com/lnbits/lnbits/compare/v1.5.2...v1.5.3",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.3",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.5.2",
+      "name": "v1.5.2 - Hanzy",
+      "published_at": "2026-03-23T16:48:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 8,
+      "total_downloads": 8,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.5.2.AppImage",
+          "size_bytes": 120681664,
+          "download_count": 8,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## What's Changed\r\n* feat: docker release-rc add tag for latest rc release `latest-rc` by @dni in https://github.com/lnbits/lnbits/pull/3872\r\n* feat: Improvements to settings > routing fee reserve settings UX  by @blackcoffeexbt in https://github.com/lnbits/lnbits/pull/3857\r\n* fix: docker sparkl2 and ad multiplicity by @dni in https://github.com/lnbits/lnbits/pull/3875\r\n* chore: update to v1.5.2-rc1 by @dni in https://github.com/lnbits/lnbits/pull/3876\r\n* fix: Sanitise lightning addresses by cas",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.2",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.5.1",
+      "name": "v1.5.1 - Hanzy",
+      "published_at": "2026-03-18T10:51:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 7,
+      "total_downloads": 7,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.5.1.AppImage",
+          "size_bytes": 120411328,
+          "download_count": 7,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Named after LNbits community member Hanzy, who has provided excellent feedback on LNbits\u2019 merchant extensions. Hanzy is in the trenches - onboarding merchants, spreading Bitcoin adoption, and building a company on the LNbits stack; an exemplary Bitcoiner the community is lucky to have \ud83e\udde1.\r\n\r\nAlongside a number of minor patches, this release makes managing the Spark L2 funding source from LNbits core easier. This release also introduces a Docker image for the Spark L2 sidecar + LNbits, making it e",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.5.0",
+      "name": "v1.5.0",
+      "published_at": "2026-03-04T14:09:40Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 12,
+      "total_downloads": 12,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.5.0.AppImage",
+          "size_bytes": 120362176,
+          "download_count": 12,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "**Full Changelog**: https://github.com/lnbits/lnbits/compare/v1.4.2...v1.5.0",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.4.2",
+      "name": "v1.4.2",
+      "published_at": "2026-02-03T11:17:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 17,
+      "total_downloads": 17,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.4.2.AppImage",
+          "size_bytes": 120325312,
+          "download_count": 17,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## What's Changed\r\n* HOTFIX:  websocket with old balance was sent. by @dni in https://github.com/lnbits/lnbits/pull/3758\r\n\r\n\r\n**Full Changelog**: https://github.com/lnbits/lnbits/compare/v1.4.1...v1.4.2",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.4.2",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.4.1",
+      "name": "v1.4.1 - DNI",
+      "published_at": "2026-01-29T13:34:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.4.1.AppImage",
+          "size_bytes": 118617280,
+          "download_count": 5,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Mostly regression bug fixes for **v1.4 - DNI**, including fixes for wallet deletion issues, the QR code export `undefined` bug, and several dependency updates.\r\n\r\n## New Contributors\r\n- **@21M4TW** made their first contribution in https://github.com/lnbits/lnbits/pull/3699 \ud83c\udf89\r\n\r\n## What\u2019s Changed\r\n\r\n### Fixes\r\n- Fix QR code export returning `undefined` by @dni https://github.com/lnbits/lnbits/pull/3689\r\n- Fix `greenlet` import issue on macOS by @dni https://github.com/lnbits/lnbits/pull/3698\r\n- F",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.4.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.4.0",
+      "name": "v1.4.0 - DNI",
+      "published_at": "2025-12-22T15:29:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 27,
+      "total_downloads": 27,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.4.0.AppImage",
+          "size_bytes": 119039168,
+          "download_count": 27,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Named after @dni. DNI is a prolific contributor to LNbits who has been tearing through the codebase, making the software more streamlined, easier to maintain, and blazingly fast. LNbits would not be the project it is today without the contributions of this incredible developer.\r\n\r\nv1.4 is a huge update and a massive achievement. Thank you to all the contributors who made this possible!\r\n\r\n## Notable Changes\r\n\r\n* Major frontend overhaul: The LNbits frontend is now even faster after a large refact",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.4.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.3.1",
+      "name": "v1.3.1 - Vlad Stan",
+      "published_at": "2025-10-27T13:40:14Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.3.1.AppImage",
+          "size_bytes": 113149120,
+          "download_count": 37,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "> This release includes several important 1.3.0 patch updates. All users are encouraged to update.\r\n\r\nWelcome new contributor @DoktorShift \u2764\ufe0f\r\n\r\n## What's Changed\r\n* chore: update boltz docker image to latest by @dni in https://github.com/lnbits/lnbits/pull/3418\r\n* ci: add appimage to release flow by @dni in https://github.com/lnbits/lnbits/pull/3412\r\n* feat: add UI funding source retries by @talvasconcelos in https://github.com/lnbits/lnbits/pull/3407\r\n* bug: frontend, add some margin to bottom",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.3.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.3.0",
+      "name": "v1.3.0 - Vlad Stan",
+      "published_at": "2025-10-15T11:43:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 20,
+      "total_downloads": 20,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.3.0.AppImage",
+          "size_bytes": 113104064,
+          "download_count": 20,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Named after the wonderful Vlad Stan (@motorina0), who has been committing to LNbits for +5 years \ud83d\ude80 \r\n\r\n## Notable Changes\r\n* Huge LNURL library update by @dni supporting all LUDs, and major refactor.\r\n* Extension builder by @motorina0, which outputs a custom extension. \r\n* Switching from Poetry to UV by @arcbtc @dni, for x10 dependency installation improvement.\r\n* Nix flake restored and working via UV support.\r\n* Boltz-powered standalone docker image, for instant non-custodial LNbits.\r\n\r\n## New ",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.3.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.2.1",
+      "name": "v1.2.1",
+      "published_at": "2025-07-11T11:18:26Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 118,
+      "total_downloads": 118,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.2.1.AppImage",
+          "size_bytes": 67830976,
+          "download_count": 118,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "**Full Changelog**: https://github.com/lnbits/lnbits/compare/v1.2.0...v1.2.1",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.2.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.2.0",
+      "name": "v1.2.0",
+      "published_at": "2025-07-11T10:42:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 6,
+      "total_downloads": 6,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.2.0.AppImage",
+          "size_bytes": 67830976,
+          "download_count": 6,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## \ud83c\udd95 LNbits v1.2.0 Release Notes\r\n\r\n### \u2728 Features\r\n\r\n* Added SSL proxy settings to Docker and `.env.example` \u2013 @dni [[#3161](https://github.com/lnbits/lnbits/pull/3161)]\r\n* Added Strike Wallet integration \u2013 @santyr [[#3150](https://github.com/lnbits/lnbits/pull/3150)]\r\n* UI improvements for handling large numbers of wallets and payments \u2013 @motorina0 [[#3174](https://github.com/lnbits/lnbits/pull/3174)](https://github.com/lnbits/lnbits/pull/3174)\r\n* Improved service fee payment memo \u2013 @motorina0",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.2.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.1.0",
+      "name": "v1.1.0 - Alan Bits",
+      "published_at": "2025-05-13T11:46:30Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 65,
+      "total_downloads": 65,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.1.0.AppImage",
+          "size_bytes": 64062656,
+          "download_count": 65,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### \ud83d\udee0\ufe0f Fixes and Improvements\r\n\r\n* Added missing default values to prevent failures by @talvasconcelos [#3099](https://github.com/lnbits/lnbits/pull/3099)\r\n* Resolved offset naive date errors by @motorina0 [#3104](https://github.com/lnbits/lnbits/pull/3104)\r\n* Normalised fee\\_reserve amounts by @iWarpBTC [#3125](https://github.com/lnbits/lnbits/pull/3125)\r\n* Explicit `UTC` usage in `fromNow()` by @motorina0 [#3105](https://github.com/lnbits/lnbits/pull/3105)\r\n* Applied a mask for fiat amounts by",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.1.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.0.0",
+      "name": "v1.0.0 - Alan Bits",
+      "published_at": "2025-04-10T10:53:46Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 72,
+      "total_downloads": 72,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "LNbits-v1.0.0.AppImage",
+          "size_bytes": 62829760,
+          "download_count": 72,
+          "platform": "Linux",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## What's Changed\r\n* chore(deps): replace python-jose with pyjwt by @prusnak in https://github.com/lnbits/lnbits/pull/2591\r\n* refactor: add status column to apipayments by @dni in https://github.com/lnbits/lnbits/pull/2537\r\n* chore: bump version to 0.12.11 by @dni in https://github.com/lnbits/lnbits/pull/2601\r\n* bug: removing admin user was not persistent by @dni in https://github.com/lnbits/lnbits/pull/2603\r\n* feat: add `exclude_to` list for btcprice providers by @dni in https://github.com/lnbi",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.0.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.12.12",
+      "name": "v0.12.12",
+      "published_at": "2024-10-17T21:07:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## bugfix release\r\n\r\n**Full Changelog**: https://github.com/lnbits/lnbits/compare/v0.12.11...v0.12.12\r\n",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v0.12.12",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.12.12-rc1",
+      "name": "v0.12.12-rc1",
+      "published_at": "2024-10-16T14:53:28Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "**Full Changelog**: https://github.com/lnbits/lnbits/compare/v0.12.11...v0.12.12-rc1",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v0.12.12-rc1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.12.11",
+      "name": "v0.12.11",
+      "published_at": "2024-09-12T06:14:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* chore(deps): replace python-jose with pyjwt by @prusnak in https://github.com/lnbits/lnbits/pull/2591\r\n* refactor: add status column to apipayments by @dni in https://github.com/lnbits/lnbits/pull/2537\r\n* chore: bump version to 0.12.11 by @dni in https://github.com/lnbits/lnbits/pull/2601\r\n* bug: removing admin user was not persistent by @dni in https://github.com/lnbits/lnbits/pull/2603\r\n* feat: add `exclude_to` list for btcprice providers by @dni in https://github.com/lnbi",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/v0.12.11",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.11-rc1",
+      "name": "0.12.11-rc1",
+      "published_at": "2024-09-05T08:33:12Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n\r\nThis is a biggie. A bunch of fixes and refactors, more developer tests, dependency updates and some UI improvements, such as the lovely gradient option.\r\n\r\n![image](https://github.com/user-attachments/assets/30d5f5e1-de68-4a7e-9d3e-419acf89d89b)\r\n\r\nx3 EXTRA funding sources Boltz, Breez and Nostr Wallet Connect:\r\n* feat: add boltz client fundingsource by @dni in https://github.com/lnbits/lnbits/pull/2358\r\n* feat: NWC Funding source #2579  by @riccardobl in https://github.com/",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.11-rc1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.10",
+      "name": "0.12.10",
+      "published_at": "2024-07-23T12:35:05Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* fix: proper status check in invoice paid callback by @jackstar12 in https://github.com/lnbits/lnbits/pull/2592\r\n* fix: install extensions async by @dni in https://github.com/lnbits/lnbits/pull/2596\r\n* fix: annotations for models.py by @dni in https://github.com/lnbits/lnbits/pull/2595\r\n* chore: update version to `0.12.10` by @dni in https://github.com/lnbits/lnbits/pull/2597\r\n\r\n\r\n**Full Changelog**: https://github.com/lnbits/lnbits/compare/0.12.9...0.12.10",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.10",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.9",
+      "name": "0.12.9",
+      "published_at": "2024-07-22T14:57:58Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* fix: phoenixd wallet description field supports lnurlp by @vicariousdrama in https://github.com/lnbits/lnbits/pull/2514\r\n* Nice formatting of funding source titles in Server admin by @blackcoffeexbt in https://github.com/lnbits/lnbits/pull/2543\r\n* Fix typo of \"LNbits\" in list of funding sources. by @blackcoffeexbt in https://github.com/lnbits/lnbits/pull/2546\r\n* Update installation.md by @we-do-it-lu in https://github.com/lnbits/lnbits/pull/2549\r\n* fix: npm packages with hig",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.9",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.9-rc1",
+      "name": "0.12.9-rc1",
+      "published_at": "2024-06-19T10:58:54Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* fix: phoenixd wallet description field supports lnurlp by @vicariousdrama in https://github.com/lnbits/lnbits/pull/2514\r\n* Nice formatting of funding source titles in Server admin by @blackcoffeexbt in https://github.com/lnbits/lnbits/pull/2543\r\n* Fix typo of \"LNbits\" in list of funding sources. by @blackcoffeexbt in https://github.com/lnbits/lnbits/pull/2546\r\n* Update installation.md by @we-do-it-lu in https://github.com/lnbits/lnbits/pull/2549\r\n* fix: npm packages with hig",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.9-rc1",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.12.8",
+      "name": "0.12.8",
+      "published_at": "2024-05-28T12:16:54Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* feat: also update latest docker tag on release by @dni in https://github.com/lnbits/lnbits/pull/2528\r\n* chore(i18n-ai-tool): use gpt-4o model + chore(i18n): update strings using the AI tool by @prusnak in https://github.com/lnbits/lnbits/pull/2511\r\n* [fix] editable fields with `default=None` must be `Optional` by @motorina0 in https://github.com/lnbits/lnbits/pull/2530\r\n* fix: no fiat balance  when tracking is on by @dni in https://github.com/lnbits/lnbits/pull/2515\r\n* [fix]",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.8",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.7",
+      "name": "0.12.7",
+      "published_at": "2024-05-28T11:56:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* hotfix: check for lnbits_site_description setting  by @motorina0 in https://github.com/lnbits/lnbits/pull/2527\r\n\r\n\r\n**Full Changelog**: https://github.com/lnbits/lnbits/compare/0.12.6...0.12.7",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.7",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.6",
+      "name": "0.12.6",
+      "published_at": "2024-05-21T12:03:02Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## Main Changes\r\n* User Manager added for easily monitoring users and wallets on the server\r\n* Eclair critical bug fix - please update if running on Eclair\r\n* `phoenixd` wallet integration by @bitkarrot\r\n\r\n## What's Changed\r\n* feat: add `funding_source_max_retries` env setting by @motorina0 in https://github.com/lnbits/lnbits/pull/2404\r\n* chore: update prettier by @dni in https://github.com/lnbits/lnbits/pull/2405\r\n* fix: fastapi status import by @dni in https://github.com/lnbits/lnbits/pull/240",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.6",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.5",
+      "name": "0.12.5",
+      "published_at": "2024-04-11T12:26:00Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* feat: add `check_invalid_payments` command by @motorina0 in https://github.com/lnbits/lnbits/pull/2353\r\n* feat: add commands `delete-walle`, `delete-wallet-payment` and `verbose` option,  by @motorina0 in https://github.com/lnbits/lnbits/pull/2354\r\n* feat: add `mark-payment-pending` command by @motorina0 in https://github.com/lnbits/lnbits/pull/2355\r\n* feat: remove `--auto-fix` option from `check-payments` by @motorina0 in https://github.com/lnbits/lnbits/pull/2359\r\n* feat: ",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.5",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.4",
+      "name": "0.12.4",
+      "published_at": "2024-03-24T13:02:46Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* bug: payment status hotfix by @arcbtc in https://github.com/lnbits/lnbits/pull/2352\r\n\r\n\r\n**Full Changelog**: https://github.com/lnbits/lnbits/compare/0.12.3...0.12.4",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.4",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.3",
+      "name": "0.12.3-rc",
+      "published_at": "2024-03-22T12:32:51Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* chore: remove dead code send_push_promise by @dni in https://github.com/lnbits/lnbits/pull/2285\r\n* refactor: remove unused webhook handler for wallets by @dni in https://github.com/lnbits/lnbits/pull/2288\r\n* refactor: tasks should be run with internal `create_task` wrapper by @dni in https://github.com/lnbits/lnbits/pull/2287\r\n* refactor: move mark_webhook_sent into crud.py by @dni in https://github.com/lnbits/lnbits/pull/2286\r\n* Paid extensions by @motorina0 in https://gith",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.3",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.2",
+      "name": "0.12.2",
+      "published_at": "2024-02-21T10:23:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* fix: show installed extensions when manifest cannot be reached by @motorina0 in https://github.com/lnbits/lnbits/pull/2261\r\n* fix: correct invoice expiry for lndrest by @jackstar12 in https://github.com/lnbits/lnbits/pull/2271\r\n* refactor: generalize SSO auth by @motorina0 in https://github.com/lnbits/lnbits/pull/2263\r\n* Add `Keycloak` SSO by @motorina0 in https://github.com/lnbits/lnbits/pull/2272\r\n* feat: deprecate get_current_extension_name by @dni in https://github.com/l",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.2",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.1",
+      "name": "0.12.1",
+      "published_at": "2024-02-12T13:49:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* feat: use github release draft by @dni in https://github.com/lnbits/lnbits/pull/2237\r\n* Fix extension navigation by @motorina0 in https://github.com/lnbits/lnbits/pull/2236\r\n* alby: fix balance reporting and error handling + opennode: fix error handling by @prusnak in https://github.com/lnbits/lnbits/pull/2221\r\n* fix: cannot change user password by @motorina0 in https://github.com/lnbits/lnbits/pull/2239\r\n* chore: update to latest fastapi by @dni in https://github.com/lnbits",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "0.12.0",
+      "name": "0.12.0 DNI",
+      "published_at": "2024-02-08T09:59:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "\r\n![0_12](https://github.com/lnbits/lnbits/assets/33088785/689dce88-016a-47d2-b942-2631800196ab)\r\n\r\n0.12.0 is a BIG update for LNbits, as well as a tonne of general fixes and updates, we now have a very powerful login system, better tools for querying transactions, mobile UI improvements and better workflows (backend, frontend and development) \ud83d\ude80\r\n\r\n> Named after the great <a href=\"https://github.com/dni\">DNI</a>, who started contributing to LNbits after building the breakthrough <a href=\"https:/",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.12.0",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.11.3",
+      "name": "0.11.3 Leo",
+      "published_at": "2023-12-12T10:24:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* feat: workflow to check bundle files by @dni in https://github.com/lnbits/lnbits/pull/2126\r\n* add Alby logo to front index page by @bitkarrot in https://github.com/lnbits/lnbits/pull/2128\r\n* optimize PNG images in lnbits/static/images for size by @prusnak in https://github.com/lnbits/lnbits/pull/2131\r\n* set User-Agent when accessing external resources by @prusnak in https://github.com/lnbits/lnbits/pull/2100\r\n* fix issue with displaying languages by @talvasconcelos in https:",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.11.3",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.11.2",
+      "name": "0.11.2 Leo",
+      "published_at": "2023-11-27T14:57:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "# New in this release\r\n\r\n- New service fee settings that lets you earn a transaction fee for all internal or external transaction on an LNbits instance. Set these environment variables in your `.env` file or use the Admin-UI to enable this feature:\r\n  - `LNBITS_SERVICE_FEE`: the service fee (in percent)\r\n  - `LNBITS_SERVICE_FEE_WALLET`: the wallet where fees go to\r\n  - `LNBITS_SERVICE_FEE_MAX`: the maximum fee per transaction (in satoshis)\r\n  - `LNBITS_SERVICE_FEE_IGNORE_INTERNAL`: disable fees ",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.11.2",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.11.1",
+      "name": "0.11.1 Leo",
+      "published_at": "2023-10-17T11:50:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This bugfix release fixes several issues with `0.11.0`\r\n\r\n## Warning\r\nDue to a mistake on the last merge into main, we had to revert some commits on it.\r\nIf you run into issues pulling from `main`, reset your local main branch like this `git reset origin/main --hard`\r\n\r\n## What's Changed\r\n\r\n* drop version from readme by @prusnak in https://github.com/lnbits/lnbits/pull/2001\r\n* update: to 0.11.1 by @dni in https://github.com/lnbits/lnbits/pull/1988\r\n* hotfix: add environs backwards compatibility ",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.11.1",
+      "author": "dni"
+    },
+    {
+      "tag": "0.11.0",
+      "name": "0.11.0 Leo",
+      "published_at": "2023-10-05T10:38:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "_This release's name is dedicated to Leo. Leo is easily one of the nicest people in Bitcoin and has been active in the LNbits chat since the beginning, helping people debug, and coming up with new great ideas such as his Bitcoin Laisee (red envelopes of bitcoin given to people on the Chinese New Year). Thank you [Leo](https://twitter.com/LeoAW)!_\r\n\r\nAmong countless optimizations and stability improvements that make LNbits faster and more reliable, we are thrilled to announce a new exciting featu",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.11.0",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.10.10",
+      "name": "0.10.10 Yvette++",
+      "published_at": "2023-09-11T10:07:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* CI adjustment - Pinkify Legend by @arbadacarbaYK in https://github.com/lnbits/lnbits/pull/1766\r\n* Fixed favicon to be clearer, and still use older bolt by @arcbtc in https://github.com/lnbits/lnbits/pull/1811\r\n* Update README.md by @arcbtc in https://github.com/lnbits/lnbits/pull/1818\r\n* Update poetry to 1.5.1 by @dni in https://github.com/lnbits/lnbits/pull/1804\r\n* quickfixs failing checks on main by @dni in https://github.com/lnbits/lnbits/pull/1819\r\n* remove extensions di",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.10.10",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.10.9",
+      "name": "0.10.9 Yvette++",
+      "published_at": "2023-07-04T10:30:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "In this release, we introduce a whole suite of new security features to harden your LNbits instance. Our goal is to make these features accessible and keep every instance as safe as possible to protect user funds from possible security breaches. \r\n\r\n## The new Security panel\r\nYou will find a new Security panel in your Manage Server [AdminUI](https://github.com/lnbits/lnbits/wiki/LNbits-Documentation) that you can access as the super user. All features are opt-in and are also accessible via the [",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.10.9",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.10.8",
+      "name": "0.10.8 Yvette",
+      "published_at": "2023-05-24T13:32:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* fix cln wallet for msat migration by @daywalker90 in https://github.com/lnbits/lnbits/pull/1671\r\n* C-Lightning -> Core Lightning by @AaronDewes in https://github.com/lnbits/lnbits/pull/1720\r\n* remove mypy from precommit by @dni in https://github.com/lnbits/lnbits/pull/1718\r\n* Bump version to 0.10.8 by @dni in https://github.com/lnbits/lnbits/pull/1717\r\n* add voltage logo to index.html under runs on section by @jsahagun91 in https://github.com/lnbits/lnbits/pull/1711\r\n* fix f",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.10.8",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.10.7",
+      "name": "Yvette5",
+      "published_at": "2023-05-19T18:09:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* Adding IT properly by @SuperAtic in https://github.com/lnbits/lnbits/pull/1695\r\n* fix old payments endpoint for lndhub by @dni in https://github.com/lnbits/lnbits/pull/1698\r\n* Added Welsh by @arcbtc in https://github.com/lnbits/lnbits/pull/1696\r\n* Extend bar for mobile by @callebtc in https://github.com/lnbits/lnbits/pull/1544\r\n* Translated en.js to Polish by @hosiawak in https://github.com/lnbits/lnbits/pull/1701\r\n* Merges extensions into one page by @arcbtc in https://gith",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.10.7",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.10.6",
+      "name": "Yvette4",
+      "published_at": "2023-05-09T09:16:50Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* French language added by @guillaumehussong in https://github.com/lnbits/lnbits/pull/1686\r\n* update 0.10.6 by @dni in https://github.com/lnbits/lnbits/pull/1689\r\n* create datadir on launch by @dni in https://github.com/lnbits/lnbits/pull/1674\r\n* Serverside Pagination for payments by @jackstar12 in https://github.com/lnbits/lnbits/pull/1613\r\n* fix: rename bool `super_user` to `is_super_user` by @motorina0 in https://github.com/lnbits/lnbits/pull/1690\r\n* Create super user accou",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.10.6",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.10.5",
+      "name": "Yvette3",
+      "published_at": "2023-05-04T15:47:05Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* remove python38 from pyproject.toml by @dni in https://github.com/lnbits/lnbits/pull/1632\r\n* remove boltz_client as dependency by @dni in https://github.com/lnbits/lnbits/pull/1610\r\n* FEAT: build static files with npm (sass, concat, minify), remove build step from python, include minified bundle files by @dni in https://github.com/lnbits/lnbits/pull/1601\r\n* Bump version to 0.10.5 by @dni in https://github.com/lnbits/lnbits/pull/1649\r\n* increment cache version for service-wor",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.10.5",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.10.4",
+      "name": "Yvette2",
+      "published_at": "2023-04-21T09:27:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's Changed\r\n* fix: assume no pre-installed extensions by @motorina0 in https://github.com/lnbits/lnbits/pull/1558\r\n* Remove venv from lnbits! @dni in https://github.com/lnbits/lnbits/pull/1569\r\n* simplify exclude syntax for mypy in pyproject.toml by @prusnak in https://github.com/lnbits/lnbits/pull/1583\r\n* docs: add nginx ssl proxy info to installation by @prusnak in https://github.com/lnbits/lnbits/pull/1582\r\n* refactor extension_manager to use `pathlib.Path` instead of `os.path.join` by",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.10.4",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.10",
+      "name": "Yvette",
+      "published_at": "2023-03-01T11:05:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "Named after the great [Yvette](https://github.com/arbadacarbaYK) who has worked tirelessly with Darthcoin to produce an excellent [wiki](https://github.com/lnbits/lnbits/wiki/LNbits-Documentation), and all the community support Yvette gives in our  [Telegram](https://t.me/lnbits) group. \r\nThank you Yvette!\r\n\r\n## Major update\r\n* Installable extensions [1231](https://github.com/lnbits/lnbits/pull/1231). ALL extensions have been removed. \r\nOnly LNbits core is installed and extensions are fetched fr",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.10",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.9.7",
+      "name": "Fusion46",
+      "published_at": "2023-01-26T13:30:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This minor release updates the Docker images and fixes the dependency versions.\r\n\r\nSee the [full changelog here](https://github.com/lnbits/lnbits/releases/tag/0.9.6.1).",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.9.7",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.9.6.1",
+      "name": "Fusion45",
+      "published_at": "2023-01-25T12:54:09Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This release is named in honor of the great [Fusion44](https://github.com/fusion44), a long-time LNbits contributor who also contributes to many other free and open-source projects in the Bitcoin space. Thank you Fusion for helping making LNbits the great software it is today \ud83d\ude4c\r\n\r\n**Note**: This release includes last-minute bug fixes from 0.9.6\r\n\r\n## Core\r\n- Code base spring clean (thanks @prusnak and @dni)\r\n- Bump poetry version to `1.3.1` (#1242, #1350, #1357, #1332)\r\n- Use UUIDs instead of se",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.9.6.1",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.9.5.3",
+      "name": "Fusion44",
+      "published_at": "2022-12-25T17:55:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This release updates the LNbits Docker image.\r\n\r\nSee original release notes: https://github.com/lnbits/lnbits/releases/tag/0.9.5.1\r\n\r\n**Full Changelog**: https://github.com/lnbits/lnbits/compare/0.9.5...0.9.5.3",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.9.5.3",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.9.5.1",
+      "name": "Fusion44",
+      "published_at": "2022-12-19T15:01:48Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This release is named in honor of the great [Fusion44](https://github.com/fusion44), a long-time LNbits contributor who also contributes to many other free and open-source projects in the Bitcoin space. Thank you Fusion for helping making LNbits the great software it is today \ud83d\ude4c\r\n\r\n## Core\r\n- Introducing AdminUI: a web UI for managing LNbits Core settings (#553)\r\n- New funding source: [LightningTipBot](https://github.com/LightningTipBot/LightningTipBot) via [LN.tips](https://ln.tips/) (#921)\r\n- N",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.9.5.1",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.9.4",
+      "name": "DarthCoin - Core fixes + extra extensions",
+      "published_at": "2022-09-23T19:15:04Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "Named in honor of the great DarthCoin, a very well respected member of the LNbits community who not only has produced lots of great written guides, also tirelessly has helped many, many users with debugging in our groups. \r\nThank you DarthCoin!\r\n### CORE\r\n    \u2022 Important payment logic fix\r\n    \u2022 pending (stuck) payment fix\r\n    \u2022 Reuse DB connections for faster boot\r\n### EXTENSIONS\r\n    \u2022 Onchain Wallet, includes support for HWW connected over serial https://lnbits.github.io/hardware-wallet/inst",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.9.4",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.9.3",
+      "name": "DarthCoin - Core fixes + extra extensions",
+      "published_at": "2022-09-23T19:13:15Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "Named in honor of the great DarthCoin, a very well respected member of the LNbits community who not only has produced lots of great written guides, also tirelessly has helped many, many users with debugging in our groups. \r\nThank you DarthCoin!\r\n### CORE\r\n    \u2022 Important payment logic fix\r\n    \u2022 pending (stuck) payment fix\r\n    \u2022 Reuse DB connections for faster boot\r\n### EXTENSIONS\r\n    \u2022 Onchain Wallet, includes support for HWW connected over serial https://lnbits.github.io/hardware-wallet/inst",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.9.3",
+      "author": "callebtc"
+    },
+    {
+      "tag": "0.9.2",
+      "name": "DarthCoin - Core fixes + extra extensions",
+      "published_at": "2022-09-18T13:45:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "Named in honor of the great DarthCoin, a very well respected member of the LNbits community who not only has produced lots of great written guides, also tirelessly has helped many, many users with debugging in our groups. \r\nThank you DarthCoin!\r\n### CORE\r\n    \u2022 Important payment logic fix\r\n    \u2022 pending (stuck) payment fix\r\n    \u2022 Reuse DB connections for faster boot\r\n### EXTENSIONS\r\n    \u2022 Onchain Wallet, includes support for HWW connected over serial https://lnbits.github.io/hardware-wallet/inst",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.9.2",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.9.1",
+      "name": "Onchain Wallet and SatsPay Server update",
+      "published_at": "2022-07-28T13:52:16Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## Core\r\n* Hotfix for `venv` install guide for building static files\r\n## Extensions\r\n* Onchain Wallet (formally known as Watch Only), scrapes for funds and gives total balance + allow psbt construction\r\n* Satspayserver now shows pending balance and keeps updated via mempool.space websocket\r\n* SCRUB extension, pushes payments going to a wallet to an LNURLpay or LNaddress",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.9.1",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.9.0",
+      "name": "Tests, Poetry, Nix, extension updates",
+      "published_at": "2022-07-27T20:27:15Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## Core \r\n* Added Poetry as a python package manager option\r\n * Added Nix flake for immutable reproducible builds\r\n * Stopped transpile_scss dynamically generating code speeding up frontend\r\n*  New testing suite \r\n * Improved postgres migration workflow\r\n \r\n## Extension  updates\r\n* Search feature\r\n* Software PoS can do tips\r\n* Spotify jukebox improved UI\r\n* General enhancements and improvements\r\n\r\n",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.9.0",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.8.0",
+      "name": "Fee reserve improvements",
+      "published_at": "2022-04-02T00:29:36Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "General fixes/improvements, mainly restoring the fee reserve improvements made to the Quart branch.",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.8.0",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.7.0",
+      "name": "Fixes LNDHub extension bug",
+      "published_at": "2022-02-18T23:29:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "- Fixes issue of LNDHub extension linked to busy wallet taking down LNbits\r\n- Support for AES-encrypted macaroons (for LND)\r\n- Fixes LNURLwithdraw bug where withdraws would fail\r\n- .env theme selection working properly\r\n- Adds \"bitcoin\" theme\r\n",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.7.0",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.6.0",
+      "name": "Support for Admin users",
+      "published_at": "2022-02-07T13:41:11Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "Updated LNURLPoS to LNURLDevices, to give the extension greater scope\r\nAdded admin users to allow easy debiting of admin accounts, and admin only extensions\r\nAdded FakeWallet, so LNbits can be used completely detached from bitcoin as a centralised payment server (for use as voucher system in schools, universities, businesses, events, etc)",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.6.0",
+      "author": "arcbtc"
+    },
+    {
+      "tag": "0.4.0",
+      "name": "FastAPI Switch",
+      "published_at": "2021-12-21T20:43:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "",
+      "html_url": "https://github.com/lnbits/lnbits/releases/tag/0.4.0",
+      "author": "arcbtc"
+    }
+  ],
+  "fetched_at": "2026-07-30T20:15:18.292032+00:00",
+  "deep_dive": {
+    "days_since_launch": 1666,
+    "recent_stable_releases": [
+      {
+        "tag": "v1.5.6",
+        "name": "v1.5.6",
+        "published_at": "2026-07-15T13:37:38Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 11,
+        "total_downloads": 11,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.5.6.AppImage",
+            "size_bytes": 121717952,
+            "download_count": 11,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          }
+        ],
+        "body_excerpt": "## What's Changed\r\n* refactor: set `extension` field for payments by @motorina0 in https://github.com/lnbits/lnbits/pull/4031\r\n* NWC funding source: Reduce polling by @blackcoffeexbt in https://github.com/lnbits/lnbits/pull/4008\r\n* CI: appimage upload-urls with `gh upload` command by @dni in https://github.com/lnbits/lnbits/pull/4036\r\n* feat: use lnbits price aggregator to save loads of request by @dni in https://github.com/lnbits/lnbits/pull/4026\r\n* feat: keep funding source on default reset, f",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.6",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v1.5.5",
+        "name": "v1.5.5",
+        "published_at": "2026-07-08T12:02:29Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 5,
+        "total_downloads": 5,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.5.5.AppImage",
+            "size_bytes": 121705664,
+            "download_count": 5,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          }
+        ],
+        "body_excerpt": "A pretty big release: LNbits v1.5.5 adds Revolut and Square as a fiat funding methods, and improves payment reliability across multiple backends. There are also a bunch of frontend and backend optimizations, including faster theming, cached exchange rates, better payment polling, improved CSV exports, and OIDC/SSO fixes, extension profiles. This release also includes new AI-agent friendly docs and guardrails, dependency updates, and plenty of small fixes that make LNbits feel faster, cleaner, an",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.5",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v1.5.4",
+        "name": "v1.5.4 - Hanzy",
+        "published_at": "2026-04-23T13:54:12Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 26,
+        "total_downloads": 26,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.5.4.AppImage",
+            "size_bytes": 121296064,
+            "download_count": 26,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "This is a minor release, mostly focused on a hotfix for the AppImage install. It also includes some light refactoring and UI fixes.\r\n\r\nWe\u2019ve also added the ability to cap the number of users or extensions on an instance, for those providing LNbits as a service.\r\n\r\nWelcome new contributors @satcat21 and @karans-repo \ud83e\udd73\r\n\r\n## What's Changed\r\n* fix: use `--offline` for `uv` by @motorina0 in https://github.com/lnbits/lnbits/pull/3896\r\n* feat: optimize QR code value for bach32 by @motorina0 in https:/",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.4",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v1.5.3",
+        "name": "v1.5.3 - Hanzy",
+        "published_at": "2026-03-30T06:27:44Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 21,
+        "total_downloads": 21,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.5.3.AppImage",
+            "size_bytes": 120685760,
+            "download_count": 21,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "## What's Changed\r\n* [feat] reset the first install token by @motorina0 in https://github.com/lnbits/lnbits/pull/3894\r\n\r\n\r\n**Full Changelog**: https://github.com/lnbits/lnbits/compare/v1.5.2...v1.5.3",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.3",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v1.5.2",
+        "name": "v1.5.2 - Hanzy",
+        "published_at": "2026-03-23T16:48:35Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 8,
+        "total_downloads": 8,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.5.2.AppImage",
+            "size_bytes": 120681664,
+            "download_count": 8,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "## What's Changed\r\n* feat: docker release-rc add tag for latest rc release `latest-rc` by @dni in https://github.com/lnbits/lnbits/pull/3872\r\n* feat: Improvements to settings > routing fee reserve settings UX  by @blackcoffeexbt in https://github.com/lnbits/lnbits/pull/3857\r\n* fix: docker sparkl2 and ad multiplicity by @dni in https://github.com/lnbits/lnbits/pull/3875\r\n* chore: update to v1.5.2-rc1 by @dni in https://github.com/lnbits/lnbits/pull/3876\r\n* fix: Sanitise lightning addresses by cas",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.2",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v1.5.1",
+        "name": "v1.5.1 - Hanzy",
+        "published_at": "2026-03-18T10:51:42Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 7,
+        "total_downloads": 7,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.5.1.AppImage",
+            "size_bytes": 120411328,
+            "download_count": 7,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "Named after LNbits community member Hanzy, who has provided excellent feedback on LNbits\u2019 merchant extensions. Hanzy is in the trenches - onboarding merchants, spreading Bitcoin adoption, and building a company on the LNbits stack; an exemplary Bitcoiner the community is lucky to have \ud83e\udde1.\r\n\r\nAlongside a number of minor patches, this release makes managing the Spark L2 funding source from LNbits core easier. This release also introduces a Docker image for the Spark L2 sidecar + LNbits, making it e",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.1",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v1.5.0",
+        "name": "v1.5.0",
+        "published_at": "2026-03-04T14:09:40Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 12,
+        "total_downloads": 12,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.5.0.AppImage",
+            "size_bytes": 120362176,
+            "download_count": 12,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "**Full Changelog**: https://github.com/lnbits/lnbits/compare/v1.4.2...v1.5.0",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.5.0",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v1.4.2",
+        "name": "v1.4.2",
+        "published_at": "2026-02-03T11:17:49Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 17,
+        "total_downloads": 17,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.4.2.AppImage",
+            "size_bytes": 120325312,
+            "download_count": 17,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "## What's Changed\r\n* HOTFIX:  websocket with old balance was sent. by @dni in https://github.com/lnbits/lnbits/pull/3758\r\n\r\n\r\n**Full Changelog**: https://github.com/lnbits/lnbits/compare/v1.4.1...v1.4.2",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.4.2",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v1.4.1",
+        "name": "v1.4.1 - DNI",
+        "published_at": "2026-01-29T13:34:31Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 5,
+        "total_downloads": 5,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.4.1.AppImage",
+            "size_bytes": 118617280,
+            "download_count": 5,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "Mostly regression bug fixes for **v1.4 - DNI**, including fixes for wallet deletion issues, the QR code export `undefined` bug, and several dependency updates.\r\n\r\n## New Contributors\r\n- **@21M4TW** made their first contribution in https://github.com/lnbits/lnbits/pull/3699 \ud83c\udf89\r\n\r\n## What\u2019s Changed\r\n\r\n### Fixes\r\n- Fix QR code export returning `undefined` by @dni https://github.com/lnbits/lnbits/pull/3689\r\n- Fix `greenlet` import issue on macOS by @dni https://github.com/lnbits/lnbits/pull/3698\r\n- F",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.4.1",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v1.4.0",
+        "name": "v1.4.0 - DNI",
+        "published_at": "2025-12-22T15:29:35Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 27,
+        "total_downloads": 27,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.4.0.AppImage",
+            "size_bytes": 119039168,
+            "download_count": 27,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "Named after @dni. DNI is a prolific contributor to LNbits who has been tearing through the codebase, making the software more streamlined, easier to maintain, and blazingly fast. LNbits would not be the project it is today without the contributions of this incredible developer.\r\n\r\nv1.4 is a huge update and a massive achievement. Thank you to all the contributors who made this possible!\r\n\r\n## Notable Changes\r\n\r\n* Major frontend overhaul: The LNbits frontend is now even faster after a large refact",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.4.0",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v1.3.1",
+        "name": "v1.3.1 - Vlad Stan",
+        "published_at": "2025-10-27T13:40:14Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 37,
+        "total_downloads": 37,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.3.1.AppImage",
+            "size_bytes": 113149120,
+            "download_count": 37,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "> This release includes several important 1.3.0 patch updates. All users are encouraged to update.\r\n\r\nWelcome new contributor @DoktorShift \u2764\ufe0f\r\n\r\n## What's Changed\r\n* chore: update boltz docker image to latest by @dni in https://github.com/lnbits/lnbits/pull/3418\r\n* ci: add appimage to release flow by @dni in https://github.com/lnbits/lnbits/pull/3412\r\n* feat: add UI funding source retries by @talvasconcelos in https://github.com/lnbits/lnbits/pull/3407\r\n* bug: frontend, add some margin to bottom",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.3.1",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v1.3.0",
+        "name": "v1.3.0 - Vlad Stan",
+        "published_at": "2025-10-15T11:43:56Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 20,
+        "total_downloads": 20,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "LNbits-v1.3.0.AppImage",
+            "size_bytes": 113104064,
+            "download_count": 20,
+            "platform": "Linux",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "Named after the wonderful Vlad Stan (@motorina0), who has been committing to LNbits for +5 years \ud83d\ude80 \r\n\r\n## Notable Changes\r\n* Huge LNURL library update by @dni supporting all LUDs, and major refactor.\r\n* Extension builder by @motorina0, which outputs a custom extension. \r\n* Switching from Poetry to UV by @arcbtc @dni, for x10 dependency installation improvement.\r\n* Nix flake restored and working via UV support.\r\n* Boltz-powered standalone docker image, for instant non-custodial LNbits.\r\n\r\n## New ",
+        "html_url": "https://github.com/lnbits/lnbits/releases/tag/v1.3.0",
+        "author": "github-actions[bot]"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 595.8,
+      "median_gap_hours": 332.7
+    }
+  },
+  "category": "Lightning"
+}

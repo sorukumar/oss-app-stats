@@ -1,0 +1,2920 @@
+{
+  "project": {
+    "owner": "getAlby",
+    "repo": "lightning-browser-extension",
+    "name": "Alby",
+    "full_name": "getAlby/lightning-browser-extension",
+    "description": "The Bitcoin Lightning Browser Extension that brings deep Lightning & Nostr integration to the web. Wallet interface to multiple lightning nodes and key signer for Nostr, Liquid and onchain use.",
+    "stars": 583,
+    "forks": 227,
+    "open_issues": 240,
+    "language": "TypeScript",
+    "license": "MIT",
+    "homepage": "https://getalby.com/#extension",
+    "html_url": "https://github.com/getAlby/lightning-browser-extension"
+  },
+  "summary": {
+    "total_downloads": 3079,
+    "total_releases": 73,
+    "stable_releases": 73,
+    "pre_releases": 0,
+    "latest_version": "v3.14.5",
+    "latest_date": "2026-07-14T17:04:17Z",
+    "days_since_latest": 16,
+    "avg_cadence_days": 23.2,
+    "platform_breakdown": {
+      "Other": 3079
+    }
+  },
+  "releases": [
+    {
+      "tag": "v3.14.5",
+      "name": "v3.14.5 \ud83e\uddf9\u2728\ud83c\udf0c The Witch\u2019s Broom Nebula",
+      "published_at": "2026-07-14T17:04:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 6,
+      "total_downloads": 6,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.14.5.zip",
+          "size_bytes": 6427544,
+          "download_count": 3,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.14.5.xpi",
+          "size_bytes": 6427319,
+          "download_count": 2,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v3.14.5.crx",
+          "size_bytes": 6427252,
+          "download_count": 1,
+          "platform": "Other",
+          "content_type": "application/x-chrome-extension"
+        }
+      ],
+      "body_excerpt": "## TL;DR\r\n* onboarding changes to easily get started with Alby Hub\r\n* Connectors removed: LaWallet, Kollider, Citadel (all unmaintained/depricated)\r\n* Deezy swap flow removed \u2014 Send-to-BTC-address screen now links to Boltz/SideShift with the destination address prefilled\r\n* Tooling/docs \u2014 added AGENTS.md, dropped json from the eslint lint-staged glob, updated Voltage guide links, Weblate translation sync\r\n* Dependency bumps \u2014 React, axios, dexie, i18next, zustand, dayjs, headlessui, popicons, re",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.14.5",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.14.3",
+      "name": "v3.14.3 \ud83e\uddf9\u2728\ud83c\udf0c The Witch\u2019s Broom Nebula",
+      "published_at": "2026-06-17T07:02:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 14,
+      "total_downloads": 14,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.14.3.zip",
+          "size_bytes": 6431413,
+          "download_count": 6,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.14.3.xpi",
+          "size_bytes": 6431187,
+          "download_count": 6,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v3.14.3.crx",
+          "size_bytes": 6431121,
+          "download_count": 2,
+          "platform": "Other",
+          "content_type": "application/x-chrome-extension"
+        }
+      ],
+      "body_excerpt": "## TL;DR\r\n* Connectors removed: LaWallet, Kollider, Citadel (all unmaintained/depricated)\r\n* Deezy swap flow removed \u2014 Send-to-BTC-address screen now links to Boltz/SideShift with the destination address prefilled\r\n* Tooling/docs \u2014 added AGENTS.md, dropped json from the eslint lint-staged glob, updated Voltage guide links, Weblate translation sync\r\n* Dependency bumps \u2014 React, axios, dexie, i18next, zustand, dayjs, headlessui, popicons, react-qr-code, tailwindcss/forms and a handful of patch upda",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.14.3",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.14.2",
+      "name": "v3.14.2 \ud83e\uddf9\u2728\ud83c\udf0c The Witch\u2019s Broom Nebula",
+      "published_at": "2026-03-18T08:28:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.14.2.zip",
+          "size_bytes": 6753978,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.14.2.xpi",
+          "size_bytes": 6753752,
+          "download_count": 6,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v3.14.2.crx",
+          "size_bytes": 6753686,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/x-chrome-extension"
+        }
+      ],
+      "body_excerpt": "## \ud83d\udce6 TL;DR\r\n* LN address QR support added (Galoy)\r\n* Schnorr signing + hashing functions introduced\r\n* Better German translations \ud83c\udde9\ud83c\uddea\r\n* Security updates & dependency maintenance\r\n\r\n## What's Changed\r\n\r\n* feat: show lnaddress and qr code for lnaddress for galoy instances by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3473\r\n* feat: hash and sign schnorr function by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3509\r\n\r\n## New Contrib",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.14.2",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.14.1",
+      "name": "\ud83e\uddf9\u2728\ud83c\udf0c The Witch\u2019s Broom Nebula",
+      "published_at": "2026-01-17T14:35:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 29,
+      "total_downloads": 29,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.14.1.zip",
+          "size_bytes": 6581485,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.14.1.xpi",
+          "size_bytes": 6581259,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v3.14.1.crx",
+          "size_bytes": 6581193,
+          "download_count": 5,
+          "platform": "Other",
+          "content_type": "application/x-chrome-extension"
+        }
+      ],
+      "body_excerpt": "## \u26a1\ufe0f TL;DR (v3.14.1)\r\n\r\n\ud83c\udfa8 Fix extension for Firefox for Android\r\n\r\n\u270d\ufe0f Show correct icon for Chrome dark mode\r\n\r\n## What's Changed\r\n* fix: disable context menus on Android by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3463\r\n* feat: detect browser theme instead of extension theme for icon change\u2026 by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3472\r\n\r\n\r\n\r\n**Full Changelog**: https://github.com/getAlby/lightning-browser-extension/",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.14.1",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.14.0",
+      "name": "\ud83e\uddf9\u2728\ud83c\udf0c The Witch\u2019s Broom Nebula",
+      "published_at": "2025-11-07T10:03:11Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 38,
+      "total_downloads": 38,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.14.0.zip",
+          "size_bytes": 6581901,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.14.0.xpi",
+          "size_bytes": 6581676,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v3.14.0.crx",
+          "size_bytes": 6581609,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/x-chrome-extension"
+        }
+      ],
+      "body_excerpt": "## \u26a1\ufe0f TL;DR (v3.14.0)\r\n\r\n\ud83c\udfa8 Extension rebranding with fresh visuals\r\n\r\n\u270d\ufe0f Shows kind description when signing events\r\n\r\n\ud83d\udcb0 Supports sub-satoshi (sub-sat) amounts\r\n\r\n## \ud83e\uddfe What's Changed\r\n* fix: hide built-in swaps option + deezy by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3451\r\n* feat: extension rebranding by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3449\r\n* fix: remove theme icon section for chrome by @pavanjoshi914 in https:",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.14.0",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.13.0",
+      "name": "\ud83e\ude90\ud83d\udc06 Leopard Spots on Martian Rocks \ud83e\udea8\ud83d\udd2d",
+      "published_at": "2025-09-28T06:13:33Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 46,
+      "total_downloads": 46,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.13.0.zip",
+          "size_bytes": 7329567,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.13.0.xpi",
+          "size_bytes": 7329247,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v3.13.0.crx",
+          "size_bytes": 7329181,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/x-chrome-extension"
+        }
+      ],
+      "body_excerpt": "## TL;DR\r\n\r\n\ud83d\ude80 This release brings important fixes and new features:\r\n\r\n\u26a1 LNbits connector fixes\r\n\r\n\ud83d\udd17 CLN nodes can now connect through NWC\r\n\r\n\ud83c\udf10 Added Ukrainian locale\r\n\r\n\ud83d\uddb1\ufe0f Right-click menu to pay invoices/addresses\r\n\r\n\ud83c\udfa8 Revamped \u201cPin Extension\u201d screen layout\r\n\r\n\ud83e\uddfe Metadata support for transactions\r\n\r\n\r\n## What's Changed\r\n* fix: update copy by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3383\r\n* feat: add metadata to transactions by @pavanjoshi914 in https://githu",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.13.0",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.12.0",
+      "name": "v3.12.0 \ud83e\ude90 Herbig-Haro 24",
+      "published_at": "2025-05-28T09:47:15Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 31,
+      "total_downloads": 31,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.12.0.zip",
+          "size_bytes": 7159679,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.12.0.xpi",
+          "size_bytes": 7159360,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "## \ud83d\udd14 TL;DR \u2013 What\u2019s New in v3.12.0\r\n\r\n\r\n* \ud83e\udde9 Better onboarding for both master key and Nostr key\r\n* \ud83d\udd0b \"Batteries\" removed from the extension\r\n* \u2699\ufe0f New Wallet Settings menu for easier access and configuration\r\n* \ud83c\udfa8 Improved UI and \u270d\ufe0f copy for smoother user experience\r\n* \ud83d\udee0\ufe0f Numerous under-the-hood code cleanups and workflow upgrades\r\n\r\n\r\n## What's Changed\r\n* feat: update depricated artifacts for workflows by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3306\r\n* fix: r",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.12.0",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.11.0",
+      "name": "v3.11.0 Pleiades over Half Dome",
+      "published_at": "2025-01-27T09:58:48Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 48,
+      "total_downloads": 48,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.11.0.zip",
+          "size_bytes": 7176512,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.11.0.xpi",
+          "size_bytes": 7176194,
+          "download_count": 27,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "## TL;DR\r\n\r\nThe latest update includes several fixes and new features for the Lightning Browser Extension. Key fixes address issues with Reddit and Medium battery usage, as well as resolving a UI bug related to blue boxes. New features include the addition of a separate card specifically for importing Nostr keys and enhancements to locales with the inclusion of Sinhalese, Tamil, and Russian. Additionally, users can now view pending and failed transactions for NWC, improving transaction tracking ",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.11.0",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.10.0",
+      "name": "v3.10.0 Ice Clouds over a Red Planet",
+      "published_at": "2024-12-04T13:14:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 39,
+      "total_downloads": 39,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.10.0.zip",
+          "size_bytes": 6868727,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.10.0.xpi",
+          "size_bytes": 6868409,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "TL;DR\r\nVersion v3.10.0 introduces the Alby Hub Connector and a notification banner for upgrading shared wallets to Alby Hub. It also replaces \"Citadel\" with \"Nirvati\" and includes multiple translation updates. These updates enhance functionality, usability, and localization.\r\n\r\n## What's Changed\r\n* fix: remove translations for product names by @reneaaron in https://github.com/getAlby/lightning-browser-extension/pull/3259\r\n* feat: alby hub connector by @pavanjoshi914 in https://github.com/getAlby",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.10.0",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.9.2",
+      "name": "v3.9.2 Messier 24: Sagittarius Star Cloud",
+      "published_at": "2024-10-18T09:32:26Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 20,
+      "total_downloads": 20,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.9.2.zip",
+          "size_bytes": 5760800,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.9.2.xpi",
+          "size_bytes": 5760482,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "## TL;DR \r\nThe Alby Lightning Browser Extension v3.9.2 brings several updates and fixes. The optional getRelays method for the Nostr provider was removed, and the product copy for adding new accounts to wallets has been updated. Additionally, the extension now reloads the npub when an account changes, ensuring the correct npub is displayed in the default view. The update also includes copy improvements for the master key setup in the default view cards and enhances the onboarding process for acc",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.9.2",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.9.1",
+      "name": "v3.9.1 Messier 24: Sagittarius Star Cloud",
+      "published_at": "2024-09-08T12:29:40Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 32,
+      "total_downloads": 32,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.9.1.zip",
+          "size_bytes": 5767400,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.9.1.xpi",
+          "size_bytes": 5767082,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "# TL;DR\r\nThis release includes several bug fixes, translation updates, and minor improvements:\r\n\r\nFixed dark mode text color, alignment issues, scale animations, and pubkey prompts triggering again.\r\nImproved handling for lnaddress with LNURL prefixes, nwc keysend methods fixes, and avatar positioning.\r\nAdded a new identifier for authentication URLs.\r\nMultiple translation updates to enhance localization.\r\n\r\n## What's Changed\r\n* chore: fix dark mode text color by @im-adithya in https://github.com",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.9.1",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.9.0",
+      "name": "v3.9.0 Messier 24: Sagittarius Star Cloud",
+      "published_at": "2024-07-18T16:18:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 24,
+      "total_downloads": 24,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.9.0.zip",
+          "size_bytes": 5738270,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.9.0.xpi",
+          "size_bytes": 5737952,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "TL;DR\r\nThe new release includes enhancements such as making account menus more intuitive, extending kind lists, improvements to NWC connector and improving error messages for lndhub. Several bug fixes also include correcting notification amounts and addressing scrollbar issues in the extension popup. Additionally, the update introduces the Alby logo to QR codes used for invoices and implements better error handling for BIP353 DNS addresses.\r\n\r\n\r\n## What's Changed\r\n* feat: handle longer descripti",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.9.0",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.8.1",
+      "name": "v3.8.1 \ud83d\udca5 M78 from the Euclid Space Telescope",
+      "published_at": "2024-05-24T13:19:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 52,
+      "total_downloads": 52,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.8.1.zip",
+          "size_bytes": 5705801,
+          "download_count": 29,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.8.1.xpi",
+          "size_bytes": 5705483,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "## TL;DR\r\n\ud83d\udd10 Eliminate Nostr Permissions Inconsistencies + no need to set permissions repeatedly, after being set. \r\n\ud83c\udf4e Introduction to deny permission functionality ->  where you can block the permission once or permanent\r\n\ud83d\udcb5 Now you can use LaWallet via the browser extension\r\n\ud83d\udd00 Massive UI updates to Extension settings Wallet settings and nostr settings for the extension. introduction to lightning address and nostr address settings in the extension\r\n\r\n\r\n## What's Changed\r\n* feat: add fa locale by ",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.8.1",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.7.1",
+      "name": "v3.7.1 \ud83e\udebc The Jellyfish Nebula Supernova Remnant - Patch 1",
+      "published_at": "2024-03-27T09:58:45Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 50,
+      "total_downloads": 50,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.7.1.zip",
+          "size_bytes": 5271205,
+          "download_count": 27,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.7.1.xpi",
+          "size_bytes": 5270887,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "## What's Changed\r\n* fix: remove identity api permissions by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3113\r\n* fix: shrink-0 user menu icons by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3114\r\n\r\n\r\n**Full Changelog**: https://github.com/getAlby/lightning-browser-extension/compare/v3.7.0...v3.7.1\r\n",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.7.1",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.7.0",
+      "name": "v3.7.0 \ud83e\udebc The Jellyfish Nebula Supernova Remnant",
+      "published_at": "2024-03-25T14:41:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 40,
+      "total_downloads": 40,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.7.0.zip",
+          "size_bytes": 5271212,
+          "download_count": 19,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.7.0.xpi",
+          "size_bytes": 5270895,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "## TL;DR\r\n\ud83d\udd10  Improved permission management for nostr (permission presets & kind-based permissions) \u2014 no more annoying nostr requests popups (If you want it!)\r\n\ud83c\udf4e Apple support (Mac & iOS compatibility) \u2014 now you can use Alby Extension in Safari on both iOS, macOS and iPadOS\r\n\ud83d\udcb5 Stablesats integration \u2014 view your Blink stablesats balance in fiat\r\n\ud83d\udd00 New onboarding flows (no separate nostr onboarding needed) - we simplified and combined Master Key backup & import flow and \"just import Nostr\" flow\r\n\ud83d\udce8",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.7.0",
+      "author": "reneaaron"
+    },
+    {
+      "tag": "v3.6.0",
+      "name": "v3.6.0 \ud83c\udf08 Rainbow Aurora over Icelandic Waterfall ",
+      "published_at": "2023-12-27T13:16:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 111,
+      "total_downloads": 111,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.6.0.zip",
+          "size_bytes": 5191934,
+          "download_count": 81,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.6.0.xpi",
+          "size_bytes": 5191616,
+          "download_count": 30,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "## tl;dr\r\n**New NWC connector** that makes it possible to use the Alby Extension with any wallet that supports NWC. \r\nNWC makes it much easier to connect to nodes behind firewalls or private networks - like Umbrel, RaspiBlitz, etc. This is an alternative to unstable and slow Tor connections.\r\n\r\n## What's Changed\r\n* feat: NWC connector \ud83e\udd19 by @reneaaron in https://github.com/getAlby/lightning-browser-extension/pull/2898\r\n* feat: add allowance warning on HTTP sites by @pavanjoshi914 in https://githu",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.6.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v3.5.0",
+      "name": "v3.5.0 \ud83c\udf01 The California Nebula ",
+      "published_at": "2023-12-19T22:24:46Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 60,
+      "total_downloads": 60,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.5.0.zip",
+          "size_bytes": 5195093,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.5.0.xpi",
+          "size_bytes": 5194776,
+          "download_count": 37,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "## TL;DR\r\n * Firefox Mobile support \ud83d\udcf2\r\n * Boostagrams in transaction details \ud83d\ude80\r\n * Blink connector revamp\r\n * Improved nostr signing screens for encrypt / decrypt\r\n * Support for un-googled browsers \ud83d\udea7\r\n\r\n## What's Changed\r\n* fix: update copy by @reneaaron in https://github.com/getAlby/lightning-browser-extension/pull/2894\r\n* fix: broken url to documentation in error toast by @aljazceru in https://github.com/getAlby/lightning-browser-extension/pull/2903\r\n* feat: make popup view responsive by @pav",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.5.0",
+      "author": "reneaaron"
+    },
+    {
+      "tag": "v3.4.1",
+      "name": "v3.4.1 \ud83e\ude90 Stereo Jupiter near Opposition - patch 1",
+      "published_at": "2023-11-30T06:47:50Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 44,
+      "total_downloads": 44,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.4.1.zip",
+          "size_bytes": 5205269,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.4.1.xpi",
+          "size_bytes": 5204945,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "Minor UI updates to 3.4.0\r\n\r\n\r\n\r\n**Full Changelog**: https://github.com/getAlby/lightning-browser-extension/compare/v3.4.0...v3.4.1",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.4.1",
+      "author": "bumi"
+    },
+    {
+      "tag": "v3.4.0",
+      "name": "v3.4.0 \ud83e\ude90 Stereo Jupiter near Opposition",
+      "published_at": "2023-11-24T15:30:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 35,
+      "total_downloads": 35,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.4.0.zip",
+          "size_bytes": 5427547,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.4.0.xpi",
+          "size_bytes": 5427230,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "In the v3.4.0 release of the Lightning Browser Extension, several noteworthy features and improvements have been introduced.\r\n\r\n## TL;DR\r\n - \ud83d\udcc4 Overhauled transaction lists & detail views \r\n - :de: German translations\r\n - :bug: Various bugfixes & UI improvements\r\n\r\n## Notable Changes\r\n* feat: add on and off calls in webbtc and liquid provider by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/2811\r\n* fix: receive another payment button styles by @lujakob in https://g",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.4.0",
+      "author": "pavanjoshi914"
+    },
+    {
+      "tag": "v3.3.0",
+      "name": "v3.3.0 \u2728Hidden Orion from Webb",
+      "published_at": "2023-10-10T19:29:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 70,
+      "total_downloads": 70,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.3.0.zip",
+          "size_bytes": 5271657,
+          "download_count": 45,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.3.0.xpi",
+          "size_bytes": 5271349,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "This release contains many amazing new features, bug fixes and UI improvements.\r\n\r\nFor example: it is now possible to send and receive onchain bitcoin by signing with your Alby Master Key (You can try our demo wallet at https://getalby.github.io/bitcoin-wallet/). This is possible with the new Alby [window.webbtc provider API](https://guides.getalby.com/alby-extension-apis/). We have improved control over site access by splitting permissions for different providers such as nostr and webLN - there",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.3.0",
+      "author": "rolznz"
+    },
+    {
+      "tag": "v3.2.1",
+      "name": "v3.2.1 \ud83c\udf15 Tagging Bennu - patch 1",
+      "published_at": "2023-09-21T20:54:13Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 39,
+      "total_downloads": 39,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.2.1.zip",
+          "size_bytes": 5232693,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.2.1.xpi",
+          "size_bytes": 5232383,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "v3.2.0 with a bugfix in the liquid get address screen",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.2.1",
+      "author": "bumi"
+    },
+    {
+      "tag": "v3.2.0",
+      "name": "v3.2.0 \ud83c\udf15 Tagging Bennu ",
+      "published_at": "2023-09-21T10:07:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 45,
+      "total_downloads": 45,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.2.0.zip",
+          "size_bytes": 5232686,
+          "download_count": 33,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.2.0.xpi",
+          "size_bytes": 5232383,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "This release contains many amazing new features, bug and security fixes and beautiful UI improvements. \r\nFor example: it is now possible to do onchain swaps and send payments to onchain addresses using deezy.io directly from with in the Extension.\r\nThe injection of the window.nostr and window.webln providers has been greatly improved and is now faster. This makes it easier and faster for web apps to detect if a provider is present. Also Alby can now handle parallel calls to those providers using",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.2.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v3.1.1",
+      "name": "v3.1.1 \ud83c\udf0c A Cosmic Embrace  - patch 1",
+      "published_at": "2023-08-19T13:04:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 34,
+      "total_downloads": 34,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.1.1.zip",
+          "size_bytes": 5109330,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.1.1.xpi",
+          "size_bytes": 5108961,
+          "download_count": 19,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "3.1.0 with a fix in the build script\r\n\r\n## What's Changed\r\n* fix: prevent terser from mangle `Buffer` by @bumi in https://github.com/getAlby/lightning-browser-extension/pull/2684\r\n* fix: add explicit enable call for window.liquid by @reneaaron in https://github.com/getAlby/lightning-browser-extension/pull/2682\r\n* Translations update from Hosted Weblate by @weblate in https://github.com/getAlby/lightning-browser-extension/pull/2681\r\n\r\n\r\n**Full Changelog**: https://github.com/getAlby/lightning-bro",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.1.1",
+      "author": "bumi"
+    },
+    {
+      "tag": "v3.1.0",
+      "name": "v3.1.0 \ud83c\udf0c A Cosmic Embrace ",
+      "published_at": "2023-08-16T17:07:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 29,
+      "total_downloads": 29,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.1.0.zip",
+          "size_bytes": 5107652,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.1.0.xpi",
+          "size_bytes": 5107286,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "Every user is now able to sign transaction on the liquid network a Bitcoin layer-2 with smart contract capability and pay with bitcoin over the lightning network. \r\nWeb apps are now able to ask users for the wallet balance and display it in their app. \r\n\r\n## Notable Changes\r\n* feat: webln.getBalance() by @reneaaron in https://github.com/getAlby/lightning-browser-extension/pull/2270\r\n* feat: add liquid by @louisinger @im-adithya @rolznz in https://github.com/getAlby/lightning-browser-extension/pu",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.1.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v3.0.0",
+      "name": "v3.0.0 \ud83d\udd11 Spiral Aurora over Icelandic Divide ",
+      "published_at": "2023-07-30T20:42:51Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 52,
+      "total_downloads": 52,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v3.0.0.zip",
+          "size_bytes": 3790212,
+          "download_count": 26,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v3.0.0.xpi",
+          "size_bytes": 3789842,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v3.0.0.crx",
+          "size_bytes": 3789834,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "\r\n+ Introduce mnemonic master seed to derive nostr and lnurl keys\r\n+ Use Alby OAuth connector for easier and faster setup\r\n\r\n## Notable Changes\r\n* test: add test code for DefaultView by @qqqzhch in https://github.com/getAlby/lightning-browser-extension/pull/2160\r\n* feat: add receive via bitcoin address button by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/2494\r\n* fix: remove shadow from DualCurrencyField by @dylancom in https://github.com/getAlby/lightning-brows",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.0.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v2.1.1",
+      "name": "v2.1.1 \ud83e\udd88 The Shark Nebula - patch 1",
+      "published_at": "2023-06-14T16:25:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 45,
+      "total_downloads": 45,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v2.1.1.zip",
+          "size_bytes": 3922045,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v2.1.1.xpi",
+          "size_bytes": 3922029,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v2.1.1.crx",
+          "size_bytes": 3922020,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "**Full Changelog**: https://github.com/getAlby/lightning-browser-extension/compare/v2.1.0...v2.1.1",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v2.1.1",
+      "author": "bumi"
+    },
+    {
+      "tag": "v2.1.0",
+      "name": "v2.1.0 \ud83e\udd88 The Shark Nebula ",
+      "published_at": "2023-06-14T15:48:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 38,
+      "total_downloads": 38,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v2.1.0.zip",
+          "size_bytes": 3922041,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v2.1.0.xpi",
+          "size_bytes": 3922025,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v2.1.0.crx",
+          "size_bytes": 3922015,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "v2.1.0 is a maintenance release with fixes and some minor improvements.\r\nMost notable are the new APIs to make it easier to add accounts to the Alby Extension.\r\n\r\n## Notable Changes\r\n\r\n* feat: add wallet page by @lujakob in https://github.com/getAlby/lightning-browser-extension/pull/2332\r\n* feat: add discovery page vida project by @lujakob in https://github.com/getAlby/lightning-browser-extension/pull/2417\r\n* feat: add Coincards.com to websites.json by @astupidmoose in https://github.com/getAlby",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v2.1.0",
+      "author": "reneaaron"
+    },
+    {
+      "tag": "v2.0.1",
+      "name": "v2.0.1 \ud83c\udf0c Twilight in a Flower ",
+      "published_at": "2023-05-08T21:31:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 62,
+      "total_downloads": 62,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v2.0.1.zip",
+          "size_bytes": 3982221,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v2.0.1.xpi",
+          "size_bytes": 3982205,
+          "download_count": 22,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v2.0.1.crx",
+          "size_bytes": 3982196,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Small Twilight in a Flower patch release that fixes some translations and also allows window.webln and window.nostr calls again from non https sites.\r\n\r\n**Full Changelog**: https://github.com/getAlby/lightning-browser-extension/compare/v2.0.0...v2.0.1",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v2.0.1",
+      "author": "bumi"
+    },
+    {
+      "tag": "v2.0.0",
+      "name": "v2.0.0 \ud83c\udf0c Twilight in a Flower",
+      "published_at": "2023-05-06T18:11:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 39,
+      "total_downloads": 39,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v2.0.0.zip",
+          "size_bytes": 3976532,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v2.0.0.xpi",
+          "size_bytes": 3976529,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v2.0.0.crx",
+          "size_bytes": 3976520,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "\r\nThis is the biggest release of the Alby Extension ever! \r\nWe're proud to announce that this update has brought on board more contributors than ever before and is packed with countless enhancements and updates. In fact, the changes are so extensive that we've decided it's time for a major version update!  \ud83c\udf89 (and following the semantic versioning idea it has some big changes with the new web extension manifest v3) \r\n\r\n**A big shout out and thanks to the incredible Alby user community and the gre",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v2.0.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.28.1",
+      "name": "v1.28.1 \ud83c\udfc3\u200d\u2642\ufe0f Orion and the Running Man - patch 1",
+      "published_at": "2023-03-10T22:38:43Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 92,
+      "total_downloads": 92,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.28.1.zip",
+          "size_bytes": 3414380,
+          "download_count": 39,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.28.1.xpi",
+          "size_bytes": 3414393,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.28.1.crx",
+          "size_bytes": 3414384,
+          "download_count": 22,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "v1.28.0 \ud83c\udfc3\u200d\u2642\ufe0f Orion and the Running Man - including a typo fix :)",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.28.1",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.28.0",
+      "name": "v1.28.0 \ud83c\udfc3\u200d\u2642\ufe0f Orion and the Running Man",
+      "published_at": "2023-03-10T17:13:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 46,
+      "total_downloads": 46,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.28.0.zip",
+          "size_bytes": 3414378,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.28.0.xpi",
+          "size_bytes": 3414391,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.28.0.crx",
+          "size_bytes": 3414381,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Noteable changess\r\n* feat: outgoing transactions screen by @lujakob in https://github.com/getAlby/lightning-browser-extension/pull/2035\r\n* feat: show raw Nostr JSON event data on signing screen by @rolznz in https://github.com/getAlby/lightning-browser-extension/pull/2178\r\n* feat: backup reminder for nostr key by @reneaaron in https://github.com/getAlby/lightning-browser-extension/pull/2180\r\n* feat: make permissions account specific by @im-adithya in https://github.com/getAlby/lightning-brows",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.28.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.27.0",
+      "name": "v1.27.0 \u270d\ud83c\udfff Barred Spiral Galaxy NGC 1365",
+      "published_at": "2023-02-18T16:44:58Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 87,
+      "total_downloads": 87,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.27.0.zip",
+          "size_bytes": 3064958,
+          "download_count": 42,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.27.0.xpi",
+          "size_bytes": 3064970,
+          "download_count": 32,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.27.0.crx",
+          "size_bytes": 3064962,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release adds a new `window.nostr.signSchnorr` function. This allows web apps to request signatures from the Nostr key not only for Nostr events but any data. Opening up a whole new world of possible things that can be connected to user's Nostr key. \r\n\r\n\r\n## Noteable changes\r\n* Feat: add signSchnorr to nostr by @im-adithya in https://github.com/getAlby/lightning-browser-extension/pull/2083\r\n* Feat: added receive another payment button by @manavdesai27 in https://github.com/getAlby/lightning-",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.27.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.26.0",
+      "name": "v1.26.0 \ud83d\udcab ZTF meets ATLAS ",
+      "published_at": "2023-02-10T15:43:44Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 145,
+      "total_downloads": 145,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.26.0.zip",
+          "size_bytes": 3052980,
+          "download_count": 45,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.26.0.xpi",
+          "size_bytes": 3052993,
+          "download_count": 86,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.26.0.crx",
+          "size_bytes": 3052983,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release mainly contains bugfixes and general code improvements. \r\n\r\n## Noteable changes\r\n\r\n* feat: improve performance loading the incoming transactions tab by @qqqzhch in https://github.com/getAlby/lightning-browser-extension/pull/2053\r\n* fix: added error message for change password by @ShivamJhaa in https://github.com/getAlby/lightning-browser-extension/pull/2025\r\n* fix: issue changing the unlock password if the Nostr key is not set by @manavdesai27 in https://github.com/getAlby/lightning",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.26.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.25.2",
+      "name": "v1.25.2 \ud83e\udd19 Reflections on the 1970s - patch 2",
+      "published_at": "2023-02-04T18:20:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 51,
+      "total_downloads": 51,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.25.2.zip",
+          "size_bytes": 3608785,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.25.2.xpi",
+          "size_bytes": 3608799,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.25.2.crx",
+          "size_bytes": 3608789,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Fixed an issue that prevented users from updating old accounts (accounts that have been added to Alby more than 8 months ago).",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.25.2",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.25.1",
+      "name": "v1.25.1 \ud83e\udd19 Reflections on the 1970s",
+      "published_at": "2023-02-03T17:20:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 44,
+      "total_downloads": 44,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.25.1.zip",
+          "size_bytes": 3608703,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.25.1.xpi",
+          "size_bytes": 3608716,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.25.1.crx",
+          "size_bytes": 3608706,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release contains many amazing updates that it easily becomes one of our favorite releases:\r\n\r\n## \ud83e\udd19 Nostr \r\nNostr is now moved out of the hidden \"Alby labs\"! \ud83c\udf89 Every account in the Alby extension can now have Nostr keys making Alby the easiest way to manage your Nostr keys and use Nostr web clients. Now you can manage multiple Nostr identities in the extension.\r\nNote: existing accounts will be all configured with the existing Nostr account. Going forward accounts need to be configured indivi",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.25.1",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.25.0",
+      "name": "v1.25.0 \ud83e\udd19 Reflections on the 1970s",
+      "published_at": "2023-02-03T12:57:00Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.25.0.zip",
+          "size_bytes": 3605164,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.25.0.xpi",
+          "size_bytes": 3605176,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.25.0.crx",
+          "size_bytes": 3605168,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "see v1.25.1",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.25.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.24.0",
+      "name": "v1.24.0 \ud83c\udf15 Moon Enhanced ",
+      "published_at": "2023-01-16T20:21:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 63,
+      "total_downloads": 63,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.24.0.zip",
+          "size_bytes": 3216341,
+          "download_count": 30,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.24.0.xpi",
+          "size_bytes": 3216354,
+          "download_count": 19,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.24.0.crx",
+          "size_bytes": 3216345,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release brings bugfixes, UI updates, and improves the responsiveness for a better mobile experience. \r\n\r\n## Notable changes\r\n\r\n* Add feature to view and edit allowance permissions (on edit modal) by @im-adithya in https://github.com/getAlby/lightning-browser-extension/pull/1821\r\n* Fix: Connect/Onboarding responsiveness by @rolznz in https://github.com/getAlby/lightning-browser-extension/pull/1969\r\n* Chore: Add id and pubkey to nostr events by default by @bumi in https://github.com/getAlby/l",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.24.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.23.0",
+      "name": "v1.23.0 \ud83d\udcf2 Tails of Comet ZTF",
+      "published_at": "2023-01-09T22:46:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 52,
+      "total_downloads": 52,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.23.0.zip",
+          "size_bytes": 3207704,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.23.0.xpi",
+          "size_bytes": 3207717,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.23.0.crx",
+          "size_bytes": 3207708,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Version 1.23.0 comes with improvements to run the Alby extension on mobile browsers (e.g. Kiwi Browser). WebLN apps and Nostr web clients can now be used on mobile devices.\r\nAnd a support for EUR/USD denominated accounts has been added along with support to connect Kollider accounts (BTC/USD/EUR).\r\n\r\n\r\n## Noteable Changes\r\n* Add: support for BIP21 in send option - you can now also scan and paste BIP21 QR code strings by @im-adithya in https://github.com/getAlby/lightning-browser-extension/pull/1",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.23.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.22.1",
+      "name": "v1.22.1 \ud83c\udf0c Kemble\u2019s Cascade of Stars - patch 1",
+      "published_at": "2023-01-03T18:45:46Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 42,
+      "total_downloads": 42,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.22.1.zip",
+          "size_bytes": 2965653,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.22.1.xpi",
+          "size_bytes": 2965667,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.22.1.crx",
+          "size_bytes": 2965657,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Same as v1.22.0 with minor text fixes. \r\n\r\nSee [v1.22.0](https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.22.0) for full release notes.  ",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.22.1",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.22.0",
+      "name": "v1.22.0 \ud83c\udf0c Kemble\u2019s Cascade of Stars ",
+      "published_at": "2023-01-03T17:51:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 42,
+      "total_downloads": 42,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.22.0.zip",
+          "size_bytes": 2966404,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.22.0.xpi",
+          "size_bytes": 2966417,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.22.0.crx",
+          "size_bytes": 2966408,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release brings some UI changes making the onboarding easier, introduces a new discover screen to showcase some of the great lightning apps. It also has updates and fixes for Nostr (NIP19).\r\n\r\n\r\n## Notable changes\r\n\r\n* Split Alby login and create account screens to better guide users through the onboarding by @rolznz in https://github.com/getAlby/lightning-browser-extension/pull/1895 and https://github.com/getAlby/lightning-browser-extension/pull/1868\r\n* Split publishers screen into visited ",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.22.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.21.1",
+      "name": "v1.21.1 Thor's Helmet - patch 1",
+      "published_at": "2022-12-22T18:58:51Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 43,
+      "total_downloads": 43,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.21.1.zip",
+          "size_bytes": 2967907,
+          "download_count": 22,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.21.1.xpi",
+          "size_bytes": 2967921,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.21.1.crx",
+          "size_bytes": 2967911,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Minor updates and fixes to the v1.21.0 release\r\n\r\n## Changes\r\n* Fix: WebBTC should behave like WebLN by @bumi in https://github.com/getAlby/lightning-browser-extension/pull/1907\r\n* Fix: removed currencies which throw a 404 by @mviswanathsai in https://github.com/getAlby/lightning-browser-extension/pull/1906\r\n* Fix: align buttons a the bottom by @escapedcat in https://github.com/getAlby/lightning-browser-extension/pull/1903\r\n* Nostr: add link to more info about nostr keys by @bumi in https://gith",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.21.1",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.21.0",
+      "name": "v1.21.0 \ud83d\ude80 Thor's Helmet",
+      "published_at": "2022-12-20T16:26:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.21.0.zip",
+          "size_bytes": 2966950,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.21.0.xpi",
+          "size_bytes": 2966963,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.21.0.crx",
+          "size_bytes": 2966954,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "The number 21 is a special number. And v1.21 is a special Alby release for all lightning app developers out there! \ud83c\udf89 \r\n\r\nThis version includes the new [WebLN/WebBTC](https://webbtc.dev/webln) interface, making it easier than ever to build full lightning web applications accessing the LND and CLN APIs. No complicated node access, no macaroons, no gRPCs and what not. It's now all plain simple JavaScript APIs and full lightning apps can be deployed as simple JavaScript web apps.  \r\nAlby's permissio",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.21.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.20.1",
+      "name": "The Helix Nebula - patch 1",
+      "published_at": "2022-12-07T22:21:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 33,
+      "total_downloads": 33,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.20.1.zip",
+          "size_bytes": 2958090,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.20.1.xpi",
+          "size_bytes": 2958103,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.20.1.crx",
+          "size_bytes": 2958094,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "See full release notes for v1.20.0: https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.20.0\r\n\r\n## Fixes\r\n\r\n* Fixes an issue with the local for Brasil: an invalid old locale in the settings caused an error when formatting amounts",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.20.1",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.20.0",
+      "name": "v1.20.0 The Helix Nebula ",
+      "published_at": "2022-12-07T15:34:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 34,
+      "total_downloads": 34,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.20.0.zip",
+          "size_bytes": 2957937,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.20.0.xpi",
+          "size_bytes": 2957951,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.20.0.crx",
+          "size_bytes": 2957941,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Enjoy using Alby to communicate on Nostr apps. This release completes the Nostr integration and now supports NIP04 encryption and decryption and extends the permission system to give the user full control and greatly improve the usability for Lightning web apps (preparing for a big, big update in the next release) and web apps using Nostr.\r\nBesides that, it contains a big list of improvements and fixes.\r\n\r\n## Notable changes\r\n\r\n* Nostr NIP04 for encryption/decryption @reneaaron (#1777 #1801)\r\n* ",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.20.0",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.19.0",
+      "name": "v1.19.0 \ud83c\udf03 Eclipse in the City ",
+      "published_at": "2022-11-12T17:08:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 31,
+      "total_downloads": 31,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.19.0.zip",
+          "size_bytes": 4415076,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.19.0.xpi",
+          "size_bytes": 4415090,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.19.0.crx",
+          "size_bytes": 4415080,
+          "download_count": 5,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "In this release we move a big step forward in our mission to make full Lightning web applications possible.\r\nThis includes support to use the Alby Extension with Core Lightning nodes. This means the Alby Extension now supports all major node implementations and accounting apps (LNBbits, LNDHUb, ...) \r\nBesides that we have many updates and fixes to improve the Alby Extension experience. \r\n\r\n## Notable changes\r\n\r\n* Core Lightning support through the commando plugin (supporting CLN v0.12.0 and late",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.19.0",
+      "author": "reneaaron"
+    },
+    {
+      "tag": "v1.18.0",
+      "name": "v1.18.0 \ud83d\udd10 Pillars of Creation",
+      "published_at": "2022-10-21T08:08:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 45,
+      "total_downloads": 45,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.18.0.zip",
+          "size_bytes": 3790734,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "alby-firefox-v1.18.0.xpi",
+          "size_bytes": 3790747,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.18.0.crx",
+          "size_bytes": 3790738,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release integrates [Nostr](https://github.com/nostr-protocol/nostr/). Nostr is a simple and open protocol that aims to create censorship-resistant social networks and works with cryptographic keys.\r\n\r\n## \ud83d\ude80 Features\r\n\r\n- Nostr integration @reneaaron (#1440)\r\n\r\n## \ud83d\udc1b Bug Fixes\r\n\r\n- fix(connectors): lnbits - avoid balance with decimal places @escapedcat (#1644)\r\n- fix(connectors): lnbits incoming payments shows outgoing ones as well @escapedcat (#1635)\r\n- fix(connectors): lndhub incoming tx ord",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.18.0",
+      "author": "reneaaron"
+    },
+    {
+      "tag": "v1.17.0",
+      "name": "v1.17.0 \ud83c\udfaf Expanding Plume from DART's Impact ",
+      "published_at": "2022-10-05T09:59:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 31,
+      "total_downloads": 31,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.17.0.zip",
+          "size_bytes": 3475832,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.17.0.xpi",
+          "size_bytes": 3475845,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.17.0.crx",
+          "size_bytes": 3475835,
+          "download_count": 6,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release improves the LNBits integration and it is now possible to also see the incoming LNBits payments directly in the Alby Extension. This makes the Alby Extension now work perfectly with any lnbits account.\r\nWe now also have a special LNDHub connection flow for users who run their own LNDHub instances. This is additional to connecting your BlueWallet Lightning account. \r\n\r\n\r\n## Notable changes\r\n* Add incoming payments support for lnbits, which is adding best possible support to use an ln",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.17.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.16.1",
+      "name": "v1.16.1 \ud83c\udf08 Ringed Ice Giant Neptune - patch 1",
+      "published_at": "2022-09-26T14:41:13Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 29,
+      "total_downloads": 29,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "chrome.zip",
+          "size_bytes": 3435181,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "firefox.xpi",
+          "size_bytes": 3435194,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "opera.crx",
+          "size_bytes": 3435185,
+          "download_count": 6,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Feature\r\n\r\n- Feat/1381 fiat values in notifications @escapedcat (#1430)\r\n\r\n## Fixes\r\n- fix(settings): make sure correct fiat rate is being used #1521 @escapedcat (#1522)\r\n- fix: fetch latest wallet amount after a send @im-adithya (#1523)\r\n- i18n fixes",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.16.1",
+      "author": "escapedcat"
+    },
+    {
+      "tag": "v1.16.0",
+      "name": "v1.16.0 \ud83d\udcc0 Ringed Ice Giant Neptune ",
+      "published_at": "2022-09-23T09:27:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 21,
+      "total_downloads": 21,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.16.0.zip",
+          "size_bytes": 3436368,
+          "download_count": 6,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.16.0.xpi",
+          "size_bytes": 3436381,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.16.0.crx",
+          "size_bytes": 3436372,
+          "download_count": 5,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release includes improvements to handle translations and allows users to enable or disable browser notifications. We also added many refactorings to improve the user experience. \r\n\r\n## Features\r\n* feat(settings): enable/disable browser notifications by @im-adithya in https://github.com/getAlby/lightning-browser-extension/pull/1449\r\n\r\n## Further Changes\r\n* fix: dark mode on Galoy connector by @secondl1ght in https://github.com/getAlby/lightning-browser-extension/pull/1447\r\n* fix: update allo",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.16.0",
+      "author": "escapedcat"
+    },
+    {
+      "tag": "v1.15.1",
+      "name": "v1.15.1 North America and the Pelican - patch 1",
+      "published_at": "2022-09-13T09:29:48Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.15.1.zip",
+          "size_bytes": 3413614,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.15.1.xpi",
+          "size_bytes": 3413629,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.15.1.crx",
+          "size_bytes": 3413618,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Small patch release with some minor improvements\r\n\r\n## Changes\r\n\r\n- Added more batteries to allow sending sats for linktree pages, vida pages, mixcloud and soundcloud pages @im-adithya (#1419 #1428 #1423 #1366)\r\n- Enable translations for ES and pt_BR @escapedcat (#1420)\r\n- fix: add missing inpage script to accessible resource @bumi (#1431)\r\n- fix: publishercard in lnurlpay screen @im-adithya (#1406)\r\n- fix: remove error toast from utils.call @im-adithya (#1408)\r\n\r\n\r\n",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.15.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.15.0",
+      "name": "v1.15.0 \ud83c\udf08 North America and the Pelican",
+      "published_at": "2022-09-08T15:20:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 39,
+      "total_downloads": 39,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.15.0.zip",
+          "size_bytes": 3379809,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.15.0.xpi",
+          "size_bytes": 3379821,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.15.0.crx",
+          "size_bytes": 3379813,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## New features and notable changes\r\n\r\n- better YouTube battery: we now load the lightning information also from the channel description\r\n- add tipping support on SoundCloud @im-adithya (#1364)\r\n- support for the Tor Browser: when Alby is used with the Tor Browser or Tor running then connections to Tor nodes just work  @bumi (#1397)\r\n- more descriptive unlock screen and better description for the unlock password @bumi (#1398)\r\n- makes it easier for websites to detect if a user has webln on page ",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.15.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.14.2",
+      "name": "v1.14.2 \ud83c\udf08 Cartwheel Galaxy ",
+      "published_at": "2022-08-24T11:03:52Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 35,
+      "total_downloads": 35,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.14.2.zip",
+          "size_bytes": 3355770,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.14.2.xpi",
+          "size_bytes": 3355784,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.14.2.crx",
+          "size_bytes": 3355773,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Improvements\r\n\r\n* fix peertube battery",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.14.2",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.14.1",
+      "name": "v1.14.1 \ud83c\udf08 Cartwheel Galaxy",
+      "published_at": "2022-08-24T08:29:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 19,
+      "total_downloads": 19,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.14.1.zip",
+          "size_bytes": 3355764,
+          "download_count": 6,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.14.1.xpi",
+          "size_bytes": 3355778,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.14.1.crx",
+          "size_bytes": 3355767,
+          "download_count": 6,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### New features and notable changes\r\n\r\n- Several LNURL improvements and fixes to support LNURL all over the place. @escapedcat @lisabaut (#1289 #1315 #1323 #1282 #1273 #1270 #1270)\r\n- Allow users to reset their accounts if they forgot the password @bumi (#1322)\r\n- Further I18N improvements @im-adithya @secondl1ght (#1297 #1290 #1265 #1319 #1319)\r\n- Ask users for feedback on uninstall @secondl1ght (#1172)\r\n- Geyser battery @secondl1ght (#1246)\r\n\r\n\r\n### New release names\r\nWe're all exited about s",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.14.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.13.0",
+      "name": "v1.13.0 \ud83c\udf08 The last time we break LNURL-auth, promised!",
+      "published_at": "2022-08-05T09:26:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 71,
+      "total_downloads": 71,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.13.0.zip",
+          "size_bytes": 3142122,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.13.0.xpi",
+          "size_bytes": 3142136,
+          "download_count": 35,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.13.0.crx",
+          "size_bytes": 3142126,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Changes\r\nA release packed full of improvements and new features! For example: Alby now can show incoming transactions (thanks to @escapedcat), you can connect your BTCPay server and we started updating the UI by @dvoroneca\r\n\r\nShout out also to @im-adithya who during his [Summer of Bitcoin](https://www.summerofbitcoin.org/) project did a lot of TypeScript improvements\r\n\r\nBut there is also a **breaking change** related to LNURL-Auth:\r\n\r\nWe always strive for interoperability. To make sure we are",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.13.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.12.1",
+      "name": "v1.12.1 \ud83d\udc1e Euro - Dollar parity edition - patch 1",
+      "published_at": "2022-07-13T08:02:09Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 43,
+      "total_downloads": 43,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.12.1.zip",
+          "size_bytes": 3070694,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.12.1.xpi",
+          "size_bytes": 3070709,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.12.1.crx",
+          "size_bytes": 3070698,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "fixes an issue introduced by v1.12.0 which caused some numbers to be invalid on the website screen\r\n\r\n## Fixes\r\n\r\n- fix: handle stored payment amounts in strings @bumi (#1140)\r\n",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.12.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.12.0",
+      "name": "v1.12.0 \ud83c\udf08  Euro - Dollar parity edition",
+      "published_at": "2022-07-12T14:57:01Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 55,
+      "total_downloads": 55,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.12.0.zip",
+          "size_bytes": 3070671,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.12.0.xpi",
+          "size_bytes": 3070685,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.12.0.crx",
+          "size_bytes": 3070674,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "The long-awaited version 1.12.0 \ud83c\udf89\r\nAnd just in time for Euro-Dollar parity we now show sats amounts additionally in our old fiat currency. \r\n\r\nThanks to all the contributors and special thanks to the Summer of Bitcoin crew!\r\n\r\n### New features and notable changes\r\n- Update extension icons: New icons when a website has lightning enabled @GBKS @reneaaron (#1086)\r\n- Allow users to export the LNDHub wallet credentials (and import the wallet to Zeus) @im-adithya (#1012)\r\n- Add support to show satoshi",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.12.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.11.2",
+      "name": "v1.11.2 \ud83d\udc1b damn, I hoped for - patch 2",
+      "published_at": "2022-06-14T14:20:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 35,
+      "total_downloads": 35,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.11.2.zip",
+          "size_bytes": 2715302,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.11.2.xpi",
+          "size_bytes": 2715313,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.11.2.crx",
+          "size_bytes": 2715307,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release contains a bugfix that prevented adding new connections to Umbrel, myNode and Start9. \r\n\r\n## Changes\r\n- fix: url should include port number @dylancom (#1037)\r\n- chore: eslint rules @escapedcat (#1036)\r\n- chore: rename accountName id @im-adithya (#1038)\r\n",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.11.2",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.11.1",
+      "name": "v1.11.1 \ud83c\udf08 damn, I hoped for - patch 1",
+      "published_at": "2022-06-10T20:55:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 30,
+      "total_downloads": 30,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.11.1.zip",
+          "size_bytes": 2715352,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.11.1.xpi",
+          "size_bytes": 2715363,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.11.1.crx",
+          "size_bytes": 2715357,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release fixes the potential error in Firefox: \"Could not establish connection. Receiving end does not exist\".\r\nBesides that it includes some internal refactorings and improvements.\r\n\r\n## Notable Changes\r\n\r\n- fix: refactor DB loading of allowances/payments @bumi (#1029)\r\n- refactor(account): switch getAccounts to TS #652 @escapedcat (#980)\r\n- feat: go back to general home from contextual home @dylancom (#1005)\r\n- chore: rename type to action @im-adithya @riccardobl (#1010, #1013, #993)\r\n- re",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.11.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.11.0",
+      "name": "v1.11.0 \ud83c\udf08 damn, I hoped for",
+      "published_at": "2022-06-06T19:05:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 25,
+      "total_downloads": 25,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.11.0.zip",
+          "size_bytes": 2715111,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.11.0.xpi",
+          "size_bytes": 2715122,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.11.0.crx",
+          "size_bytes": 2715115,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This is a pretty big release with many fixes and improvements. \r\nWe now also have passed the 1000 pull requests mark. Thanks to all the amazing people who have contributed to this release! \r\n\r\n## Notable Changes\r\n\r\n- Prevent multiple parallel WebLN calls @bumi (#1003)\r\n- Add Podverse to suggested \"Websites\" @MoritzKa (#1002)\r\n- Highlight selected account in menu @im-adithya @dylancom (#991, #997, #900)\r\n- Add descriptive message when WebLN method (e.g. keysend) is not supported @dylancom (#963)\r",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.11.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.10.0",
+      "name": "v1.10.0 \ud83c\udf08 Bear market = build market, or something along those lines",
+      "published_at": "2022-05-06T14:02:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 53,
+      "total_downloads": 53,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.10.0.zip",
+          "size_bytes": 2692587,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.10.0.xpi",
+          "size_bytes": 2692598,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.10.0.crx",
+          "size_bytes": 2692591,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Relevant Changes\r\n\r\n### Features\r\n- Default shortcut command: You can now open Alby with the shortcut: `Alt+Shift+A` / `Option+Shift+A`(mac) @Kodylow (#842)\r\n- New prompt for webln.makeInvoice calls @bumi (#776)\r\n- Scan location field on Twitter for lightning address @stefanwuest (#816)\r\n- Added special RaspiBlitz connector with instructions to connect your RaspiBlitz to Alby @secondl1ght (#777)\r\n- Support BIP21 URI with BOLT 11 invoice in QR codes @krsjoseph (#752)\r\n- Enable tipping on GitHu",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.10.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.9.1",
+      "name": "v1.9.1 \ud83e\uddf0 Still not Miami - patch 1",
+      "published_at": "2022-04-01T00:00:40Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 34,
+      "total_downloads": 34,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.9.1.zip",
+          "size_bytes": 2744170,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.9.1.xpi",
+          "size_bytes": 2744184,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.9.1.crx",
+          "size_bytes": 2744176,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "v1.9.0 introduced a bug that caused the `webln.signMessage` call to fail. This is now fixed.\r\nThere are no other changes in this release.\r\n",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.9.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.9.0",
+      "name": "v1.9.0 \ud83c\udf08 Still not Miami",
+      "published_at": "2022-03-31T15:36:13Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.9.0.zip",
+          "size_bytes": 2744094,
+          "download_count": 12,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.9.0.xpi",
+          "size_bytes": 2744108,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.9.0.crx",
+          "size_bytes": 2744099,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release contains new features, fixes, security updates but sadly also a breaking change. We're required to do this change to be compatible with BlueWallet and LNBits for signing messages which is used for Login with LNURL-auth. \r\n\r\nBut the good new is: with these changes we slowly approach a more stable \"Beta\" version. \\o/ \r\n\r\n## Breaking Changes!\r\n\r\nMessage signing with LNDhub and LNbits accounts has been changed to be compatible with BlueWallet and also LNbits in the future. \r\nSadly this ",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.9.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.8.0",
+      "name": "v1.8.0 \ud83c\udf08 Ready for Miami?",
+      "published_at": "2022-03-30T18:40:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 27,
+      "total_downloads": 27,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.8.0.zip",
+          "size_bytes": 2741193,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.8.0.xpi",
+          "size_bytes": 2741206,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.8.0.crx",
+          "size_bytes": 2741198,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Relevant Changes\r\n\r\n### Features\r\n- You can now change the account from the prompt @dylancom (#723)\r\n- Show account name and node alias in navbar @bumi (#744)\r\n- Tipping support for medium.com @reneaaron (#701)\r\n- Follow webln spec for keysend @kiwiidb (#729)\r\n\r\n### Maintenance\r\n- Highlight delete account links in warn colors  @im-adithya (#737)\r\n- Pre-defined amount buttons text wrapping @rdfriedl (#749)\r\n- Move shared screen code into reusable components @dylancom (#730)\r\n- Render publisher",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.8.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.7.0",
+      "name": "v1.7.0 \ud83c\udf08 Shock the Web \u26a1\ufe0f",
+      "published_at": "2022-03-22T12:33:14Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 34,
+      "total_downloads": 34,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.7.0.zip",
+          "size_bytes": 2761447,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.7.0.xpi",
+          "size_bytes": 2761461,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.7.0.crx",
+          "size_bytes": 2761452,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Right in time for the [bolt.fun hackathon](https://bolt.fun/hackathons/shock-the-web/): The Alby \"Schock the Web\" edition! Happy Hacking!\r\n\r\nThis release brings great improvements and makes it easier to connect personal nodes to Alby but most notably is the support for keysend payments for LND and the Alby wallet. \r\nAlso a long awaited feature is finally in and it is now possible to change the default account names.\r\n\r\n## Changes\r\n\r\n### \ud83d\ude80 Features\r\n- Keysend support. This adds a webln.keysend fu",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.7.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.6.0",
+      "name": "v1.6.0 \ud83c\udf08 Back from Istanbul",
+      "published_at": "2022-03-06T21:25:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.6.0.zip",
+          "size_bytes": 2436794,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.6.0.xpi",
+          "size_bytes": 2436807,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.6.0.crx",
+          "size_bytes": 2436799,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## \ud83d\udcb8 New Alby wallets\r\n\r\nWith this release we fully activate our Alby wallets. Getting a new wallet is now easier and much faster! \r\nWe recommend everyone to migrate their old BlueWallet LNDhub accounts to a new Alby account.\r\n\r\n## \ud83e\udd77 Activated support to connect to nodes behind Tor\r\n\r\nWith our new Alby companion apps you can now connect Alby to nodes behind [Tor](https://www.torproject.org/).\r\nTor greatly improves the node operator's privacy and makes it easier to connect to personal nodes like ",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.6.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.5.0",
+      "name": "v1.5.0 \u26a1\ufe0f too busy for a name",
+      "published_at": "2022-02-05T13:39:07Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 35,
+      "total_downloads": 35,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.5.0.zip",
+          "size_bytes": 2404793,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.5.0.xpi",
+          "size_bytes": 2404805,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.5.0.crx",
+          "size_bytes": 2404796,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Notable Changes\r\n\r\n### \ud83d\ude80 Features\r\n- Add user prompt for signing messages @bumi (#572)\r\n- Add support for lighting tipping on vimeo videos @pseudozach (#563)\r\n- Improved lnurlpay screen @dylancom (#581)\r\n- Improved LNURL-Pay notification @dylancom (#565)\r\n\r\n### \ud83e\uddf0 Maintenance\r\n- Fixed header @dylancom (#579)\r\n- Add a loading spinner to the LNURL pay screen @bumi (#575)\r\n- Support for lnd v0.14 new error format @bumi (#574)\r\n- Add wait message to test connction screen @bumi (#566)\r\n- Change gri",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.5.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.4.0",
+      "name": "v1.4.0 \ud83d\udc4b Hello Alby, please meet Native",
+      "published_at": "2022-01-25T10:26:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.4.0.zip",
+          "size_bytes": 2403357,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.4.0.xpi",
+          "size_bytes": 2403369,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.4.0.crx",
+          "size_bytes": 2403360,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Notable Changes\r\n\r\n### \ud83d\ude80 Features\r\n\r\n- Support for native companion apps to connect to nodes like Umbrel or RaspiBlitz @dylancom @bumi (#485 #550 )\r\n- Add eclair connector @fiatjaf (#507)\r\n- Replace tipping slider with sat amount buttons @secondl1ght (#539)\r\n- Enable tipping on YouTube channels @bumi (#543)\r\n\r\n### \ud83e\uddf0 Maintenance\r\n- Better handle invalid invoices and LNURLs @dylancom (#555)\r\n- Show success message after payments from within the popup @dylancom (#551)\r\n- Update balance info afte",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.4.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.3.2",
+      "name": "v1.3.2 ",
+      "published_at": "2022-01-20T18:16:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 30,
+      "total_downloads": 30,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.3.2.zip",
+          "size_bytes": 2383841,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.3.2.xpi",
+          "size_bytes": 2383854,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.3.2.crx",
+          "size_bytes": 2383845,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "v.1.3.0 and v.1.3.1 had a bug that default settings are not used if the user already had some custom setting saved. \r\nThis resulted in cases where the website enhancements had been disabled. Those should be enabled by default.\r\n\r\n### \ud83d\udc1b Bugfix\r\n- Keep website enhancements enabled by default",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.3.2",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.3.1",
+      "name": "v1.3.1 \ud83d\ude80 1000 followers",
+      "published_at": "2022-01-19T09:46:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 32,
+      "total_downloads": 32,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.3.1.zip",
+          "size_bytes": 2383813,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.3.1.xpi",
+          "size_bytes": 2383826,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.3.1.crx",
+          "size_bytes": 2383817,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Same as v1.3.0 but with shorter extension description due to add-on store limitations.",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.3.1",
+      "author": "bumi"
+    },
+    {
+      "tag": "v1.3.0",
+      "name": "v1.3.0 \ud83d\ude80 1000 followers ",
+      "published_at": "2022-01-18T20:53:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 27,
+      "total_downloads": 27,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.3.0.zip",
+          "size_bytes": 2383820,
+          "download_count": 9,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.3.0.xpi",
+          "size_bytes": 2383834,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.3.0.crx",
+          "size_bytes": 2383824,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Thanks to our 1000 Twitter followers!\r\n\r\n## Notable Changes\r\n\r\n### \ud83d\ude80 Features\r\n- implement lud-18 names. @fiatjaf (#508)\r\n- Extract lightning addresses from lightning links @bumi (#522)\r\n- Add bitcast peertube instance and load lightning data from peertube \"support\" fields  @bumi (#521)\r\n- Locally cache accounts for faster loading times @dylancom (#519)\r\n- Better extraction of lightning addresses @secondl1ght (#524)\r\n\r\n### \ud83e\udd8b Design\r\n- Update unlock screen  (#513) @secondl1ght  @dylancom (#523)\r\n",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.3.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.2.1",
+      "name": "v1.2.1 Happy Birthday Alby",
+      "published_at": "2021-12-30T16:04:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 32,
+      "total_downloads": 32,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.2.1.zip",
+          "size_bytes": 2380533,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.2.1.xpi",
+          "size_bytes": 2380542,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        },
+        {
+          "name": "alby-opera-v1.2.1.crx",
+          "size_bytes": 2380538,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "During the Fulmo Hacksprint in December 2020 we have written the first lines of Alby.\r\nAlby is now 1 year! Thanks to everyone who contributed so far! The journey has just started.\r\n\r\n## Version 1.2.1 - Notable Changes\r\n\r\n## \ud83d\ude80 Features\r\n\r\n- Add tipping to BitcoinTV @bumi (#455)\r\n- Dynamic webln invoice creation: Alby prompts for invoice details on the `webln.makeInvoice` call @dylancom (#436)\r\n- Website enhancements toggle: You can now disable the tipping features on Twiter, YouTube, etc. @dylanc",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.2.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.1.0",
+      "name": "v1.1.0 Thank you Adopting Bitcoin",
+      "published_at": "2021-12-03T15:11:06Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 24,
+      "total_downloads": 24,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.1.0.zip",
+          "size_bytes": 2344023,
+          "download_count": 14,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.1.0.xpi",
+          "size_bytes": 2344032,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "We want to dedicate this release to all the people who made [Adopting Bitcoin](https://adoptingbitcoin.org/) the greatest Lightning event. \r\nThank you to all the amazing organizers and all the participants. \ud83d\ude80 \r\n\r\n## Changes\r\n\r\n## \ud83d\ude80 Features\r\n\r\n- Show LNURL-pay responses in the app instead of a notification @dylancom (#396)\r\n- Add support for comments in LNURLpay requests @bumi (#380)\r\n\r\n## \ud83e\udd8b Design\r\n\r\n- Add logos to new account screen @secondl1ght (#349)\r\n- Replace all hero icons by bitcoin icon",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.1.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v1.0.1",
+      "name": "Hello World this is Alby",
+      "published_at": "2021-11-10T19:07:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "alby-chrome-v1.0.1.zip",
+          "size_bytes": 2368558,
+          "download_count": 19,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "alby-firefox-v1.0.1.xpi",
+          "size_bytes": 2368566,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/x-xpinstall"
+        }
+      ],
+      "body_excerpt": "Hello world this is the first official alpha release of Alby. :shipit: \ud83c\udf89 \r\nThere will be dragons and great things will come! \ud83d\ude04 \r\n\r\nThe future will be \u26a1 \r\n",
+      "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v1.0.1",
+      "author": "bumi"
+    }
+  ],
+  "fetched_at": "2026-07-30T20:15:24.077958+00:00",
+  "deep_dive": {
+    "days_since_launch": 1706,
+    "recent_stable_releases": [
+      {
+        "tag": "v3.14.5",
+        "name": "v3.14.5 \ud83e\uddf9\u2728\ud83c\udf0c The Witch\u2019s Broom Nebula",
+        "published_at": "2026-07-14T17:04:17Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 6,
+        "total_downloads": 6,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.14.5.zip",
+            "size_bytes": 6427544,
+            "download_count": 3,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.14.5.xpi",
+            "size_bytes": 6427319,
+            "download_count": 2,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          },
+          {
+            "name": "alby-opera-v3.14.5.crx",
+            "size_bytes": 6427252,
+            "download_count": 1,
+            "platform": "Other",
+            "content_type": "application/x-chrome-extension"
+          }
+        ],
+        "body_excerpt": "## TL;DR\r\n* onboarding changes to easily get started with Alby Hub\r\n* Connectors removed: LaWallet, Kollider, Citadel (all unmaintained/depricated)\r\n* Deezy swap flow removed \u2014 Send-to-BTC-address screen now links to Boltz/SideShift with the destination address prefilled\r\n* Tooling/docs \u2014 added AGENTS.md, dropped json from the eslint lint-staged glob, updated Voltage guide links, Weblate translation sync\r\n* Dependency bumps \u2014 React, axios, dexie, i18next, zustand, dayjs, headlessui, popicons, re",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.14.5",
+        "author": "pavanjoshi914"
+      },
+      {
+        "tag": "v3.14.3",
+        "name": "v3.14.3 \ud83e\uddf9\u2728\ud83c\udf0c The Witch\u2019s Broom Nebula",
+        "published_at": "2026-06-17T07:02:47Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 14,
+        "total_downloads": 14,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.14.3.zip",
+            "size_bytes": 6431413,
+            "download_count": 6,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.14.3.xpi",
+            "size_bytes": 6431187,
+            "download_count": 6,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          },
+          {
+            "name": "alby-opera-v3.14.3.crx",
+            "size_bytes": 6431121,
+            "download_count": 2,
+            "platform": "Other",
+            "content_type": "application/x-chrome-extension"
+          }
+        ],
+        "body_excerpt": "## TL;DR\r\n* Connectors removed: LaWallet, Kollider, Citadel (all unmaintained/depricated)\r\n* Deezy swap flow removed \u2014 Send-to-BTC-address screen now links to Boltz/SideShift with the destination address prefilled\r\n* Tooling/docs \u2014 added AGENTS.md, dropped json from the eslint lint-staged glob, updated Voltage guide links, Weblate translation sync\r\n* Dependency bumps \u2014 React, axios, dexie, i18next, zustand, dayjs, headlessui, popicons, react-qr-code, tailwindcss/forms and a handful of patch upda",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.14.3",
+        "author": "pavanjoshi914"
+      },
+      {
+        "tag": "v3.14.2",
+        "name": "v3.14.2 \ud83e\uddf9\u2728\ud83c\udf0c The Witch\u2019s Broom Nebula",
+        "published_at": "2026-03-18T08:28:31Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 37,
+        "total_downloads": 37,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.14.2.zip",
+            "size_bytes": 6753978,
+            "download_count": 23,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.14.2.xpi",
+            "size_bytes": 6753752,
+            "download_count": 6,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          },
+          {
+            "name": "alby-opera-v3.14.2.crx",
+            "size_bytes": 6753686,
+            "download_count": 8,
+            "platform": "Other",
+            "content_type": "application/x-chrome-extension"
+          }
+        ],
+        "body_excerpt": "## \ud83d\udce6 TL;DR\r\n* LN address QR support added (Galoy)\r\n* Schnorr signing + hashing functions introduced\r\n* Better German translations \ud83c\udde9\ud83c\uddea\r\n* Security updates & dependency maintenance\r\n\r\n## What's Changed\r\n\r\n* feat: show lnaddress and qr code for lnaddress for galoy instances by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3473\r\n* feat: hash and sign schnorr function by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3509\r\n\r\n## New Contrib",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.14.2",
+        "author": "pavanjoshi914"
+      },
+      {
+        "tag": "v3.14.1",
+        "name": "\ud83e\uddf9\u2728\ud83c\udf0c The Witch\u2019s Broom Nebula",
+        "published_at": "2026-01-17T14:35:42Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 29,
+        "total_downloads": 29,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.14.1.zip",
+            "size_bytes": 6581485,
+            "download_count": 16,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.14.1.xpi",
+            "size_bytes": 6581259,
+            "download_count": 8,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          },
+          {
+            "name": "alby-opera-v3.14.1.crx",
+            "size_bytes": 6581193,
+            "download_count": 5,
+            "platform": "Other",
+            "content_type": "application/x-chrome-extension"
+          }
+        ],
+        "body_excerpt": "## \u26a1\ufe0f TL;DR (v3.14.1)\r\n\r\n\ud83c\udfa8 Fix extension for Firefox for Android\r\n\r\n\u270d\ufe0f Show correct icon for Chrome dark mode\r\n\r\n## What's Changed\r\n* fix: disable context menus on Android by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3463\r\n* feat: detect browser theme instead of extension theme for icon change\u2026 by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3472\r\n\r\n\r\n\r\n**Full Changelog**: https://github.com/getAlby/lightning-browser-extension/",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.14.1",
+        "author": "pavanjoshi914"
+      },
+      {
+        "tag": "v3.14.0",
+        "name": "\ud83e\uddf9\u2728\ud83c\udf0c The Witch\u2019s Broom Nebula",
+        "published_at": "2025-11-07T10:03:11Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 38,
+        "total_downloads": 38,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.14.0.zip",
+            "size_bytes": 6581901,
+            "download_count": 17,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.14.0.xpi",
+            "size_bytes": 6581676,
+            "download_count": 14,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          },
+          {
+            "name": "alby-opera-v3.14.0.crx",
+            "size_bytes": 6581609,
+            "download_count": 7,
+            "platform": "Other",
+            "content_type": "application/x-chrome-extension"
+          }
+        ],
+        "body_excerpt": "## \u26a1\ufe0f TL;DR (v3.14.0)\r\n\r\n\ud83c\udfa8 Extension rebranding with fresh visuals\r\n\r\n\u270d\ufe0f Shows kind description when signing events\r\n\r\n\ud83d\udcb0 Supports sub-satoshi (sub-sat) amounts\r\n\r\n## \ud83e\uddfe What's Changed\r\n* fix: hide built-in swaps option + deezy by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3451\r\n* feat: extension rebranding by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3449\r\n* fix: remove theme icon section for chrome by @pavanjoshi914 in https:",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.14.0",
+        "author": "pavanjoshi914"
+      },
+      {
+        "tag": "v3.13.0",
+        "name": "\ud83e\ude90\ud83d\udc06 Leopard Spots on Martian Rocks \ud83e\udea8\ud83d\udd2d",
+        "published_at": "2025-09-28T06:13:33Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 46,
+        "total_downloads": 46,
+        "asset_count": 3,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.13.0.zip",
+            "size_bytes": 7329567,
+            "download_count": 23,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.13.0.xpi",
+            "size_bytes": 7329247,
+            "download_count": 16,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          },
+          {
+            "name": "alby-opera-v3.13.0.crx",
+            "size_bytes": 7329181,
+            "download_count": 7,
+            "platform": "Other",
+            "content_type": "application/x-chrome-extension"
+          }
+        ],
+        "body_excerpt": "## TL;DR\r\n\r\n\ud83d\ude80 This release brings important fixes and new features:\r\n\r\n\u26a1 LNbits connector fixes\r\n\r\n\ud83d\udd17 CLN nodes can now connect through NWC\r\n\r\n\ud83c\udf10 Added Ukrainian locale\r\n\r\n\ud83d\uddb1\ufe0f Right-click menu to pay invoices/addresses\r\n\r\n\ud83c\udfa8 Revamped \u201cPin Extension\u201d screen layout\r\n\r\n\ud83e\uddfe Metadata support for transactions\r\n\r\n\r\n## What's Changed\r\n* fix: update copy by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3383\r\n* feat: add metadata to transactions by @pavanjoshi914 in https://githu",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.13.0",
+        "author": "pavanjoshi914"
+      },
+      {
+        "tag": "v3.12.0",
+        "name": "v3.12.0 \ud83e\ude90 Herbig-Haro 24",
+        "published_at": "2025-05-28T09:47:15Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 31,
+        "total_downloads": 31,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.12.0.zip",
+            "size_bytes": 7159679,
+            "download_count": 15,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.12.0.xpi",
+            "size_bytes": 7159360,
+            "download_count": 16,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          }
+        ],
+        "body_excerpt": "## \ud83d\udd14 TL;DR \u2013 What\u2019s New in v3.12.0\r\n\r\n\r\n* \ud83e\udde9 Better onboarding for both master key and Nostr key\r\n* \ud83d\udd0b \"Batteries\" removed from the extension\r\n* \u2699\ufe0f New Wallet Settings menu for easier access and configuration\r\n* \ud83c\udfa8 Improved UI and \u270d\ufe0f copy for smoother user experience\r\n* \ud83d\udee0\ufe0f Numerous under-the-hood code cleanups and workflow upgrades\r\n\r\n\r\n## What's Changed\r\n* feat: update depricated artifacts for workflows by @pavanjoshi914 in https://github.com/getAlby/lightning-browser-extension/pull/3306\r\n* fix: r",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.12.0",
+        "author": "pavanjoshi914"
+      },
+      {
+        "tag": "v3.11.0",
+        "name": "v3.11.0 Pleiades over Half Dome",
+        "published_at": "2025-01-27T09:58:48Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 48,
+        "total_downloads": 48,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.11.0.zip",
+            "size_bytes": 7176512,
+            "download_count": 21,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.11.0.xpi",
+            "size_bytes": 7176194,
+            "download_count": 27,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          }
+        ],
+        "body_excerpt": "## TL;DR\r\n\r\nThe latest update includes several fixes and new features for the Lightning Browser Extension. Key fixes address issues with Reddit and Medium battery usage, as well as resolving a UI bug related to blue boxes. New features include the addition of a separate card specifically for importing Nostr keys and enhancements to locales with the inclusion of Sinhalese, Tamil, and Russian. Additionally, users can now view pending and failed transactions for NWC, improving transaction tracking ",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.11.0",
+        "author": "pavanjoshi914"
+      },
+      {
+        "tag": "v3.10.0",
+        "name": "v3.10.0 Ice Clouds over a Red Planet",
+        "published_at": "2024-12-04T13:14:20Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 39,
+        "total_downloads": 39,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.10.0.zip",
+            "size_bytes": 6868727,
+            "download_count": 21,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.10.0.xpi",
+            "size_bytes": 6868409,
+            "download_count": 18,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          }
+        ],
+        "body_excerpt": "TL;DR\r\nVersion v3.10.0 introduces the Alby Hub Connector and a notification banner for upgrading shared wallets to Alby Hub. It also replaces \"Citadel\" with \"Nirvati\" and includes multiple translation updates. These updates enhance functionality, usability, and localization.\r\n\r\n## What's Changed\r\n* fix: remove translations for product names by @reneaaron in https://github.com/getAlby/lightning-browser-extension/pull/3259\r\n* feat: alby hub connector by @pavanjoshi914 in https://github.com/getAlby",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.10.0",
+        "author": "pavanjoshi914"
+      },
+      {
+        "tag": "v3.9.2",
+        "name": "v3.9.2 Messier 24: Sagittarius Star Cloud",
+        "published_at": "2024-10-18T09:32:26Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 20,
+        "total_downloads": 20,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.9.2.zip",
+            "size_bytes": 5760800,
+            "download_count": 11,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.9.2.xpi",
+            "size_bytes": 5760482,
+            "download_count": 9,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          }
+        ],
+        "body_excerpt": "## TL;DR \r\nThe Alby Lightning Browser Extension v3.9.2 brings several updates and fixes. The optional getRelays method for the Nostr provider was removed, and the product copy for adding new accounts to wallets has been updated. Additionally, the extension now reloads the npub when an account changes, ensuring the correct npub is displayed in the default view. The update also includes copy improvements for the master key setup in the default view cards and enhances the onboarding process for acc",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.9.2",
+        "author": "pavanjoshi914"
+      },
+      {
+        "tag": "v3.9.1",
+        "name": "v3.9.1 Messier 24: Sagittarius Star Cloud",
+        "published_at": "2024-09-08T12:29:40Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 32,
+        "total_downloads": 32,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.9.1.zip",
+            "size_bytes": 5767400,
+            "download_count": 15,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.9.1.xpi",
+            "size_bytes": 5767082,
+            "download_count": 17,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          }
+        ],
+        "body_excerpt": "# TL;DR\r\nThis release includes several bug fixes, translation updates, and minor improvements:\r\n\r\nFixed dark mode text color, alignment issues, scale animations, and pubkey prompts triggering again.\r\nImproved handling for lnaddress with LNURL prefixes, nwc keysend methods fixes, and avatar positioning.\r\nAdded a new identifier for authentication URLs.\r\nMultiple translation updates to enhance localization.\r\n\r\n## What's Changed\r\n* chore: fix dark mode text color by @im-adithya in https://github.com",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.9.1",
+        "author": "pavanjoshi914"
+      },
+      {
+        "tag": "v3.9.0",
+        "name": "v3.9.0 Messier 24: Sagittarius Star Cloud",
+        "published_at": "2024-07-18T16:18:22Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 24,
+        "total_downloads": 24,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "alby-chrome-v3.9.0.zip",
+            "size_bytes": 5738270,
+            "download_count": 14,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "alby-firefox-v3.9.0.xpi",
+            "size_bytes": 5737952,
+            "download_count": 10,
+            "platform": "Other",
+            "content_type": "application/x-xpinstall"
+          }
+        ],
+        "body_excerpt": "TL;DR\r\nThe new release includes enhancements such as making account menus more intuitive, extending kind lists, improvements to NWC connector and improving error messages for lndhub. Several bug fixes also include correcting notification amounts and addressing scrollbar issues in the extension popup. Additionally, the update introduces the Alby logo to QR codes used for invoices and implements better error handling for BIP353 DNS addresses.\r\n\r\n\r\n## What's Changed\r\n* feat: handle longer descripti",
+        "html_url": "https://github.com/getAlby/lightning-browser-extension/releases/tag/v3.9.0",
+        "author": "pavanjoshi914"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 1584.1,
+      "median_gap_hours": 1292.7
+    }
+  },
+  "category": "Lightning"
+}

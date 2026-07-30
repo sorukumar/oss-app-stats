@@ -1,0 +1,2979 @@
+{
+  "project": {
+    "owner": "ACINQ",
+    "repo": "phoenix",
+    "name": "Phoenix",
+    "full_name": "ACINQ/phoenix",
+    "description": "Phoenix is a self-custodial Bitcoin wallet using Lightning to send/receive payments.",
+    "stars": 854,
+    "forks": 143,
+    "open_issues": 68,
+    "language": "Kotlin",
+    "license": "Apache-2.0",
+    "homepage": "https://phoenix.acinq.co",
+    "html_url": "https://github.com/ACINQ/phoenix"
+  },
+  "summary": {
+    "total_downloads": 72354,
+    "total_releases": 90,
+    "stable_releases": 90,
+    "pre_releases": 0,
+    "latest_version": "android-v2.8.1",
+    "latest_date": "2026-06-18T12:41:03Z",
+    "days_since_latest": 42,
+    "avg_cadence_days": 26.3,
+    "platform_breakdown": {
+      "Other": 69733,
+      "Signatures": 2621
+    }
+  },
+  "releases": [
+    {
+      "tag": "android-v2.8.1",
+      "name": "Phoenix 2.8.1",
+      "published_at": "2026-06-18T12:41:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 2688,
+      "total_downloads": 2688,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-117-2.8.1-mainnet.apk",
+          "size_bytes": 17262370,
+          "download_count": 2645,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 43,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release adds a debug screen to iOS to sign swap-in transactions, and fixes an amount display issue on Android. Thanks @PeterXMR  for the bug fix!\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.8.0...android-v2.8.1\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is `co.acinq.phoenix`.\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E04E48E72C205463. Note that you can",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.8.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.8.0",
+      "name": "Phoenix v2.8.0",
+      "published_at": "2026-05-22T13:22:48Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5136,
+      "total_downloads": 5136,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-116-2.8.0-mainnet.apk",
+          "size_bytes": 17245986,
+          "download_count": 5060,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 76,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release brings a few UI fixes and improvements on Android (scanning inverted QR codes, or a button to use all the available balance when paying over Lightning).\r\n\r\nIt also uses lightning-kmp v1.12.0 with the official splicing messages.\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.5...android-v2.8.0\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.11.5...v1.12.0\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.8.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.7.5",
+      "name": "Phoenix v2.7.5",
+      "published_at": "2026-03-17T10:05:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3798,
+      "total_downloads": 3798,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-115-2.7.5-mainnet.apk",
+          "size_bytes": 16824042,
+          "download_count": 3739,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 59,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This version adds a button to generate diagnostics of the app, and add the spend-channel-address screen on iOS to recover funds sent to a channel's outpoint (already existed on Android).\r\n\r\nThe Android app is also now available in \ud83c\uddee\ud83c\udde9 Indonesian. Thanks @Rovikin!\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.4...android-v2.7.5\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is `co.acinq.phoenix`.\r\n",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.5",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.7.4",
+      "name": "Phoenix v2.7.4",
+      "published_at": "2026-01-29T16:18:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1915,
+      "total_downloads": 1915,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-114-2.7.4-mainnet.apk",
+          "size_bytes": 16737970,
+          "download_count": 1865,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 50,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This version fixes an issue where the main transaction would not be republished in some cases. See https://github.com/ACINQ/lightning-kmp/pull/847.\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.3...android-v2.7.4\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.11.3...v1.11.4\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is `co.acinq.phoenix`.\r\n\r\n## Verifying signatures\r\n\r\nYou",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.4",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.7.3",
+      "name": "Phoenix v2.7.3",
+      "published_at": "2026-01-07T16:13:48Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1499,
+      "total_downloads": 1499,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-113-2.7.3-mainnet.apk",
+          "size_bytes": 16737970,
+          "download_count": 1460,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 39,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This version fixes a bug related to peer storage that could crash the app. See https://github.com/ACINQ/lightning-kmp/pull/843 for details.\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.2...android-v2.7.3\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.11.2...v1.11.3\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is `co.acinq.phoenix`.\r\n\r\n## Verifying signatures\r\n\r\nYou will ne",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.3",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.7.2",
+      "name": "Phoenix v2.7.2",
+      "published_at": "2025-12-11T15:23:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1516,
+      "total_downloads": 1516,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-112-2.7.2-mainnet.apk",
+          "size_bytes": 16737970,
+          "download_count": 1479,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 37,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release brings various fixes, and restores the spend-from-channel-address tool to the Android app. See #781 for details\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.1...android-v2.7.2\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.11.1...v1.11.2\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is `co.acinq.phoenix`.\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and ou",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.2",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.7.1",
+      "name": "Phoenix v2.7.1",
+      "published_at": "2025-11-03T10:01:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1778,
+      "total_downloads": 1778,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-111-2.7.1-mainnet.apk",
+          "size_bytes": 16737970,
+          "download_count": 1727,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 51,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This is a bug fix release for Android & iOS, fixing various issues when selecting the theme in Settings > Display. This release also contains lightning-kmp v1.11.1 with improved electrum performances.\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.0...android-v2.7.1\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.11.0...v1.11.1\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is ",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.7.0",
+      "name": "Phoenix v2.7.0",
+      "published_at": "2025-10-29T13:17:33Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 933,
+      "total_downloads": 933,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-110-2.7.0-mainnet.apk",
+          "size_bytes": 16721586,
+          "download_count": 909,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 24,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This is a feature release that brings major changes to Phoenix: taproot channels and support for multiple wallets.\r\n\r\n## Changes\r\n\r\n### Taproot channels\r\n\r\nLightning channels created by Phoenix now use taproot, meaning that they are cheaper (by about 15%), and more private, since they cannot be distinguished from regular transactions. Beforehand, it was easy for third parties to detect if a Bitcoin transaction was related to a Lightning channel operation.\r\n\r\nExisting channels are automatically t",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.6.6",
+      "name": "Phoenix v2.6.6",
+      "published_at": "2025-09-25T14:34:45Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1876,
+      "total_downloads": 1876,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-109-2.6.6-mainnet.apk",
+          "size_bytes": 16690402,
+          "download_count": 1832,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 997,
+          "download_count": 44,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\nThis is a minor release that improves the feerate fallback on Android, fixes the 16kb alignment of the secp256k1 library for Google Play, and fixes a race condition between splices and LN payments.\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.6.5...android-v2.6.6\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.10.7...v1.10.8\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle ide",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.6.6",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.6.5",
+      "name": "Phoenix v2.6.5",
+      "published_at": "2025-09-18T09:43:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 914,
+      "total_downloads": 914,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-108-2.6.5-mainnet.apk",
+          "size_bytes": 16690402,
+          "download_count": 894,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\n### (android) Manually pick feerate if feerate estimation is unavailable\r\n\r\nOn some devices, the feerate estimation source (mempool.space) is not available, but that should not prevent the user from picking a feerate. A warning is displayed instead of blocking the feerate slider.\r\n\r\n### (ios) Fixed a bug preventing paying a Bolt12 offer contained in Bip321 URIs\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.6.4...android-v2.6.5\r\n- lightning-",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.6.5",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.6.4",
+      "name": "Phoenix v2.6.4",
+      "published_at": "2025-08-14T16:48:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1466,
+      "total_downloads": 1466,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-107-2.6.4-mainnet.apk",
+          "size_bytes": 16690402,
+          "download_count": 1408,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 58,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\n### Added look ahead to on-chain wallet\r\n\r\nPhoenix now look for 3 addresses past the first unused index. This helps in some edge cases where funds would have been deposited to an address past the first unused index and were not taken into account by Phoenix.\r\n\r\nNote, the swap addresses can be visualised in Settings > Wallet info > Swap addresses.\r\n\r\n### (android) Fixed localisation issue with decimal amount inputs\r\n\r\nDepending on the device locale, the decimal separator may be a co",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.6.4",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.6.2",
+      "name": "Phoenix v2.6.2",
+      "published_at": "2025-07-11T15:22:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1744,
+      "total_downloads": 1744,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-106-2.6.2-mainnet.apk",
+          "size_bytes": 16674018,
+          "download_count": 1698,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 46,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\n### Add fiat currency converter\r\n\r\nA new screen has been added to easily convert an amount in multiple fiat currencies at once. This screen is accessible from the settings menu, or from the amount inputs when generating an invoice, or sending a payment. It should make it easier to switch between various currencies, especially when travelling.\r\n\r\nFor details see #726.\r\n\r\n### Full changelog\r\n\r\nThis release also contains various fixes. See:\r\n- phoenix: https://github.com/ACINQ/phoenix",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.6.2",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.6.1",
+      "name": "Phoenix v2.6.1",
+      "published_at": "2025-06-06T13:52:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1661,
+      "total_downloads": 1661,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-105-2.6.1-mainnet.apk",
+          "size_bytes": 16624546,
+          "download_count": 1618,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 43,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\n### Support for reading and emulating NFC tags\r\n\r\nPhoenix can now read NFC tags, as well as broadcast a Phoenix Bitcoin address or Lightning payment request via NFC. This comes as an alternative to QR codes for sharing payment requests between devices.\r\n\r\nThis is available on both iOS and Android, if the device supports it. Note that on iOS, emulating a NFC tag is limited to users in the European Economic Area, due to [restrictions by Apple](https://developer.apple.com/support/hce-",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.6.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.6.0",
+      "name": "Phoenix v2.6.0",
+      "published_at": "2025-05-14T18:12:58Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1296,
+      "total_downloads": 1296,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-104-2.6.0-mainnet.apk",
+          "size_bytes": 16579322,
+          "download_count": 1257,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 39,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\n### Stateless offers with custom description\r\n\r\nPhoenix can now generate any number of Bolt12 offers (a.k.a. reusable invoices). They all stay valid permanently, just like a bitcoin address. These offers can also be customised with a description and an amount.\r\n\r\n### Custom feerate in channel closing\r\n\r\nIt's now possible to set a feerate when closing a channel mutually. Note that closing cannot be cancelled so make sure to use a reasonably high feerate, otherwise the closing transa",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.6.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.5.3",
+      "name": "Phoenix v2.5.3",
+      "published_at": "2025-04-08T17:36:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1596,
+      "total_downloads": 1596,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-103-2.5.3-mainnet.apk",
+          "size_bytes": 16460157,
+          "download_count": 1540,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 56,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\nThis is a bug fix release that corrects UI problems on iOS and [improves the handling of some Bolt12 failures](https://github.com/ACINQ/lightning-kmp/pull/773).\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.5.2...android-v2.5.3\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.9.0...v1.9.1\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E04E48E72C205463. Note that you can get it:\r\n- from our w",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.5.3",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.5.2",
+      "name": "Phoenix 2.5.2",
+      "published_at": "2025-03-25T18:40:39Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 907,
+      "total_downloads": 907,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-102-2.5.2-mainnet.apk",
+          "size_bytes": 16460157,
+          "download_count": 880,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 27,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\nThis is a bug fix release correcting several stability issues, includes a fix for a crash occurring on some Android devices when using the scanner.\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.5.1...android-v2.5.2\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E04E48E72C205463. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf2.asc\r\n- from github user @sstone, a committer on eclair: ",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.5.2",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.5.1",
+      "name": "Phoenix v2.5.1",
+      "published_at": "2025-03-14T14:50:58Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 861,
+      "total_downloads": 861,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-101-2.5.1-mainnet.apk",
+          "size_bytes": 16460157,
+          "download_count": 839,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 997,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\n### Fixed outgoing payments stuck pending\r\n\r\nThis issue typically affected Lightning payments to hodl invoices. It would cause payments to remain \"pending\" in the UI, although they actually failed. \r\n\r\nNote that this version does not fix the state of payments affected by this issue in v2.5.0. Those payments will remain in a pending state.  However, it will prevent this issue from happening again for new payments. We'll try to find a solution to clean up the UI for those 2.5.0 payme",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.5.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.5.0",
+      "name": "Phoenix v2.5.0",
+      "published_at": "2025-03-04T17:28:39Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 791,
+      "total_downloads": 791,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-100-2.5.0-mainnet.apk",
+          "size_bytes": 16460157,
+          "download_count": 767,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 978,
+          "download_count": 24,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\n### (android) Improved scanner performances (#673)\r\n\r\nThe scanner should be able to read QR codes faster, and do so on a wider range of devices. Some devices were even completely unable to scan anything ; this should be fixed.\r\n\r\n### Access to Tor now requires a third-party Tor Proxy VPN app (e.g. Orbot) (#662)\r\n\r\nPhoenix previously embedded a Tor library in order to access the Tor network. While it was convenient not to have to install anything else, it also brought significant pe",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.5.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.4.5",
+      "name": "Phoenix v2.4.5",
+      "published_at": "2024-12-05T10:37:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 2945,
+      "total_downloads": 2945,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-98-2.4.5-mainnet.apk",
+          "size_bytes": 74386022,
+          "download_count": 2818,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 127,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\n- Fixed a navigation issue with LNURL-pay on Android\r\n- Add a new migration screen in the Android legacy app which replaces the obsolete home screen (#658) \r\n\r\n###\r\n\r\n### Full changelog\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.4.4...android-v2.4.5\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a committe",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.4.5",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.4.4",
+      "name": "Phoenix v2.4.4",
+      "published_at": "2024-11-26T09:40:06Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1030,
+      "total_downloads": 1030,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-97-2.4.4-mainnet.apk",
+          "size_bytes": 74381870,
+          "download_count": 1000,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 30,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\nThis version is a bug fix release. Especially, it fixes a crash when navigating to the Payment options menu. \r\n\r\n### Full changelog\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.4.3...android-v2.4.4\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a committer on eclair: https://api.github.com/users/sstone/gpg_k",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.4.4",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.4.3",
+      "name": "Phoenix v2.4.3",
+      "published_at": "2024-11-22T17:11:52Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 965,
+      "total_downloads": 965,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-96-2.4.3-mainnet.apk",
+          "size_bytes": 74381870,
+          "download_count": 948,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 996,
+          "download_count": 17,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\n### Redesigned the screen for sending payments\r\n\r\nThe contacts list and a free-form text input are now displayed first, instead of trying to open the scanner immediately. A button to read QR codes on images stored on disk has also been added.\r\n\r\nSee https://github.com/ACINQ/phoenix/pull/643 and https://github.com/ACINQ/phoenix/pull/629 for details.\r\n\r\n### Photos can now be attached to contacts (Android)\r\n\r\nYou can also use an image from your device's gallery. Photos are stored in t",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.4.3",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.4.1",
+      "name": "Phoenix v2.4.1",
+      "published_at": "2024-10-18T12:36:08Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1743,
+      "total_downloads": 1743,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-94-2.4.1-mainnet.apk",
+          "size_bytes": 74324413,
+          "download_count": 1699,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 977,
+          "download_count": 44,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\nThis is a bug fix release for Android and iOS. It fixes an issue with expiry which could cause on-the-fly fundings to fail.\r\n\r\n### Full changelog\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.4.0...android-v2.4.1\r\n- lightning-kmp: phoenix: https://github.com/ACINQ/lightning-kmp/compare/v1.8.1...v1.8.4\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key `E434ED292E85643A`. Note that you can get it:\r\n- from our website: https://acinq.co/pgp",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.4.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.4.0",
+      "name": "Phoenix v2.4.0",
+      "published_at": "2024-10-10T13:57:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1620,
+      "total_downloads": 1620,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-93-2.4.0-mainnet.apk",
+          "size_bytes": 74320317,
+          "download_count": 1596,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 24,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\nThis is a major release for Android and iOS. It makes Phoenix compatible with the new open protocol that is now used by the ACINQ LSP. This new protocol is a thin layer on top of dual funding, splicing, and liquidity ads, all recent additions to the Lightning BOLT standard (see [bLIP 36](https://github.com/lightning/blips/pull/36)).\r\n\r\nThis protocol replaces the previous, proprietary, closed source LSP protocol that we have been using since the beginning of Phoenix.\r\n\r\nUpgrading to",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.4.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.3.11",
+      "name": "Phoenix Android v2.3.11",
+      "published_at": "2024-10-07T17:54:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 643,
+      "total_downloads": 643,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-92-2.3.11-mainnet.apk",
+          "size_bytes": 74193341,
+          "download_count": 636,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\nThis release fixes a crash when generating invoices on Czech or Slovak devices. Also added a workaround for a rare issue where database access could lead to crashes.\r\n\r\n### Full changelog\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.3.10...android-v2.3.11\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a comm",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.11",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.3.10",
+      "name": "Phoenix Android v2.3.10",
+      "published_at": "2024-10-03T15:30:16Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 739,
+      "total_downloads": 739,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-91-2.3.10-mainnet.apk",
+          "size_bytes": 74189245,
+          "download_count": 724,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\nThis release fixes a connection issue caused in some cases by the background jobs.\r\n\r\n### Full changelog\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.3.9...android-v2.3.10\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a committer on eclair: https://api.github.com/users/sstone/gpg_keys\r\n\r\nTo import our signi",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.10",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.3.9",
+      "name": "Phoenix Android v2.3.9",
+      "published_at": "2024-09-12T12:06:27Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1211,
+      "total_downloads": 1211,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-90-2.3.9-mainnet.apk",
+          "size_bytes": 74189245,
+          "download_count": 1186,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 25,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\nThis release fixes a few UI issues, including a fix for #616 which prevented scanning QR codes for Lightning addresses when they used an URI prefix.\r\n\r\n### Legacy mode and channels closing\r\n\r\n[Phoenix v2 was released 1 year ago](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) and v1 legacy channels will soon be closed. The v2 upgrade notices in the v1 legacy mode have been updated. Users that are still using the legacy mode should migrate as soon as possible. Note tha",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.9",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.3.8",
+      "name": "Android v2.3.8",
+      "published_at": "2024-09-09T08:34:51Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 524,
+      "total_downloads": 524,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-89-2.3.8-mainnet.apk",
+          "size_bytes": 74176957,
+          "download_count": 514,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 10,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy Android app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\nThis release fixes an issue related to the legacy mode which could crash the app, and improvements to the n",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.8",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.3.7",
+      "name": "Android v2.3.7",
+      "published_at": "2024-09-01T13:25:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 982,
+      "total_downloads": 982,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-88-2.3.7-mainnet.apk",
+          "size_bytes": 74172861,
+          "download_count": 956,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUM.asc",
+          "size_bytes": 632,
+          "download_count": 26,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy Android app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\n### Support for custom PIN\r\n\r\nThe application can now be protected with a custom 6-digits PIN code specific",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.7",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.3.6",
+      "name": "Phoenix Android v2.3.6",
+      "published_at": "2024-07-31T12:54:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1502,
+      "total_downloads": 1502,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-87-2.3.6-mainnet.apk",
+          "size_bytes": 74049869,
+          "download_count": 1462,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUM.asc",
+          "size_bytes": 632,
+          "download_count": 40,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy Android app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\n### Fixed parsing issues with BIP353 addresses and BIP21 URIs\r\n\r\nSee #598 and #599.\r\n\r\n### Full changelog\r\n",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.6",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.3.5",
+      "name": "Phoenix Android v2.3.5",
+      "published_at": "2024-07-22T08:19:10Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 922,
+      "total_downloads": 922,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-86-2.3.5-mainnet.apk",
+          "size_bytes": 74049869,
+          "download_count": 900,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy Android app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\n### Fixed parsing issue with some BIP353 addresses\r\n\r\nAdditional parameters in the URI caused parsing issue",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.5",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.3.4",
+      "name": "Phoenix Android 2.3.4",
+      "published_at": "2024-07-17T10:28:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 768,
+      "total_downloads": 768,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-85-2.3.4-mainnet.apk",
+          "size_bytes": 74053965,
+          "download_count": 753,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy Android app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\n### Fixed compatibility issue with some BOLT12 offers\r\n\r\nSee https://github.com/ACINQ/lightning-kmp/pull/68",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.4",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.3.3",
+      "name": "Phoenix 2.3.3",
+      "published_at": "2024-07-11T16:49:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 856,
+      "total_downloads": 856,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-84-2.3.3-mainnet.apk",
+          "size_bytes": 74029275,
+          "download_count": 834,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy Android app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\n### Add support for BIP353 DNS addresses\r\n\r\nPhoenix now support paying BIP353 DNS addresses. The lookup is ",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.3",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.3.1",
+      "name": "Phoenix 2.3.1",
+      "published_at": "2024-07-03T17:03:54Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 929,
+      "total_downloads": 929,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-82-2.3.1-mainnet.apk",
+          "size_bytes": 74000603,
+          "download_count": 905,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 24,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy Android app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\n### Add support for BOLT12 offers\r\n\r\nOffers are the Lightning equivalent to a Bitcoin address: it's a reusa",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.2.4",
+      "name": "Phoenix Android 2.2.4/iOS 2.2.6",
+      "published_at": "2024-06-18T15:57:46Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 945,
+      "total_downloads": 945,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-80-2.2.4-mainnet.apk",
+          "size_bytes": 73885633,
+          "download_count": 916,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 29,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy Android app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\nThis release is a bug fix release, no new features have been added.\r\n\r\n### Fixed regression causing payment",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.2.4",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.2.3",
+      "name": "Phoenix Android v2.2.3",
+      "published_at": "2024-06-11T11:43:52Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 857,
+      "total_downloads": 857,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-79-2.2.3-mainnet.apk",
+          "size_bytes": 66088495,
+          "download_count": 819,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 38,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy Android app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\n### Added +-5% buttons to easily add a tip when paying over Lightning\r\n\r\nThe user can also enable/disable o",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.2.3",
+      "author": "dpad85"
+    },
+    {
+      "tag": "ios-v2.2.2",
+      "name": "Phoenix Android/iOS v2.2.2",
+      "published_at": "2024-04-10T14:15:51Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 2273,
+      "total_downloads": 2273,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-78-2.2.2-mainnet.apk",
+          "size_bytes": 65895871,
+          "download_count": 2174,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 99,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy Android app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\n### Update fee estimation for on-the-fly channel\r\n\r\nThe fee for on-the-fly channel is now 1% + mining fee, ",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/ios-v2.2.2",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.2.1",
+      "name": "Phoenix Android v2.2.1",
+      "published_at": "2024-03-07T09:58:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1266,
+      "total_downloads": 1266,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-77-2.2.1-mainnet.apk",
+          "size_bytes": 65859007,
+          "download_count": 1230,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 36,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\nThis is mostly a bug fix release, with also some UI improvements and new localisations.\r\n\r\n### \ud83c\uddf8\ud83c\uddf0 Slovak and \ud83c\uddfb\ud83c\uddf3 Vie",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.2.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.2.0",
+      "name": "Phoenix Android/iOS v2.2.0",
+      "published_at": "2024-02-23T18:37:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 769,
+      "total_downloads": 769,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-76-2.2.0-mainnet.apk",
+          "size_bytes": 65715647,
+          "download_count": 745,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 24,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing Android legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\n### Use taproot addresses by default, and rotate addresses\r\n\r\nThe address displayed by Phoenix for on-chain to Ligh",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.2.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.1.3",
+      "name": "Phoenix Android v2.1.3",
+      "published_at": "2024-02-09T12:24:45Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 839,
+      "total_downloads": 839,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-75-2.1.3-mainnet.apk",
+          "size_bytes": 64900078,
+          "download_count": 816,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUM.asc",
+          "size_bytes": 632,
+          "download_count": 23,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Minor changes\r\n\r\n- The fee warning displayed in the Receive screen when creating a LN invoice is more prominent (see issue #507).\r\n- T",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.1.3",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.1.2",
+      "name": "Phoenix Android v2.1.2",
+      "published_at": "2024-01-24T18:51:40Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 971,
+      "total_downloads": 971,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-74-2.1.2-mainnet.apk",
+          "size_bytes": 64908213,
+          "download_count": 923,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 48,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\nThis is a bug fix release, containing mostly fixes in `lightning-kmp`, except for a new message displayed when sending an o",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.1.2",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.1.1",
+      "name": "Phoenix Android v2.1.1",
+      "published_at": "2023-12-20T13:15:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1717,
+      "total_downloads": 1717,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-73-2.1.1-mainnet.apk",
+          "size_bytes": 64900021,
+          "download_count": 1664,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 53,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\nThis minor release fixes the Czech translation (#490, thanks @MasterixCZ) and English typos (#491 thanks @dluvian). It also",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.1.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.1.0",
+      "name": "Phoenix Android v2.1.0",
+      "published_at": "2023-12-15T16:45:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 643,
+      "total_downloads": 643,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-72-2.1.0-mainnet.apk",
+          "size_bytes": 64900021,
+          "download_count": 624,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 19,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes\r\n\r\n**Request inbound liquidity from your peer (#489)**\r\nIf you keep receiving funds over Lightning, you'll consume your inboun",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.1.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.15",
+      "name": "Phoenix Android v2.0.15",
+      "published_at": "2023-12-12T14:56:33Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 514,
+      "total_downloads": 514,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-70-2.0.15-mainnet.apk",
+          "size_bytes": 64809740,
+          "download_count": 497,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 17,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Hotfix release\r\n\r\nThis release fixes an incorrect error message displayed when opening the Send screen (#487).\r\n\r\n## Verifying signatu",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.15",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.14",
+      "name": "Phoenix Android v2.0.14",
+      "published_at": "2023-12-07T13:37:14Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 615,
+      "total_downloads": 615,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-69-2.0.14-mainnet-release-signed.apk",
+          "size_bytes": 64809740,
+          "download_count": 598,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 648,
+          "download_count": 17,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Main changes from 2.0.13\r\n\r\n* Added a screen to delete the wallet (4ffc78d1)\r\n* Fixed an issue reading bip-21 URIs with a Lightning in",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.14",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.13",
+      "name": "Phoenix Android v2.0.13",
+      "published_at": "2023-12-01T16:32:36Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 611,
+      "total_downloads": 611,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-68-2.0.13-mainnet-release-signed.apk",
+          "size_bytes": 64805644,
+          "download_count": 591,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 648,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes from 2.0.12\r\n\r\n* Add timeout to Peer connection by @dpad85 in https://github.com/ACINQ/phoenix/pull/448\r\n* Localisation in es-",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.13",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.12",
+      "name": "Phoenix Android v2.0.12",
+      "published_at": "2023-11-06T10:08:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1007,
+      "total_downloads": 1007,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-67-2.0.12-mainnet.apk",
+          "size_bytes": 64666380,
+          "download_count": 957,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUM.asc",
+          "size_bytes": 633,
+          "download_count": 50,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\u2139\ufe0f **Migration for existing legacy wallets (v1.x)**\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes from 2.0.11\r\n\r\n- Gracefully handle Android keystore failures at startup, and fall back to manual seed input to unlock the wall",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.12",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.11",
+      "name": "Phoenix Android v2.0.11",
+      "published_at": "2023-10-17T15:39:11Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 875,
+      "total_downloads": 875,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-66-2.0.11-mainnet.apk",
+          "size_bytes": 64654092,
+          "download_count": 839,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 36,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Migration for existing legacy wallets (v1.x)\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes from 2.0.10\r\n\r\n- Display the grace-period for pending deposits in the swap-in screen. See #444 for details\r\n- Fix invalid intents",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.11",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.10",
+      "name": "Phoenix Android v2.0.10",
+      "published_at": "2023-10-10T11:42:51Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 398,
+      "total_downloads": 398,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-65-2.0.10-mainnet.apk",
+          "size_bytes": 63810159,
+          "download_count": 373,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 25,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Migration for existing legacy wallets (v1.x)\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes from 2.0.9\r\n\r\n- Updated the wording of the migration message in the legacy application. Added a date where some legacy services (",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.10",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.9",
+      "name": "Phoenix Android v2.0.9",
+      "published_at": "2023-09-29T08:54:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 469,
+      "total_downloads": 469,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-64-2.0.9-mainnet.apk",
+          "size_bytes": 63810159,
+          "download_count": 449,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUM.asc",
+          "size_bytes": 632,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Migration for existing legacy wallets (v1.x)\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes from 2.0.8\r\n\r\n- Added notice in home screen when incoming Lightning payments are rejected, to make them more visible.\r\n- Added th",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.9",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.8",
+      "name": "Phoenix Android v2.0.8",
+      "published_at": "2023-09-20T17:35:10Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 421,
+      "total_downloads": 421,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-62-2.0.8-mainnet.apk",
+          "size_bytes": 63777391,
+          "download_count": 389,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 32,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Migration for existing legacy wallets (v1.x)\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes from 2.0.7\r\n\r\nThis is a bug fix release.\r\n- Fixed an issue where payment would be prevented when channels were in closing\r\n- Fixe",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.8",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.7",
+      "name": "Phoenix Android 2.0.7",
+      "published_at": "2023-09-19T08:45:45Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 241,
+      "total_downloads": 241,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-61-2.0.7-mainnet.apk",
+          "size_bytes": 63777391,
+          "download_count": 223,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUM.asc",
+          "size_bytes": 632,
+          "download_count": 18,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Migration for existing legacy wallets (v1.x)\r\n\r\nUsers upgrading from the legacy app (1.x) to 2.x will need to migrate to be able to use 2.x features. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process. You can see what version you are currently using in Settings > About.\r\n\r\n## Changes from 2.0.6\r\n\r\n### Electrum Client rework\r\n\r\nThe Electrum connection logic has been improved. There should be less issues with Ele",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.7",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.6",
+      "name": "Phoenix Android 2.0.6",
+      "published_at": "2023-09-13T13:28:11Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 320,
+      "total_downloads": 320,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-60-2.0.6-mainnet.apk",
+          "size_bytes": 72301111,
+          "download_count": 311,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUM.asc",
+          "size_bytes": 632,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Migration for existing legacy wallets (v1.x)\r\n\r\nFor users upgrading from the legacy Phoenix Android app (1.x) to 2.x, a migration is needed. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process.\r\n\r\n## Changes from 2.0.5\r\n\r\n### Fixed several issues related to LNURL\r\n\r\n- withdrawals will now offer the user to withdraw the maximum amount available, instead of the minimum;\r\n- LUD-17 urls (starting with `lnurlp`, `lnur",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.6",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.5",
+      "name": "Phoenix Android v2.0.5",
+      "published_at": "2023-09-01T19:04:07Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 417,
+      "total_downloads": 417,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-59-2.0.5-mainnet.apk",
+          "size_bytes": 72292919,
+          "download_count": 400,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 17,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Migration for existing legacy wallets (v1.x)\r\n\r\nFor users upgrading from the legacy Phoenix Android app (1.x) to 2.x, a migration is needed. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process.\r\n\r\n## Changes from 2.0.4\r\n\r\n### Added localisation for \ud83c\udde9\ud83c\uddea German, \ud83c\uddea\ud83c\uddf8 Spanish, \ud83c\uddf5\ud83c\uddf9 Portuguese and \ud83c\udde8\ud83c\uddff Czech localisation. \r\n\r\nThanks @myxmaster for the help with German translation!\r\n\r\nSpanish, Portuguese, and Czech localisat",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.5",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.4",
+      "name": "Phoenix Android v2.0.4",
+      "published_at": "2023-08-30T09:29:10Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 211,
+      "total_downloads": 211,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-58-2.0.4-mainnet.apk",
+          "size_bytes": 72194615,
+          "download_count": 196,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Migration for existing legacy wallets (v1.x)\r\n\r\nFor users upgrading from the legacy Android app (1.x) to Android 2.x, a migration is needed. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process.\r\n\r\n## Changes from 2.0.2\r\n\r\nThis release fixes several issues and brings a few improvements in the app.\r\n\r\n### Swaps are now attempted at each block\r\n\r\nPrevious versions required the app to be restarted in order to attempt",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.4",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.2",
+      "name": "Android v2.0.2",
+      "published_at": "2023-08-24T13:09:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 314,
+      "total_downloads": 314,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-56-2.0.2-mainnet.apk",
+          "size_bytes": 72190332,
+          "download_count": 289,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 25,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release bumps the minimal Android version to android 8+ to prevent installing the app on old, incompatible devices.\r\n\r\nUsers with Android 7.1 or older can still use version 1.4.27, but we strongly recommend upgrading to a recent Android version that receives security patches.\r\n\r\n### Migration for existing wallets\r\n\r\nFor users upgrading from the legacy app (1.x) to the new app, a migration is needed. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) ",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.2",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.1",
+      "name": "Android v2.0.1",
+      "published_at": "2023-08-19T08:22:36Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 11,
+      "total_downloads": 11,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release fixes an issue (see #394) with withdrawals/payments done through LNURL affecting the new 2.0.0 version (legacy app is not affected).\r\n\r\n### Migration for existing wallets\r\n\r\nFor users upgrading from the legacy app (1.x) to the new app, a migration is needed. See [the 2.0.0 release notes](https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0) for details about the migration process.\r\n\r\n### All changes:\r\n- https://github.com/ACINQ/phoenix/compare/android-v2.0.0...android-v2.0.1",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-v2.0.0",
+      "name": "Android v2.0.0",
+      "published_at": "2023-08-16T14:55:38Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is a major release that reworks most of the application. An automated migration is available for existing users.\r\n\r\n## Migration\r\n\r\nDue to the changes in the LN engine and the switch to splicing (see below), existing channels created with v1.x cannot be used by the new app. A migration process merges them together resulting in a single channel.\r\n\r\nUsers with existing wallets will remain on the legacy app, until their funds are migrated. This migration is triggered manually by the user from ",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.0.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.27",
+      "name": "Phoenix Android v1.4.27",
+      "published_at": "2023-07-12T13:16:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 765,
+      "total_downloads": 765,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-43-1.4.27-mainnet.apk",
+          "size_bytes": 38794816,
+          "download_count": 717,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 48,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release fixes a display issue, where the decimal parts of amounts denominated in Btc/mBtc/bits units were hard to read. These parts are now correctly aligned.\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a committer on eclair: https://api.github.com/users/sstone/gpg_keys\r\n\r\nTo import our signing key:\r\n```\r\n$ gpg --import drouinf.asc\r",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.27",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.26",
+      "name": "Phoenix Android v1.4.26",
+      "published_at": "2023-02-15T15:54:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1214,
+      "total_downloads": 1214,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-41-1.4.26-mainnet.apk",
+          "size_bytes": 38794816,
+          "download_count": 1097,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 117,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Add full payment history\r\n\r\nA new screen has been added to list the full payment history. The home screen will now only display the last dozen payments, plus a button to open that full history screen.\r\n\r\n### Support `phoenix` scheme\r\n\r\nThird-party apps that want to specifically open the Android Phoenix app can do so with an intent with the `phoenix` scheme (e.g. `phoenix:lightning:lnbc1...`).\r\n\r\n- (phoenix-legacy) : https://github.com/ACINQ/phoenix/compare/android-legacy-v1.4.25...android-le",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.26",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.25",
+      "name": "Phoenix Android 1.4.25",
+      "published_at": "2023-01-26T13:21:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 152,
+      "total_downloads": 152,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-40-1.4.25-mainnet.apk",
+          "size_bytes": 36656592,
+          "download_count": 127,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 25,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Fix LNURL-auth for bolt.fun\r\n\r\nPhoenix will now use the compatibility scheme when authenticating with `bolf.fun`, instead of the regular scheme.\r\n\r\n- (phoenix-legacy) : https://github.com/ACINQ/phoenix/compare/android-legacy-v1.4.24...android-legacy-v1.4.25\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a committer on eclair: https://ap",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.25",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.24",
+      "name": "Phoenix 1.4.24",
+      "published_at": "2022-12-05T15:28:54Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 245,
+      "total_downloads": 245,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-39-1.4.24-mainnet.apk",
+          "size_bytes": 36656592,
+          "download_count": 207,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 38,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Use services' full domain name with LNURL-auth\r\n\r\nPhoenix is now using the service's full domain name (like in the LUD-04 specifications) when creating the LNURL-auth linking key. For existing services where users may already have accounts on, Phoenix keeps using the etld+1 domain name so that those accounts are still accessible.\r\n\r\n- (phoenix-legacy) : https://github.com/ACINQ/phoenix/compare/android-legacy-v1.4.23...android-legacy-v1.4.24\r\n- (eclair-core) : https://github.com/ACINQ/eclair/",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.24",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.23",
+      "name": "Phoenix v1.4.23 (android)",
+      "published_at": "2022-09-16T11:47:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 331,
+      "total_downloads": 331,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-38-1.4.23-mainnet.apk",
+          "size_bytes": 36533201,
+          "download_count": 293,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 997,
+          "download_count": 38,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Fix compatibility issue with LND 0.15.1-beta\r\n\r\nThe legacy Phoenix app on android used bit 50 for the trampoline feature bit, which has since been reused for zeroconf with a dependency on scid_alias. The legacy app now uses bit 148 instead. This fixes an issue that prevented the android app from receiving payment sent from LND 0.15.1-beta\r\n\r\n- (phoenix-legacy) : https://github.com/ACINQ/phoenix/compare/android-legacy-v1.4.22...android-legacy-v1.4.23\r\n- (eclair-core) : https://github.com/ACIN",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.23",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.22",
+      "name": "Phoenix v1.4.22 (android)",
+      "published_at": "2022-03-25T10:10:39Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 703,
+      "total_downloads": 703,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-37-1.4.22-mainnet.apk",
+          "size_bytes": 36537297,
+          "download_count": 604,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 997,
+          "download_count": 99,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Fix wallet creation on some devices\r\n\r\nThis version fixes an issue on some devices where creating an entry in the keystore would fail, preventing new wallets from being created.\r\n\r\nList of commits (filter on phoenix-legacy)\r\n\r\n- https://github.com/ACINQ/phoenix/compare/android-legacy-v1.4.21...android-legacy-v1.4.22\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E434ED292E85643A. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/padioupm.asc\r\n",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.22",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.21",
+      "name": "Phoenix v1.4.21 (android)",
+      "published_at": "2022-03-18T14:00:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 99,
+      "total_downloads": 99,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-36-1.4.21-mainnet.apk",
+          "size_bytes": 36537297,
+          "download_count": 81,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 997,
+          "download_count": 18,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n### Remove send all checkbox\r\n\r\nWhen sending a payment, the \"send all\" checkbox lets users use all their balance for that payment and forces the app to use the highest possible trampoline fee, which can lead to unintended high fees (especially if the default trampoline fees have been altered by the user). This checkbox has thus been removed until we find a better solution.\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/android-legacy-v1.4.20...android-legacy-v1.4.21\r\n\r",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.21",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.20",
+      "name": "Phoenix v1.4.20 (android)",
+      "published_at": "2022-01-20T19:19:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 218,
+      "total_downloads": 218,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-35-1.4.20-mainnet.apk",
+          "size_bytes": 36574161,
+          "download_count": 195,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 23,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n### Payment expiry can be modified\r\n\r\nInvoice default expiry is still 1 week, but can now be modified in the payment options screen.\r\n\r\n### Prevent sending more than twice the requested amount\r\n\r\nThis is to prevent a frustrating scenario for the user where the app will let you overpay more than twice an invoice, even though we know the receiving node will most certainly reject the payment in accordance to BOLT11. (See #232)\r\n\r\n### Full list of changes\r\n\r\n- **app**: https://git",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.20",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.19",
+      "name": "Phoenix v1.4.19 (android)",
+      "published_at": "2021-10-29T13:49:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 276,
+      "total_downloads": 276,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-34-1.4.19-mainnet.apk",
+          "size_bytes": 36574230,
+          "download_count": 245,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 31,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n### Fix payment details screen for lnurl-pay\r\n\r\nPhoenix now correctly displays the description of a lnurl payment, as well as other metadata that the service could have provided (such as identifiers for lightning addresses).\r\n\r\n### Full list of changes\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/android-legacy-v1.4.17...android-legacy-v1.4.19\r\n(this diff is very large because it contains the merge with the phoenix-kmm repository)\r\n\r\n## Verifying signatures\r\n\r\nYou wi",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.19",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.17",
+      "name": "Phoenix v1.4.17",
+      "published_at": "2021-09-07T08:42:54Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 170,
+      "total_downloads": 170,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-32-1.4.17-mainnet.apk",
+          "size_bytes": 36492310,
+          "download_count": 152,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 997,
+          "download_count": 18,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n### Manual input support and sending to Lightning addresses\r\n\r\nYou can now pay [lightning addresses over LNUrl-pay](https://lightningaddress.com/) with Phoenix. Go to the Send screen > Manual input to enter an address. You can also manually enter a Bitcoin address or a BOLT11 invoice if you want to.\r\n\r\n### Arabic translation\r\n\r\nThe app has been translated to Arabic. Thanks @EZ0010 for the translation, and @Jean-Gray for the review.\r\n\r\n### Full list of changes\r\n\r\n- **app**: htt",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.17",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.15",
+      "name": "Phoenix v1.4.15",
+      "published_at": "2021-08-06T09:38:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 124,
+      "total_downloads": 124,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-30-1.4.15-mainnet.apk",
+          "size_bytes": 36191812,
+          "download_count": 108,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 16,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n### Extract invoices from images stored on device\r\n\r\nYou can now browse the device's file system (using the device's browser, hence not needing any permissions) to load an image containing a Lightning invoice (or a Bitcoin URI, or a LNURL) and read the invoice as usual. This is useful when trying to pay someone using a QR code image shared over the internet, for example on Twitter.\r\n\r\n### Full list of changes\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/v1.4.14...v1.",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.15",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.14",
+      "name": "Phoenix v1.4.14",
+      "published_at": "2021-06-08T17:31:45Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 185,
+      "total_downloads": 185,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-29-1.4.14-mainnet.apk",
+          "size_bytes": 36183564,
+          "download_count": 170,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n### Remove editable fee rate in swap-out\r\n\r\nSwap-outs (LN -> on-chain) are actually spending from a shared UTXO set. To make things consistent and ensure good UX for every users, the swap-out fee rate is now defined by the swap service. \r\n\r\nMore info here: https://phoenix.acinq.co/faq#why-dont-you-let-me-set-the-feerate-myself-when-sending-on-chain\r\n\r\n### Added a button to enlarge the receive QR code\r\n\r\nThis will help scanning a invoice with low resolution camera.\r\n\r\n### Added",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.14",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.13",
+      "name": "Phoenix v1.4.13",
+      "published_at": "2021-05-27T15:38:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 52,
+      "total_downloads": 52,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-28-1.4.13-mainnet.apk",
+          "size_bytes": 36267597,
+          "download_count": 45,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n### Add maximum amount for swap-out\r\n\r\nThere is now a maximum amount that can be sent using swap-out (currently 20 mBTC, this value can change).\r\n\r\n### Fix a few issues and potential crashes\r\n\r\n### Full list of changes\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/v1.4.12...v1.4.13\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from githu",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.13",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.12",
+      "name": "Phoenix v1.4.12",
+      "published_at": "2021-05-20T14:52:36Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 55,
+      "total_downloads": 55,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-27-1.4.12-mainnet.apk",
+          "size_bytes": 36263501,
+          "download_count": 46,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n### Add support for LNURL-pay\r\n\r\n[LNURL-pay](https://github.com/fiatjaf/lnurl-rfc/blob/master/lnurl-pay.md) is an offband protocol using http requests to get invoices from a compliant node. It supports comments, min/max amounts, metadata (including images) and callback messages from the recipient (including encrypted messages that can only be read once the payment is successful, using the preimage).\r\n\r\nThis change does not mean that Phoenix offers static invoices, but that it ",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.12",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.11",
+      "name": "Phoenix v1.4.11",
+      "published_at": "2021-05-03T13:59:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 80,
+      "total_downloads": 80,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-26-1.4.11-mainnet.apk",
+          "size_bytes": 35697835,
+          "download_count": 64,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 16,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n### Display fees for pay-to-open in settings\r\n\r\nThe fees for on-the-fly channel creation is now visible at any time in settings > payments options and fees\r\n\r\n### Display swap-in fees in-view\r\n\r\nThe swap-in modal dialog has been removed and information about the swap-in feature and the fees are now displayed in-view.\r\n\r\n## Complete list of changes\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/v1.4.10...v1.4.11\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our ",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.11",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.10",
+      "name": "Phoenix v1.4.10",
+      "published_at": "2021-04-22T17:30:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 102,
+      "total_downloads": 102,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-25-1.4.10-mainnet.apk",
+          "size_bytes": 35693739,
+          "download_count": 90,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 633,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n### Reject invoices that have already been paid\r\n\r\nThe app now checks if an invoice has already been paid before sending. This does not work if the app has been restored and the payment is not in the database anymore.\r\n\r\n### Add information notice when the pay-to-open and swap-in features are disabled\r\n\r\nChannel creation features involve on-chain operations and may be disabled when the mempool is congested. The app now degrades gracefully and properly informs the user, and als",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.10",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.9",
+      "name": "Phoenix v.1.4.9",
+      "published_at": "2021-04-15T15:30:10Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 46,
+      "total_downloads": 46,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-24-1.4.9-mainnet.apk",
+          "size_bytes": 35685547,
+          "download_count": 39,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\nThis release fixes an issue with channels opening, where on-the-fly channel creation could timeout immediately if device's clock was off.\r\n\r\n## Complete list of changes\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/v1.4.8...v1.4.9\r\n- **core**: https://github.com/ACINQ/eclair/compare/v0.4.9-android-phoenix...v0.4.10-android-phoenix\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our websi",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.9",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.8",
+      "name": "Phoenix v1.4.8",
+      "published_at": "2021-03-04T15:20:44Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 154,
+      "total_downloads": 154,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-23-1.4.8-mainnet.apk",
+          "size_bytes": 35685547,
+          "download_count": 132,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 996,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\nThe channel creation fee for pay-to-open has been increased: it's still 0.1% but there is now a 1000 sat minimum. The manual confirmation dialog and asynchronous pay-to-open logic have been removed. The FTUE page regarding the channel opening cost has been updated as well as the swap-in dialog so that we can display this new fee minimum value.\r\n\r\n## Complete list of changes\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/v1.4.7...v1.4.8\r\n\r\n## Verifying signatures\r\n\r\nYou",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.8",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.7",
+      "name": "Phoenix 1.4.7",
+      "published_at": "2021-03-04T15:20:33Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 15,
+      "total_downloads": 15,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-22-1.4.7-mainnet.apk",
+          "size_bytes": 35738882,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 996,
+          "download_count": 4,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n### Improve LNURL error feedback\r\n\r\nErrors returned by LNURL services were not properly handled and information was lost, causing confusion, especially for LNURL-withdraw.\r\n\r\n### Notify user when channel opening is rejected\r\n\r\nIf a new channel must be created to receive an incoming payment but the amount is below the channel creation threshold, a notification is displayed. Note that this is not enabled yet because changes on the peer side are also needed.\r\n\r\n-- edit: this is n",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.7",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.6",
+      "name": "Phoenix 1.4.6",
+      "published_at": "2021-02-02T16:40:13Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 71,
+      "total_downloads": 71,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-21-1.4.6-mainnet.apk",
+          "size_bytes": 35632083,
+          "download_count": 59,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 996,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Display min amount for pay-to-open\r\n\r\nThe minimum amount that the wallet can receive is now displayed when the wallet does not have any channels. It is also displayed for swap-ins. This minimum amount prevents creating new channels for very small amounts.\r\n\r\n## Complete list of changes\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/v1.4.5...v1.4.6\r\n- **core**: https://github.com/ACINQ/eclair/compare/v0.4.7-android-phoenix...v0.4.8-android-phoenix\r\n\r\nThanks @bitcoinuser for updating th",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.6",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.5",
+      "name": "Phoenix v1.4.5",
+      "published_at": "2021-02-02T16:39:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 21,
+      "total_downloads": 21,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-20-1.4.5-mainnet.apk",
+          "size_bytes": 35627987,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 996,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n#### Closing logic is cooperative when we have nothing at stake\r\n\r\nMore information here: https://github.com/ACINQ/eclair/pull/1633\r\n\r\n#### Add links to terms\r\n\r\nA link to the [terms](https://phoenix.acinq.co/terms) (explaining how the wallet works and what can be expected) has been added to the about and initialization screens.\r\n\r\n## Complete list of changes\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/v1.4.4...v1.4.5\r\n- **core**: https://github.com/ACINQ/eclair/com",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.5",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.4",
+      "name": "Phoenix 1.4.4",
+      "published_at": "2020-12-15T13:09:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 114,
+      "total_downloads": 114,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-19-1.4.4-mainnet.apk",
+          "size_bytes": 35488275,
+          "download_count": 92,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 996,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n#### Support for lightning parameters in BIP21 invoices\r\n\r\nBIP21 URIs can contain a `lightning` field if the recipient also accepts lightning payments. In that case the wallet now lets the user choose how he wants to pay the invoice.\r\n\r\n#### Improve swapout feerate\r\n\r\nMinimum feerate for swapout is now dynamic and should adjust with the state of the mempool.\r\n\r\n## Complete list of changes\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/v1.4.3...v1.4.4\r\n\r\n## Verifying si",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.4",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.3",
+      "name": "Phoenix 1.4.3",
+      "published_at": "2020-12-07T14:22:13Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 34,
+      "total_downloads": 34,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-18-1.4.3-mainnet.apk",
+          "size_bytes": 35484099,
+          "download_count": 27,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 996,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n#### Fixed some connection issues with peer\r\n\r\nUse ip address instead of domain name to connect to the trampoline node. This caused connectivity issues in some cases, due to IPv6 conversion.\r\n\r\n## Complete list of changes\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/v1.4.2...v1.4.3\r\n- **core**: https://github.com/ACINQ/eclair/compare/v0.4.5-android-phoenix...v0.4.6-android-phoenix\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E434ED292",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.3",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.2",
+      "name": "Phoenix 1.4.2",
+      "published_at": "2020-11-17T14:37:10Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-17-1.4.2-mainnet.apk",
+          "size_bytes": 35484099,
+          "download_count": 30,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 996,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n#### Fixed some \"route not found\" errors\r\n\r\nThere was an issue where channels with less than 15 000 satoshis were ignored by the path-finding algorithm, which could prevent payments from going through and incorrectly trigger a \"Route not found\" error.\r\n\r\n## Complete list of changes\r\n\r\n- **app**: https://github.com/ACINQ/phoenix/compare/v1.4.1...v1.4.2\r\n- **core**: https://github.com/ACINQ/eclair/compare/v0.4.4-android-phoenix...v0.4.5-android-phoenix\r\n\r\nThanks @bitcoinuser for",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.2",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.1",
+      "name": "Phoenix 1.4.1",
+      "published_at": "2020-11-13T10:45:16Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 36,
+      "total_downloads": 36,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-16-1.4.1-mainnet.apk",
+          "size_bytes": 35480003,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 996,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n#### Customizable max fees for outgoing Lightning payments\r\n\r\nUsers can now change the maximum fees that the trampoline node can use for outgoing LN payments. In some cases, the [default setting](https://phoenix.acinq.co/faq#what-are-the-fees) may not be sufficient so the user can try higher fees. Note that the trampoline node will always try to use as low fee as possible. Also, setting a super high fee will not help if the recipient is simply not reachable (no channels/no con",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.4.0",
+      "name": "Phoenix 1.4.0",
+      "published_at": "2020-10-20T15:05:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 79,
+      "total_downloads": 79,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-15-1.4.0-mainnet.apk",
+          "size_bytes": 35471737,
+          "download_count": 67,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1073,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Main changes\r\n\r\n#### Background payment reception\r\n\r\nThe app can now wake up to process an incoming payment or a fulfilled HTLC. Users do not have to start their app manually to receive a payment, thus removing the synchronization requirement between sender and receiver. This feature uses Firebase Cloud Messaging. Messages relayed by FCM do not contain any details about payments.\r\n\r\nWhen the wake up message arrives, a sticky notification is displayed. The peer will pause the payment and wait ",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.3.2",
+      "name": "Phoenix 1.3.2",
+      "published_at": "2020-08-01T13:22:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 31,
+      "total_downloads": 31,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-13-1.3.2-mainnet.apk",
+          "size_bytes": 34259946,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 10,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Changes\r\n\r\n### Custom feerates for swapout (lightning -> on-chain address)\r\n\r\nThe app lets the user change the fee rate used when requesting a swapout to the peer, instead of using a hardcoded 6 blocks target. The user can now enter a `sat/bytes` fee rate after clicking on an `Edit fees` button, and the app estimates an ETA in hours when the fee rate changes.\r\n\r\n### Support for LNURL authentication\r\n\r\nThe app can now leverage its key to sign-in to services supporting LNURL-auth. More details ",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.3.2",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.3.1",
+      "name": "Phoenix 1.3.1",
+      "published_at": "2020-04-16T12:34:15Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 92,
+      "total_downloads": 92,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-11-1.3.1-mainnet.apk",
+          "size_bytes": 34235311,
+          "download_count": 76,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 632,
+          "download_count": 16,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release fixes several issues with the app startup that could trigger crashes.\r\n\r\n## Translations\r\n\r\nThis release also adds translations to Brazilian Portuguese and Dutch. Thanks @bitcoinuser, @M-BTC and @mautematico .\r\n\r\n## Deterministic build\r\n\r\nThe APK is built deterministically using Ubuntu 19.10. Follow these instructions to build the APK locally: https://github.com/ACINQ/phoenix/blob/master/BUILD.md\r\n\r\nYou should find this hash for the (unsigned) universal release:\r\n\r\n```\r\nbb0306f8f71b",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.3.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.3.0",
+      "name": "Phoenix 1.3.0",
+      "published_at": "2020-04-07T10:18:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 32,
+      "total_downloads": 32,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-9-1.3.0-mainnet.apk",
+          "size_bytes": 34202543,
+          "download_count": 22,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 631,
+          "download_count": 10,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## TOR support\r\n\r\nThe user can now connect to its Lightning peer/Electrum server over TOR. This feature is available from the Settings page. Note that some API calls (for example the API to retrieve the bitcoin/fiat exchange rate) will not use TOR. By default TOR is disabled.\r\n\r\nThe packaged tor libs (v0.4.2.5) are added to the project with the following checksum:\r\n\r\n```\r\n- arm64-v8a/libtor.so\r\n9129f5184ac5b7da51345ca820c3bacd5fbe0e3586179028b186a4ea07de7e9a\r\n\r\n- armeabi-v7a/libtor.so\r\n9a33eeaed",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.3.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.2.0",
+      "name": "Phoenix 1.2.0",
+      "published_at": "2020-02-21T14:52:00Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 67,
+      "total_downloads": 67,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-6-1.2.0-mainnet.apk",
+          "size_bytes": 21415650,
+          "download_count": 53,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 995,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release changes the fees mechanism used by the application to make it less expensive for smaller payments.\r\n\r\n## Lowered fees for on-the-fly channel opening and swap-in\r\n\r\nThe fees have been lowered down to 0.1%. This was made possible because we have:\r\n1. Increased the target confirmation for the funding tx from 6 blocks to 144 blocks. Note that this is a trust trade-off: funding tx will take more time to confirm, increasing the window during which we would be able to double spend it. Howe",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.2.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.1.1",
+      "name": "Phoenix 1.1.1",
+      "published_at": "2020-02-05T14:00:33Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 85,
+      "total_downloads": 85,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-1.1.1-mainnet.apk",
+          "size_bytes": 21326149,
+          "download_count": 74,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 993,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "This release fixes a bug where balance did not show incoming funds, due to channels being stuck in state `WAIT_FOR_FUNDING_CONFIRMED`.\r\n\r\nComplete list of changes: \r\n- **core**: https://github.com/ACINQ/eclair/compare/v0.3.6-android-phoenix...v0.3.7-android-phoenix\r\n- **app**: https://github.com/ACINQ/phoenix/compare/v1.1.0...v1.1.1\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E434ED292E85643A. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/p",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.1.1",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.1.0",
+      "name": "Phoenix 1.1.0",
+      "published_at": "2020-01-24T18:29:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 72,
+      "total_downloads": 72,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-1.1.0-mainnet.apk",
+          "size_bytes": 21321303,
+          "download_count": 59,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 629,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release brings several fixes to the app, and adds support for LNURL withdraw: you can now easily withdraw funds from a service by swiping a QR code, if it supports LNURL.\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a committer on eclair: https://api.github.com/users/sstone/gpg_keys\r\n\r\nTo import our signing key:\r\n```\r\n$ gpg --import ",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.1.0",
+      "author": "dpad85"
+    },
+    {
+      "tag": "android-legacy-v1.0.1",
+      "name": "Phoenix 1.0.1",
+      "published_at": "2019-12-10T17:33:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 139,
+      "total_downloads": 139,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "phoenix-1.0.1-mainnet.apk",
+          "size_bytes": 21333179,
+          "download_count": 116,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 629,
+          "download_count": 23,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## First release of Phoenix\r\n\r\nThis release targets the mainnet Bitcoin blockchain.\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a committer on eclair: https://api.github.com/users/sstone/gpg_keys\r\n\r\nTo import our signing key:\r\n```\r\n$ gpg --import drouinf.asc\r\n```\r\nTo verify the release file checksums and signatures:\r\n```\r\n$ gpg -d SHA256",
+      "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.0.1",
+      "author": "dpad85"
+    }
+  ],
+  "fetched_at": "2026-07-30T20:15:00.532062+00:00",
+  "deep_dive": {
+    "days_since_launch": 2381,
+    "recent_stable_releases": [
+      {
+        "tag": "android-v2.8.1",
+        "name": "Phoenix 2.8.1",
+        "published_at": "2026-06-18T12:41:03Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 2688,
+        "total_downloads": 2688,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-117-2.8.1-mainnet.apk",
+            "size_bytes": 17262370,
+            "download_count": 2645,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 978,
+            "download_count": 43,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This release adds a debug screen to iOS to sign swap-in transactions, and fixes an amount display issue on Android. Thanks @PeterXMR  for the bug fix!\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.8.0...android-v2.8.1\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is `co.acinq.phoenix`.\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E04E48E72C205463. Note that you can",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.8.1",
+        "author": "dpad85"
+      },
+      {
+        "tag": "android-v2.8.0",
+        "name": "Phoenix v2.8.0",
+        "published_at": "2026-05-22T13:22:48Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 5136,
+        "total_downloads": 5136,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-116-2.8.0-mainnet.apk",
+            "size_bytes": 17245986,
+            "download_count": 5060,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 978,
+            "download_count": 76,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This release brings a few UI fixes and improvements on Android (scanning inverted QR codes, or a button to use all the available balance when paying over Lightning).\r\n\r\nIt also uses lightning-kmp v1.12.0 with the official splicing messages.\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.5...android-v2.8.0\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.11.5...v1.12.0\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.8.0",
+        "author": "dpad85"
+      },
+      {
+        "tag": "android-v2.7.5",
+        "name": "Phoenix v2.7.5",
+        "published_at": "2026-03-17T10:05:17Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 3798,
+        "total_downloads": 3798,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-115-2.7.5-mainnet.apk",
+            "size_bytes": 16824042,
+            "download_count": 3739,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 978,
+            "download_count": 59,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This version adds a button to generate diagnostics of the app, and add the spend-channel-address screen on iOS to recover funds sent to a channel's outpoint (already existed on Android).\r\n\r\nThe Android app is also now available in \ud83c\uddee\ud83c\udde9 Indonesian. Thanks @Rovikin!\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.4...android-v2.7.5\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is `co.acinq.phoenix`.\r\n",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.5",
+        "author": "dpad85"
+      },
+      {
+        "tag": "android-v2.7.4",
+        "name": "Phoenix v2.7.4",
+        "published_at": "2026-01-29T16:18:59Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1915,
+        "total_downloads": 1915,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-114-2.7.4-mainnet.apk",
+            "size_bytes": 16737970,
+            "download_count": 1865,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 978,
+            "download_count": 50,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This version fixes an issue where the main transaction would not be republished in some cases. See https://github.com/ACINQ/lightning-kmp/pull/847.\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.3...android-v2.7.4\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.11.3...v1.11.4\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is `co.acinq.phoenix`.\r\n\r\n## Verifying signatures\r\n\r\nYou",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.4",
+        "author": "dpad85"
+      },
+      {
+        "tag": "android-v2.7.3",
+        "name": "Phoenix v2.7.3",
+        "published_at": "2026-01-07T16:13:48Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1499,
+        "total_downloads": 1499,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-113-2.7.3-mainnet.apk",
+            "size_bytes": 16737970,
+            "download_count": 1460,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 978,
+            "download_count": 39,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This version fixes a bug related to peer storage that could crash the app. See https://github.com/ACINQ/lightning-kmp/pull/843 for details.\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.2...android-v2.7.3\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.11.2...v1.11.3\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is `co.acinq.phoenix`.\r\n\r\n## Verifying signatures\r\n\r\nYou will ne",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.3",
+        "author": "dpad85"
+      },
+      {
+        "tag": "android-v2.7.2",
+        "name": "Phoenix v2.7.2",
+        "published_at": "2025-12-11T15:23:47Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1516,
+        "total_downloads": 1516,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-112-2.7.2-mainnet.apk",
+            "size_bytes": 16737970,
+            "download_count": 1479,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 978,
+            "download_count": 37,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This release brings various fixes, and restores the spend-from-channel-address tool to the Android app. See #781 for details\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.1...android-v2.7.2\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.11.1...v1.11.2\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is `co.acinq.phoenix`.\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and ou",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.2",
+        "author": "dpad85"
+      },
+      {
+        "tag": "android-v2.7.1",
+        "name": "Phoenix v2.7.1",
+        "published_at": "2025-11-03T10:01:47Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1778,
+        "total_downloads": 1778,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-111-2.7.1-mainnet.apk",
+            "size_bytes": 16737970,
+            "download_count": 1727,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 978,
+            "download_count": 51,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This is a bug fix release for Android & iOS, fixing various issues when selecting the theme in Settings > Display. This release also contains lightning-kmp v1.11.1 with improved electrum performances.\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.7.0...android-v2.7.1\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.11.0...v1.11.1\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle identifier is ",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.1",
+        "author": "dpad85"
+      },
+      {
+        "tag": "android-v2.7.0",
+        "name": "Phoenix v2.7.0",
+        "published_at": "2025-10-29T13:17:33Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 933,
+        "total_downloads": 933,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-110-2.7.0-mainnet.apk",
+            "size_bytes": 16721586,
+            "download_count": 909,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 978,
+            "download_count": 24,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This is a feature release that brings major changes to Phoenix: taproot channels and support for multiple wallets.\r\n\r\n## Changes\r\n\r\n### Taproot channels\r\n\r\nLightning channels created by Phoenix now use taproot, meaning that they are cheaper (by about 15%), and more private, since they cannot be distinguished from regular transactions. Beforehand, it was easy for third parties to detect if a Bitcoin transaction was related to a Lightning channel operation.\r\n\r\nExisting channels are automatically t",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.7.0",
+        "author": "dpad85"
+      },
+      {
+        "tag": "android-v2.6.6",
+        "name": "Phoenix v2.6.6",
+        "published_at": "2025-09-25T14:34:45Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1876,
+        "total_downloads": 1876,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-109-2.6.6-mainnet.apk",
+            "size_bytes": 16690402,
+            "download_count": 1832,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 997,
+            "download_count": 44,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "## Changes\r\n\r\nThis is a minor release that improves the feerate fallback on Android, fixes the 16kb alignment of the secp256k1 library for Google Play, and fixes a race condition between splices and LN payments.\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.6.5...android-v2.6.6\r\n- lightning-kmp: https://github.com/ACINQ/lightning-kmp/compare/v1.10.7...v1.10.8\r\n\r\n## Package ID\r\n\r\nThe Android application ID is `fr.acinq.phoenix.mainnet`. The iOS Bundle ide",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.6.6",
+        "author": "dpad85"
+      },
+      {
+        "tag": "android-v2.6.5",
+        "name": "Phoenix v2.6.5",
+        "published_at": "2025-09-18T09:43:12Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 914,
+        "total_downloads": 914,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-108-2.6.5-mainnet.apk",
+            "size_bytes": 16690402,
+            "download_count": 894,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 978,
+            "download_count": 20,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## Changes\r\n\r\n### (android) Manually pick feerate if feerate estimation is unavailable\r\n\r\nOn some devices, the feerate estimation source (mempool.space) is not available, but that should not prevent the user from picking a feerate. A warning is displayed instead of blocking the feerate slider.\r\n\r\n### (ios) Fixed a bug preventing paying a Bolt12 offer contained in Bip321 URIs\r\n\r\n### Full changelog\r\n\r\n- phoenix: https://github.com/ACINQ/phoenix/compare/android-v2.6.4...android-v2.6.5\r\n- lightning-",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.6.5",
+        "author": "dpad85"
+      },
+      {
+        "tag": "android-v2.6.4",
+        "name": "Phoenix v2.6.4",
+        "published_at": "2025-08-14T16:48:24Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1466,
+        "total_downloads": 1466,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-107-2.6.4-mainnet.apk",
+            "size_bytes": 16690402,
+            "download_count": 1408,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 978,
+            "download_count": 58,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## Changes\r\n\r\n### Added look ahead to on-chain wallet\r\n\r\nPhoenix now look for 3 addresses past the first unused index. This helps in some edge cases where funds would have been deposited to an address past the first unused index and were not taken into account by Phoenix.\r\n\r\nNote, the swap addresses can be visualised in Settings > Wallet info > Swap addresses.\r\n\r\n### (android) Fixed localisation issue with decimal amount inputs\r\n\r\nDepending on the device locale, the decimal separator may be a co",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.6.4",
+        "author": "dpad85"
+      },
+      {
+        "tag": "android-v2.6.2",
+        "name": "Phoenix v2.6.2",
+        "published_at": "2025-07-11T15:22:35Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1744,
+        "total_downloads": 1744,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "phoenix-106-2.6.2-mainnet.apk",
+            "size_bytes": 16674018,
+            "download_count": 1698,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 978,
+            "download_count": 46,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## Changes\r\n\r\n### Add fiat currency converter\r\n\r\nA new screen has been added to easily convert an amount in multiple fiat currencies at once. This screen is accessible from the settings menu, or from the amount inputs when generating an invoice, or sending a payment. It should make it easier to switch between various currencies, especially when travelling.\r\n\r\nFor details see #726.\r\n\r\n### Full changelog\r\n\r\nThis release also contains various fixes. See:\r\n- phoenix: https://github.com/ACINQ/phoenix",
+        "html_url": "https://github.com/ACINQ/phoenix/releases/tag/android-v2.6.2",
+        "author": "dpad85"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 745.9,
+      "median_gap_hours": 814.7
+    }
+  },
+  "category": "Wallets"
+}

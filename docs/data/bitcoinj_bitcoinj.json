@@ -20,7 +20,7 @@
     "pre_releases": 9,
     "latest_version": "v0.17.1",
     "latest_date": "2026-05-04T19:11:18Z",
-    "days_since_latest": 86,
+    "days_since_latest": 87,
     "avg_cadence_days": 224.6,
     "platform_breakdown": {}
   },
@@ -236,7 +236,7 @@
       "author": "msgilligan"
     }
   ],
-  "fetched_at": "2026-07-30T18:59:01.509684+00:00",
+  "fetched_at": "2026-07-30T20:15:27.988438+00:00",
   "deep_dive": {
     "days_since_launch": 1124,
     "recent_stable_releases": [
