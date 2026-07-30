@@ -3,13 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         BitcoinLabsApp.init({
             isApp: true,
             appName: 'OSS App Stats',
-            appHomeUrl: 'index.html',
-
-            suiteLinks: [
-                { name: 'orange-dev-tracker', url: 'https://tracker.bitcoindatalabs.org', icon: 'fas fa-chart-line' },
-                { name: 'orange-dev-network', url: 'https://network.bitcoindatalabs.org', icon: 'fas fa-project-diagram' },
-                { name: 'This Week in Bitcoin', url: 'https://twib.bitcoindatalabs.org', icon: 'fas fa-newspaper' }
-            ]
+            appHomeUrl: 'index.html'
         });
 
         document.body.classList.add('has-nav');

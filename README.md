@@ -6,17 +6,6 @@ Release intelligence and download analytics for Bitcoin open source projects —
 
 ---
 
-## 🍊 The Orange Dev Suite
-
-This project is part of the **Orange Dev Suite**, a comprehensive, open-source analytical ecosystem designed to provide forensic transparency into Bitcoin research and development:
-
-1. **[Orange Dev Tracker](https://tracker.bitcoindatalabs.org)**: The "What" and "Where" — a dashboard focused on the architectural evolution of Bitcoin Core.
-2. **[Orange Dev Network](https://network.bitcoindatalabs.org)**: The "Who" and "How" — a technical influence map of Bitcoin R&D contributors.
-3. **[This Week in Bitcoin (TWIB)](https://twib.bitcoindatalabs.org)**: The "Now" — an automated weekly executive summary of Bitcoin development.
-4. **[OSS App Stats](https://sorukumar.github.io/oss-app-stats/)**: The "How Much" — release analytics and adoption intelligence across the Bitcoin open source ecosystem.
-
----
-
 ## 📈 What We Track
 
 | Category | Projects |
