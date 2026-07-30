@@ -1,0 +1,31 @@
+{
+  "project": {
+    "owner": "spesmilo",
+    "repo": "electrum",
+    "name": "Electrum",
+    "full_name": "spesmilo/electrum",
+    "description": "Electrum Bitcoin Wallet",
+    "stars": 8534,
+    "forks": 3451,
+    "open_issues": 1221,
+    "language": "Python",
+    "license": "MIT",
+    "homepage": "https://electrum.org",
+    "html_url": "https://github.com/spesmilo/electrum"
+  },
+  "summary": {
+    "total_downloads": 0,
+    "total_releases": 0,
+    "stable_releases": 0,
+    "pre_releases": 0,
+    "latest_version": null,
+    "latest_date": null,
+    "days_since_latest": null,
+    "avg_cadence_days": null,
+    "platform_breakdown": {}
+  },
+  "releases": [],
+  "fetched_at": "2026-07-30T18:58:40.939128+00:00",
+  "deep_dive": {},
+  "category": "Wallets"
+}

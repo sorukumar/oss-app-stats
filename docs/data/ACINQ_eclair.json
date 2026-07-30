@@ -1,0 +1,1751 @@
+{
+  "project": {
+    "owner": "ACINQ",
+    "repo": "eclair",
+    "name": "Eclair",
+    "full_name": "ACINQ/eclair",
+    "description": "A scala implementation of the Lightning Network.",
+    "stars": 1341,
+    "forks": 284,
+    "open_issues": 39,
+    "language": "Scala",
+    "license": "Apache-2.0",
+    "homepage": "",
+    "html_url": "https://github.com/ACINQ/eclair"
+  },
+  "summary": {
+    "total_downloads": 50374,
+    "total_releases": 44,
+    "stable_releases": 25,
+    "pre_releases": 19,
+    "latest_version": "v0.14.1",
+    "latest_date": "2026-07-29T12:32:17Z",
+    "days_since_latest": 1,
+    "avg_cadence_days": 114.1,
+    "platform_breakdown": {
+      "Other": 49289,
+      "Signatures": 1085
+    }
+  },
+  "releases": [
+    {
+      "tag": "v0.14.1",
+      "name": "Eclair v.0.14.1",
+      "published_at": "2026-07-29T12:32:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 14,
+      "total_downloads": 14,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.14.1-d769db0-awseb-bundle.zip",
+          "size_bytes": 106055278,
+          "download_count": 3,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.14.1-d769db0-bin.zip",
+          "size_bytes": 106037925,
+          "download_count": 3,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.14.1-d769db0-bin.zip",
+          "size_bytes": 110314184,
+          "download_count": 4,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1196,
+          "download_count": 4,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This is a patch release that contains several bug fixes and performance improvements.\r\nIt also updates the minimal version of Bitcoin Core and our bitcoin library.\r\n\r\nThe detailed release notes can be found [here](https://github.com/ACINQ/eclair/blob/master/docs/release-notes/eclair-v0.14.1.md).\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E04E48E72C205463. Note that you can get it:\r\n\r\n- from our website: https://acinq.co/pgp/drouinf2.asc\r\n- from github user @sst",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.14.1",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.14.0",
+      "name": "Eclair v0.14.0",
+      "published_at": "2026-05-21T12:46:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 52,
+      "total_downloads": 52,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.14.0-ec8c63b-awseb-bundle.zip",
+          "size_bytes": 106024002,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.14.0-ec8c63b-bin.zip",
+          "size_bytes": 106006539,
+          "download_count": 8,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.14.0-ec8c63b-bin.zip",
+          "size_bytes": 110282806,
+          "download_count": 27,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1196,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release contains the final version of channel splicing, taproot channels and zero-fee commitments.\r\nWe remove support for channels that don't use anchor outputs: see the release notes of eclair v0.13.1 for instructions on how to properly close those channels if needed.\r\nWe introduce an experimental peer scoring algorithm to optimize routing.\r\n\r\nThis release is packed with improvements to the performance of large nodes when restarting: let us know if that helps!\r\nAnd of course, we also inclu",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.14.0",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.13.1",
+      "name": "Eclair v0.13.1",
+      "published_at": "2025-10-27T08:50:05Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 94,
+      "total_downloads": 94,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.13.1-f451ec0-awseb-bundle.zip",
+          "size_bytes": 104701289,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.13.1-f451ec0-bin.zip",
+          "size_bytes": 104684058,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.13.1-f451ec0-bin.zip",
+          "size_bytes": 108955719,
+          "download_count": 39,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1196,
+          "download_count": 18,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release contains database changes to prepare for the removal of pre-anchor channels.\r\nClosed channels will be moved to a new table on restart, which may take some time, but will only happen once.\r\n\r\n:warning: Note that you will need to run the v0.13.0 release first to migrate your channel data to the latest internal encoding.\r\n\r\nThis is the last release of eclair where channels that don't use anchor outputs will be supported.\r\nIf you have channels that don't use anchor outputs, you should c",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.13.1",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.13.0",
+      "name": "Eclair v0.13.0",
+      "published_at": "2025-09-10T13:32:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 992,
+      "total_downloads": 992,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.13.0-992ec8c-awseb-bundle.zip",
+          "size_bytes": 105277390,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.13.0-992ec8c-bin.zip",
+          "size_bytes": 105260004,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.13.0-992ec8c-bin.zip",
+          "size_bytes": 109531666,
+          "download_count": 966,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1196,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release contains a lot of refactoring and an initial implementation of taproot channels.\r\nThe specification for taproot channels is still ongoing (https://github.com/lightning/bolts/pull/995) so this cannot be used yet, but it is ready for cross-compatibility tests with other implementations.\r\n\r\nThis release also contains improvements to splicing based on recent specification updates, and better Bolt 12 support.\r\nNote that the splicing specification is still pending, so it cannot be used wi",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.13.0",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.12.0",
+      "name": "Eclair v0.12.0",
+      "published_at": "2025-03-11T15:43:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 236,
+      "total_downloads": 236,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.12.0-4df8cd0-awseb-bundle.zip",
+          "size_bytes": 104512046,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.12.0-4df8cd0-bin.zip",
+          "size_bytes": 104494568,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.12.0-4df8cd0-bin.zip",
+          "size_bytes": 108765993,
+          "download_count": 164,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1196,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release adds support for creating and managing Bolt 12 offers and a new channel closing protocol (`option_simple_close`) that supports RBF.\r\nWe also add support for storing small amounts of (encrypted) data for our peers (`option_provide_storage`).\r\n\r\n:warning: This release also starts using Java 21, which means you may need to update your runtime.\r\n:warning: We also update our dependency on Bitcoin Core to v28.1 to benefit from package relay.\r\n\r\nWe've also made more progress on splicing, w",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.12.0",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.11.0",
+      "name": "Eclair v0.11.0",
+      "published_at": "2024-12-04T09:23:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 750,
+      "total_downloads": 750,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.11.0-7e7ad45-awseb-bundle.zip",
+          "size_bytes": 103805609,
+          "download_count": 26,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.11.0-7e7ad45-bin.zip",
+          "size_bytes": 103788616,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.11.0-7e7ad45-bin.zip",
+          "size_bytes": 108050496,
+          "download_count": 683,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 851,
+          "download_count": 21,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release adds official support for Bolt 12 offers and makes progress on liquidity management features (splicing, liquidity ads, on-the-fly funding). We also stop accepting channels that don't support anchor outputs and update our dependency on Bitcoin Core.\r\n\r\nWe're still actively working with other implementations to finalize the specification for some of these experimental features. You should only activate them if you know what you're doing, and are ready to handle backwards-incompatible ",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.11.0",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.10.0",
+      "name": "Eclair v0.10.0",
+      "published_at": "2024-02-29T09:24:36Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1270,
+      "total_downloads": 1270,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.10.0-a63d2c2-awseb-bundle.zip",
+          "size_bytes": 102043808,
+          "download_count": 79,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.10.0-a63d2c2-bin.zip",
+          "size_bytes": 102027027,
+          "download_count": 57,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.10.0-a63d2c2-bin.zip",
+          "size_bytes": 106283632,
+          "download_count": 1073,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 851,
+          "download_count": 61,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release adds official support for the dual-funding feature, an up-to-date implementation of Bolt 12 offers, and a fully working splicing prototype. We're waiting for the specification work to be finalized for some of those features, and other implementations to be ready for cross-compatibility tests. You should only activate them if you know what you're doing, and are ready to handle backwards-incompatible changes!\r\n\r\nThis release also contains various on-chain fee improvements, more config",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.10.0",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.9.0",
+      "name": "v0.9.0",
+      "published_at": "2023-06-19T08:45:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 543,
+      "total_downloads": 543,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.9.0-623f7e4-awseb-bundle.zip",
+          "size_bytes": 102704136,
+          "download_count": 81,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.9.0-623f7e4-bin.zip",
+          "size_bytes": 102683690,
+          "download_count": 52,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.9.0-623f7e4-bin.zip",
+          "size_bytes": 107309278,
+          "download_count": 270,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUM.asc",
+          "size_bytes": 848,
+          "download_count": 140,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release contains a lot of preparatory work for important (and complex) lightning features: dual-funding, splicing and Bolt 12 offers.\r\nThese features are now fully implemented in `eclair`, but we're waiting for the specification work to be finalized and other implementations to be ready for cross-compatibility tests.\r\nYou should only activate them if you know what you're doing, and are ready to handle potential backwards-incompatible changes!\r\nWe also make plugins more powerful, introduce m",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.9.0",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.8.0",
+      "name": "Eclair v0.8.0",
+      "published_at": "2022-12-01T14:09:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 2373,
+      "total_downloads": 2373,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.8.0-0077471-awseb-bundle.zip",
+          "size_bytes": 97451740,
+          "download_count": 134,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.8.0-0077471-bin.zip",
+          "size_bytes": 97430372,
+          "download_count": 100,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.8.0-0077471-bin.zip",
+          "size_bytes": 102048539,
+          "download_count": 2094,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 848,
+          "download_count": 45,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release adds official support for two important lightning features: zero-conf channels and channel aliases. It also adds experimental support for dual-funding and a lot of preparatory work for Bolt 12 offers.\r\n\r\n:warning: we also require at least Bitcoin Core 23.0: make sure to upgrade and reconfigure your node (see detailed instructions in the release notes)\r\n\r\nThe detailed release notes can be found [here](https://github.com/ACINQ/eclair/blob/master/docs/release-notes/eclair-v0.8.0.md)\r\n\r",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.8.0",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.7.0-patch-disconnect",
+      "name": "Eclair v0.7.0-patch-disconnect",
+      "published_at": "2022-07-18T11:06:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 307,
+      "total_downloads": 307,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "eclair-node-0.7.0-patch-disconnect-cad88bf-bin.zip",
+          "size_bytes": 88954578,
+          "download_count": 252,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 654,
+          "download_count": 55,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# Eclair v0.7.0-patch-disconnect\r\n\r\nThis is a patch release which adds two commits:\r\n- Add option to disable sending remote addr in init (#2285)\r\n- Resume reading after processing unknown messages (#2332)\r\n\r\nIt addresses unwanted disconnections with peers that use unknown messages.\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a committe",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.7.0-patch-disconnect",
+      "author": "pm47"
+    },
+    {
+      "tag": "v0.7.0",
+      "name": "Eclair v0.7.0",
+      "published_at": "2022-02-01T09:15:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3916,
+      "total_downloads": 3916,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.7.0-a804905-awseb-bundle.zip",
+          "size_bytes": 85626328,
+          "download_count": 243,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.7.0-a804905-bin.zip",
+          "size_bytes": 85608097,
+          "download_count": 155,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.7.0-a804905-bin.zip",
+          "size_bytes": 88950037,
+          "download_count": 3459,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 848,
+          "download_count": 59,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# Eclair v0.7.0\r\n\r\nThis release adds official support for two long-awaited lightning features: anchor outputs and onion messages.\r\nSupport for the PostreSQL database backend is also now production ready!\r\nThis release also includes a few bug fixes and many new (smaller) features.\r\nIt is fully compatible with 0.6.2 (and all previous versions of eclair).\r\n\r\nBecause this release changes the default type of channels that your node will use, make sure you read the release notes carefully!\r\nThe releas",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.7.0",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.6.2",
+      "name": "Eclair v0.6.2",
+      "published_at": "2021-10-08T07:52:04Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 2671,
+      "total_downloads": 2671,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.6.2-6817d6f-awseb-bundle.zip",
+          "size_bytes": 84964632,
+          "download_count": 193,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.6.2-6817d6f-bin.zip",
+          "size_bytes": 84946520,
+          "download_count": 131,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.6.2-6817d6f-bin.zip",
+          "size_bytes": 88281019,
+          "download_count": 2287,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 848,
+          "download_count": 60,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# Eclair v0.6.2\r\n\r\nThis releases fixes a known vulnerability, makes several performance improvements, includes a few bug fixes and many new features.\r\nIt is fully compatible with 0.6.1 (and all previous versions of eclair).\r\n\r\nThis release requires a few actions from node operators when upgrading: make sure you read the release notes carefully!\r\n\r\nThe release notes can be found [here](https://github.com/ACINQ/eclair/blob/master/docs/release-notes/eclair-v0.6.2.md).\r\n\r\n## Verifying signatures\r\n\r\n",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.6.2",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.6.1",
+      "name": "Eclair v0.6.1",
+      "published_at": "2021-07-19T14:33:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 670,
+      "total_downloads": 670,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.6.1-d3ae323-awseb-bundle.zip",
+          "size_bytes": 84666777,
+          "download_count": 208,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.6.1-d3ae323-bin.zip",
+          "size_bytes": 84648669,
+          "download_count": 119,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.6.1-d3ae323-bin.zip",
+          "size_bytes": 87968577,
+          "download_count": 301,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 848,
+          "download_count": 42,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# Eclair v0.6.1\r\n\r\nThis release makes major performance improvements, includes a few bug fixes and several new features.\r\nIt is fully compatible with 0.6.0 (and all previous versions of eclair).\r\n\r\n# Major changes\r\n\r\n### Performance improvements\r\n\r\n#### Sqlite\r\n\r\nEclair now uses [write-ahead logging](https://sqlite.org/wal.html) in Sqlite (#1871). WAL is better suited to our DB access patterns, and is both much more performant and safer than the default [rollback journal](https://sqlite.org/lock",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.6.1",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.6.0",
+      "name": "Eclair v0.6.0",
+      "published_at": "2021-05-19T13:05:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 507,
+      "total_downloads": 507,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.6.0-f89b092-awseb-bundle.zip",
+          "size_bytes": 80458301,
+          "download_count": 160,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.6.0-f89b092-bin.zip",
+          "size_bytes": 80457757,
+          "download_count": 102,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.6.0-f89b092-bin.zip",
+          "size_bytes": 83313208,
+          "download_count": 201,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 848,
+          "download_count": 44,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release makes some core features mandatory, includes a few important bug fixes and several performance improvements.\r\nIt is fully compatible with 0.5.1 (and all previous versions of eclair).\r\n\r\n# Major changes\r\n\r\n### Mandatory payment secrets\r\n\r\nThis release makes two important features mandatory:\r\n\r\n- `var_onion_optin` (added to the spec in [July 2019](https://github.com/lightningnetwork/lightning-rfc/pull/619))\r\n- `payment_secret` (added to the spec in [December 2019](https://github.com/l",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.6.0",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.5.1",
+      "name": "Eclair v0.5.1",
+      "published_at": "2021-03-03T12:33:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 654,
+      "total_downloads": 654,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.5.1-98bb7be-awseb-bundle.zip",
+          "size_bytes": 75639319,
+          "download_count": 224,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.5.1-98bb7be-bin.zip",
+          "size_bytes": 75639857,
+          "download_count": 131,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.5.1-98bb7be-bin.zip",
+          "size_bytes": 78451225,
+          "download_count": 249,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 848,
+          "download_count": 50,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release includes many bug fixes and improvements, a new API and monitoring updates.\r\nIt is fully compatible with 0.5.0 (and all previous versions of eclair).\r\n\r\n# Major changes\r\n\r\n### Improved startup performance\r\n\r\nWhen eclair starts up and restores channels, it makes a lot of calls to `bitcoind` to check the status of each channel.\r\nWe improved our calling pattern to greatly reduce the number of calls made when some channels are closing.\r\nThis is particularly noticeable when the mempool i",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.5.1",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.5.0",
+      "name": "Eclair v0.5.0",
+      "published_at": "2020-12-18T14:30:44Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 6020,
+      "total_downloads": 6020,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-front-0.5.0-ac08560-ac08560-awseb_bundle.zip",
+          "size_bytes": 75544198,
+          "download_count": 233,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-front-0.5.0-ac08560-bin.zip",
+          "size_bytes": 75544997,
+          "download_count": 177,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-0.5.0-ac08560-bin.zip",
+          "size_bytes": 78355930,
+          "download_count": 5567,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 856,
+          "download_count": 43,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# Eclair v0.5.0\r\n\r\nThis release includes many exciting new features, API changes as well as several bug fixes and improvements.\r\nIt is fully compatible with 0.4.2 (and all previous versions of eclair).\r\n\r\n# Major changes\r\n\r\n### Cluster mode\r\n\r\nEclair now allows you to scale up one _logical_ lightning node across multiple servers.\r\n\r\nFront servers take care of routing table related gossip and syncing requests from peers, which is cpu/bandwidth intensive.\r\nThe backend server can focus on core chan",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.5.0",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.4.2",
+      "name": "Eclair v0.4.2",
+      "published_at": "2020-10-19T13:13:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 719,
+      "total_downloads": 719,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "eclair-node-0.4.2-52444b0-bin.zip",
+          "size_bytes": 69035189,
+          "download_count": 663,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 637,
+          "download_count": 56,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release includes many exciting new features, API changes as well as several bug fixes and improvements.\r\nIts is fully compatible with 0.4.1 (and all previous versions of eclair).\r\n\r\n# Major changes\r\n\r\n### Plugins\r\n\r\nThird-party plugins are now able to add new feature bits to eclair and handle unknown custom messages.\r\nThis lets plugin developers offer services to their customers that are not available in the Lightning specification (e.g. swap-in/swap-out), while staying fully compatible wit",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.4.2",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.4.1",
+      "name": "Eclair v0.4.1",
+      "published_at": "2020-07-15T11:43:02Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 8216,
+      "total_downloads": 8216,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "eclair-node-0.4.1-e5fb281-bin.zip",
+          "size_bytes": 68926542,
+          "download_count": 8157,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 637,
+          "download_count": 59,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release includes many exciting new features, API changes as well as several bug fixes and improvements.\r\nIts is fully compatible with 0.4 (and all previous versions of eclair).\r\n\r\n# Major changes\r\n\r\n### Static Remote Key\r\n\r\nThis release adds support for [option_static_remotekey](https://github.com/lightningnetwork/lightning-rfc/pull/642).\r\nThis removes the key rotation at each update of the commitment, and allows simpler funds recovery in case of backup loss: channel outputs will directly p",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.4.1",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.4",
+      "name": "Eclair v0.4",
+      "published_at": "2020-07-15T11:38:45Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1855,
+      "total_downloads": 1855,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "eclair-node-0.4-69c538e-bin.zip",
+          "size_bytes": 67340613,
+          "download_count": 1800,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 635,
+          "download_count": 55,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release includes major upgrades to our core libraries (Scala and Akka), as well as several bug fixes and improvements.\r\nIts is fully compatible with 0.3.4 (and all previous versions of eclair).\r\n\r\n# Major changes\r\n\r\n### Scala 2.13, Akka 2.6\r\n\r\nUpdate from Scala 2.11 and Akka 2.4 to Scala 2.13 and Akka 2.6.\r\n\r\nScala 2.13 brings a lot of improvements, among which:\r\n\r\n- better performance\r\n- tons of improvements for standard collections\r\n- faster compile times\r\n- better support for determinist",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.4",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.3.4",
+      "name": "Eclair v0.3.4",
+      "published_at": "2020-04-06T12:01:30Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 386,
+      "total_downloads": 386,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "eclair-node-0.3.4-24aa710-bin.zip",
+          "size_bytes": 65764245,
+          "download_count": 186,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "eclair-node-gui-0.3.4-24aa710-bin.zip",
+          "size_bytes": 84127164,
+          "download_count": 161,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 741,
+          "download_count": 39,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release includes many improvements, as well as a few bug fixes. Its is fully compatible with 0.3.3 (and all previous versions of eclair).\r\n\r\n# Major changes\r\n\r\n### Wumbo channels\r\n\r\nEclair now supports wumbo channels (see https://github.com/lightningnetwork/lightning-rfc/pull/596).\r\nTo activate it, update your `eclair.conf` and set `eclair.features = 080a8a` (note that if you chose to enable/disable a different set of features from the recommended ones, that value will be slightly different",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.3.4",
+      "author": "t-bast"
+    },
+    {
+      "tag": "v0.3.3",
+      "name": "Eclair v0.3.3",
+      "published_at": "2020-01-31T18:59:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 6549,
+      "total_downloads": 6549,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "eclair-core_2.11-0.3.3.jar",
+          "size_bytes": 6413258,
+          "download_count": 113,
+          "platform": "Other",
+          "content_type": "application/x-java-archive"
+        },
+        {
+          "name": "eclair-node-0.3.3-12ac145.jar",
+          "size_bytes": 66438261,
+          "download_count": 6053,
+          "platform": "Other",
+          "content_type": "application/x-java-archive"
+        },
+        {
+          "name": "eclair-node-gui-0.3.3-12ac145.jar",
+          "size_bytes": 84792290,
+          "download_count": 323,
+          "platform": "Other",
+          "content_type": "application/x-java-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 826,
+          "download_count": 60,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release includes many improvements, as well as a few bug fixes. Its is fully compatible with 0.3.2 (and all previous versions of eclair).\r\n \r\n# Major changes \r\n\r\n### Multipart payments\r\n\r\nEclair now supports Multipart Payments (see https://github.com/lightningnetwork/lightning-rfc/pull/643): payments can now be split into smaller sub-payments sent on different channels, the whole process being \"atomic\" (they will all succeed, or they will all fail). This is a huge UX improvement for the cap",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.3.3",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.3.2",
+      "name": "Eclair v0.3.2",
+      "published_at": "2019-10-15T16:43:16Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5067,
+      "total_downloads": 5067,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "eclair-node-0.3.2-5ad3944.jar",
+          "size_bytes": 65878743,
+          "download_count": 4460,
+          "platform": "Other",
+          "content_type": "application/x-java-archive"
+        },
+        {
+          "name": "eclair-node-gui-0.3.2-5ad3944.jar",
+          "size_bytes": 84238332,
+          "download_count": 542,
+          "platform": "Other",
+          "content_type": "application/x-java-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 733,
+          "download_count": 65,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release includes many improvements, as well as a few bug fixes. \r\n\r\nThis release is fully compatible with 0.3.1 (and all previous versions of eclair), but some configuration options have been moved to a new section. This is checked automatically and Eclair will tell you what to do if you use these options, see the `Upgrading` section below for more details.\r\n\r\n# Major changes \r\n\r\n#### Backupless Backups :)\r\n\r\nChannel keys are now derived from channel's funding public keys, which can be retr",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.3.2",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.3.1",
+      "name": "Eclair v0.3.1",
+      "published_at": "2019-07-03T16:03:27Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 6513,
+      "total_downloads": 6513,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "eclair-node-0.3.1-6906ecb.jar",
+          "size_bytes": 53681671,
+          "download_count": 5843,
+          "platform": "Other",
+          "content_type": "application/x-java-archive"
+        },
+        {
+          "name": "eclair-node-gui-0.3.1-6906ecb.jar",
+          "size_bytes": 72034851,
+          "download_count": 586,
+          "platform": "Other",
+          "content_type": "application/x-java-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 733,
+          "download_count": 84,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "This release includes many improvements, new API calls, as well as a few bug fixes. It is faster, memory usage is smoother, and we strongly recommend that users upgrade. \r\n\r\nIt is  is fully compatible with 0.3 (see the Upgrading section below).\r\n\r\n# Major changes \r\n\r\n#### API Improvements\r\n\r\nOur payment API has been extended (see [API documentation website](https://acinq.github.io/eclair)):\r\n\r\n* better fee control when computing routes\r\n* more comprehensive balance information\r\n* you can provide",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.3.1",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.3",
+      "name": "Eclair v0.3",
+      "published_at": "2019-05-09T18:10:00Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is a major release which includes many improvements and bug fixes, and we recommend that users upgrade.\r\n\r\nIt is compatible with eclair v0.2-beta9 (i.e you don't have to close your channels) but upgrading may be not as seamless as for previous versions, please check the [Upgrading section](#Upgrading).\r\n\r\n# Major changes \r\n\r\n#### Eclair runs on mainnet by default\r\n\r\nDefault configuration now targets mainnet, but you can still easily run Eclair on testnet or regtest.\r\n\r\n#### New RPC API\r\n\r\nO",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.3",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.2-beta9",
+      "name": "Eclair v0.2-beta9",
+      "published_at": "2019-01-18T19:11:38Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This release includes many improvements and bug fixes, and we recommend that users upgrade.\r\n\r\n### Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a committer on eclair: https://api.github.com/users/sstone/gpg_keys\r\n\r\nTo import our signing key:\r\n```\r\n$ gpg --import drouinf.asc\r\n```\r\nTo verify the release file checksums and signatures:\r\n```\r\n$ gpg ",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-beta9",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.2-beta8",
+      "name": "Eclair v0.2-beta8",
+      "published_at": "2018-10-20T20:51:33Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This release fixes a bug in our router module where we would tag signatures for `channel_update` messages that include an optional `htlc_maximum_msat` field as invalid and close the channel, even when these signatures were actually valid.\r\n\r\nThis bug is specific to our server/desktop node and does not affect our mobile wallet. \r\nOur testnet and mainnet nodes have already been patched. \r\nWe *  strongly * encourage users to upgrade as soon as possible.\r\n\r\n### Verifying signatures\r\n\r\nYou will need ",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-beta8",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.2-beta7",
+      "name": "Eclair v0.2-beta7",
+      "published_at": "2018-10-15T16:32:05Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is a maintenance release of eclair, which is now compatible with Bitcoin Core v0.17.0 (see our [README](https://github.com/ACINQ/eclair/blob/v0.2-beta7/README.md)).It will also work with Bitcoin Core v0.16.3.\r\n\r\n### Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a committer on eclair: https://api.github.com/users/sstone/gpg_keys\r\n\r\nTo import",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-beta7",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.2-beta6",
+      "name": "Eclair v0.2-beta6",
+      "published_at": "2018-09-26T15:59:57Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is a maintenance release of eclair, which includes several improvements and bug fixes, including:\r\n- improved reporting, more readable and parseable logs, with a default rolling policy (one log file per day) \r\n- support for [channel range queries](https://github.com/lightningnetwork/lightning-rfc/pull/392), a feature which will speed-up routing table synchronization. This is an important feature for light nodes (mobile nodes, ...)\r\n- an audit database which keeps tracks of received/sent/rel",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-beta6",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.2-beta5",
+      "name": "Eclair v0.2-beta5",
+      "published_at": "2018-06-20T11:56:30Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is a maintenance release of eclair, which includes several improvements and bug fixes, including:\r\n- a fix for an unnecessary check on outgoing HTLCs that caused interoperability issues with c-lightning\r\n- additional BOLT compliance checks\r\n- the ability to specify payment request expiries from the API\r\n\r\nWe strongly recommend that users upgrade their nodes.\r\n\r\n### Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-beta5",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.2-beta4",
+      "name": "Eclair v0.2-beta4",
+      "published_at": "2018-05-31T09:36:55Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is a maintenance release of eclair, which includes several improvements and bug fixes, including:\r\n- a fix for a fee estimation bug which sometimes could have produced transactions that could not be relayed\r\n- a simple scheme for notifying users when a payment has been completed\r\n\r\nWe strongly recommend that users upgrade their nodes.\r\n\r\n### Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n- from our website: https://acinq.",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-beta4",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.2-beta3",
+      "name": "Eclair v0.2-beta3",
+      "published_at": "2018-05-18T13:52:09Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is a maintenance release of eclair, which includes several improvements and bug fixes, including a few interop-related bugs, and a bug in our electrum wallet (which is used in our Android app, not on server/desktop nodes). \r\n\r\n### Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E434ED292E85643A. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/padioupm.asc\r\n- from github user @pm47, a committer on eclair: https://api.github.com/users/pm47/gpg_keys\r",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-beta3",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.2-beta2",
+      "name": "Eclair v0.2-beta2",
+      "published_at": "2018-04-04T17:48:57Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This is a maintenance release of eclair, which fixes a bug in our bitcoin fee estimator. We strongly recommend that you upgrade your eclair node.\r\n\r\n### Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E434ED292E85643A. Note that you can get it:\r\n- from our website: https://acinq.co/pgp/padioupm.asc\r\n- from github user @pm47, a committer on eclair: https://api.github.com/users/pm47/gpg_keys\r\n\r\nTo import our signing key:\r\n```\r\n$ gpg --import padioupm.asc\r\n```\r\nTo verify the",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-beta2",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.2-beta1",
+      "name": "Eclair v0.2-beta1",
+      "published_at": "2018-03-28T19:41:08Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": ":tada: This is the first release of eclair that can be configured to run on mainnet (on previous versions, by design, users would have had to change a few lines of code and recompile to run on mainnet).\r\n\r\nWe've learned a lot from months of deployment on testnet and believe it is mature enough but, as with any beta software, you still need to **be careful and not put too much money into it**.\r\n\r\n### Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E434ED292E85643A. Note th",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-beta1",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.2-alpha11",
+      "name": "Eclair v0.2-alpha11",
+      "published_at": "2018-03-16T11:01:49Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "\u26a0\ufe0f **This release introduces breaking changes in the database format. Before upgrading, please close your existing channels, then reset your datadir (by default `C:\\Users\\<user>\\.eclair` on Windows, `/home/<user>/.eclair` on Linux). You may keep your `seed.dat` and `eclair.conf` in order to preserve your `nodeid`.**\r\n\r\n\u2139\ufe0f Note that this is the last release before mainnet beta.\r\n\r\nThis release is [BOLTs compliant](https://github.com/lightningnetwork/lightning-rfc), with one caveat: if a revoked c",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-alpha11",
+      "author": "pm47"
+    },
+    {
+      "tag": "v0.2-alpha10",
+      "name": "Eclair v0.2-alpha10",
+      "published_at": "2018-02-16T17:09:11Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "**This release is compatible with alpha9, there is no need to clean up the `.eclair` directory when updating.**\r\n\r\nThis release is [BOLTs compliant](https://github.com/lightningnetwork/lightning-rfc).\r\n\r\n*Caveat*: If a revoked commitment tx is published, only the offender's main output will be stolen as punishment, not the HTLCs.\r\n\r\n### Changelog\r\n\r\n* Network announcements are stored in a separate database and not revalidated at startup (#421)\r\n* Using akka TPC pull mode and improved router for ",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-alpha10",
+      "author": "dpad85"
+    },
+    {
+      "tag": "v0.2-alpha9",
+      "name": "Eclair v0.2-alpha9",
+      "published_at": "2018-01-23T15:12:19Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "**This release includes a breaking change in local database format, please close all channels before updating** \r\n\r\nThis release is [BOLTs compliant](https://github.com/lightningnetwork/lightning-rfc).\r\n\r\n*Caveat*: If a revoked commitment tx is published, only the offender's main output will be stolen as punishment, not the HTLCs.\r\n\r\n### Changelog\r\n\r\n* Fixed memory leak and reduce memory usage (#365)\r\n* Fixed encoding of failure messages (#366)\r\n* Fixed infinite payment retry loop when receiving",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-alpha9",
+      "author": "pm47"
+    },
+    {
+      "tag": "v0.2-alpha8",
+      "name": "Eclair v0.2-alpha8",
+      "published_at": "2017-12-23T18:25:29Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "**This release includes a breaking change in local database format, please close all channels before updating** \r\n\r\nThis release is [BOLTs compliant](https://github.com/lightningnetwork/lightning-rfc).\r\n\r\n*Caveat*: If a revoked commitment tx is published, only the offender's main output will be stolen as punishment, not the HTLCs.\r\n\r\n### Changelog\r\n\r\n* Fixed major bug preventing the claiming of funds in certain local close scenarii (#296) (thanks @AndySchroder @whizz @yogafan)\r\n* Reworked peer m",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-alpha8",
+      "author": "pm47"
+    },
+    {
+      "tag": "v0.2-alpha7",
+      "name": "Eclair v0.2-alpha7",
+      "published_at": "2017-12-14T11:58:42Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This release is [BOLTs compliant](https://github.com/lightningnetwork/lightning-rfc).\r\n\r\n*Caveat*: If a revoked commitment tx is published, only the offender's main output will be stolen as punishment, not the HTLCs.\r\n\r\n### Changelog\r\n\r\n* Fixed bugs in relayer causing payments to get stuck (#275, #276)\r\n* Implemented change in BOLT11 `r` field (#277) \r\n* Improve docker build: can now set configuration and expose datadir, added doc (#256) (thanks @NicolasDorier)\r\n* Reduce default fees (#267)\r\n* S",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-alpha7",
+      "author": "pm47"
+    },
+    {
+      "tag": "v0.2-alpha6",
+      "name": "Eclair v0.2-alpha6",
+      "published_at": "2017-12-06T18:03:25Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "**This release passes interoperability tests!**\r\n\r\nThis release is [BOLTs compliant](https://github.com/lightningnetwork/lightning-rfc).\r\n\r\n*Caveat*: If a revoked commitment tx is published, only the offender's main output will be stolen as punishment, not the HTLCs.\r\n\r\n### Changelog\r\n\r\n* Support for electrumx API (#208, #232, #233, #257) \r\n* Rework preimage handling and channel closing logic (#183, #204, #247)\r\n* BOLT 11: Add an optional 'minimum htlc expiry' tag (#202, #210, #253)\r\n* Improved ",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-alpha6",
+      "author": "pm47"
+    },
+    {
+      "tag": "v0.2-alpha5",
+      "name": "Eclair v0.2-alpha5",
+      "published_at": "2017-09-15T11:11:34Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This release is compatible with the BOLTs at commit [024f695bd1b54524e5782a59cf903f25803c75ae](https://github.com/lightningnetwork/lightning-rfc/commit/024f695bd1b54524e5782a59cf903f25803c75ae) with the following caveats:\r\n\r\n  - [X] BOLT 1: Base Protocol\r\n  - [X] BOLT 2: Peer Protocol for Channel Management\r\n  - [X] BOLT 3: Bitcoin Transaction and Script Formats\r\n  - [X] BOLT 4: Onion Routing Protocol\r\n  - [X] BOLT 5: Recommendations for On-chain Transaction Handling\r\n    * If a revoked commitme",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-alpha5",
+      "author": "pm47"
+    },
+    {
+      "tag": "v0.2-alpha4",
+      "name": "Eclair v0.2-alpha4",
+      "published_at": "2017-07-20T15:43:45Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This release is compatible with the BOLTs at commit [80688d79008e9e999dff485f4dc03fcda3300291](https://github.com/lightningnetwork/lightning-rfc/commit/80688d79008e9e999dff485f4dc03fcda3300291) with the following caveats:\r\n\r\n  - [X] BOLT 1: Base Protocol\r\n  - [X] BOLT 2: Peer Protocol for Channel Management\r\n  - [X] BOLT 3: Bitcoin Transaction and Script Formats\r\n  - [X] BOLT 4: Onion Routing Protocol\r\n   - [X] BOLT 5: Recommendations for On-chain Transaction Handling\r\n    * If a revoked commitm",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-alpha4",
+      "author": "sstone"
+    },
+    {
+      "tag": "v0.2-alpha3",
+      "name": "Eclair v0.2-alpha3",
+      "published_at": "2017-04-25T16:24:58Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This version is compliant with the BOLTs at commit [9cb9eef0dea9b0497e301aa0beaa9151a2e581de](https://github.com/lightningnetwork/lightning-rfc/commit/9cb9eef0dea9b0497e301aa0beaa9151a2e581de), with the following caveats:\r\n\r\n  - [X] BOLT 1: Base Protocol\r\n  - [X] BOLT 2: Peer Protocol for Channel Management\r\n  - [X] BOLT 3: Bitcoin Transaction and Script Formats\r\n  - [X] BOLT 4: Onion Routing Protocol\r\n    * Including the validated but not yet merged onion simplification (see https://github.com/",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-alpha3",
+      "author": "pm47"
+    },
+    {
+      "tag": "v0.2-alpha2",
+      "name": "Eclair v0.2-alpha2",
+      "published_at": "2017-04-07T09:46:13Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This version is compliant with the BOLTs at commit [f048a2c298448eca7520ccf1d7d61b1860e319b7](https://github.com/lightningnetwork/lightning-rfc/commit/f048a2c298448eca7520ccf1d7d61b1860e319b7), with the following caveats:\r\n\r\n  - [X] BOLT 1: Base Protocol\r\n  - [X] BOLT 2: Peer Protocol for Channel Management\r\n  - [X] BOLT 3: Bitcoin Transaction and Script Formats\r\n  - [X] BOLT 4: Onion Routing Protocol\r\n  - [X] BOLT 5: Recommendations for On-chain Transaction Handling\r\n    * If a revoked commitme",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-alpha2",
+      "author": "pm47"
+    },
+    {
+      "tag": "v0.2-alpha1",
+      "name": "Eclair v0.2-alpha1",
+      "published_at": "2017-03-21T16:17:57Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "This version is compliant with the BOLTs at commit [06a5e6cbdbb4c6f8b8dab444de497cdb9c7d7f02](https://github.com/lightningnetwork/lightning-rfc/commit/06a5e6cbdbb4c6f8b8dab444de497cdb9c7d7f02), with the following caveats:\r\n\r\n  - [X] BOLT 1: Base Protocol\r\n  - [X] BOLT 2: Peer Protocol for Channel Management\r\n  - [X] BOLT 3: Bitcoin Transaction and Script Formats\r\n  - [X] BOLT 4: Onion Routing Protocol\r\n  - [X] BOLT 5: Recommendations for On-chain Transaction Handling\r\n    * If a revoked commitme",
+      "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.2-alpha1",
+      "author": "pm47"
+    }
+  ],
+  "fetched_at": "2026-07-30T18:58:56.786940+00:00",
+  "deep_dive": {
+    "days_since_launch": 3416,
+    "recent_stable_releases": [
+      {
+        "tag": "v0.14.1",
+        "name": "Eclair v.0.14.1",
+        "published_at": "2026-07-29T12:32:17Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 14,
+        "total_downloads": 14,
+        "asset_count": 4,
+        "assets": [
+          {
+            "name": "eclair-front-0.14.1-d769db0-awseb-bundle.zip",
+            "size_bytes": 106055278,
+            "download_count": 3,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-front-0.14.1-d769db0-bin.zip",
+            "size_bytes": 106037925,
+            "download_count": 3,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-node-0.14.1-d769db0-bin.zip",
+            "size_bytes": 110314184,
+            "download_count": 4,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1196,
+            "download_count": 4,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This is a patch release that contains several bug fixes and performance improvements.\r\nIt also updates the minimal version of Bitcoin Core and our bitcoin library.\r\n\r\nThe detailed release notes can be found [here](https://github.com/ACINQ/eclair/blob/master/docs/release-notes/eclair-v0.14.1.md).\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key E04E48E72C205463. Note that you can get it:\r\n\r\n- from our website: https://acinq.co/pgp/drouinf2.asc\r\n- from github user @sst",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.14.1",
+        "author": "t-bast"
+      },
+      {
+        "tag": "v0.14.0",
+        "name": "Eclair v0.14.0",
+        "published_at": "2026-05-21T12:46:53Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 52,
+        "total_downloads": 52,
+        "asset_count": 4,
+        "assets": [
+          {
+            "name": "eclair-front-0.14.0-ec8c63b-awseb-bundle.zip",
+            "size_bytes": 106024002,
+            "download_count": 11,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-front-0.14.0-ec8c63b-bin.zip",
+            "size_bytes": 106006539,
+            "download_count": 8,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-node-0.14.0-ec8c63b-bin.zip",
+            "size_bytes": 110282806,
+            "download_count": 27,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1196,
+            "download_count": 6,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This release contains the final version of channel splicing, taproot channels and zero-fee commitments.\r\nWe remove support for channels that don't use anchor outputs: see the release notes of eclair v0.13.1 for instructions on how to properly close those channels if needed.\r\nWe introduce an experimental peer scoring algorithm to optimize routing.\r\n\r\nThis release is packed with improvements to the performance of large nodes when restarting: let us know if that helps!\r\nAnd of course, we also inclu",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.14.0",
+        "author": "t-bast"
+      },
+      {
+        "tag": "v0.13.1",
+        "name": "Eclair v0.13.1",
+        "published_at": "2025-10-27T08:50:05Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 94,
+        "total_downloads": 94,
+        "asset_count": 4,
+        "assets": [
+          {
+            "name": "eclair-front-0.13.1-f451ec0-awseb-bundle.zip",
+            "size_bytes": 104701289,
+            "download_count": 20,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-front-0.13.1-f451ec0-bin.zip",
+            "size_bytes": 104684058,
+            "download_count": 17,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-node-0.13.1-f451ec0-bin.zip",
+            "size_bytes": 108955719,
+            "download_count": 39,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1196,
+            "download_count": 18,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This release contains database changes to prepare for the removal of pre-anchor channels.\r\nClosed channels will be moved to a new table on restart, which may take some time, but will only happen once.\r\n\r\n:warning: Note that you will need to run the v0.13.0 release first to migrate your channel data to the latest internal encoding.\r\n\r\nThis is the last release of eclair where channels that don't use anchor outputs will be supported.\r\nIf you have channels that don't use anchor outputs, you should c",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.13.1",
+        "author": "t-bast"
+      },
+      {
+        "tag": "v0.13.0",
+        "name": "Eclair v0.13.0",
+        "published_at": "2025-09-10T13:32:29Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 992,
+        "total_downloads": 992,
+        "asset_count": 4,
+        "assets": [
+          {
+            "name": "eclair-front-0.13.0-992ec8c-awseb-bundle.zip",
+            "size_bytes": 105277390,
+            "download_count": 10,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-front-0.13.0-992ec8c-bin.zip",
+            "size_bytes": 105260004,
+            "download_count": 10,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-node-0.13.0-992ec8c-bin.zip",
+            "size_bytes": 109531666,
+            "download_count": 966,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1196,
+            "download_count": 6,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This release contains a lot of refactoring and an initial implementation of taproot channels.\r\nThe specification for taproot channels is still ongoing (https://github.com/lightning/bolts/pull/995) so this cannot be used yet, but it is ready for cross-compatibility tests with other implementations.\r\n\r\nThis release also contains improvements to splicing based on recent specification updates, and better Bolt 12 support.\r\nNote that the splicing specification is still pending, so it cannot be used wi",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.13.0",
+        "author": "t-bast"
+      },
+      {
+        "tag": "v0.12.0",
+        "name": "Eclair v0.12.0",
+        "published_at": "2025-03-11T15:43:28Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 236,
+        "total_downloads": 236,
+        "asset_count": 4,
+        "assets": [
+          {
+            "name": "eclair-front-0.12.0-4df8cd0-awseb-bundle.zip",
+            "size_bytes": 104512046,
+            "download_count": 31,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-front-0.12.0-4df8cd0-bin.zip",
+            "size_bytes": 104494568,
+            "download_count": 28,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-node-0.12.0-4df8cd0-bin.zip",
+            "size_bytes": 108765993,
+            "download_count": 164,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1196,
+            "download_count": 13,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This release adds support for creating and managing Bolt 12 offers and a new channel closing protocol (`option_simple_close`) that supports RBF.\r\nWe also add support for storing small amounts of (encrypted) data for our peers (`option_provide_storage`).\r\n\r\n:warning: This release also starts using Java 21, which means you may need to update your runtime.\r\n:warning: We also update our dependency on Bitcoin Core to v28.1 to benefit from package relay.\r\n\r\nWe've also made more progress on splicing, w",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.12.0",
+        "author": "t-bast"
+      },
+      {
+        "tag": "v0.11.0",
+        "name": "Eclair v0.11.0",
+        "published_at": "2024-12-04T09:23:28Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 750,
+        "total_downloads": 750,
+        "asset_count": 4,
+        "assets": [
+          {
+            "name": "eclair-front-0.11.0-7e7ad45-awseb-bundle.zip",
+            "size_bytes": 103805609,
+            "download_count": 26,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-front-0.11.0-7e7ad45-bin.zip",
+            "size_bytes": 103788616,
+            "download_count": 20,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-node-0.11.0-7e7ad45-bin.zip",
+            "size_bytes": 108050496,
+            "download_count": 683,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 851,
+            "download_count": 21,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This release adds official support for Bolt 12 offers and makes progress on liquidity management features (splicing, liquidity ads, on-the-fly funding). We also stop accepting channels that don't support anchor outputs and update our dependency on Bitcoin Core.\r\n\r\nWe're still actively working with other implementations to finalize the specification for some of these experimental features. You should only activate them if you know what you're doing, and are ready to handle backwards-incompatible ",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.11.0",
+        "author": "t-bast"
+      },
+      {
+        "tag": "v0.10.0",
+        "name": "Eclair v0.10.0",
+        "published_at": "2024-02-29T09:24:36Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1270,
+        "total_downloads": 1270,
+        "asset_count": 4,
+        "assets": [
+          {
+            "name": "eclair-front-0.10.0-a63d2c2-awseb-bundle.zip",
+            "size_bytes": 102043808,
+            "download_count": 79,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-front-0.10.0-a63d2c2-bin.zip",
+            "size_bytes": 102027027,
+            "download_count": 57,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-node-0.10.0-a63d2c2-bin.zip",
+            "size_bytes": 106283632,
+            "download_count": 1073,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 851,
+            "download_count": 61,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This release adds official support for the dual-funding feature, an up-to-date implementation of Bolt 12 offers, and a fully working splicing prototype. We're waiting for the specification work to be finalized for some of those features, and other implementations to be ready for cross-compatibility tests. You should only activate them if you know what you're doing, and are ready to handle backwards-incompatible changes!\r\n\r\nThis release also contains various on-chain fee improvements, more config",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.10.0",
+        "author": "t-bast"
+      },
+      {
+        "tag": "v0.9.0",
+        "name": "v0.9.0",
+        "published_at": "2023-06-19T08:45:19Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 543,
+        "total_downloads": 543,
+        "asset_count": 4,
+        "assets": [
+          {
+            "name": "eclair-front-0.9.0-623f7e4-awseb-bundle.zip",
+            "size_bytes": 102704136,
+            "download_count": 81,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-front-0.9.0-623f7e4-bin.zip",
+            "size_bytes": 102683690,
+            "download_count": 52,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-node-0.9.0-623f7e4-bin.zip",
+            "size_bytes": 107309278,
+            "download_count": 270,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUM.asc",
+            "size_bytes": 848,
+            "download_count": 140,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This release contains a lot of preparatory work for important (and complex) lightning features: dual-funding, splicing and Bolt 12 offers.\r\nThese features are now fully implemented in `eclair`, but we're waiting for the specification work to be finalized and other implementations to be ready for cross-compatibility tests.\r\nYou should only activate them if you know what you're doing, and are ready to handle potential backwards-incompatible changes!\r\nWe also make plugins more powerful, introduce m",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.9.0",
+        "author": "t-bast"
+      },
+      {
+        "tag": "v0.8.0",
+        "name": "Eclair v0.8.0",
+        "published_at": "2022-12-01T14:09:03Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 2373,
+        "total_downloads": 2373,
+        "asset_count": 4,
+        "assets": [
+          {
+            "name": "eclair-front-0.8.0-0077471-awseb-bundle.zip",
+            "size_bytes": 97451740,
+            "download_count": 134,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-front-0.8.0-0077471-bin.zip",
+            "size_bytes": 97430372,
+            "download_count": 100,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-node-0.8.0-0077471-bin.zip",
+            "size_bytes": 102048539,
+            "download_count": 2094,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 848,
+            "download_count": 45,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "This release adds official support for two important lightning features: zero-conf channels and channel aliases. It also adds experimental support for dual-funding and a lot of preparatory work for Bolt 12 offers.\r\n\r\n:warning: we also require at least Bitcoin Core 23.0: make sure to upgrade and reconfigure your node (see detailed instructions in the release notes)\r\n\r\nThe detailed release notes can be found [here](https://github.com/ACINQ/eclair/blob/master/docs/release-notes/eclair-v0.8.0.md)\r\n\r",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.8.0",
+        "author": "t-bast"
+      },
+      {
+        "tag": "v0.7.0-patch-disconnect",
+        "name": "Eclair v0.7.0-patch-disconnect",
+        "published_at": "2022-07-18T11:06:03Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 307,
+        "total_downloads": 307,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "eclair-node-0.7.0-patch-disconnect-cad88bf-bin.zip",
+            "size_bytes": 88954578,
+            "download_count": 252,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 654,
+            "download_count": 55,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "# Eclair v0.7.0-patch-disconnect\r\n\r\nThis is a patch release which adds two commits:\r\n- Add option to disable sending remote addr in init (#2285)\r\n- Resume reading after processing unknown messages (#2332)\r\n\r\nIt addresses unwanted disconnections with peers that use unknown messages.\r\n\r\n## Verifying signatures\r\n\r\nYou will need `gpg` and our release signing key 7A73FE77DE2C4027. Note that you can get it:\r\n\r\n- from our website: https://acinq.co/pgp/drouinf.asc\r\n- from github user @sstone, a committe",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.7.0-patch-disconnect",
+        "author": "pm47"
+      },
+      {
+        "tag": "v0.7.0",
+        "name": "Eclair v0.7.0",
+        "published_at": "2022-02-01T09:15:56Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 3916,
+        "total_downloads": 3916,
+        "asset_count": 4,
+        "assets": [
+          {
+            "name": "eclair-front-0.7.0-a804905-awseb-bundle.zip",
+            "size_bytes": 85626328,
+            "download_count": 243,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-front-0.7.0-a804905-bin.zip",
+            "size_bytes": 85608097,
+            "download_count": 155,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-node-0.7.0-a804905-bin.zip",
+            "size_bytes": 88950037,
+            "download_count": 3459,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 848,
+            "download_count": 59,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "# Eclair v0.7.0\r\n\r\nThis release adds official support for two long-awaited lightning features: anchor outputs and onion messages.\r\nSupport for the PostreSQL database backend is also now production ready!\r\nThis release also includes a few bug fixes and many new (smaller) features.\r\nIt is fully compatible with 0.6.2 (and all previous versions of eclair).\r\n\r\nBecause this release changes the default type of channels that your node will use, make sure you read the release notes carefully!\r\nThe releas",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.7.0",
+        "author": "t-bast"
+      },
+      {
+        "tag": "v0.6.2",
+        "name": "Eclair v0.6.2",
+        "published_at": "2021-10-08T07:52:04Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 2671,
+        "total_downloads": 2671,
+        "asset_count": 4,
+        "assets": [
+          {
+            "name": "eclair-front-0.6.2-6817d6f-awseb-bundle.zip",
+            "size_bytes": 84964632,
+            "download_count": 193,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-front-0.6.2-6817d6f-bin.zip",
+            "size_bytes": 84946520,
+            "download_count": 131,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "eclair-node-0.6.2-6817d6f-bin.zip",
+            "size_bytes": 88281019,
+            "download_count": 2287,
+            "platform": "Other",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 848,
+            "download_count": 60,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "# Eclair v0.6.2\r\n\r\nThis releases fixes a known vulnerability, makes several performance improvements, includes a few bug fixes and many new features.\r\nIt is fully compatible with 0.6.1 (and all previous versions of eclair).\r\n\r\nThis release requires a few actions from node operators when upgrading: make sure you read the release notes carefully!\r\n\r\nThe release notes can be found [here](https://github.com/ACINQ/eclair/blob/master/docs/release-notes/eclair-v0.6.2.md).\r\n\r\n## Verifying signatures\r\n\r\n",
+        "html_url": "https://github.com/ACINQ/eclair/releases/tag/v0.6.2",
+        "author": "t-bast"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 3829.5,
+      "median_gap_hours": 4009.8
+    }
+  },
+  "category": "Lightning"
+}

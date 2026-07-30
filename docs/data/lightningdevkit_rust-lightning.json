@@ -1,0 +1,1722 @@
+{
+  "project": {
+    "owner": "lightningdevkit",
+    "repo": "rust-lightning",
+    "name": "LDK",
+    "full_name": "lightningdevkit/rust-lightning",
+    "description": "A Complete Bitcoin Lightning Library in Rust.\nHandles the core functionality of the Lightning Network, allowing clients to implement custom wallet, chain interactions, storage and network logic without enforcing a specific runtime.\n",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "language": "Rust",
+    "license": false,
+    "homepage": null,
+    "html_url": "https://crates.io/crates/lightning"
+  },
+  "summary": {
+    "total_downloads": 1826576,
+    "total_releases": 72,
+    "stable_releases": 57,
+    "pre_releases": 15,
+    "latest_version": "0.3.0-beta1",
+    "latest_date": "2026-07-24T01:48:53.115701Z",
+    "days_since_latest": 6,
+    "avg_cadence_days": 54.0,
+    "platform_breakdown": {
+      "Source": 1826576
+    }
+  },
+  "releases": [
+    {
+      "tag": "0.3.0-beta1",
+      "name": "lightning 0.3.0-beta1",
+      "published_at": "2026-07-24T01:48:53.115701Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 49,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.3.0-beta1.crate",
+          "platform": "Source",
+          "size_bytes": 1990979,
+          "download_count": 49
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.3.0-beta1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.2.4",
+      "name": "lightning 0.2.4",
+      "published_at": "2026-06-30T13:38:23.313390Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 19395,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.2.4.crate",
+          "platform": "Source",
+          "size_bytes": 1749621,
+          "download_count": 19395
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.2.4",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.11",
+      "name": "lightning 0.1.11",
+      "published_at": "2026-06-25T14:20:43.547291Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 13582,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.11.crate",
+          "platform": "Source",
+          "size_bytes": 1445064,
+          "download_count": 13582
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.11",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.2.3",
+      "name": "lightning 0.2.3",
+      "published_at": "2026-06-19T02:12:17.300803Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 7235,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.2.3.crate",
+          "platform": "Source",
+          "size_bytes": 1749652,
+          "download_count": 7235
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.2.3",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.10",
+      "name": "lightning 0.1.10",
+      "published_at": "2026-06-18T22:28:32.355625Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 1796,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.10.crate",
+          "platform": "Source",
+          "size_bytes": 1445124,
+          "download_count": 1796
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.10",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.2.2",
+      "name": "lightning 0.2.2",
+      "published_at": "2026-02-07T00:09:27.609854Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 106088,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.2.2.crate",
+          "platform": "Source",
+          "size_bytes": 1736752,
+          "download_count": 106088
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.2.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.2.1",
+      "name": "lightning 0.2.1",
+      "published_at": "2026-01-30T00:15:51.662759Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3023,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.2.1.crate",
+          "platform": "Source",
+          "size_bytes": 1735662,
+          "download_count": 3023
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.2.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.2.0",
+      "name": "lightning 0.2.0",
+      "published_at": "2025-12-03T01:31:27.519714Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 36672,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.2.0.crate",
+          "platform": "Source",
+          "size_bytes": 1733490,
+          "download_count": 36672
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.2.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.8",
+      "name": "lightning 0.1.8",
+      "published_at": "2025-12-03T01:29:00.195053Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 137949,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.8.crate",
+          "platform": "Source",
+          "size_bytes": 1435721,
+          "download_count": 137949
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.8",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.2.0-rc2",
+      "name": "lightning 0.2.0-rc2",
+      "published_at": "2025-11-13T15:40:00.977315Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 3623,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.2.0-rc2.crate",
+          "platform": "Source",
+          "size_bytes": 1731629,
+          "download_count": 3623
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.2.0-rc2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.2.0-rc1",
+      "name": "lightning 0.2.0-rc1",
+      "published_at": "2025-10-31T01:39:15.885395Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 3114,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.2.0-rc1.crate",
+          "platform": "Source",
+          "size_bytes": 1728072,
+          "download_count": 3114
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.2.0-rc1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.7",
+      "name": "lightning 0.1.7",
+      "published_at": "2025-10-21T19:06:19.673363Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 66465,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.7.crate",
+          "platform": "Source",
+          "size_bytes": 1433903,
+          "download_count": 66465
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.7",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.2.0-beta1",
+      "name": "lightning 0.2.0-beta1",
+      "published_at": "2025-10-13T21:06:18.655126Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 3966,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.2.0-beta1.crate",
+          "platform": "Source",
+          "size_bytes": 1708366,
+          "download_count": 3966
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.2.0-beta1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.6",
+      "name": "lightning 0.1.6",
+      "published_at": "2025-10-10T18:44:35.714584Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 5149,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.6.crate",
+          "platform": "Source",
+          "size_bytes": 1433630,
+          "download_count": 5149
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.6",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.5",
+      "name": "lightning 0.1.5",
+      "published_at": "2025-07-16T11:09:45.702927Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 83091,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.5.crate",
+          "platform": "Source",
+          "size_bytes": 1421009,
+          "download_count": 83091
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.5",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.4",
+      "name": "lightning 0.1.4",
+      "published_at": "2025-05-24T01:57:47.753046Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 52267,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.4.crate",
+          "platform": "Source",
+          "size_bytes": 1414080,
+          "download_count": 52267
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.4",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.3",
+      "name": "lightning 0.1.3",
+      "published_at": "2025-04-30T17:13:57.977844Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 13055,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.3.crate",
+          "platform": "Source",
+          "size_bytes": 1412923,
+          "download_count": 13055
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.3",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.2",
+      "name": "lightning 0.1.2",
+      "published_at": "2025-04-02T22:12:07.706338Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 8896,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.2.crate",
+          "platform": "Source",
+          "size_bytes": 1409400,
+          "download_count": 8896
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.1",
+      "name": "lightning 0.1.1",
+      "published_at": "2025-01-29T00:28:49.314051Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 22363,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.1.crate",
+          "platform": "Source",
+          "size_bytes": 1406593,
+          "download_count": 22363
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.0",
+      "name": "lightning 0.1.0",
+      "published_at": "2025-01-16T02:35:51.361147Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 4704,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.0.crate",
+          "platform": "Source",
+          "size_bytes": 1402136,
+          "download_count": 4704
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.1.0-beta1",
+      "name": "lightning 0.1.0-beta1",
+      "published_at": "2024-12-22T23:14:11.120242Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 1994,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.1.0-beta1.crate",
+          "platform": "Source",
+          "size_bytes": 1399170,
+          "download_count": 1994
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.1.0-beta1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.125",
+      "name": "lightning 0.0.125",
+      "published_at": "2024-10-14T19:29:09.271277Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 90216,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.125.crate",
+          "platform": "Source",
+          "size_bytes": 1337577,
+          "download_count": 90216
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.125",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.124",
+      "name": "lightning 0.0.124",
+      "published_at": "2024-09-03T18:41:09.036023Z",
+      "is_prerelease": false,
+      "is_draft": true,
+      "total_downloads": 8068,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.124.crate",
+          "platform": "Source",
+          "size_bytes": 1337205,
+          "download_count": 8068
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.124",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.124-rc1",
+      "name": "lightning 0.0.124-rc1",
+      "published_at": "2024-08-29T20:56:48.012375Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 1698,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.124-rc1.crate",
+          "platform": "Source",
+          "size_bytes": 1334084,
+          "download_count": 1698
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.124-rc1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.124-beta",
+      "name": "lightning 0.0.124-beta",
+      "published_at": "2024-08-20T13:30:43.334241Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 1714,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.124-beta.crate",
+          "platform": "Source",
+          "size_bytes": 1330271,
+          "download_count": 1714
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.124-beta",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.123",
+      "name": "lightning 0.0.123",
+      "published_at": "2024-05-09T00:23:02.500079Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 114238,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.123.crate",
+          "platform": "Source",
+          "size_bytes": 1256228,
+          "download_count": 114238
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.123",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.123-rc1",
+      "name": "lightning 0.0.123-rc1",
+      "published_at": "2024-05-07T18:19:17.533409Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 1912,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.123-rc1.crate",
+          "platform": "Source",
+          "size_bytes": 1256337,
+          "download_count": 1912
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.123-rc1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.123-beta",
+      "name": "lightning 0.0.123-beta",
+      "published_at": "2024-04-19T15:32:07.974820Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 2446,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.123-beta.crate",
+          "platform": "Source",
+          "size_bytes": 1249154,
+          "download_count": 2446
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.123-beta",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.122",
+      "name": "lightning 0.0.122",
+      "published_at": "2024-04-09T20:14:30.142082Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 14572,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.122.crate",
+          "platform": "Source",
+          "size_bytes": 1171848,
+          "download_count": 14572
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.122",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.121",
+      "name": "lightning 0.0.121",
+      "published_at": "2024-01-23T00:00:34.330396Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 238496,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.121.crate",
+          "platform": "Source",
+          "size_bytes": 1171148,
+          "download_count": 238496
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.121",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.120",
+      "name": "lightning 0.0.120",
+      "published_at": "2024-01-17T23:08:05.626627Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 7128,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.120.crate",
+          "platform": "Source",
+          "size_bytes": 1170450,
+          "download_count": 7128
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.120",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.119",
+      "name": "lightning 0.0.119",
+      "published_at": "2023-12-16T03:15:03.689047Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 7217,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.119.crate",
+          "platform": "Source",
+          "size_bytes": 1167661,
+          "download_count": 7217
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.119",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.118",
+      "name": "lightning 0.0.118",
+      "published_at": "2023-10-24T01:30:57.471744Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 102416,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.118.crate",
+          "platform": "Source",
+          "size_bytes": 1114193,
+          "download_count": 102416
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.118",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.117",
+      "name": "lightning 0.0.117",
+      "published_at": "2023-10-04T02:20:33.908878Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 9355,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.117.crate",
+          "platform": "Source",
+          "size_bytes": 1098496,
+          "download_count": 9355
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.117",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.117-rc1",
+      "name": "lightning 0.0.117-rc1",
+      "published_at": "2023-09-30T04:29:56.014241Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 2265,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.117-rc1.crate",
+          "platform": "Source",
+          "size_bytes": 1098032,
+          "download_count": 2265
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.117-rc1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.117-alpha2",
+      "name": "lightning 0.0.117-alpha2",
+      "published_at": "2023-09-27T05:23:30.985699Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 2284,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.117-alpha2.crate",
+          "platform": "Source",
+          "size_bytes": 1088126,
+          "download_count": 2284
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.117-alpha2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.117-alpha1",
+      "name": "lightning 0.0.117-alpha1",
+      "published_at": "2023-09-21T23:28:01.070688Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 2254,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.117-alpha1.crate",
+          "platform": "Source",
+          "size_bytes": 1070125,
+          "download_count": 2254
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.117-alpha1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.116",
+      "name": "lightning 0.0.116",
+      "published_at": "2023-07-21T23:21:12.427689Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 57157,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.116.crate",
+          "platform": "Source",
+          "size_bytes": 1003205,
+          "download_count": 57157
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.116",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.116-rc1",
+      "name": "lightning 0.0.116-rc1",
+      "published_at": "2023-07-18T03:14:09.520159Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 2326,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.116-rc1.crate",
+          "platform": "Source",
+          "size_bytes": 1000784,
+          "download_count": 2326
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.116-rc1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.116-alpha1",
+      "name": "lightning 0.0.116-alpha1",
+      "published_at": "2023-06-24T15:56:36.438765Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 2563,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.116-alpha1.crate",
+          "platform": "Source",
+          "size_bytes": 991015,
+          "download_count": 2563
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.116-alpha1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.115",
+      "name": "lightning 0.0.115",
+      "published_at": "2023-04-25T00:26:06.179461Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 98939,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.115.crate",
+          "platform": "Source",
+          "size_bytes": 940592,
+          "download_count": 98939
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.115",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.114",
+      "name": "lightning 0.0.114",
+      "published_at": "2023-03-04T02:01:52.002687Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 50970,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.114.crate",
+          "platform": "Source",
+          "size_bytes": 896276,
+          "download_count": 50970
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.114",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.114-beta",
+      "name": "lightning 0.0.114-beta",
+      "published_at": "2023-02-28T18:52:40.772968Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 2419,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.114-beta.crate",
+          "platform": "Source",
+          "size_bytes": 892646,
+          "download_count": 2419
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.114-beta",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.113",
+      "name": "lightning 0.0.113",
+      "published_at": "2022-12-16T16:02:16.083783Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 185043,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.113.crate",
+          "platform": "Source",
+          "size_bytes": 823693,
+          "download_count": 185043
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.113",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.112",
+      "name": "lightning 0.0.112",
+      "published_at": "2022-10-25T21:44:51.184488Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 87279,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.112.crate",
+          "platform": "Source",
+          "size_bytes": 780770,
+          "download_count": 87279
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.112",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.111",
+      "name": "lightning 0.0.111",
+      "published_at": "2022-09-13T00:34:30.735883Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 6517,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.111.crate",
+          "platform": "Source",
+          "size_bytes": 765897,
+          "download_count": 6517
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.111",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.110",
+      "name": "lightning 0.0.110",
+      "published_at": "2022-07-26T23:48:24.843310Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 13541,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.110.crate",
+          "platform": "Source",
+          "size_bytes": 735420,
+          "download_count": 13541
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.110",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.109",
+      "name": "lightning 0.0.109",
+      "published_at": "2022-07-01T17:47:17.156833Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 5810,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.109.crate",
+          "platform": "Source",
+          "size_bytes": 720153,
+          "download_count": 5810
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.109",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.108",
+      "name": "lightning 0.0.108",
+      "published_at": "2022-06-10T16:50:41.162323Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 22275,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.108.crate",
+          "platform": "Source",
+          "size_bytes": 705933,
+          "download_count": 22275
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.108",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.107",
+      "name": "lightning 0.0.107",
+      "published_at": "2022-06-09T00:07:48.276352Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3048,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.107.crate",
+          "platform": "Source",
+          "size_bytes": 705701,
+          "download_count": 3048
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.107",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.106",
+      "name": "lightning 0.0.106",
+      "published_at": "2022-04-03T16:44:02.298540Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 9450,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.106.crate",
+          "platform": "Source",
+          "size_bytes": 666815,
+          "download_count": 9450
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.106",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.105",
+      "name": "lightning 0.0.105",
+      "published_at": "2022-03-01T04:46:09.375905Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 6200,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.105.crate",
+          "platform": "Source",
+          "size_bytes": 644406,
+          "download_count": 6200
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.105",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.104",
+      "name": "lightning 0.0.104",
+      "published_at": "2021-12-17T23:40:16.222979Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 5153,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.104.crate",
+          "platform": "Source",
+          "size_bytes": 602546,
+          "download_count": 5153
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.104",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.103",
+      "name": "lightning 0.0.103",
+      "published_at": "2021-11-03T03:36:22.309844Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 4435,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.103.crate",
+          "platform": "Source",
+          "size_bytes": 572472,
+          "download_count": 4435
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.103",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.102",
+      "name": "lightning 0.0.102",
+      "published_at": "2021-10-18T19:39:18.613555Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 6613,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.102.crate",
+          "platform": "Source",
+          "size_bytes": 552963,
+          "download_count": 6613
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.102",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.101",
+      "name": "lightning 0.0.101",
+      "published_at": "2021-09-23T18:50:06.572604Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3123,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.101.crate",
+          "platform": "Source",
+          "size_bytes": 545280,
+          "download_count": 3123
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.101",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.100",
+      "name": "lightning 0.0.100",
+      "published_at": "2021-08-17T19:08:25.821036Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2810,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.100.crate",
+          "platform": "Source",
+          "size_bytes": 526374,
+          "download_count": 2810
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.100",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.99",
+      "name": "lightning 0.0.99",
+      "published_at": "2021-07-09T17:36:48.346721Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3645,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.99.crate",
+          "platform": "Source",
+          "size_bytes": 494036,
+          "download_count": 3645
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.99",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.98",
+      "name": "lightning 0.0.98",
+      "published_at": "2021-06-11T17:52:16.284359Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2809,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.98.crate",
+          "platform": "Source",
+          "size_bytes": 481218,
+          "download_count": 2809
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.98",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.14",
+      "name": "lightning 0.0.14",
+      "published_at": "2021-05-04T02:28:47.894114Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3120,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.14.crate",
+          "platform": "Source",
+          "size_bytes": 463291,
+          "download_count": 3120
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.14",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.13",
+      "name": "lightning 0.0.13",
+      "published_at": "2021-03-09T21:17:34.118485Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2808,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.13.crate",
+          "platform": "Source",
+          "size_bytes": 430809,
+          "download_count": 2808
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.13",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.12",
+      "name": "lightning 0.0.12",
+      "published_at": "2020-11-24T22:52:13.220272Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2859,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.12.crate",
+          "platform": "Source",
+          "size_bytes": 390825,
+          "download_count": 2859
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.12",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.11",
+      "name": "lightning 0.0.11",
+      "published_at": "2020-04-25T17:19:14.668483Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2936,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.11.crate",
+          "platform": "Source",
+          "size_bytes": 347952,
+          "download_count": 2936
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.11",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.10",
+      "name": "lightning 0.0.10",
+      "published_at": "2019-12-12T17:30:01.711781Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2892,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.10.crate",
+          "platform": "Source",
+          "size_bytes": 282836,
+          "download_count": 2892
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.10",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.9",
+      "name": "lightning 0.0.9",
+      "published_at": "2019-06-01T13:11:31.718999Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 4023,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.9.crate",
+          "platform": "Source",
+          "size_bytes": 257173,
+          "download_count": 4023
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.9",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.8",
+      "name": "lightning 0.0.8",
+      "published_at": "2019-01-25T18:23:08.059834Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2932,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.8.crate",
+          "platform": "Source",
+          "size_bytes": 247042,
+          "download_count": 2932
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.8",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.7",
+      "name": "lightning 0.0.7",
+      "published_at": "2018-11-21T21:48:26.804310Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2890,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.7.crate",
+          "platform": "Source",
+          "size_bytes": 204430,
+          "download_count": 2890
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.7",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.6",
+      "name": "lightning 0.0.6",
+      "published_at": "2018-10-27T14:52:08.511802Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2877,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.6.crate",
+          "platform": "Source",
+          "size_bytes": 190339,
+          "download_count": 2877
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.6",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.5",
+      "name": "lightning 0.0.5",
+      "published_at": "2018-09-20T16:23:39.287773Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2843,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.5.crate",
+          "platform": "Source",
+          "size_bytes": 155460,
+          "download_count": 2843
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.5",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.4",
+      "name": "lightning 0.0.4",
+      "published_at": "2018-07-20T03:37:43.616446Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2876,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.4.crate",
+          "platform": "Source",
+          "size_bytes": 121105,
+          "download_count": 2876
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.4",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.3",
+      "name": "lightning 0.0.3",
+      "published_at": "2018-04-26T21:33:38.345097Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2908,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.3.crate",
+          "platform": "Source",
+          "size_bytes": 114149,
+          "download_count": 2908
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.3",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.0.1",
+      "name": "lightning 0.0.1",
+      "published_at": "2018-02-16T23:08:24.930968Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2936,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "lightning-0.0.1.crate",
+          "platform": "Source",
+          "size_bytes": 85829,
+          "download_count": 2936
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/lightning/0.0.1",
+      "author": "crates.io"
+    }
+  ],
+  "fetched_at": "2026-07-30T18:58:57.297536+00:00",
+  "deep_dive": {
+    "days_since_launch": 3079,
+    "recent_stable_releases": [
+      {
+        "tag": "0.2.4",
+        "name": "lightning 0.2.4",
+        "published_at": "2026-06-30T13:38:23.313390Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 19395,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.2.4.crate",
+            "platform": "Source",
+            "size_bytes": 1749621,
+            "download_count": 19395
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.2.4",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.1.11",
+        "name": "lightning 0.1.11",
+        "published_at": "2026-06-25T14:20:43.547291Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 13582,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.1.11.crate",
+            "platform": "Source",
+            "size_bytes": 1445064,
+            "download_count": 13582
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.1.11",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.2.3",
+        "name": "lightning 0.2.3",
+        "published_at": "2026-06-19T02:12:17.300803Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 7235,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.2.3.crate",
+            "platform": "Source",
+            "size_bytes": 1749652,
+            "download_count": 7235
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.2.3",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.1.10",
+        "name": "lightning 0.1.10",
+        "published_at": "2026-06-18T22:28:32.355625Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 1796,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.1.10.crate",
+            "platform": "Source",
+            "size_bytes": 1445124,
+            "download_count": 1796
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.1.10",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.2.2",
+        "name": "lightning 0.2.2",
+        "published_at": "2026-02-07T00:09:27.609854Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 106088,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.2.2.crate",
+            "platform": "Source",
+            "size_bytes": 1736752,
+            "download_count": 106088
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.2.2",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.2.1",
+        "name": "lightning 0.2.1",
+        "published_at": "2026-01-30T00:15:51.662759Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 3023,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.2.1.crate",
+            "platform": "Source",
+            "size_bytes": 1735662,
+            "download_count": 3023
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.2.1",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.2.0",
+        "name": "lightning 0.2.0",
+        "published_at": "2025-12-03T01:31:27.519714Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 36672,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.2.0.crate",
+            "platform": "Source",
+            "size_bytes": 1733490,
+            "download_count": 36672
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.2.0",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.1.8",
+        "name": "lightning 0.1.8",
+        "published_at": "2025-12-03T01:29:00.195053Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 137949,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.1.8.crate",
+            "platform": "Source",
+            "size_bytes": 1435721,
+            "download_count": 137949
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.1.8",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.1.7",
+        "name": "lightning 0.1.7",
+        "published_at": "2025-10-21T19:06:19.673363Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 66465,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.1.7.crate",
+            "platform": "Source",
+            "size_bytes": 1433903,
+            "download_count": 66465
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.1.7",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.1.6",
+        "name": "lightning 0.1.6",
+        "published_at": "2025-10-10T18:44:35.714584Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 5149,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.1.6.crate",
+            "platform": "Source",
+            "size_bytes": 1433630,
+            "download_count": 5149
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.1.6",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.1.5",
+        "name": "lightning 0.1.5",
+        "published_at": "2025-07-16T11:09:45.702927Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 83091,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.1.5.crate",
+            "platform": "Source",
+            "size_bytes": 1421009,
+            "download_count": 83091
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.1.5",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.1.4",
+        "name": "lightning 0.1.4",
+        "published_at": "2025-05-24T01:57:47.753046Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 52267,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "lightning-0.1.4.crate",
+            "platform": "Source",
+            "size_bytes": 1414080,
+            "download_count": 52267
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/lightning/0.1.4",
+        "author": "crates.io"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 878.2,
+      "median_gap_hours": 264.4
+    }
+  },
+  "category": "Lightning"
+}

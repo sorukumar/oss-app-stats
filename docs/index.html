@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSS App Stats — Bitcoin Open Source Release Intelligence</title>
+
+    <!-- SEO Meta -->
+    <meta name="description"
+        content="Release analytics and download intelligence for Bitcoin open source projects — wallets, Lightning, infrastructure, and Block open source.">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="OSS App Stats">
+    <meta property="og:description"
+        content="Release analytics and download intelligence for Bitcoin open source projects.">
+    <meta property="og:url" content="https://sorukumar.github.io/oss-app-stats/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OSS App Stats">
+    <meta name="twitter:description"
+        content="Release analytics and download intelligence for Bitcoin open source projects.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,800;1,6..72,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Bitcoin Data Labs Shell Styles -->
+    <link rel="stylesheet" href="https://bitcoindatalabs.org/styles/styles.css">
+
+    <!-- App-Specific Styles -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+</head>
+
+<body class="has-fixed-header">
+
+    <!-- Bitcoin Data Labs Header -->
+    <div id="header"></div>
+
+    <div class="oss-container">
+        <header class="page-header">
+            <h1>OSS App Stats</h1>
+            <p class="page-subtitle">
+                Release intelligence for Bitcoin open source — wallets, Lightning, infrastructure & more.
+                <br>Powered by <a href="https://bitcoindatalabs.org">Bitcoin Data Labs</a>.
+            </p>
+        </header>
+
+        <main id="main-content">
+            <div class="loading-state">
+                <div class="loading-spinner"></div>
+                <p>Loading release data...</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Bitcoin Data Labs Footer -->
+    <div id="footer"></div>
+
+    <!-- Bitcoin Data Labs App Components -->
+    <script src="https://bitcoindatalabs.org/components/app-components.js"></script>
+    <script src="js/app-config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

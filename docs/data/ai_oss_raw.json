@@ -1,0 +1,3410 @@
+{
+  "ollama/ollama": {
+    "repo": "ollama/ollama",
+    "stars": 176926,
+    "forks": 17117,
+    "created_at": "2023-06-26T19:39:32Z",
+    "total_releases": 235,
+    "releases": [
+      {
+        "tag": "v0.0.1",
+        "published_at": "2023-07-08T17:25:48Z",
+        "is_prerelease": false,
+        "downloads": 314,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.2",
+        "published_at": "2023-07-11T04:41:19Z",
+        "is_prerelease": false,
+        "downloads": 115,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.3",
+        "published_at": "2023-07-11T23:53:25Z",
+        "is_prerelease": false,
+        "downloads": 134,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.4",
+        "published_at": "2023-07-13T02:01:46Z",
+        "is_prerelease": false,
+        "downloads": 78,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.5",
+        "published_at": "2023-07-13T17:45:10Z",
+        "is_prerelease": false,
+        "downloads": 186,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.6",
+        "published_at": "2023-07-18T19:45:04Z",
+        "is_prerelease": false,
+        "downloads": 387,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.7",
+        "published_at": "2023-07-19T03:32:59Z",
+        "is_prerelease": false,
+        "downloads": 278,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.8",
+        "published_at": "2023-07-19T08:01:29Z",
+        "is_prerelease": false,
+        "downloads": 897,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.9",
+        "published_at": "2023-07-20T08:13:58Z",
+        "is_prerelease": false,
+        "downloads": 188,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.10",
+        "published_at": "2023-07-20T09:15:57Z",
+        "is_prerelease": false,
+        "downloads": 2977,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.11",
+        "published_at": "2023-07-21T20:59:54Z",
+        "is_prerelease": false,
+        "downloads": 9906,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.12",
+        "published_at": "2023-07-26T15:04:39Z",
+        "is_prerelease": false,
+        "downloads": 21505,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.13",
+        "published_at": "2023-08-02T16:07:52Z",
+        "is_prerelease": false,
+        "downloads": 49844,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.14",
+        "published_at": "2023-08-10T22:46:38Z",
+        "is_prerelease": false,
+        "downloads": 52790,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.15",
+        "published_at": "2023-08-18T00:52:01Z",
+        "is_prerelease": false,
+        "downloads": 67596,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.16",
+        "published_at": "2023-08-26T01:49:19Z",
+        "is_prerelease": false,
+        "downloads": 42743,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.17",
+        "published_at": "2023-08-30T18:21:30Z",
+        "is_prerelease": false,
+        "downloads": 66860,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.18",
+        "published_at": "2023-09-06T20:54:27Z",
+        "is_prerelease": false,
+        "downloads": 52691,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.19",
+        "published_at": "2023-09-11T20:39:30Z",
+        "is_prerelease": false,
+        "downloads": 110736,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.20",
+        "published_at": "2023-09-22T22:04:24Z",
+        "is_prerelease": false,
+        "downloads": 2571,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.0.21",
+        "published_at": "2023-09-23T04:01:21Z",
+        "is_prerelease": false,
+        "downloads": 32058,
+        "asset_count": 2
+      },
+      {
+        "tag": "v0.1.0",
+        "published_at": "2023-09-23T13:22:41Z",
+        "is_prerelease": false,
+        "downloads": 82639,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.1",
+        "published_at": "2023-10-02T21:47:27Z",
+        "is_prerelease": false,
+        "downloads": 127740,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.2",
+        "published_at": "2023-10-12T18:46:02Z",
+        "is_prerelease": false,
+        "downloads": 5607,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.3",
+        "published_at": "2023-10-13T23:59:55Z",
+        "is_prerelease": false,
+        "downloads": 109018,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.4",
+        "published_at": "2023-10-20T12:56:15Z",
+        "is_prerelease": false,
+        "downloads": 9452,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.5",
+        "published_at": "2023-10-24T18:09:45Z",
+        "is_prerelease": false,
+        "downloads": 77715,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.6",
+        "published_at": "2023-10-27T20:58:19Z",
+        "is_prerelease": false,
+        "downloads": 3099,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.7",
+        "published_at": "2023-10-28T04:06:05Z",
+        "is_prerelease": false,
+        "downloads": 71005,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.8",
+        "published_at": "2023-11-04T00:06:42Z",
+        "is_prerelease": false,
+        "downloads": 70932,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.9",
+        "published_at": "2023-11-10T05:03:10Z",
+        "is_prerelease": false,
+        "downloads": 71308,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.10",
+        "published_at": "2023-11-17T01:38:11Z",
+        "is_prerelease": false,
+        "downloads": 40458,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.11",
+        "published_at": "2023-11-20T23:07:00Z",
+        "is_prerelease": false,
+        "downloads": 56037,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.12",
+        "published_at": "2023-11-26T20:17:15Z",
+        "is_prerelease": false,
+        "downloads": 41796,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.13",
+        "published_at": "2023-11-30T04:24:49Z",
+        "is_prerelease": false,
+        "downloads": 73992,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.14",
+        "published_at": "2023-12-08T18:02:20Z",
+        "is_prerelease": false,
+        "downloads": 30213,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.15",
+        "published_at": "2023-12-12T06:44:37Z",
+        "is_prerelease": false,
+        "downloads": 13569,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.16",
+        "published_at": "2023-12-14T16:58:28Z",
+        "is_prerelease": false,
+        "downloads": 52171,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.17",
+        "published_at": "2023-12-19T03:37:09Z",
+        "is_prerelease": false,
+        "downloads": 137779,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.18",
+        "published_at": "2024-01-03T18:00:23Z",
+        "is_prerelease": false,
+        "downloads": 37179,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.19",
+        "published_at": "2024-01-08T22:45:52Z",
+        "is_prerelease": false,
+        "downloads": 21869,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.20",
+        "published_at": "2024-01-11T07:12:52Z",
+        "is_prerelease": false,
+        "downloads": 122929,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.21",
+        "published_at": "2024-01-20T01:20:10Z",
+        "is_prerelease": false,
+        "downloads": 10914,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.22",
+        "published_at": "2024-01-26T18:19:36Z",
+        "is_prerelease": false,
+        "downloads": 80135,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.23",
+        "published_at": "2024-02-02T06:34:56Z",
+        "is_prerelease": false,
+        "downloads": 88864,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.24",
+        "published_at": "2024-02-08T03:02:10Z",
+        "is_prerelease": false,
+        "downloads": 100535,
+        "asset_count": 4
+      },
+      {
+        "tag": "v0.1.25",
+        "published_at": "2024-02-14T07:21:20Z",
+        "is_prerelease": false,
+        "downloads": 112777,
+        "asset_count": 5
+      },
+      {
+        "tag": "v0.1.26",
+        "published_at": "2024-02-21T04:20:05Z",
+        "is_prerelease": false,
+        "downloads": 118453,
+        "asset_count": 5
+      },
+      {
+        "tag": "v0.1.27",
+        "published_at": "2024-02-22T22:55:46Z",
+        "is_prerelease": false,
+        "downloads": 548596,
+        "asset_count": 5
+      },
+      {
+        "tag": "v0.1.28",
+        "published_at": "2024-03-01T06:41:09Z",
+        "is_prerelease": false,
+        "downloads": 674188,
+        "asset_count": 5
+      },
+      {
+        "tag": "v0.1.29",
+        "published_at": "2024-03-10T02:24:04Z",
+        "is_prerelease": false,
+        "downloads": 1137425,
+        "asset_count": 6
+      },
+      {
+        "tag": "v0.1.30",
+        "published_at": "2024-03-26T18:19:40Z",
+        "is_prerelease": false,
+        "downloads": 963033,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.31",
+        "published_at": "2024-04-05T16:09:53Z",
+        "is_prerelease": false,
+        "downloads": 786992,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.32",
+        "published_at": "2024-04-10T23:01:58Z",
+        "is_prerelease": false,
+        "downloads": 1703458,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.33",
+        "published_at": "2024-04-28T17:51:17Z",
+        "is_prerelease": false,
+        "downloads": 576059,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.34",
+        "published_at": "2024-05-07T05:13:41Z",
+        "is_prerelease": false,
+        "downloads": 366410,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.35",
+        "published_at": "2024-05-10T15:15:29Z",
+        "is_prerelease": false,
+        "downloads": 23187,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.36",
+        "published_at": "2024-05-11T06:37:31Z",
+        "is_prerelease": false,
+        "downloads": 113617,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.37",
+        "published_at": "2024-05-12T01:59:41Z",
+        "is_prerelease": false,
+        "downloads": 416286,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.38",
+        "published_at": "2024-05-15T00:28:00Z",
+        "is_prerelease": false,
+        "downloads": 1269536,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.39",
+        "published_at": "2024-05-22T02:46:48Z",
+        "is_prerelease": false,
+        "downloads": 420418,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.40",
+        "published_at": "2024-05-31T05:49:35Z",
+        "is_prerelease": false,
+        "downloads": 40995,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.41",
+        "published_at": "2024-06-02T03:30:47Z",
+        "is_prerelease": false,
+        "downloads": 631482,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.42",
+        "published_at": "2024-06-07T07:06:58Z",
+        "is_prerelease": false,
+        "downloads": 461538,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.43",
+        "published_at": "2024-06-11T02:00:49Z",
+        "is_prerelease": false,
+        "downloads": 214218,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.44",
+        "published_at": "2024-06-13T19:38:15Z",
+        "is_prerelease": false,
+        "downloads": 739649,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.45",
+        "published_at": "2024-06-15T19:11:17Z",
+        "is_prerelease": false,
+        "downloads": 582319,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.46",
+        "published_at": "2024-06-22T00:44:28Z",
+        "is_prerelease": false,
+        "downloads": 203101,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.47",
+        "published_at": "2024-06-27T06:09:56Z",
+        "is_prerelease": false,
+        "downloads": 199776,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.1.48",
+        "published_at": "2024-06-29T03:30:26Z",
+        "is_prerelease": false,
+        "downloads": 1024043,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.2.0",
+        "published_at": "2024-07-02T19:25:35Z",
+        "is_prerelease": false,
+        "downloads": 47028,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.2.1",
+        "published_at": "2024-07-09T06:56:54Z",
+        "is_prerelease": false,
+        "downloads": 437230,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.2.2",
+        "published_at": "2024-07-11T16:57:32Z",
+        "is_prerelease": false,
+        "downloads": 35888,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.2.3",
+        "published_at": "2024-07-13T05:06:43Z",
+        "is_prerelease": false,
+        "downloads": 67078,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.2.4",
+        "published_at": "2024-07-13T18:03:13Z",
+        "is_prerelease": false,
+        "downloads": 36580,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.2.5",
+        "published_at": "2024-07-13T23:25:02Z",
+        "is_prerelease": false,
+        "downloads": 543619,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.2.6",
+        "published_at": "2024-07-18T03:22:42Z",
+        "is_prerelease": false,
+        "downloads": 15152,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.2.7",
+        "published_at": "2024-07-18T20:21:35Z",
+        "is_prerelease": false,
+        "downloads": 460141,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.2.8",
+        "published_at": "2024-07-21T18:21:56Z",
+        "is_prerelease": false,
+        "downloads": 390700,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.0",
+        "published_at": "2024-07-25T01:57:13Z",
+        "is_prerelease": false,
+        "downloads": 678600,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.1",
+        "published_at": "2024-07-30T04:18:45Z",
+        "is_prerelease": false,
+        "downloads": 90547,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.2",
+        "published_at": "2024-08-01T01:14:02Z",
+        "is_prerelease": false,
+        "downloads": 248637,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.3",
+        "published_at": "2024-08-02T16:37:11Z",
+        "is_prerelease": false,
+        "downloads": 566783,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.4",
+        "published_at": "2024-08-06T16:28:23Z",
+        "is_prerelease": false,
+        "downloads": 657016,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.5",
+        "published_at": "2024-08-11T20:50:10Z",
+        "is_prerelease": false,
+        "downloads": 119542,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.6",
+        "published_at": "2024-08-13T20:27:42Z",
+        "is_prerelease": false,
+        "downloads": 1587500,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.7",
+        "published_at": "2024-08-20T17:45:41Z",
+        "is_prerelease": false,
+        "downloads": 38478,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.8",
+        "published_at": "2024-08-28T01:09:45Z",
+        "is_prerelease": false,
+        "downloads": 456988,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.9",
+        "published_at": "2024-08-31T19:26:05Z",
+        "is_prerelease": false,
+        "downloads": 1068593,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.10",
+        "published_at": "2024-09-06T16:17:06Z",
+        "is_prerelease": false,
+        "downloads": 1013252,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.11",
+        "published_at": "2024-09-17T21:40:04Z",
+        "is_prerelease": false,
+        "downloads": 814087,
+        "asset_count": 8
+      },
+      {
+        "tag": "v0.3.12",
+        "published_at": "2024-09-23T03:39:10Z",
+        "is_prerelease": false,
+        "downloads": 1910074,
+        "asset_count": 9
+      },
+      {
+        "tag": "v0.3.13",
+        "published_at": "2024-10-11T19:41:40Z",
+        "is_prerelease": false,
+        "downloads": 1054628,
+        "asset_count": 9
+      },
+      {
+        "tag": "v0.3.14",
+        "published_at": "2024-10-17T22:31:45Z",
+        "is_prerelease": false,
+        "downloads": 2060836,
+        "asset_count": 9
+      },
+      {
+        "tag": "v0.4.0",
+        "published_at": "2024-10-21T05:10:12Z",
+        "is_prerelease": false,
+        "downloads": 348687,
+        "asset_count": 9
+      },
+      {
+        "tag": "v0.4.1",
+        "published_at": "2024-11-08T19:58:30Z",
+        "is_prerelease": false,
+        "downloads": 944675,
+        "asset_count": 9
+      },
+      {
+        "tag": "v0.4.2",
+        "published_at": "2024-11-15T01:22:31Z",
+        "is_prerelease": false,
+        "downloads": 803794,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.4.3",
+        "published_at": "2024-11-20T22:27:30Z",
+        "is_prerelease": false,
+        "downloads": 320634,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.4.4",
+        "published_at": "2024-11-23T02:28:20Z",
+        "is_prerelease": false,
+        "downloads": 416970,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.4.5",
+        "published_at": "2024-11-26T02:19:22Z",
+        "is_prerelease": false,
+        "downloads": 355515,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.4.6",
+        "published_at": "2024-11-28T00:11:52Z",
+        "is_prerelease": false,
+        "downloads": 631607,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.4.7",
+        "published_at": "2024-12-01T02:52:17Z",
+        "is_prerelease": false,
+        "downloads": 742403,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.0",
+        "published_at": "2024-12-04T21:35:06Z",
+        "is_prerelease": false,
+        "downloads": 113616,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.1",
+        "published_at": "2024-12-06T23:48:45Z",
+        "is_prerelease": false,
+        "downloads": 1455315,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.2",
+        "published_at": "2024-12-11T20:43:33Z",
+        "is_prerelease": false,
+        "downloads": 94404,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.3",
+        "published_at": "2024-12-17T04:14:27Z",
+        "is_prerelease": false,
+        "downloads": 166112,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.4",
+        "published_at": "2024-12-17T21:54:59Z",
+        "is_prerelease": false,
+        "downloads": 3571277,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.5",
+        "published_at": "2025-01-08T22:55:42Z",
+        "is_prerelease": false,
+        "downloads": 331868,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.6",
+        "published_at": "2025-01-15T05:50:29Z",
+        "is_prerelease": false,
+        "downloads": 249261,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.7",
+        "published_at": "2025-01-16T18:17:33Z",
+        "is_prerelease": false,
+        "downloads": 6393374,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.8",
+        "published_at": "2025-02-05T20:40:08Z",
+        "is_prerelease": false,
+        "downloads": 92394,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.9",
+        "published_at": "2025-02-12T02:33:49Z",
+        "is_prerelease": false,
+        "downloads": 153531,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.10",
+        "published_at": "2025-02-14T04:14:34Z",
+        "is_prerelease": false,
+        "downloads": 213459,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.11",
+        "published_at": "2025-02-14T08:25:18Z",
+        "is_prerelease": false,
+        "downloads": 2297115,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.12",
+        "published_at": "2025-02-20T17:32:40Z",
+        "is_prerelease": false,
+        "downloads": 1668111,
+        "asset_count": 11
+      },
+      {
+        "tag": "v0.5.13",
+        "published_at": "2025-02-27T18:27:51Z",
+        "is_prerelease": false,
+        "downloads": 1543161,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.6.0",
+        "published_at": "2025-03-11T23:37:42Z",
+        "is_prerelease": false,
+        "downloads": 802430,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.6.1",
+        "published_at": "2025-03-14T02:58:48Z",
+        "is_prerelease": false,
+        "downloads": 659301,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.6.2",
+        "published_at": "2025-03-18T03:11:33Z",
+        "is_prerelease": false,
+        "downloads": 2332473,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.6.3",
+        "published_at": "2025-03-22T02:56:08Z",
+        "is_prerelease": false,
+        "downloads": 651120,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.6.4",
+        "published_at": "2025-04-02T22:14:24Z",
+        "is_prerelease": false,
+        "downloads": 744835,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.6.5",
+        "published_at": "2025-04-06T00:15:39Z",
+        "is_prerelease": false,
+        "downloads": 2776035,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.6.6",
+        "published_at": "2025-04-17T04:34:58Z",
+        "is_prerelease": false,
+        "downloads": 1412299,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.6.7",
+        "published_at": "2025-04-26T09:16:02Z",
+        "is_prerelease": false,
+        "downloads": 692556,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.6.8",
+        "published_at": "2025-05-03T22:56:44Z",
+        "is_prerelease": false,
+        "downloads": 4074354,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.7.0",
+        "published_at": "2025-05-13T00:10:33Z",
+        "is_prerelease": false,
+        "downloads": 1399476,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.7.1",
+        "published_at": "2025-05-21T22:17:35Z",
+        "is_prerelease": false,
+        "downloads": 896840,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.8.0",
+        "published_at": "2025-05-27T19:55:15Z",
+        "is_prerelease": false,
+        "downloads": 248738,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.9.0",
+        "published_at": "2025-05-29T05:41:01Z",
+        "is_prerelease": false,
+        "downloads": 2986962,
+        "asset_count": 12
+      },
+      {
+        "tag": "v0.9.1",
+        "published_at": "2025-06-09T17:18:42Z",
+        "is_prerelease": false,
+        "downloads": 366041,
+        "asset_count": 14
+      },
+      {
+        "tag": "v0.9.2",
+        "published_at": "2025-06-18T14:29:39Z",
+        "is_prerelease": false,
+        "downloads": 1373887,
+        "asset_count": 14
+      },
+      {
+        "tag": "v0.9.3",
+        "published_at": "2025-06-25T16:55:41Z",
+        "is_prerelease": false,
+        "downloads": 1264939,
+        "asset_count": 14
+      },
+      {
+        "tag": "v0.9.4",
+        "published_at": "2025-06-27T02:45:46Z",
+        "is_prerelease": false,
+        "downloads": 111158,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.9.5",
+        "published_at": "2025-07-02T18:39:28Z",
+        "is_prerelease": false,
+        "downloads": 1137924,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.9.6",
+        "published_at": "2025-07-08T01:26:29Z",
+        "is_prerelease": false,
+        "downloads": 4694315,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.10.0",
+        "published_at": "2025-07-18T00:23:58Z",
+        "is_prerelease": false,
+        "downloads": 132396,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.10.1",
+        "published_at": "2025-07-31T04:39:49Z",
+        "is_prerelease": false,
+        "downloads": 1387366,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.11.0",
+        "published_at": "2025-08-05T16:56:24Z",
+        "is_prerelease": false,
+        "downloads": 62170,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.11.2",
+        "published_at": "2025-08-05T21:18:07Z",
+        "is_prerelease": false,
+        "downloads": 272676,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.11.3",
+        "published_at": "2025-08-06T01:29:59Z",
+        "is_prerelease": false,
+        "downloads": 499072,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.11.4",
+        "published_at": "2025-08-07T17:17:41Z",
+        "is_prerelease": false,
+        "downloads": 2973570,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.11.5",
+        "published_at": "2025-08-15T02:38:31Z",
+        "is_prerelease": false,
+        "downloads": 16296,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.11.6",
+        "published_at": "2025-08-20T21:00:13Z",
+        "is_prerelease": false,
+        "downloads": 1213897,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.11.7",
+        "published_at": "2025-08-25T18:04:05Z",
+        "is_prerelease": false,
+        "downloads": 822757,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.11.8",
+        "published_at": "2025-08-27T18:43:44Z",
+        "is_prerelease": false,
+        "downloads": 1747188,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.11.9",
+        "published_at": "2025-09-02T20:14:18Z",
+        "is_prerelease": false,
+        "downloads": 3709,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.11.10",
+        "published_at": "2025-09-04T17:27:40Z",
+        "is_prerelease": false,
+        "downloads": 2705268,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.11.11",
+        "published_at": "2025-09-11T21:02:41Z",
+        "is_prerelease": false,
+        "downloads": 1058937,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.0",
+        "published_at": "2025-09-18T17:29:57Z",
+        "is_prerelease": false,
+        "downloads": 1061648,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.1",
+        "published_at": "2025-09-21T23:19:05Z",
+        "is_prerelease": false,
+        "downloads": 375891,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.2",
+        "published_at": "2025-09-24T21:19:20Z",
+        "is_prerelease": false,
+        "downloads": 502198,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.3",
+        "published_at": "2025-09-26T05:08:26Z",
+        "is_prerelease": false,
+        "downloads": 6637342,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.4",
+        "published_at": "2025-10-03T16:38:12Z",
+        "is_prerelease": false,
+        "downloads": 7011,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.5",
+        "published_at": "2025-10-10T16:30:53Z",
+        "is_prerelease": false,
+        "downloads": 1580557,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.6",
+        "published_at": "2025-10-15T23:02:31Z",
+        "is_prerelease": false,
+        "downloads": 3214693,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.7",
+        "published_at": "2025-10-29T02:07:54Z",
+        "is_prerelease": false,
+        "downloads": 564990,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.8",
+        "published_at": "2025-10-30T23:22:27Z",
+        "is_prerelease": false,
+        "downloads": 264967,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.9",
+        "published_at": "2025-10-31T23:33:13Z",
+        "is_prerelease": false,
+        "downloads": 1355098,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.10",
+        "published_at": "2025-11-05T21:41:21Z",
+        "is_prerelease": false,
+        "downloads": 1856079,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.12.11",
+        "published_at": "2025-11-12T20:27:51Z",
+        "is_prerelease": false,
+        "downloads": 1572866,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.13.0",
+        "published_at": "2025-11-19T14:16:07Z",
+        "is_prerelease": false,
+        "downloads": 3299644,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.13.1",
+        "published_at": "2025-11-27T02:48:04Z",
+        "is_prerelease": false,
+        "downloads": 1550916,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.13.2",
+        "published_at": "2025-12-04T04:39:32Z",
+        "is_prerelease": false,
+        "downloads": 915147,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.13.3",
+        "published_at": "2025-12-09T02:14:37Z",
+        "is_prerelease": false,
+        "downloads": 1104268,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.13.4",
+        "published_at": "2025-12-13T09:24:40Z",
+        "is_prerelease": false,
+        "downloads": 733750,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.13.5",
+        "published_at": "2025-12-18T16:39:08Z",
+        "is_prerelease": false,
+        "downloads": 6917998,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.14.0",
+        "published_at": "2026-01-10T08:33:45Z",
+        "is_prerelease": false,
+        "downloads": 217206,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.14.1",
+        "published_at": "2026-01-14T19:02:29Z",
+        "is_prerelease": false,
+        "downloads": 539383,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.14.2",
+        "published_at": "2026-01-16T00:50:51Z",
+        "is_prerelease": false,
+        "downloads": 1371687,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.14.3",
+        "published_at": "2026-01-16T19:53:57Z",
+        "is_prerelease": false,
+        "downloads": 714317,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.15.0",
+        "published_at": "2026-01-21T22:40:42Z",
+        "is_prerelease": false,
+        "downloads": 259598,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.15.1",
+        "published_at": "2026-01-24T23:20:52Z",
+        "is_prerelease": false,
+        "downloads": 544499,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.15.2",
+        "published_at": "2026-01-27T00:52:57Z",
+        "is_prerelease": false,
+        "downloads": 1725455,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.15.3",
+        "published_at": "2026-02-01T01:29:48Z",
+        "is_prerelease": false,
+        "downloads": 2623,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.15.4",
+        "published_at": "2026-02-01T23:13:41Z",
+        "is_prerelease": false,
+        "downloads": 1249960,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.15.5",
+        "published_at": "2026-02-03T01:21:21Z",
+        "is_prerelease": false,
+        "downloads": 605368,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.15.6",
+        "published_at": "2026-02-07T03:58:40Z",
+        "is_prerelease": false,
+        "downloads": 1286387,
+        "asset_count": 13
+      },
+      {
+        "tag": "v0.16.0",
+        "published_at": "2026-02-12T01:19:43Z",
+        "is_prerelease": false,
+        "downloads": 120921,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.16.1",
+        "published_at": "2026-02-12T23:40:00Z",
+        "is_prerelease": false,
+        "downloads": 1251568,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.16.2",
+        "published_at": "2026-02-14T08:43:11Z",
+        "is_prerelease": false,
+        "downloads": 1240490,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.16.3",
+        "published_at": "2026-02-19T22:11:27Z",
+        "is_prerelease": false,
+        "downloads": 962478,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.17.0",
+        "published_at": "2026-02-21T06:40:46Z",
+        "is_prerelease": false,
+        "downloads": 1025575,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.17.1",
+        "published_at": "2026-02-24T15:00:28Z",
+        "is_prerelease": false,
+        "downloads": 53537,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.17.2",
+        "published_at": "2026-02-26T22:41:34Z",
+        "is_prerelease": false,
+        "downloads": 83640,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.17.3",
+        "published_at": "2026-02-27T02:21:12Z",
+        "is_prerelease": false,
+        "downloads": 2203,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.17.4",
+        "published_at": "2026-02-27T03:47:22Z",
+        "is_prerelease": false,
+        "downloads": 1120423,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.17.5",
+        "published_at": "2026-03-02T05:59:48Z",
+        "is_prerelease": false,
+        "downloads": 608474,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.17.6",
+        "published_at": "2026-03-04T07:28:34Z",
+        "is_prerelease": false,
+        "downloads": 419956,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.17.7",
+        "published_at": "2026-03-05T05:51:09Z",
+        "is_prerelease": false,
+        "downloads": 1528004,
+        "asset_count": 15
+      },
+      {
+        "tag": "v0.17.8-rc4",
+        "published_at": "2026-03-10T03:30:50Z",
+        "is_prerelease": false,
+        "downloads": 1592,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.18.0",
+        "published_at": "2026-03-14T00:37:49Z",
+        "is_prerelease": false,
+        "downloads": 249911,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.18.1",
+        "published_at": "2026-03-17T00:21:51Z",
+        "is_prerelease": false,
+        "downloads": 95856,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.18.2",
+        "published_at": "2026-03-18T09:02:25Z",
+        "is_prerelease": false,
+        "downloads": 634694,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.18.3",
+        "published_at": "2026-03-25T03:00:57Z",
+        "is_prerelease": false,
+        "downloads": 1520363,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.18.4-rc0",
+        "published_at": "2026-03-26T23:11:43Z",
+        "is_prerelease": false,
+        "downloads": 4185,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.19.0",
+        "published_at": "2026-03-27T17:07:30Z",
+        "is_prerelease": false,
+        "downloads": 1475125,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.20.0",
+        "published_at": "2026-04-02T16:54:22Z",
+        "is_prerelease": false,
+        "downloads": 681116,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.20.1",
+        "published_at": "2026-04-03T22:37:43Z",
+        "is_prerelease": true,
+        "downloads": 3471,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.20.2",
+        "published_at": "2026-04-04T06:22:05Z",
+        "is_prerelease": false,
+        "downloads": 1322256,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.20.3",
+        "published_at": "2026-04-07T05:19:10Z",
+        "is_prerelease": false,
+        "downloads": 729992,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.20.4",
+        "published_at": "2026-04-07T17:57:51Z",
+        "is_prerelease": false,
+        "downloads": 653074,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.20.5",
+        "published_at": "2026-04-09T18:11:20Z",
+        "is_prerelease": false,
+        "downloads": 1166462,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.20.6",
+        "published_at": "2026-04-12T22:59:47Z",
+        "is_prerelease": false,
+        "downloads": 437982,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.20.7",
+        "published_at": "2026-04-13T23:33:00Z",
+        "is_prerelease": false,
+        "downloads": 1344777,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.21.0",
+        "published_at": "2026-04-16T22:00:17Z",
+        "is_prerelease": false,
+        "downloads": 2216488,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.21.1",
+        "published_at": "2026-04-22T00:18:02Z",
+        "is_prerelease": false,
+        "downloads": 566592,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.21.2",
+        "published_at": "2026-04-23T02:29:24Z",
+        "is_prerelease": false,
+        "downloads": 1771234,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.21.3-rc0",
+        "published_at": "2026-04-24T12:15:38Z",
+        "is_prerelease": false,
+        "downloads": 7503,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.22.0",
+        "published_at": "2026-04-28T15:00:25Z",
+        "is_prerelease": false,
+        "downloads": 890294,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.22.1",
+        "published_at": "2026-04-28T20:30:57Z",
+        "is_prerelease": false,
+        "downloads": 1112845,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.23.0",
+        "published_at": "2026-05-03T03:34:11Z",
+        "is_prerelease": false,
+        "downloads": 778283,
+        "asset_count": 16
+      },
+      {
+        "tag": "v0.23.1",
+        "published_at": "2026-05-05T17:13:31Z",
+        "is_prerelease": false,
+        "downloads": 935840,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.23.2",
+        "published_at": "2026-05-07T20:23:10Z",
+        "is_prerelease": false,
+        "downloads": 1836848,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.23.3",
+        "published_at": "2026-05-12T03:48:08Z",
+        "is_prerelease": false,
+        "downloads": 405245,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.0",
+        "published_at": "2026-05-13T14:32:54Z",
+        "is_prerelease": false,
+        "downloads": 420368,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.23.4",
+        "published_at": "2026-05-13T20:40:22Z",
+        "is_prerelease": false,
+        "downloads": 409069,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.24.0",
+        "published_at": "2026-05-14T02:24:24Z",
+        "is_prerelease": false,
+        "downloads": 6479460,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.2",
+        "published_at": "2026-06-03T00:37:18Z",
+        "is_prerelease": false,
+        "downloads": 237524,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.3",
+        "published_at": "2026-06-03T16:35:43Z",
+        "is_prerelease": false,
+        "downloads": 147828,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.4",
+        "published_at": "2026-06-03T18:48:32Z",
+        "is_prerelease": false,
+        "downloads": 372768,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.5",
+        "published_at": "2026-06-04T17:00:37Z",
+        "is_prerelease": false,
+        "downloads": 456235,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.6",
+        "published_at": "2026-06-05T20:00:18Z",
+        "is_prerelease": false,
+        "downloads": 1288499,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.7",
+        "published_at": "2026-06-07T21:51:48Z",
+        "is_prerelease": false,
+        "downloads": 1549078,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.8",
+        "published_at": "2026-06-12T17:04:52Z",
+        "is_prerelease": false,
+        "downloads": 1574178,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.9",
+        "published_at": "2026-06-15T19:55:07Z",
+        "is_prerelease": false,
+        "downloads": 488227,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.10",
+        "published_at": "2026-06-17T16:22:02Z",
+        "is_prerelease": false,
+        "downloads": 3164279,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.11",
+        "published_at": "2026-06-25T01:52:05Z",
+        "is_prerelease": false,
+        "downloads": 1521048,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.30.12-rc0",
+        "published_at": "2026-06-29T17:45:08Z",
+        "is_prerelease": true,
+        "downloads": 4953,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.31.1",
+        "published_at": "2026-06-30T22:10:17Z",
+        "is_prerelease": false,
+        "downloads": 2890440,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.31.2",
+        "published_at": "2026-07-06T22:28:22Z",
+        "is_prerelease": false,
+        "downloads": 1898478,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.32.0",
+        "published_at": "2026-07-11T01:03:46Z",
+        "is_prerelease": false,
+        "downloads": 1044400,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.32.1",
+        "published_at": "2026-07-16T03:27:23Z",
+        "is_prerelease": false,
+        "downloads": 2527090,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.32.2",
+        "published_at": "2026-07-20T21:00:30Z",
+        "is_prerelease": true,
+        "downloads": 1692,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.32.3",
+        "published_at": "2026-07-23T00:44:28Z",
+        "is_prerelease": false,
+        "downloads": 773412,
+        "asset_count": 17
+      },
+      {
+        "tag": "v0.32.4",
+        "published_at": "2026-07-25T02:22:12Z",
+        "is_prerelease": false,
+        "downloads": 336278,
+        "asset_count": 17
+      }
+    ]
+  },
+  "openclaw/openclaw": {
+    "repo": "openclaw/openclaw",
+    "stars": 384207,
+    "forks": 80720,
+    "created_at": "2025-11-24T10:16:47Z",
+    "total_releases": 226,
+    "releases": [
+      {
+        "tag": "v0.1.1",
+        "published_at": "2025-11-25T13:24:35Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v0.1.2",
+        "published_at": "2025-11-25T13:27:55Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v0.1.3",
+        "published_at": "2025-11-25T15:55:06Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v1.1.0",
+        "published_at": "2025-11-26T02:18:54Z",
+        "is_prerelease": false,
+        "downloads": 92,
+        "asset_count": 1
+      },
+      {
+        "tag": "v1.2.0",
+        "published_at": "2025-11-27T18:11:41Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v1.2.1",
+        "published_at": "2025-11-28T07:12:01Z",
+        "is_prerelease": false,
+        "downloads": 81,
+        "asset_count": 1
+      },
+      {
+        "tag": "v1.2.2",
+        "published_at": "2025-11-28T07:18:45Z",
+        "is_prerelease": false,
+        "downloads": 79,
+        "asset_count": 1
+      },
+      {
+        "tag": "v1.3.0",
+        "published_at": "2025-12-02T12:59:39Z",
+        "is_prerelease": false,
+        "downloads": 115,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2.0.0-beta1",
+        "published_at": "2025-12-19T17:25:54Z",
+        "is_prerelease": true,
+        "downloads": 196,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2.0.0-beta2",
+        "published_at": "2025-12-21T02:30:25Z",
+        "is_prerelease": false,
+        "downloads": 312,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2.0.0-beta3",
+        "published_at": "2025-12-27T18:04:07Z",
+        "is_prerelease": false,
+        "downloads": 280,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2.0.0-beta4",
+        "published_at": "2025-12-27T18:46:18Z",
+        "is_prerelease": false,
+        "downloads": 420,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2.0.0-beta5",
+        "published_at": "2026-01-03T04:56:30Z",
+        "is_prerelease": false,
+        "downloads": 1317,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.1.5",
+        "published_at": "2026-01-05T02:15:26Z",
+        "is_prerelease": false,
+        "downloads": 328,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.5-1",
+        "published_at": "2026-01-05T02:36:29Z",
+        "is_prerelease": false,
+        "downloads": 203,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.5-3",
+        "published_at": "2026-01-05T03:09:20Z",
+        "is_prerelease": false,
+        "downloads": 911,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.8",
+        "published_at": "2026-01-08T08:29:30Z",
+        "is_prerelease": false,
+        "downloads": 367,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.9",
+        "published_at": "2026-01-10T04:22:03Z",
+        "is_prerelease": false,
+        "downloads": 415,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.1.10",
+        "published_at": "2026-01-11T04:50:22Z",
+        "is_prerelease": false,
+        "downloads": 421,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.1.11",
+        "published_at": "2026-01-12T09:40:39Z",
+        "is_prerelease": false,
+        "downloads": 226,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.11-1",
+        "published_at": "2026-01-12T09:54:49Z",
+        "is_prerelease": false,
+        "downloads": 181,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.11-2",
+        "published_at": "2026-01-12T10:26:45Z",
+        "is_prerelease": false,
+        "downloads": 178,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.11-3",
+        "published_at": "2026-01-12T10:41:03Z",
+        "is_prerelease": false,
+        "downloads": 596,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.12",
+        "published_at": "2026-01-13T09:30:05Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.1.12-2",
+        "published_at": "2026-01-13T09:39:17Z",
+        "is_prerelease": false,
+        "downloads": 871,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.14-1",
+        "published_at": "2026-01-15T11:16:55Z",
+        "is_prerelease": false,
+        "downloads": 674,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.1.15",
+        "published_at": "2026-01-16T10:38:11Z",
+        "is_prerelease": false,
+        "downloads": 712,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.1.16-2",
+        "published_at": "2026-01-17T12:37:10Z",
+        "is_prerelease": false,
+        "downloads": 1543,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.20",
+        "published_at": "2026-01-21T08:26:28Z",
+        "is_prerelease": false,
+        "downloads": 994,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.21",
+        "published_at": "2026-01-22T12:26:44Z",
+        "is_prerelease": false,
+        "downloads": 1180,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.22",
+        "published_at": "2026-01-23T08:59:57Z",
+        "is_prerelease": false,
+        "downloads": 2258,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.1.23",
+        "published_at": "2026-01-24T13:04:16Z",
+        "is_prerelease": false,
+        "downloads": 25130,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.1.24",
+        "published_at": "2026-01-25T14:29:07Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.1.29",
+        "published_at": "2026-01-30T05:26:50Z",
+        "is_prerelease": false,
+        "downloads": 32647,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.1.30",
+        "published_at": "2026-01-31T15:22:30Z",
+        "is_prerelease": false,
+        "downloads": 46933,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.2.1",
+        "published_at": "2026-02-02T11:54:07Z",
+        "is_prerelease": false,
+        "downloads": 34560,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.2.2",
+        "published_at": "2026-02-04T01:05:25Z",
+        "is_prerelease": false,
+        "downloads": 24350,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.3",
+        "published_at": "2026-02-05T01:57:22Z",
+        "is_prerelease": false,
+        "downloads": 44473,
+        "asset_count": 4
+      },
+      {
+        "tag": "v2026.2.6",
+        "published_at": "2026-02-07T02:27:43Z",
+        "is_prerelease": false,
+        "downloads": 27891,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.9",
+        "published_at": "2026-02-09T19:23:20Z",
+        "is_prerelease": false,
+        "downloads": 52842,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.12",
+        "published_at": "2026-02-13T02:18:50Z",
+        "is_prerelease": false,
+        "downloads": 21859,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.13",
+        "published_at": "2026-02-14T03:32:02Z",
+        "is_prerelease": false,
+        "downloads": 17969,
+        "asset_count": 4
+      },
+      {
+        "tag": "v2026.2.14",
+        "published_at": "2026-02-15T03:18:52Z",
+        "is_prerelease": false,
+        "downloads": 26344,
+        "asset_count": 4
+      },
+      {
+        "tag": "v2026.2.15-beta.1",
+        "published_at": "2026-02-16T04:12:20Z",
+        "is_prerelease": true,
+        "downloads": 378,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.15",
+        "published_at": "2026-02-16T04:43:47Z",
+        "is_prerelease": false,
+        "downloads": 151253,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.17",
+        "published_at": "2026-02-18T02:55:29Z",
+        "is_prerelease": false,
+        "downloads": 18618,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.2.19-beta.1",
+        "published_at": "2026-02-19T16:21:06Z",
+        "is_prerelease": true,
+        "downloads": 397,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.19",
+        "published_at": "2026-02-19T17:35:21Z",
+        "is_prerelease": false,
+        "downloads": 22579,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.21",
+        "published_at": "2026-02-21T16:56:48Z",
+        "is_prerelease": false,
+        "downloads": 22719,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.22",
+        "published_at": "2026-02-23T04:09:40Z",
+        "is_prerelease": false,
+        "downloads": 15415,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.23",
+        "published_at": "2026-02-24T05:41:47Z",
+        "is_prerelease": false,
+        "downloads": 13543,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.24-beta.1",
+        "published_at": "2026-02-25T03:01:17Z",
+        "is_prerelease": true,
+        "downloads": 445,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.24",
+        "published_at": "2026-02-25T03:31:17Z",
+        "is_prerelease": false,
+        "downloads": 14465,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.25-beta.1",
+        "published_at": "2026-02-26T03:55:38Z",
+        "is_prerelease": true,
+        "downloads": 1026,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.25",
+        "published_at": "2026-02-26T04:17:56Z",
+        "is_prerelease": false,
+        "downloads": 13087,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.2.26",
+        "published_at": "2026-02-27T00:01:43Z",
+        "is_prerelease": false,
+        "downloads": 59714,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.1",
+        "published_at": "2026-03-02T04:42:57Z",
+        "is_prerelease": false,
+        "downloads": 21219,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.3.2-beta.1",
+        "published_at": "2026-03-03T03:59:01Z",
+        "is_prerelease": true,
+        "downloads": 931,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.2",
+        "published_at": "2026-03-03T04:43:07Z",
+        "is_prerelease": false,
+        "downloads": 69194,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.7-beta.1",
+        "published_at": "2026-03-08T04:54:08Z",
+        "is_prerelease": true,
+        "downloads": 920,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.7",
+        "published_at": "2026-03-08T05:52:38Z",
+        "is_prerelease": false,
+        "downloads": 24972,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.8-beta.1",
+        "published_at": "2026-03-09T07:19:52Z",
+        "is_prerelease": true,
+        "downloads": 15001,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.8",
+        "published_at": "2026-03-09T07:49:27Z",
+        "is_prerelease": false,
+        "downloads": 38179,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.11-beta.1",
+        "published_at": "2026-03-12T04:23:39Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.3.11",
+        "published_at": "2026-03-12T05:07:15Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.3.12",
+        "published_at": "2026-03-13T04:26:46Z",
+        "is_prerelease": false,
+        "downloads": 7538,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.13-beta.1",
+        "published_at": "2026-03-14T05:17:09Z",
+        "is_prerelease": true,
+        "downloads": 5059,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.13-1",
+        "published_at": "2026-03-14T18:04:28Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.3.22-beta.1",
+        "published_at": "2026-03-23T09:37:57Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.3.22",
+        "published_at": "2026-03-23T11:11:22Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.3.23",
+        "published_at": "2026-03-23T23:15:50Z",
+        "is_prerelease": false,
+        "downloads": 6911,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.24-beta.1",
+        "published_at": "2026-03-25T11:54:55Z",
+        "is_prerelease": true,
+        "downloads": 417,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.24-beta.2",
+        "published_at": "2026-03-25T14:11:48Z",
+        "is_prerelease": true,
+        "downloads": 562,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.24",
+        "published_at": "2026-03-25T16:35:52Z",
+        "is_prerelease": false,
+        "downloads": 38892,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.28-beta.1",
+        "published_at": "2026-03-28T22:25:05Z",
+        "is_prerelease": true,
+        "downloads": 499,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.28",
+        "published_at": "2026-03-29T01:34:30Z",
+        "is_prerelease": false,
+        "downloads": 34715,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.3.31-beta.1",
+        "published_at": "2026-03-31T19:47:04Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.3.31",
+        "published_at": "2026-03-31T20:54:44Z",
+        "is_prerelease": false,
+        "downloads": 13477,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.1-beta.1",
+        "published_at": "2026-04-01T14:10:49Z",
+        "is_prerelease": true,
+        "downloads": 518,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.1",
+        "published_at": "2026-04-01T16:58:06Z",
+        "is_prerelease": false,
+        "downloads": 15120,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.2",
+        "published_at": "2026-04-02T18:30:45Z",
+        "is_prerelease": false,
+        "downloads": 33269,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.5",
+        "published_at": "2026-04-06T03:04:54Z",
+        "is_prerelease": false,
+        "downloads": 31010,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.7",
+        "published_at": "2026-04-08T02:12:57Z",
+        "is_prerelease": false,
+        "downloads": 2439,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.8",
+        "published_at": "2026-04-08T05:59:44Z",
+        "is_prerelease": false,
+        "downloads": 13693,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.9-beta.1",
+        "published_at": "2026-04-09T01:26:28Z",
+        "is_prerelease": true,
+        "downloads": 349,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.9",
+        "published_at": "2026-04-09T02:25:28Z",
+        "is_prerelease": false,
+        "downloads": 22849,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.10",
+        "published_at": "2026-04-11T02:43:25Z",
+        "is_prerelease": false,
+        "downloads": 10695,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.11-beta.1",
+        "published_at": "2026-04-11T15:15:03Z",
+        "is_prerelease": true,
+        "downloads": 433,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.11",
+        "published_at": "2026-04-12T00:18:03Z",
+        "is_prerelease": false,
+        "downloads": 20087,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.12-beta.1",
+        "published_at": "2026-04-12T23:27:07Z",
+        "is_prerelease": true,
+        "downloads": 859,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.12",
+        "published_at": "2026-04-13T12:35:53Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.14-beta.1",
+        "published_at": "2026-04-14T02:07:43Z",
+        "is_prerelease": true,
+        "downloads": 709,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.14",
+        "published_at": "2026-04-14T13:03:29Z",
+        "is_prerelease": false,
+        "downloads": 23254,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.15-beta.1",
+        "published_at": "2026-04-15T19:40:30Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.15-beta.2",
+        "published_at": "2026-04-16T19:30:02Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.15",
+        "published_at": "2026-04-16T21:50:22Z",
+        "is_prerelease": false,
+        "downloads": 35350,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.19-beta.1",
+        "published_at": "2026-04-19T02:01:54Z",
+        "is_prerelease": true,
+        "downloads": 331,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.19-beta.2",
+        "published_at": "2026-04-19T05:55:49Z",
+        "is_prerelease": true,
+        "downloads": 1593,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.20-beta.1",
+        "published_at": "2026-04-21T13:34:18Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.20-beta.2",
+        "published_at": "2026-04-21T17:44:40Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.20",
+        "published_at": "2026-04-21T19:19:35Z",
+        "is_prerelease": false,
+        "downloads": 12195,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.21",
+        "published_at": "2026-04-22T04:18:58Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.22",
+        "published_at": "2026-04-23T13:56:23Z",
+        "is_prerelease": false,
+        "downloads": 12694,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.23-beta.4",
+        "published_at": "2026-04-24T08:56:03Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.23-beta.5",
+        "published_at": "2026-04-24T09:50:01Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.23-beta.6",
+        "published_at": "2026-04-24T14:34:43Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.23",
+        "published_at": "2026-04-24T15:19:55Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.24-beta.1",
+        "published_at": "2026-04-25T09:32:12Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.24-beta.2",
+        "published_at": "2026-04-25T12:22:26Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.24-beta.3",
+        "published_at": "2026-04-25T13:39:59Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.24-beta.4",
+        "published_at": "2026-04-25T14:26:47Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.24-beta.5",
+        "published_at": "2026-04-25T15:09:26Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.24",
+        "published_at": "2026-04-25T18:15:17Z",
+        "is_prerelease": false,
+        "downloads": 13514,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.25-beta.1",
+        "published_at": "2026-04-26T11:21:56Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.25-beta.2",
+        "published_at": "2026-04-26T12:23:17Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.25-beta.3",
+        "published_at": "2026-04-26T13:00:46Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.25-beta.4",
+        "published_at": "2026-04-26T13:24:41Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.25",
+        "published_at": "2026-04-27T12:45:30Z",
+        "is_prerelease": false,
+        "downloads": 4595,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.26",
+        "published_at": "2026-04-28T01:11:02Z",
+        "is_prerelease": false,
+        "downloads": 14639,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.27",
+        "published_at": "2026-04-29T22:12:19Z",
+        "is_prerelease": false,
+        "downloads": 7466,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.4.29-beta.1",
+        "published_at": "2026-04-30T09:33:26Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.29-beta.2",
+        "published_at": "2026-04-30T16:50:22Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.29-beta.3",
+        "published_at": "2026-04-30T18:37:22Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.29-beta.4",
+        "published_at": "2026-04-30T20:04:16Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.29",
+        "published_at": "2026-04-30T21:01:08Z",
+        "is_prerelease": false,
+        "downloads": 13074,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.5.2-beta.2",
+        "published_at": "2026-05-02T20:40:17Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.2-beta.3",
+        "published_at": "2026-05-02T22:15:21Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.2",
+        "published_at": "2026-05-02T23:37:55Z",
+        "is_prerelease": false,
+        "downloads": 22645,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.5.3-beta.2",
+        "published_at": "2026-05-03T21:26:05Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.3-beta.3",
+        "published_at": "2026-05-04T02:20:18Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.3",
+        "published_at": "2026-05-04T07:01:29Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.3-1",
+        "published_at": "2026-05-04T09:35:36Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.4-beta.1",
+        "published_at": "2026-05-04T18:22:09Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.4-beta.2",
+        "published_at": "2026-05-05T01:43:03Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.4-beta.3",
+        "published_at": "2026-05-05T06:14:48Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.4",
+        "published_at": "2026-05-05T08:24:01Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.5",
+        "published_at": "2026-05-06T09:00:55Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.6",
+        "published_at": "2026-05-06T17:51:03Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.7",
+        "published_at": "2026-05-07T20:57:43Z",
+        "is_prerelease": false,
+        "downloads": 36065,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.5.9-beta.1",
+        "published_at": "2026-05-09T13:32:02Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.10-beta.1",
+        "published_at": "2026-05-10T14:02:46Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.10-beta.2",
+        "published_at": "2026-05-10T18:18:58Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.10-beta.3",
+        "published_at": "2026-05-11T03:28:30Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.10-beta.4",
+        "published_at": "2026-05-11T16:04:13Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.10-beta.5",
+        "published_at": "2026-05-11T16:38:39Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.12-beta.1",
+        "published_at": "2026-05-12T17:10:10Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.12-beta.2",
+        "published_at": "2026-05-12T22:15:42Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.12-beta.3",
+        "published_at": "2026-05-12T23:38:26Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.12-beta.4",
+        "published_at": "2026-05-13T05:17:07Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.12-beta.5",
+        "published_at": "2026-05-13T18:06:44Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.12-beta.6",
+        "published_at": "2026-05-13T21:00:40Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.12-beta.7",
+        "published_at": "2026-05-14T09:39:25Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.12-beta.8",
+        "published_at": "2026-05-14T11:16:04Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.12",
+        "published_at": "2026-05-14T18:28:04Z",
+        "is_prerelease": false,
+        "downloads": 16861,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.5.14-beta.1",
+        "published_at": "2026-05-14T21:31:13Z",
+        "is_prerelease": true,
+        "downloads": 115,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.14-beta.2",
+        "published_at": "2026-05-15T11:11:27Z",
+        "is_prerelease": true,
+        "downloads": 88,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.16-beta.1",
+        "published_at": "2026-05-16T01:33:32Z",
+        "is_prerelease": true,
+        "downloads": 74,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.16-beta.2",
+        "published_at": "2026-05-16T11:29:05Z",
+        "is_prerelease": true,
+        "downloads": 69,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.16-beta.3",
+        "published_at": "2026-05-16T19:46:18Z",
+        "is_prerelease": true,
+        "downloads": 59,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.16-beta.4",
+        "published_at": "2026-05-17T04:22:04Z",
+        "is_prerelease": true,
+        "downloads": 79,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.16-beta.5",
+        "published_at": "2026-05-17T17:59:02Z",
+        "is_prerelease": true,
+        "downloads": 50,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.16-beta.6",
+        "published_at": "2026-05-18T01:09:36Z",
+        "is_prerelease": true,
+        "downloads": 77,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.16-beta.7",
+        "published_at": "2026-05-18T08:47:11Z",
+        "is_prerelease": true,
+        "downloads": 61,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.18-beta.1",
+        "published_at": "2026-05-18T16:13:00Z",
+        "is_prerelease": true,
+        "downloads": 30,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.18",
+        "published_at": "2026-05-18T18:54:22Z",
+        "is_prerelease": false,
+        "downloads": 12536,
+        "asset_count": 4
+      },
+      {
+        "tag": "v2026.5.19-beta.1",
+        "published_at": "2026-05-18T22:58:13Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.19-beta.2",
+        "published_at": "2026-05-19T21:12:37Z",
+        "is_prerelease": true,
+        "downloads": 66,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.19-alpha.1",
+        "published_at": "2026-05-20T00:50:52Z",
+        "is_prerelease": true,
+        "downloads": 34,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.19",
+        "published_at": "2026-05-20T20:20:53Z",
+        "is_prerelease": false,
+        "downloads": 6873,
+        "asset_count": 4
+      },
+      {
+        "tag": "v2026.5.20-beta.1",
+        "published_at": "2026-05-21T00:11:21Z",
+        "is_prerelease": true,
+        "downloads": 72,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.20-beta.2",
+        "published_at": "2026-05-21T15:57:15Z",
+        "is_prerelease": true,
+        "downloads": 37,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.20",
+        "published_at": "2026-05-21T20:44:50Z",
+        "is_prerelease": false,
+        "downloads": 12089,
+        "asset_count": 4
+      },
+      {
+        "tag": "v2026.5.22-beta.1",
+        "published_at": "2026-05-23T09:59:56Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.22",
+        "published_at": "2026-05-24T01:12:56Z",
+        "is_prerelease": false,
+        "downloads": 16902,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.5.24-beta.1",
+        "published_at": "2026-05-24T14:42:58Z",
+        "is_prerelease": true,
+        "downloads": 56,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.24-beta.2",
+        "published_at": "2026-05-24T23:49:30Z",
+        "is_prerelease": true,
+        "downloads": 119,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.25-beta.1",
+        "published_at": "2026-05-26T09:41:10Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.26-beta.1",
+        "published_at": "2026-05-26T21:10:33Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.26-beta.2",
+        "published_at": "2026-05-27T05:46:50Z",
+        "is_prerelease": true,
+        "downloads": 42,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.26",
+        "published_at": "2026-05-27T11:27:24Z",
+        "is_prerelease": false,
+        "downloads": 6423,
+        "asset_count": 4
+      },
+      {
+        "tag": "v2026.5.27-beta.1",
+        "published_at": "2026-05-28T05:54:37Z",
+        "is_prerelease": true,
+        "downloads": 39,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.27",
+        "published_at": "2026-05-28T11:41:42Z",
+        "is_prerelease": false,
+        "downloads": 11500,
+        "asset_count": 4
+      },
+      {
+        "tag": "v2026.5.28-beta.1",
+        "published_at": "2026-05-29T04:46:20Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.28-beta.2",
+        "published_at": "2026-05-29T12:19:13Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.28-beta.3",
+        "published_at": "2026-05-29T17:19:33Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.28-beta.4",
+        "published_at": "2026-05-29T22:48:42Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.28",
+        "published_at": "2026-05-30T20:06:10Z",
+        "is_prerelease": false,
+        "downloads": 20152,
+        "asset_count": 4
+      },
+      {
+        "tag": "v2026.5.30-beta.1",
+        "published_at": "2026-05-31T02:39:53Z",
+        "is_prerelease": true,
+        "downloads": 55,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.5.31-beta.1",
+        "published_at": "2026-05-31T17:44:50Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.31-beta.2",
+        "published_at": "2026-05-31T18:17:21Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.31-beta.3",
+        "published_at": "2026-05-31T19:19:39Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.31-beta.4",
+        "published_at": "2026-06-01T02:04:59Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.6.1-beta.1",
+        "published_at": "2026-06-01T09:45:05Z",
+        "is_prerelease": true,
+        "downloads": 40,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.6.1-beta.2",
+        "published_at": "2026-06-01T21:56:19Z",
+        "is_prerelease": true,
+        "downloads": 75,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.6.1-beta.3",
+        "published_at": "2026-06-03T09:16:02Z",
+        "is_prerelease": true,
+        "downloads": 67,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.6.1",
+        "published_at": "2026-06-03T19:35:12Z",
+        "is_prerelease": false,
+        "downloads": 37146,
+        "asset_count": 7
+      },
+      {
+        "tag": "v2026.6.2-beta.1",
+        "published_at": "2026-06-03T23:46:41Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.6.5-beta.1",
+        "published_at": "2026-06-06T03:36:51Z",
+        "is_prerelease": true,
+        "downloads": 291,
+        "asset_count": 4
+      },
+      {
+        "tag": "v2026.6.5-beta.2",
+        "published_at": "2026-06-07T00:26:39Z",
+        "is_prerelease": true,
+        "downloads": 498,
+        "asset_count": 4
+      },
+      {
+        "tag": "v2026.6.5-beta.3",
+        "published_at": "2026-06-08T21:38:14Z",
+        "is_prerelease": true,
+        "downloads": 32,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.6.5-beta.5",
+        "published_at": "2026-06-08T22:49:14Z",
+        "is_prerelease": true,
+        "downloads": 49,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.6.5-beta.6",
+        "published_at": "2026-06-09T08:43:04Z",
+        "is_prerelease": true,
+        "downloads": 56,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.6.5",
+        "published_at": "2026-06-09T18:13:20Z",
+        "is_prerelease": false,
+        "downloads": 56259,
+        "asset_count": 7
+      },
+      {
+        "tag": "v2026.6.6-beta.1",
+        "published_at": "2026-06-10T19:33:39Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.6.6-beta.2",
+        "published_at": "2026-06-12T03:32:42Z",
+        "is_prerelease": true,
+        "downloads": 48,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.6.6",
+        "published_at": "2026-06-12T11:04:42Z",
+        "is_prerelease": false,
+        "downloads": 2251,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.6.7-beta.1",
+        "published_at": "2026-06-13T09:42:35Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.6.8-beta.1",
+        "published_at": "2026-06-14T22:45:33Z",
+        "is_prerelease": true,
+        "downloads": 136,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.6.8-beta.2",
+        "published_at": "2026-06-16T01:50:19Z",
+        "is_prerelease": true,
+        "downloads": 95,
+        "asset_count": 1
+      },
+      {
+        "tag": "v2026.6.8",
+        "published_at": "2026-06-16T16:32:26Z",
+        "is_prerelease": false,
+        "downloads": 33618,
+        "asset_count": 7
+      },
+      {
+        "tag": "v2026.6.9-beta.1",
+        "published_at": "2026-06-19T05:52:39Z",
+        "is_prerelease": true,
+        "downloads": 152,
+        "asset_count": 5
+      },
+      {
+        "tag": "v2026.6.9",
+        "published_at": "2026-06-21T01:44:28Z",
+        "is_prerelease": false,
+        "downloads": 20957,
+        "asset_count": 11
+      },
+      {
+        "tag": "v2026.6.10-beta.1",
+        "published_at": "2026-06-21T09:12:41Z",
+        "is_prerelease": true,
+        "downloads": 104,
+        "asset_count": 5
+      },
+      {
+        "tag": "v2026.6.10-beta.2",
+        "published_at": "2026-06-22T09:36:28Z",
+        "is_prerelease": true,
+        "downloads": 163,
+        "asset_count": 5
+      },
+      {
+        "tag": "v2026.6.10",
+        "published_at": "2026-06-24T03:06:38Z",
+        "is_prerelease": false,
+        "downloads": 32865,
+        "asset_count": 11
+      },
+      {
+        "tag": "v2026.6.11-beta.1",
+        "published_at": "2026-06-24T23:37:32Z",
+        "is_prerelease": true,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.6.11-beta.2",
+        "published_at": "2026-06-28T23:19:35Z",
+        "is_prerelease": true,
+        "downloads": 220,
+        "asset_count": 5
+      },
+      {
+        "tag": "v2026.6.11",
+        "published_at": "2026-06-30T16:06:39Z",
+        "is_prerelease": false,
+        "downloads": 74077,
+        "asset_count": 11
+      },
+      {
+        "tag": "v2026.7.1-beta.1",
+        "published_at": "2026-07-02T07:25:49Z",
+        "is_prerelease": true,
+        "downloads": 396,
+        "asset_count": 5
+      },
+      {
+        "tag": "v2026.7.1-beta.2",
+        "published_at": "2026-07-05T09:10:09Z",
+        "is_prerelease": true,
+        "downloads": 523,
+        "asset_count": 5
+      },
+      {
+        "tag": "v2026.7.1-beta.5",
+        "published_at": "2026-07-11T10:36:02Z",
+        "is_prerelease": true,
+        "downloads": 154,
+        "asset_count": 3
+      },
+      {
+        "tag": "v2026.7.1-beta.6",
+        "published_at": "2026-07-13T01:38:43Z",
+        "is_prerelease": true,
+        "downloads": 181,
+        "asset_count": 5
+      },
+      {
+        "tag": "v2026.7.1",
+        "published_at": "2026-07-13T22:33:14Z",
+        "is_prerelease": false,
+        "downloads": 84524,
+        "asset_count": 15
+      },
+      {
+        "tag": "v2026.7.2-beta.1",
+        "published_at": "2026-07-15T18:48:24Z",
+        "is_prerelease": true,
+        "downloads": 239,
+        "asset_count": 5
+      },
+      {
+        "tag": "v2026.7.2-beta.2",
+        "published_at": "2026-07-17T08:38:04Z",
+        "is_prerelease": true,
+        "downloads": 263,
+        "asset_count": 5
+      },
+      {
+        "tag": "v2026.7.2-beta.3",
+        "published_at": "2026-07-18T23:16:53Z",
+        "is_prerelease": true,
+        "downloads": 692,
+        "asset_count": 5
+      }
+    ]
+  },
+  "NousResearch/hermes-agent": {
+    "repo": "NousResearch/hermes-agent",
+    "stars": 220798,
+    "forks": 42077,
+    "created_at": "2025-07-22T22:22:28Z",
+    "total_releases": 22,
+    "releases": [
+      {
+        "tag": "v2026.3.12",
+        "published_at": "2026-03-12T10:07:34Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.3.17",
+        "published_at": "2026-03-17T07:56:07Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.3.23",
+        "published_at": "2026-03-24T05:34:23Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.3.28",
+        "published_at": "2026-03-28T20:12:05Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.3.30",
+        "published_at": "2026-03-30T15:30:14Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.3",
+        "published_at": "2026-04-03T18:15:29Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.8",
+        "published_at": "2026-04-08T11:56:44Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.13",
+        "published_at": "2026-04-13T18:52:41Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.16",
+        "published_at": "2026-04-16T19:53:25Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.23",
+        "published_at": "2026-04-23T22:32:13Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.4.30",
+        "published_at": "2026-04-30T18:31:21Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.7",
+        "published_at": "2026-05-07T16:23:08Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.16",
+        "published_at": "2026-05-16T09:59:15Z",
+        "is_prerelease": false,
+        "downloads": 0,
+        "asset_count": 0
+      },
+      {
+        "tag": "v2026.5.28",
+        "published_at": "2026-05-28T17:46:09Z",
+        "is_prerelease": false,
+        "downloads": 288,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.5.29",
+        "published_at": "2026-05-29T01:12:15Z",
+        "is_prerelease": false,
+        "downloads": 509,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.5.29.2",
+        "published_at": "2026-05-29T13:37:26Z",
+        "is_prerelease": false,
+        "downloads": 12251,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.6.5",
+        "published_at": "2026-06-06T00:55:58Z",
+        "is_prerelease": false,
+        "downloads": 3923,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.6.19",
+        "published_at": "2026-06-19T19:39:06Z",
+        "is_prerelease": false,
+        "downloads": 2220,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.7.1",
+        "published_at": "2026-07-01T20:08:06Z",
+        "is_prerelease": false,
+        "downloads": 1104,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.7.7",
+        "published_at": "2026-07-08T01:15:00Z",
+        "is_prerelease": false,
+        "downloads": 155,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.7.7.2",
+        "published_at": "2026-07-08T03:11:22Z",
+        "is_prerelease": false,
+        "downloads": 1768,
+        "asset_count": 2
+      },
+      {
+        "tag": "v2026.7.20",
+        "published_at": "2026-07-20T18:35:55Z",
+        "is_prerelease": false,
+        "downloads": 1188,
+        "asset_count": 2
+      }
+    ]
+  }
+}

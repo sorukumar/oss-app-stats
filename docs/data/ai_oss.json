@@ -1,0 +1,1127 @@
+{
+  "ollama/ollama": {
+    "stars": 176926,
+    "forks": 17117,
+    "total_releases": 235,
+    "launch_date": "2023-07-26T15:04:39Z",
+    "first_60_days": [
+      {
+        "day": 0,
+        "cumulative_downloads": 21505,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 1,
+        "cumulative_downloads": 21505,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 2,
+        "cumulative_downloads": 21505,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 3,
+        "cumulative_downloads": 21505,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 4,
+        "cumulative_downloads": 21505,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 5,
+        "cumulative_downloads": 21505,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 6,
+        "cumulative_downloads": 21505,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 7,
+        "cumulative_downloads": 71349,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 8,
+        "cumulative_downloads": 71349,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 9,
+        "cumulative_downloads": 71349,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 10,
+        "cumulative_downloads": 71349,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 11,
+        "cumulative_downloads": 71349,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 12,
+        "cumulative_downloads": 71349,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 13,
+        "cumulative_downloads": 71349,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 14,
+        "cumulative_downloads": 71349,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 15,
+        "cumulative_downloads": 124139,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 16,
+        "cumulative_downloads": 124139,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 17,
+        "cumulative_downloads": 124139,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 18,
+        "cumulative_downloads": 124139,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 19,
+        "cumulative_downloads": 124139,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 20,
+        "cumulative_downloads": 124139,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 21,
+        "cumulative_downloads": 124139,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 22,
+        "cumulative_downloads": 191735,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 23,
+        "cumulative_downloads": 191735,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 24,
+        "cumulative_downloads": 191735,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 25,
+        "cumulative_downloads": 191735,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 26,
+        "cumulative_downloads": 191735,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 27,
+        "cumulative_downloads": 191735,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 28,
+        "cumulative_downloads": 191735,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 29,
+        "cumulative_downloads": 191735,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 30,
+        "cumulative_downloads": 234478,
+        "cumulative_releases": 5
+      },
+      {
+        "day": 31,
+        "cumulative_downloads": 234478,
+        "cumulative_releases": 5
+      },
+      {
+        "day": 32,
+        "cumulative_downloads": 234478,
+        "cumulative_releases": 5
+      },
+      {
+        "day": 33,
+        "cumulative_downloads": 234478,
+        "cumulative_releases": 5
+      },
+      {
+        "day": 34,
+        "cumulative_downloads": 234478,
+        "cumulative_releases": 5
+      },
+      {
+        "day": 35,
+        "cumulative_downloads": 301338,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 36,
+        "cumulative_downloads": 301338,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 37,
+        "cumulative_downloads": 301338,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 38,
+        "cumulative_downloads": 301338,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 39,
+        "cumulative_downloads": 301338,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 40,
+        "cumulative_downloads": 301338,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 41,
+        "cumulative_downloads": 301338,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 42,
+        "cumulative_downloads": 354029,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 43,
+        "cumulative_downloads": 354029,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 44,
+        "cumulative_downloads": 354029,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 45,
+        "cumulative_downloads": 354029,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 46,
+        "cumulative_downloads": 354029,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 47,
+        "cumulative_downloads": 464765,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 48,
+        "cumulative_downloads": 464765,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 49,
+        "cumulative_downloads": 464765,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 50,
+        "cumulative_downloads": 464765,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 51,
+        "cumulative_downloads": 464765,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 52,
+        "cumulative_downloads": 464765,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 53,
+        "cumulative_downloads": 464765,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 54,
+        "cumulative_downloads": 464765,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 55,
+        "cumulative_downloads": 464765,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 56,
+        "cumulative_downloads": 464765,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 57,
+        "cumulative_downloads": 464765,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 58,
+        "cumulative_downloads": 582033,
+        "cumulative_releases": 11
+      },
+      {
+        "day": 59,
+        "cumulative_downloads": 582033,
+        "cumulative_releases": 11
+      },
+      {
+        "day": 60,
+        "cumulative_downloads": 582033,
+        "cumulative_releases": 11
+      }
+    ],
+    "median_gaps": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 169.1,
+      "9": 169.1,
+      "10": 169.1,
+      "11": 169.1,
+      "12": 169.1,
+      "13": 169.1,
+      "14": 169.1,
+      "15": 169.1,
+      "16": 198.6,
+      "17": 198.6,
+      "18": 198.6,
+      "19": 198.6,
+      "20": 198.6,
+      "21": 198.6,
+      "22": 198.6,
+      "23": 170.1,
+      "24": 170.1,
+      "25": 170.1,
+      "26": 170.1,
+      "27": 170.1,
+      "28": 170.1,
+      "29": 170.1,
+      "30": 170.1,
+      "31": 193.0,
+      "32": 193.0,
+      "33": 193.0,
+      "34": 193.0,
+      "35": 193.0,
+      "36": 170.1,
+      "37": 170.1,
+      "38": 170.1,
+      "39": 170.1,
+      "40": 170.1,
+      "41": 170.1,
+      "42": 170.1,
+      "43": 170.5,
+      "44": 170.5,
+      "45": 170.5,
+      "46": 170.5,
+      "47": 170.5,
+      "48": 170.1,
+      "49": 170.1,
+      "50": 170.1,
+      "51": 170.1,
+      "52": 170.1,
+      "53": 170.1,
+      "54": 170.1,
+      "55": 170.1,
+      "56": 170.1,
+      "57": 170.1,
+      "58": 170.1,
+      "59": 170.1,
+      "60": 170.1
+    }
+  },
+  "openclaw/openclaw": {
+    "stars": 384207,
+    "forks": 80720,
+    "total_releases": 226,
+    "launch_date": "2026-01-24T13:04:16Z",
+    "first_60_days": [
+      {
+        "day": 0,
+        "cumulative_downloads": 25130,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 1,
+        "cumulative_downloads": 25130,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 2,
+        "cumulative_downloads": 25130,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 3,
+        "cumulative_downloads": 25130,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 4,
+        "cumulative_downloads": 25130,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 5,
+        "cumulative_downloads": 57777,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 6,
+        "cumulative_downloads": 57777,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 7,
+        "cumulative_downloads": 104710,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 8,
+        "cumulative_downloads": 139270,
+        "cumulative_releases": 5
+      },
+      {
+        "day": 9,
+        "cumulative_downloads": 139270,
+        "cumulative_releases": 5
+      },
+      {
+        "day": 10,
+        "cumulative_downloads": 163620,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 11,
+        "cumulative_downloads": 208093,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 12,
+        "cumulative_downloads": 208093,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 13,
+        "cumulative_downloads": 235984,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 14,
+        "cumulative_downloads": 235984,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 15,
+        "cumulative_downloads": 235984,
+        "cumulative_releases": 8
+      },
+      {
+        "day": 16,
+        "cumulative_downloads": 288826,
+        "cumulative_releases": 9
+      },
+      {
+        "day": 17,
+        "cumulative_downloads": 288826,
+        "cumulative_releases": 9
+      },
+      {
+        "day": 18,
+        "cumulative_downloads": 288826,
+        "cumulative_releases": 9
+      },
+      {
+        "day": 19,
+        "cumulative_downloads": 310685,
+        "cumulative_releases": 10
+      },
+      {
+        "day": 20,
+        "cumulative_downloads": 328654,
+        "cumulative_releases": 11
+      },
+      {
+        "day": 21,
+        "cumulative_downloads": 354998,
+        "cumulative_releases": 12
+      },
+      {
+        "day": 22,
+        "cumulative_downloads": 506629,
+        "cumulative_releases": 14
+      },
+      {
+        "day": 23,
+        "cumulative_downloads": 506629,
+        "cumulative_releases": 14
+      },
+      {
+        "day": 24,
+        "cumulative_downloads": 525247,
+        "cumulative_releases": 15
+      },
+      {
+        "day": 25,
+        "cumulative_downloads": 525247,
+        "cumulative_releases": 15
+      },
+      {
+        "day": 26,
+        "cumulative_downloads": 548223,
+        "cumulative_releases": 17
+      },
+      {
+        "day": 27,
+        "cumulative_downloads": 548223,
+        "cumulative_releases": 17
+      },
+      {
+        "day": 28,
+        "cumulative_downloads": 570942,
+        "cumulative_releases": 18
+      },
+      {
+        "day": 29,
+        "cumulative_downloads": 586357,
+        "cumulative_releases": 19
+      },
+      {
+        "day": 30,
+        "cumulative_downloads": 599900,
+        "cumulative_releases": 20
+      },
+      {
+        "day": 31,
+        "cumulative_downloads": 614810,
+        "cumulative_releases": 22
+      },
+      {
+        "day": 32,
+        "cumulative_downloads": 628923,
+        "cumulative_releases": 24
+      },
+      {
+        "day": 33,
+        "cumulative_downloads": 688637,
+        "cumulative_releases": 25
+      },
+      {
+        "day": 34,
+        "cumulative_downloads": 688637,
+        "cumulative_releases": 25
+      },
+      {
+        "day": 35,
+        "cumulative_downloads": 688637,
+        "cumulative_releases": 25
+      },
+      {
+        "day": 36,
+        "cumulative_downloads": 709856,
+        "cumulative_releases": 26
+      },
+      {
+        "day": 37,
+        "cumulative_downloads": 779981,
+        "cumulative_releases": 28
+      },
+      {
+        "day": 38,
+        "cumulative_downloads": 779981,
+        "cumulative_releases": 28
+      },
+      {
+        "day": 39,
+        "cumulative_downloads": 779981,
+        "cumulative_releases": 28
+      },
+      {
+        "day": 40,
+        "cumulative_downloads": 779981,
+        "cumulative_releases": 28
+      },
+      {
+        "day": 41,
+        "cumulative_downloads": 779981,
+        "cumulative_releases": 28
+      },
+      {
+        "day": 42,
+        "cumulative_downloads": 805873,
+        "cumulative_releases": 30
+      },
+      {
+        "day": 43,
+        "cumulative_downloads": 859053,
+        "cumulative_releases": 32
+      },
+      {
+        "day": 44,
+        "cumulative_downloads": 859053,
+        "cumulative_releases": 32
+      },
+      {
+        "day": 45,
+        "cumulative_downloads": 859053,
+        "cumulative_releases": 32
+      },
+      {
+        "day": 46,
+        "cumulative_downloads": 859053,
+        "cumulative_releases": 34
+      },
+      {
+        "day": 47,
+        "cumulative_downloads": 866591,
+        "cumulative_releases": 35
+      },
+      {
+        "day": 48,
+        "cumulative_downloads": 871650,
+        "cumulative_releases": 36
+      },
+      {
+        "day": 49,
+        "cumulative_downloads": 871650,
+        "cumulative_releases": 37
+      },
+      {
+        "day": 50,
+        "cumulative_downloads": 871650,
+        "cumulative_releases": 37
+      },
+      {
+        "day": 51,
+        "cumulative_downloads": 871650,
+        "cumulative_releases": 37
+      },
+      {
+        "day": 52,
+        "cumulative_downloads": 871650,
+        "cumulative_releases": 37
+      },
+      {
+        "day": 53,
+        "cumulative_downloads": 871650,
+        "cumulative_releases": 37
+      },
+      {
+        "day": 54,
+        "cumulative_downloads": 871650,
+        "cumulative_releases": 37
+      },
+      {
+        "day": 55,
+        "cumulative_downloads": 871650,
+        "cumulative_releases": 37
+      },
+      {
+        "day": 56,
+        "cumulative_downloads": 871650,
+        "cumulative_releases": 37
+      },
+      {
+        "day": 57,
+        "cumulative_downloads": 871650,
+        "cumulative_releases": 39
+      },
+      {
+        "day": 58,
+        "cumulative_downloads": 878561,
+        "cumulative_releases": 40
+      },
+      {
+        "day": 59,
+        "cumulative_downloads": 878978,
+        "cumulative_releases": 41
+      },
+      {
+        "day": 60,
+        "cumulative_downloads": 918432,
+        "cumulative_releases": 43
+      }
+    ],
+    "median_gaps": {
+      "1": 0,
+      "2": 25.4,
+      "3": 25.4,
+      "4": 25.4,
+      "5": 25.4,
+      "6": 111.0,
+      "7": 111.0,
+      "8": 33.9,
+      "9": 44.5,
+      "10": 44.5,
+      "11": 37.2,
+      "12": 37.2,
+      "13": 37.2,
+      "14": 37.2,
+      "15": 37.2,
+      "16": 37.2,
+      "17": 44.5,
+      "18": 44.5,
+      "19": 44.5,
+      "20": 44.5,
+      "21": 44.5,
+      "22": 37.2,
+      "23": 37.2,
+      "24": 37.2,
+      "25": 37.2,
+      "26": 37.2,
+      "27": 38.7,
+      "28": 38.7,
+      "29": 38.7,
+      "30": 38.7,
+      "31": 37.2,
+      "32": 37.2,
+      "33": 35.2,
+      "34": 35.2,
+      "35": 35.2,
+      "36": 35.2,
+      "37": 35.2,
+      "38": 35.2,
+      "39": 35.2,
+      "40": 35.2,
+      "41": 35.2,
+      "42": 35.2,
+      "43": 35.2,
+      "44": 35.2,
+      "45": 35.2,
+      "46": 35.2,
+      "47": 35.2,
+      "48": 35.2,
+      "49": 35.2,
+      "50": 35.2,
+      "51": 35.2,
+      "52": 35.2,
+      "53": 35.2,
+      "54": 35.2,
+      "55": 35.2,
+      "56": 35.2,
+      "57": 35.2,
+      "58": 37.2,
+      "59": 35.2,
+      "60": 35.2
+    }
+  },
+  "NousResearch/hermes-agent": {
+    "stars": 220798,
+    "forks": 42077,
+    "total_releases": 22,
+    "launch_date": "2026-05-29T13:37:26Z",
+    "first_60_days": [
+      {
+        "day": 0,
+        "cumulative_downloads": 12251,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 1,
+        "cumulative_downloads": 12251,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 2,
+        "cumulative_downloads": 12251,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 3,
+        "cumulative_downloads": 12251,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 4,
+        "cumulative_downloads": 12251,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 5,
+        "cumulative_downloads": 12251,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 6,
+        "cumulative_downloads": 12251,
+        "cumulative_releases": 1
+      },
+      {
+        "day": 7,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 8,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 9,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 10,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 11,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 12,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 13,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 14,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 15,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 16,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 17,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 18,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 19,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 20,
+        "cumulative_downloads": 16174,
+        "cumulative_releases": 2
+      },
+      {
+        "day": 21,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 22,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 23,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 24,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 25,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 26,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 27,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 28,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 29,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 30,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 31,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 32,
+        "cumulative_downloads": 18394,
+        "cumulative_releases": 3
+      },
+      {
+        "day": 33,
+        "cumulative_downloads": 19498,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 34,
+        "cumulative_downloads": 19498,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 35,
+        "cumulative_downloads": 19498,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 36,
+        "cumulative_downloads": 19498,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 37,
+        "cumulative_downloads": 19498,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 38,
+        "cumulative_downloads": 19498,
+        "cumulative_releases": 4
+      },
+      {
+        "day": 39,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 40,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 41,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 42,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 43,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 44,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 45,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 46,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 47,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 48,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 49,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 50,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 51,
+        "cumulative_downloads": 21421,
+        "cumulative_releases": 6
+      },
+      {
+        "day": 52,
+        "cumulative_downloads": 22609,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 53,
+        "cumulative_downloads": 22609,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 54,
+        "cumulative_downloads": 22609,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 55,
+        "cumulative_downloads": 22609,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 56,
+        "cumulative_downloads": 22609,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 57,
+        "cumulative_downloads": 22609,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 58,
+        "cumulative_downloads": 22609,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 59,
+        "cumulative_downloads": 22609,
+        "cumulative_releases": 7
+      },
+      {
+        "day": 60,
+        "cumulative_downloads": 22609,
+        "cumulative_releases": 7
+      }
+    ],
+    "median_gaps": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 179.3,
+      "9": 179.3,
+      "10": 179.3,
+      "11": 179.3,
+      "12": 179.3,
+      "13": 179.3,
+      "14": 179.3,
+      "15": 179.3,
+      "16": 179.3,
+      "17": 179.3,
+      "18": 179.3,
+      "19": 179.3,
+      "20": 179.3,
+      "21": 179.3,
+      "22": 330.7,
+      "23": 330.7,
+      "24": 330.7,
+      "25": 330.7,
+      "26": 330.7,
+      "27": 330.7,
+      "28": 330.7,
+      "29": 330.7,
+      "30": 330.7,
+      "31": 330.7,
+      "32": 330.7,
+      "33": 330.7,
+      "34": 288.5,
+      "35": 288.5,
+      "36": 288.5,
+      "37": 288.5,
+      "38": 288.5,
+      "39": 288.5,
+      "40": 179.3,
+      "41": 179.3,
+      "42": 179.3,
+      "43": 179.3,
+      "44": 179.3,
+      "45": 179.3,
+      "46": 179.3,
+      "47": 179.3,
+      "48": 179.3,
+      "49": 179.3,
+      "50": 179.3,
+      "51": 179.3,
+      "52": 179.3,
+      "53": 288.5,
+      "54": 288.5,
+      "55": 288.5,
+      "56": 288.5,
+      "57": 288.5,
+      "58": 288.5,
+      "59": 288.5,
+      "60": 288.5
+    }
+  }
+}

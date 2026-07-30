@@ -1,0 +1,4603 @@
+{
+  "project": {
+    "owner": "block",
+    "repo": "buzz",
+    "name": "Buzz",
+    "full_name": "block/buzz",
+    "description": "A hive mind communication platform",
+    "stars": 18216,
+    "forks": 1763,
+    "open_issues": 1163,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "homepage": "",
+    "html_url": "https://github.com/block/buzz"
+  },
+  "summary": {
+    "total_downloads": 124761,
+    "total_releases": 100,
+    "stable_releases": 99,
+    "pre_releases": 1,
+    "latest_version": "v0.5.2",
+    "latest_date": "2026-07-29T21:58:28Z",
+    "days_since_latest": 0,
+    "avg_cadence_days": 0.5,
+    "platform_breakdown": {
+      "macOS": 57851,
+      "Linux": 12115,
+      "Windows": 26923,
+      "Other": 27868,
+      "Signatures": 4
+    }
+  },
+  "releases": [
+    {
+      "tag": "v0.5.2",
+      "name": "Buzz Desktop v0.5.2",
+      "published_at": "2026-07-29T21:58:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 11438,
+      "total_downloads": 11438,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.5.2_aarch64.dmg",
+          "size_bytes": 88323416,
+          "download_count": 6028,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.5.2_amd64.AppImage",
+          "size_bytes": 134375928,
+          "download_count": 913,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.5.2_amd64.deb",
+          "size_bytes": 70853472,
+          "download_count": 471,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.5.2_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 42697935,
+          "download_count": 3565,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.5.2_x64.dmg",
+          "size_bytes": 70837327,
+          "download_count": 461,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- feat(cli): mirror Desktop mention delivery ([#3330](https://github.com/block/buzz/pull/3330)) ([`7adc46268`](https://github.com/block/buzz/commit/7adc46268d5e93f0b1d4dc8e700af22815dcac1b))\n- fix(desktop): deduplicate relay outage notification ([#3579](https://github.com/block/buzz/pull/3579)) ([`66e705492`](https://github.com/block/buzz/commit/66e7054928cc29395f828467c3e8c81b7408dd29))\n- fix(desktop): reconcile thread arrivals at bottom ([#3585](https://github.com/block/buzz/pull/3585)) ([`b42",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.5.2",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.5.1",
+      "name": "Buzz Desktop v0.5.1",
+      "published_at": "2026-07-29T15:47:27Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3182,
+      "total_downloads": 3182,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.5.1_aarch64.dmg",
+          "size_bytes": 88248110,
+          "download_count": 1784,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.5.1_amd64.AppImage",
+          "size_bytes": 137349624,
+          "download_count": 266,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.5.1_amd64.deb",
+          "size_bytes": 70785174,
+          "download_count": 138,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.5.1_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 42631643,
+          "download_count": 871,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.5.1_x64.dmg",
+          "size_bytes": 70769424,
+          "download_count": 123,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- perf(desktop): move observer-feed archive and decrypt commands off main thread ([#3415](https://github.com/block/buzz/pull/3415)) ([`294c8c821`](https://github.com/block/buzz/commit/294c8c821de51442a8c384c0bdb66b1a10224ca0))\n- fix(desktop): preserve shared agent fidelity ([#3553](https://github.com/block/buzz/pull/3553)) ([`f7a3988ba`](https://github.com/block/buzz/commit/f7a3988ba13b590d9a55a7e8413fc3fb5ffbef18))\n- feat(agent): route Claude/GPT model families to their native gateway wire ([#3",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.5.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.5.0",
+      "name": "Buzz Desktop v0.5.0",
+      "published_at": "2026-07-28T14:23:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 9522,
+      "total_downloads": 9522,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.5.0_aarch64.dmg",
+          "size_bytes": 88102934,
+          "download_count": 5510,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.5.0_amd64.AppImage",
+          "size_bytes": 137087480,
+          "download_count": 786,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.5.0_amd64.deb",
+          "size_bytes": 70515846,
+          "download_count": 430,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.5.0_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 42558633,
+          "download_count": 2430,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.5.0_x64.dmg",
+          "size_bytes": 70515499,
+          "download_count": 366,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- feat(invites): add use-limited invite links ([#3141](https://github.com/block/buzz/pull/3141)) ([`d500c2d5c`](https://github.com/block/buzz/commit/d500c2d5cf5d9aabe0ca4ebebfcafdbe5f5b7fd3))\n- fix(node): bump Buzz-supplied Node runtimes past OpenClaw's >=24.15.0 floor ([#3218](https://github.com/block/buzz/pull/3218)) ([`98a7b1334`](https://github.com/block/buzz/commit/98a7b1334823ee0be3e3fa5cab7a2e349e438dab))\n- fix(desktop): preserve thread anchor through layout reflow ([#3212](https://github",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.5.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.26",
+      "name": "Buzz Desktop v0.4.26",
+      "published_at": "2026-07-25T13:58:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 21029,
+      "total_downloads": 21029,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.26_aarch64.dmg",
+          "size_bytes": 87859350,
+          "download_count": 11889,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.26_amd64.AppImage",
+          "size_bytes": 137079288,
+          "download_count": 1756,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.26_amd64.deb",
+          "size_bytes": 70137878,
+          "download_count": 2172,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.26_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 42407189,
+          "download_count": 4553,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.26_x64.dmg",
+          "size_bytes": 70391418,
+          "download_count": 659,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- Style mobile pairing QR codes ([#2775](https://github.com/block/buzz/pull/2775)) ([`50655ac09`](https://github.com/block/buzz/commit/50655ac097fbf1a7db1a5284dccc7e2a0b0f1bfc))\n- Refine community management flows ([#2738](https://github.com/block/buzz/pull/2738)) ([`384c72dee`](https://github.com/block/buzz/commit/384c72dee6336234beae3c1a0fec305044815245))\n- docs: replace VPN-vendor references with generic wording ([#2805](https://github.com/block/buzz/pull/2805)) ([`bcca885ba`](https://github.",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.26",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.25",
+      "name": "Buzz Desktop v0.4.25",
+      "published_at": "2026-07-24T23:04:14Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3576,
+      "total_downloads": 3576,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.25_aarch64.dmg",
+          "size_bytes": 87890335,
+          "download_count": 2038,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.25_amd64.AppImage",
+          "size_bytes": 137185784,
+          "download_count": 332,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.25_amd64.deb",
+          "size_bytes": 70200980,
+          "download_count": 116,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.25_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 42423182,
+          "download_count": 936,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.25_x64.dmg",
+          "size_bytes": 70448982,
+          "download_count": 154,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(discovery): spawn PowerShell install commands natively on Windows ([#2750](https://github.com/block/buzz/pull/2750)) ([`f3981dbfe`](https://github.com/block/buzz/commit/f3981dbfefc09e6a888ada489badb7dafdf122cf))\n- fix(desktop): use augmented PATH for model discovery subprocess ([#2753](https://github.com/block/buzz/pull/2753)) ([`3bd3a014c`](https://github.com/block/buzz/commit/3bd3a014c6ed3f8c8c6c6ea359fee9a7e98dd670))\n- Improve huddle audio failure handling ([#2578](https://github.com/bl",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.25",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.24",
+      "name": "Buzz Desktop v0.4.24",
+      "published_at": "2026-07-23T23:09:13Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 10507,
+      "total_downloads": 10507,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.24_aarch64.dmg",
+          "size_bytes": 87699273,
+          "download_count": 6368,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.24_amd64.AppImage",
+          "size_bytes": 136997368,
+          "download_count": 857,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.24_amd64.deb",
+          "size_bytes": 69941304,
+          "download_count": 249,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.24_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 42183613,
+          "download_count": 2715,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.24_x64.dmg",
+          "size_bytes": 70137575,
+          "download_count": 318,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): suppress Windows console flashes and reject WSL bash alias ([#2587](https://github.com/block/buzz/pull/2587)) ([`5afa16157`](https://github.com/block/buzz/commit/5afa16157a63c71f2cd8a80aa7276de28ce1c54c))\n- fix(desktop): fix Windows PATH clobber and .cmd shim EINVAL ([#2563](https://github.com/block/buzz/pull/2563)) ([`cca16635d`](https://github.com/block/buzz/commit/cca16635d69dc8bea5406013095d25f3b0e287d3))\n- Gate default relay auto-connect behind release flag ([#2589](https://",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.24",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.23",
+      "name": "Buzz Desktop v0.4.23",
+      "published_at": "2026-07-22T23:17:33Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 11039,
+      "total_downloads": 11039,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.23_aarch64.dmg",
+          "size_bytes": 87367695,
+          "download_count": 7440,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.23_amd64.AppImage",
+          "size_bytes": 136579576,
+          "download_count": 765,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.23_amd64.deb",
+          "size_bytes": 69481922,
+          "download_count": 159,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.23_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 42057992,
+          "download_count": 2378,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.23_x64.dmg",
+          "size_bytes": 69770205,
+          "download_count": 297,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): strip GIF metadata extensions before upload ([#2425](https://github.com/block/buzz/pull/2425)) ([`47d7eb698`](https://github.com/block/buzz/commit/47d7eb6982900920bcdbe7a2f5013baca37daeeb))\n- feat(desktop): gate sign-out behind key backup + typed confirmation ([#2424](https://github.com/block/buzz/pull/2424)) ([`fd967c6ea`](https://github.com/block/buzz/commit/fd967c6ea46d7454fe1adf79aacd2fc6385c4585))\n- feat(desktop+acp): spawn a harness per (agent, community) pair at GUI startu",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.23",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.22",
+      "name": "Buzz Desktop v0.4.22",
+      "published_at": "2026-07-21T20:33:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 13340,
+      "total_downloads": 13340,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.22_aarch64.dmg",
+          "size_bytes": 87258150,
+          "download_count": 9290,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.22_amd64.AppImage",
+          "size_bytes": 136436216,
+          "download_count": 942,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.22_amd64.deb",
+          "size_bytes": 69370900,
+          "download_count": 147,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.22_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 41944432,
+          "download_count": 2608,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.22_x64.dmg",
+          "size_bytes": 69500860,
+          "download_count": 353,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- Keep avatar preview visible during upload ([#2237](https://github.com/block/buzz/pull/2237)) ([`f609fcee0`](https://github.com/block/buzz/commit/f609fcee02cd3de9cde2aa4f94fc054d1865a58a))\n- fix(desktop): keep machine onboarding for unrecognized identities after reset ([#2244](https://github.com/block/buzz/pull/2244)) ([`fd55ab662`](https://github.com/block/buzz/commit/fd55ab662450a81a9ce49397f0e42aec0e4cb765))\n- fix(managed-agents): stale harness pin shadows runtime edits; add Restart quick ac",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.22",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.21",
+      "name": "Buzz Desktop v0.4.21",
+      "published_at": "2026-07-21T05:55:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5170,
+      "total_downloads": 5170,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.21_aarch64.dmg",
+          "size_bytes": 86936387,
+          "download_count": 3979,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.21_amd64.AppImage",
+          "size_bytes": 136096248,
+          "download_count": 293,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.21_amd64.deb",
+          "size_bytes": 68972084,
+          "download_count": 44,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.21_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 41766739,
+          "download_count": 767,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.21_x64.dmg",
+          "size_bytes": 69174013,
+          "download_count": 87,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): clarify data deletion action ([#2208](https://github.com/block/buzz/pull/2208)) ([`e315c498`](https://github.com/block/buzz/commit/e315c4982f5ab05d05be5935a765c3047bdc076d))\n- feat: brand authentication complete page ([#2192](https://github.com/block/buzz/pull/2192)) ([`1470ac3a`](https://github.com/block/buzz/commit/1470ac3a4c06d2f3c151750c91c3feea8d4bb1f5))\n- fix(buzz-acp,buzz-agent): surface stall duration and fate ([#2204](https://github.com/block/buzz/pull/2204)) ([`cd6b573f",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.21",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.20",
+      "name": "Buzz Desktop v0.4.20",
+      "published_at": "2026-07-20T17:44:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 84,
+      "total_downloads": 84,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.20_aarch64.dmg",
+          "size_bytes": 86813260,
+          "download_count": 72,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.20_amd64.AppImage",
+          "size_bytes": 136030712,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.20_amd64.deb",
+          "size_bytes": 68912088,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.20_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 41726730,
+          "download_count": 4,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.20_x64.dmg",
+          "size_bytes": 69065198,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): composite harness loader opacity ([#2180](https://github.com/block/buzz/pull/2180)) ([`77900e69`](https://github.com/block/buzz/commit/77900e69b3bc70a00010d826df2b55d2538ed4f2))\n- fix(desktop): modal sign-in + branded communities onboarding page ([#2147](https://github.com/block/buzz/pull/2147)) ([`8a65d81f`](https://github.com/block/buzz/commit/8a65d81fab4fee853887cad92f23b7cb581a3b53))\n- test(desktop): model membership relay in invite QR spec ([#2178](https://github.com/block/b",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.20",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.19",
+      "name": "Buzz Desktop v0.4.19",
+      "published_at": "2026-07-19T17:17:05Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 88,
+      "total_downloads": 88,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.19_aarch64.dmg",
+          "size_bytes": 86397519,
+          "download_count": 63,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.19_amd64.AppImage",
+          "size_bytes": 135567864,
+          "download_count": 7,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.19_amd64.deb",
+          "size_bytes": 68440680,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.19_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 41429291,
+          "download_count": 10,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.19_x64.dmg",
+          "size_bytes": 68665565,
+          "download_count": 5,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- Polish onboarding runtime error states ([#2116](https://github.com/block/buzz/pull/2116)) ([`31090b186`](https://github.com/block/buzz/commit/31090b186f95f26e6a91107d7c40856ccfffe4f5))\n- feat(desktop): add tooltips to channel header actions ([#2115](https://github.com/block/buzz/pull/2115)) ([`cab47905a`](https://github.com/block/buzz/commit/cab47905a86a53cf5ff66a8c0cb359f8abf9eeae))\n- feat(desktop): add focused thread mode ([#2108](https://github.com/block/buzz/pull/2108)) ([`2d0bd6ec4`](http",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.19",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.18",
+      "name": "Buzz Desktop v0.4.18",
+      "published_at": "2026-07-18T22:53:02Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 13,
+      "total_downloads": 13,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.18_aarch64.dmg",
+          "size_bytes": 86197150,
+          "download_count": 7,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.18_amd64.AppImage",
+          "size_bytes": 135444984,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.18_amd64.deb",
+          "size_bytes": 68267202,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.18_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 41367615,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.18_x64.dmg",
+          "size_bytes": 68392675,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): recover first community joins ([#2087](https://github.com/block/buzz/pull/2087)) ([`775cf672d`](https://github.com/block/buzz/commit/775cf672d11d43b07b27941a41bd2e52a9111466))\n- fix: recover community access visibility ([#2074](https://github.com/block/buzz/pull/2074)) ([`ca384d082`](https://github.com/block/buzz/commit/ca384d082d9804ec53a3fd12ccbf4a0846b21d92))",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.18",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.17",
+      "name": "Buzz Desktop v0.4.17",
+      "published_at": "2026-07-18T18:56:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 15,
+      "total_downloads": 15,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.17_aarch64.dmg",
+          "size_bytes": 86197405,
+          "download_count": 5,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.17_amd64.AppImage",
+          "size_bytes": 135428600,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.17_amd64.deb",
+          "size_bytes": 68266334,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.17_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 41367770,
+          "download_count": 4,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.17_x64.dmg",
+          "size_bytes": 68385999,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): onboarding defaults \u2014 API key field and model search ([#2081](https://github.com/block/buzz/pull/2081)) ([`741610f13`](https://github.com/block/buzz/commit/741610f138f9e0f31c7a0b78ef4a498b7df02688))\n- feat(desktop): show agent owners in messages ([#2080](https://github.com/block/buzz/pull/2080)) ([`463db6de3`](https://github.com/block/buzz/commit/463db6de3ea8406b0825012fae08027414062b3d))\n- fix(desktop): restore onboarding provider choices ([#2079](https://github.com/block/buzz/p",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.17",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.16",
+      "name": "Buzz Desktop v0.4.16",
+      "published_at": "2026-07-18T00:34:38Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 12,
+      "total_downloads": 12,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.16_aarch64.dmg",
+          "size_bytes": 86136024,
+          "download_count": 5,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.16_amd64.AppImage",
+          "size_bytes": 135404024,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.16_amd64.deb",
+          "size_bytes": 68228622,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.16_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 41329177,
+          "download_count": 3,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.16_x64.dmg",
+          "size_bytes": 68339795,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- Polish private key onboarding texture ([#2051](https://github.com/block/buzz/pull/2051)) ([`7873135a0`](https://github.com/block/buzz/commit/7873135a0bf843116102796a1671bb4141c4ed23))\n- Fix community profile onboarding back navigation ([#2058](https://github.com/block/buzz/pull/2058)) ([`385dde113`](https://github.com/block/buzz/commit/385dde11387cd74b7e28c80a25c8d3570dbf5823))\n- fix(desktop): route text copies through native clipboard ([#2054](https://github.com/block/buzz/pull/2054)) ([`9f82",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.16",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.15",
+      "name": "Buzz Desktop v0.4.15",
+      "published_at": "2026-07-17T23:13:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 9,
+      "total_downloads": 9,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.15_aarch64.dmg",
+          "size_bytes": 84948162,
+          "download_count": 4,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.15_amd64.AppImage",
+          "size_bytes": 134146552,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.15_amd64.deb",
+          "size_bytes": 67011986,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.15_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 40148551,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.15_x64.dmg",
+          "size_bytes": 67172447,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): honor selected onboarding runtime config ([#2047](https://github.com/block/buzz/pull/2047)) ([`0bbcafe9e`](https://github.com/block/buzz/commit/0bbcafe9e6893dcc77f2f813e749ab655cbfc51d))\n- Polish community onboarding flow ([#2048](https://github.com/block/buzz/pull/2048)) ([`2ea71de24`](https://github.com/block/buzz/commit/2ea71de24c8adc1f506e5afaa9ec02dca7593340))\n- fix(desktop): retry transient runtime installs and repoint Goose to official upstream ([#2046](https://github.com/",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.15",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.14",
+      "name": "Buzz Desktop v0.4.14",
+      "published_at": "2026-07-17T17:45:21Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 30,
+      "total_downloads": 30,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.14_aarch64.dmg",
+          "size_bytes": 84939177,
+          "download_count": 20,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.14_amd64.AppImage",
+          "size_bytes": 134207992,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.14_amd64.deb",
+          "size_bytes": 67004232,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.14_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 40130376,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.14_x64.dmg",
+          "size_bytes": 67182035,
+          "download_count": 6,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): restore Doctor ACP login discovery ([#2017](https://github.com/block/buzz/pull/2017)) ([`e179f88ad`](https://github.com/block/buzz/commit/e179f88ada02eadb636afea88f2d5b5cb82621fb))\n- feat(desktop): animate starter team onboarding ([#2032](https://github.com/block/buzz/pull/2032)) ([`1aab50e95`](https://github.com/block/buzz/commit/1aab50e950f2b7ef75cc6ec6e6055de681a4bff7))\n- fix(desktop): include exe dir and ~/.local/bin in provider discovery ([#2007](https://github.com/block/buz",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.14",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.13",
+      "name": "Buzz Desktop v0.4.13",
+      "published_at": "2026-07-17T05:26:11Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 22,
+      "total_downloads": 22,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.13_aarch64.dmg",
+          "size_bytes": 81405679,
+          "download_count": 16,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.13_amd64.AppImage",
+          "size_bytes": 130779640,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.13_amd64.deb",
+          "size_bytes": 63527408,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.13_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 36694324,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.13_x64.dmg",
+          "size_bytes": 63520702,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): compare relay media origins case-insensitively so uploads render when the saved community URL has uppercase characters\n- fix(desktop): invalidate stale media lookups so an in-flight relay-origin fetch cannot repopulate caches after a community reset",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.13",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.12",
+      "name": "Buzz Desktop v0.4.12",
+      "published_at": "2026-07-17T03:14:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 8,
+      "total_downloads": 8,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.12_aarch64.dmg",
+          "size_bytes": 81399022,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.12_amd64.AppImage",
+          "size_bytes": 130767352,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.12_amd64.deb",
+          "size_bytes": 63526966,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.12_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 36693331,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.12_x64.dmg",
+          "size_bytes": 63517656,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): proxy authenticated relay media after cold-start community initialization\n- fix(desktop): keep shared-compute consumers admitted (WIP: multi-workspace publishing) ([#2000](https://github.com/block/buzz/pull/2000)) ([`5d77fa57`](https://github.com/block/buzz/commit/5d77fa57))\n- feat(desktop): reskin provider, config, community, profile, and team onboarding pages ([#2003](https://github.com/block/buzz/pull/2003)) ([`f054df73`](https://github.com/block/buzz/commit/f054df73))",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.12",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.11",
+      "name": "Buzz Desktop v0.4.11",
+      "published_at": "2026-07-17T00:50:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 6,
+      "total_downloads": 6,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.11_aarch64.dmg",
+          "size_bytes": 81382062,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.11_amd64.AppImage",
+          "size_bytes": 130775544,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.11_amd64.deb",
+          "size_bytes": 63530730,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.11_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 36681538,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.11_x64.dmg",
+          "size_bytes": 63502182,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- Fix policy receipts for cold-launch invite links ([#2005](https://github.com/block/buzz/pull/2005)) ([`1d8d006a`](https://github.com/block/buzz/commit/1d8d006aaf078ffd5b92eae06334b7bb908b680e))\n- Preserve persistent agent audience order ([#1989](https://github.com/block/buzz/pull/1989)) ([`fb8e6827`](https://github.com/block/buzz/commit/fb8e6827c758c73c9c6e16965dcdcecd00a5827c))\n- feat(desktop): create channels in sections ([#1996](https://github.com/block/buzz/pull/1996)) ([`9b649740`](https:",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.11",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.10",
+      "name": "Buzz Desktop v0.4.10",
+      "published_at": "2026-07-16T21:42:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 16,
+      "total_downloads": 16,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.10_aarch64.dmg",
+          "size_bytes": 81380301,
+          "download_count": 10,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.10_amd64.AppImage",
+          "size_bytes": 130750968,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.10_amd64.deb",
+          "size_bytes": 63548590,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.10_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 36678525,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.10_x64.dmg",
+          "size_bytes": 63506935,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- feat(desktop): onboarding step dots, identity/key page restyle, overflow scroll ([#1993](https://github.com/block/buzz/pull/1993)) ([`f2522995c`](https://github.com/block/buzz/commit/f2522995cbea67c96b79d5de6c19c665e465027d))\n- chore(desktop): add AppShell.tsx file-size override to unblock main CI ([#1992](https://github.com/block/buzz/pull/1992)) ([`db57bc8a2`](https://github.com/block/buzz/commit/db57bc8a2cdac846d6e0f47100cb76bf07a4f326))\n- feat: add invite QR and mobile direct join ([#1957]",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.10",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.9",
+      "name": "Buzz Desktop v0.4.9",
+      "published_at": "2026-07-16T19:07:30Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 9,
+      "total_downloads": 9,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.9_aarch64.dmg",
+          "size_bytes": 81329945,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.9_amd64.AppImage",
+          "size_bytes": 130714104,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.9_amd64.deb",
+          "size_bytes": 63453412,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.9_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 36641270,
+          "download_count": 3,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.9_x64.dmg",
+          "size_bytes": 63480389,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- Restyle onboarding: branded landing screen, yellow/gradient backgrounds, new starter avatars ([#1982](https://github.com/block/buzz/pull/1982)) ([`831c80c1a`](https://github.com/block/buzz/commit/831c80c1a5d0811c7ac6ae832a95b2fd4ddc4e89))\n- Guide CLI installation and subscription sign-in ([#1980](https://github.com/block/buzz/pull/1980)) ([`8d3666c5f`](https://github.com/block/buzz/commit/8d3666c5f8ea07abe65355a1afe7de95ea247441))\n- unify channel add + search into one entry point ([#1964](http",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.9",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.8",
+      "name": "Buzz Desktop v0.4.8",
+      "published_at": "2026-07-16T17:17:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 6,
+      "total_downloads": 6,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.8_aarch64.dmg",
+          "size_bytes": 80603216,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.8_amd64.AppImage",
+          "size_bytes": 130062840,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.8_amd64.deb",
+          "size_bytes": 62823602,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.8_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 35963444,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.8_x64.dmg",
+          "size_bytes": 62802607,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): restore default community join option ([#1969](https://github.com/block/buzz/pull/1969)) ([`a84fe13a8`](https://github.com/block/buzz/commit/a84fe13a8c419f3d2d6ff3b577b431629b8e3e07))\n- feat(desktop): refine Projects navigation and overview hierarchy ([#1956](https://github.com/block/buzz/pull/1956)) ([`158259d95`](https://github.com/block/buzz/commit/158259d953dd56ec82cdb121b2caf075df573458))\n- Log handoff token counts ([#1954](https://github.com/block/buzz/pull/1954)) ([`ca8324",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.8",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.7",
+      "name": "Buzz Desktop v0.4.7",
+      "published_at": "2026-07-16T15:14:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 7,
+      "total_downloads": 7,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.7_aarch64.dmg",
+          "size_bytes": 80609727,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.7_amd64.AppImage",
+          "size_bytes": 130050552,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.7_amd64.deb",
+          "size_bytes": 62809210,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.7_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 35948039,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.7_x64.dmg",
+          "size_bytes": 62798296,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- feat(desktop): confirm invites with an Opening-invite loading gate before machine onboarding ([#1950](https://github.com/block/buzz/pull/1950)) ([`2510a4b4c`](https://github.com/block/buzz/commit/2510a4b4c91b54db5a3aad852c391f3974f48ebd))\n- feat(desktop): remove theme selection from onboarding, default to Buzz + System ([#1947](https://github.com/block/buzz/pull/1947)) ([`2c08271ba`](https://github.com/block/buzz/commit/2c08271ba9f12c87ded0504f0ef028d32ff6a124))\n- fix(desktop): sentence-case r",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.7",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.6",
+      "name": "Buzz Desktop v0.4.6",
+      "published_at": "2026-07-15T18:19:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 39,
+      "total_downloads": 39,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.6_aarch64.dmg",
+          "size_bytes": 80363912,
+          "download_count": 28,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.6_amd64.AppImage",
+          "size_bytes": 129923576,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.6_amd64.deb",
+          "size_bytes": 62509424,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.6_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 35856323,
+          "download_count": 3,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.6_x64.dmg",
+          "size_bytes": 62589179,
+          "download_count": 5,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- Polish agent and team sharing and snapshots ([#1852](https://github.com/block/buzz/pull/1852)) ([`2f3fa586f`](https://github.com/block/buzz/commit/2f3fa586f3bd12b26b8a9dc69a424d5c28b1e27e))\n- fix(desktop): filter punctuation from avatar initials ([#1904](https://github.com/block/buzz/pull/1904)) ([`63e099709`](https://github.com/block/buzz/commit/63e099709667669be41426e7144a4a9057f8537b))\n- fix(desktop): preserve snapshot attachment URLs ([#1905](https://github.com/block/buzz/pull/1905)) ([`1a",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.6",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.5",
+      "name": "Buzz Desktop v0.4.5",
+      "published_at": "2026-07-15T02:22:46Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 10,
+      "total_downloads": 10,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.5_aarch64.dmg",
+          "size_bytes": 77504159,
+          "download_count": 4,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.5_amd64.AppImage",
+          "size_bytes": 128903672,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.5_amd64.deb",
+          "size_bytes": 61436474,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.5_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 35485547,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.5_x64.dmg",
+          "size_bytes": 61475496,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- test(desktop): remove stale collapsed home chrome check ([#1871](https://github.com/block/buzz/pull/1871)) ([`395a3f149`](https://github.com/block/buzz/commit/395a3f1492807b065f8edbee9bb9c8d51018095a))\n- fix(desktop): hide message action for inaccessible agents ([#1883](https://github.com/block/buzz/pull/1883)) ([`8ce9e7914`](https://github.com/block/buzz/commit/8ce9e791453a262f21e675d3f5d27ace22a09e9b))\n- feat(desktop): add API key field, global default indicators, and collapsed advanced ([#1",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.5",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.4",
+      "name": "Buzz Desktop v0.4.4",
+      "published_at": "2026-07-14T21:56:00Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 13,
+      "total_downloads": 13,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.4_aarch64.dmg",
+          "size_bytes": 77499240,
+          "download_count": 9,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.4_amd64.AppImage",
+          "size_bytes": 128854520,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.4_amd64.deb",
+          "size_bytes": 61433462,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.4_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 35477684,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.4_x64.dmg",
+          "size_bytes": 61459994,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): allow staged updater commands ([#1870](https://github.com/block/buzz/pull/1870)) ([`109c2c526`](https://github.com/block/buzz/commit/109c2c52641c5edd50890bffef9a236a10ea6106))\n- feat(teams): unify team model, snapshot sharing, and PNG memory parity ([#1846](https://github.com/block/buzz/pull/1846)) ([`448baeef7`](https://github.com/block/buzz/commit/448baeef770478411678e2f0be1729f04b6800d7))\n- fix(desktop): always start agents and hide unavailable mesh ([#1860](https://github.com",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.4",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.3",
+      "name": "Buzz Desktop v0.4.3",
+      "published_at": "2026-07-14T19:57:43Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 8,
+      "total_downloads": 8,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.3_aarch64.dmg",
+          "size_bytes": 78007886,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.3_amd64.AppImage",
+          "size_bytes": 129358328,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.3_amd64.deb",
+          "size_bytes": 61967032,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.3_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 35817794,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.3_x64.dmg",
+          "size_bytes": 62056997,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- Stabilize persona and stream end-to-end tests ([#1865](https://github.com/block/buzz/pull/1865)) ([`916de4e4d`](https://github.com/block/buzz/commit/916de4e4dbbf9299695a91defa6e3802b1820256))\n- refactor(clients): standardize product naming on community ([#1858](https://github.com/block/buzz/pull/1858)) ([`3e76481a1`](https://github.com/block/buzz/commit/3e76481a149bb3de459298cc989505c470c2372c))\n- fix(desktop): retain live rows after window exhaustion ([#1810](https://github.com/block/buzz/pul",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.3",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.2",
+      "name": "Buzz Desktop v0.4.2",
+      "published_at": "2026-07-13T22:04:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 15,
+      "total_downloads": 15,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.4.2_aarch64.dmg",
+          "size_bytes": 77931566,
+          "download_count": 8,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.2_amd64.AppImage",
+          "size_bytes": 129325560,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.4.2_amd64.deb",
+          "size_bytes": 61937412,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.4.2_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 35829463,
+          "download_count": 3,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.2_x64.dmg",
+          "size_bytes": 62004703,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): unify observer feed scroll onto useAnchoredScroll ([#1825](https://github.com/block/buzz/pull/1825)) ([`d75c2e913`](https://github.com/block/buzz/commit/d75c2e913eef763e8ea2e748c58353c3a22d544d))\n- fix(desktop): sync sidebar update card copy with global installing state ([#1827](https://github.com/block/buzz/pull/1827)) ([`b63a2e423`](https://github.com/block/buzz/commit/b63a2e4231d27f61eae952d2febab36489e773a5))\n- fix(desktop): parse codex ACP plan entries[] into checklist ([#18",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.2",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.1",
+      "name": "Buzz Desktop v0.4.1",
+      "published_at": "2026-07-13T02:40:30Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 10,
+      "total_downloads": 10,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Buzz_0.4.1_aarch64.dmg",
+          "size_bytes": 77774604,
+          "download_count": 7,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.1_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 35676456,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.1_x64.dmg",
+          "size_bytes": 61827536,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- feat(desktop): auto-restart setup-mode agents after adapter install, badge drift fallback ([#1786](https://github.com/block/buzz/pull/1786)) ([`11a286b9a`](https://github.com/block/buzz/commit/11a286b9a4284f4f80943d1321f86fa41c472dcf))\n- Retain a stable message window in channel timelines ([#1698](https://github.com/block/buzz/pull/1698)) ([`b0ad2b66d`](https://github.com/block/buzz/commit/b0ad2b66ddb2d91bcee1473050d21f27e2a38eac))\n- refactor(desktop): remove legacy persona-card flows ([#1781]",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.4.0",
+      "name": "Buzz Desktop v0.4.0",
+      "published_at": "2026-07-10T21:01:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 15,
+      "total_downloads": 15,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Buzz_0.4.0_aarch64.dmg",
+          "size_bytes": 77598833,
+          "download_count": 11,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.4.0_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 35581737,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.4.0_x64.dmg",
+          "size_bytes": 61578646,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- feat(desktop): default observer archive on for dev-nest builds ([#1726](https://github.com/block/buzz/pull/1726)) ([`d9e4edbbf`](https://github.com/block/buzz/commit/d9e4edbbf54996df22c59afdaaaaf571b4e3a5c6))\n- feat(desktop): thread baked build env into global agent config UI ([#1722](https://github.com/block/buzz/pull/1722)) ([`2f2ad409a`](https://github.com/block/buzz/commit/2f2ad409a76606dd9c54872dc518b0ecb72756af))\n- feat: relay invite links (mint + claim + landing page + deep link) ([#166",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.4.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.46",
+      "name": "Buzz Desktop v0.3.46",
+      "published_at": "2026-07-07T17:06:21Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 54,
+      "total_downloads": 54,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.3.46_aarch64.dmg",
+          "size_bytes": 76965811,
+          "download_count": 41,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.46_amd64.AppImage",
+          "size_bytes": 129337848,
+          "download_count": 5,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.46_amd64.deb",
+          "size_bytes": 61088952,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.46_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 35196722,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.3.46_x64.dmg",
+          "size_bytes": 60969328,
+          "download_count": 5,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): preserve agent model/provider when persona snapshot fields are blank ([#1583](https://github.com/block/buzz/pull/1583)) ([`a3ee2c569`](https://github.com/block/buzz/commit/a3ee2c5693d58f32b17072a49add2dbaff8e0ffd))\n- feat(acp,desktop): identify and reap stale agent harness processes ([#1582](https://github.com/block/buzz/pull/1582)) ([`3c6c0d447`](https://github.com/block/buzz/commit/3c6c0d4478e5bb6e734cc16eafa6de6a433bf8fe))\n- feat(desktop): active-draft badge, send-from-drafts ",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.46",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.45",
+      "name": "Buzz Desktop v0.3.45",
+      "published_at": "2026-07-06T23:15:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 18,
+      "total_downloads": 18,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.3.45_aarch64.dmg",
+          "size_bytes": 76532086,
+          "download_count": 10,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.45_amd64.AppImage",
+          "size_bytes": 128911864,
+          "download_count": 4,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.45_amd64.deb",
+          "size_bytes": 60548294,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.45_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 34879991,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.3.45_x64.dmg",
+          "size_bytes": 60411279,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- chore(deps): bump crossbeam-epoch to 0.9.20 for RUSTSEC-2026-0204 ([#1563](https://github.com/block/buzz/pull/1563)) ([`75b52ad7e`](https://github.com/block/buzz/commit/75b52ad7e54ca7f930656e756910a08d0f146b82))\n- fix(archive): atomic remove-kind path + split test modules ([#1562](https://github.com/block/buzz/pull/1562)) ([`484bede75`](https://github.com/block/buzz/commit/484bede7597814dd7dc322d1f72f69c08545ef42))\n- feat(archive): add agent turn-metric (kind 44200) local archive ([#1555](http",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.45",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.44",
+      "name": "Buzz Desktop v0.3.44",
+      "published_at": "2026-07-06T17:50:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 6,
+      "total_downloads": 6,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.3.44_aarch64.dmg",
+          "size_bytes": 76338812,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.44_amd64.AppImage",
+          "size_bytes": 128801272,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.44_amd64.deb",
+          "size_bytes": 60396002,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.44_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 34787054,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.3.44_x64.dmg",
+          "size_bytes": 60264876,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): keep thread-summary badges mounted through scrollback prepends ([#1533](https://github.com/block/buzz/pull/1533)) ([`6abf614fd`](https://github.com/block/buzz/commit/6abf614fd4eb512cf2e4175f17dc09892a8b472d))\n- refactor(shell): drop bundled PortableGit, add BUZZ_SHELL override + dialect hint ([#1536](https://github.com/block/buzz/pull/1536)) ([`cfa208983`](https://github.com/block/buzz/commit/cfa20898313080b7a106ae0e092d8ed6815daeb0))\n- feat(nips,relay,acp): NIP-AM durable encryp",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.44",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.43",
+      "name": "Buzz Desktop v0.3.43",
+      "published_at": "2026-07-06T16:15:26Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.3.43_aarch64.dmg",
+          "size_bytes": 76360015,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.43_amd64.AppImage",
+          "size_bytes": 128764408,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.43_amd64.deb",
+          "size_bytes": 60316686,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.43_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 102688920,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.3.43_x64.dmg",
+          "size_bytes": 60215808,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): sync agent relay profile when persona avatar changes ([#1512](https://github.com/block/buzz/pull/1512)) ([`ce901f7c1`](https://github.com/block/buzz/commit/ce901f7c1e548a0aab0d9e97f4951ea134f6b3d2))\n- feat(desktop): redesign appearance settings with mode-first theme picker ([#1528](https://github.com/block/buzz/pull/1528)) ([`9e773f103`](https://github.com/block/buzz/commit/9e773f103a2829d1b0195a2bf4f01a4b3ff69291))\n- fix(deps): restore windows-* crates downgraded by chrono bump ",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.43",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.42",
+      "name": "Buzz Desktop v0.3.42",
+      "published_at": "2026-07-03T16:17:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 14,
+      "total_downloads": 14,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.3.42_aarch64.dmg",
+          "size_bytes": 76286016,
+          "download_count": 4,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.42_amd64.AppImage",
+          "size_bytes": 128768504,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.42_amd64.deb",
+          "size_bytes": 60293510,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.42_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 102670046,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.3.42_x64.dmg",
+          "size_bytes": 60150086,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): bound read-state localStorage growth and recover from quota errors ([#1502](https://github.com/block/buzz/pull/1502)) ([`a3cf7eec1`](https://github.com/block/buzz/commit/a3cf7eec1d5c876c65aabc827620ca2b7b79127b))\n- Customize macOS DMG installer ([#1496](https://github.com/block/buzz/pull/1496)) ([`bbf8d8912`](https://github.com/block/buzz/commit/bbf8d8912a19d9f8f249b3b7897999e343f803dd))\n- mobile: thread scroll-to-bottom and desktop-parity mention autocomplete ([#1499](https://gi",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.42",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.41",
+      "name": "Buzz Desktop v0.3.41",
+      "published_at": "2026-07-01T18:47:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 19,
+      "total_downloads": 19,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.3.41_aarch64.dmg",
+          "size_bytes": 75125936,
+          "download_count": 15,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.41_amd64.AppImage",
+          "size_bytes": 128424440,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.41_amd64.deb",
+          "size_bytes": 59976054,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.41_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 102460859,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.3.41_x64.dmg",
+          "size_bytes": 59004520,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- Group consecutive desktop messages ([#1429](https://github.com/block/buzz/pull/1429)) ([`3d08c3b0`](https://github.com/block/buzz/commit/3d08c3b02b284d062e2932df8f96e2467bb40946))\n- Update Buzz app icon ([#1430](https://github.com/block/buzz/pull/1430)) ([`db2a9701`](https://github.com/block/buzz/commit/db2a97011536e810abdc3f813ec1867cbcef21f6))\n- feat(desktop): add workspace rail unread observer ([#1428](https://github.com/block/buzz/pull/1428)) ([`ce1f13e8`](https://github.com/block/buzz/com",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.41",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.40",
+      "name": "Buzz Desktop v0.3.40",
+      "published_at": "2026-07-01T00:16:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 11,
+      "total_downloads": 11,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.3.40_aarch64.dmg",
+          "size_bytes": 75194880,
+          "download_count": 6,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.40_amd64.AppImage",
+          "size_bytes": 128440824,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.40_amd64.deb",
+          "size_bytes": 59982516,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.40_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 102447944,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.3.40_x64.dmg",
+          "size_bytes": 59017117,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): stabilize channel-timeline scrollback with per-row height reserves ([#1413](https://github.com/block/buzz/pull/1413)) ([`4fdc68f1`](https://github.com/block/buzz/commit/4fdc68f1568364b3e44d7003c83a9a4ad961e1ee))\n- fix(sidebar): trim working badge label and name working agents in tooltip ([#1408](https://github.com/block/buzz/pull/1408)) ([`697f63dd`](https://github.com/block/buzz/commit/697f63ddcc45df71e48a0c0ac81adada67a056e1))\n- Mobile tab bar polish ([#1368](https://github.com",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.40",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.39",
+      "name": "Buzz Desktop v0.3.39",
+      "published_at": "2026-06-30T22:52:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.3.39_aarch64.dmg",
+          "size_bytes": 75214727,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.39_amd64.AppImage",
+          "size_bytes": 128436728,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.39_amd64.deb",
+          "size_bytes": 59975004,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.39_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 102454007,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.3.39_x64.dmg",
+          "size_bytes": 59019997,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix: close cross-process keychain race and namespace dev-build nest ([#1409](https://github.com/block/buzz/pull/1409)) ([`e8adc3383`](https://github.com/block/buzz/commit/e8adc3383fae3060124ed212d00538d543be0054))\n- feat(relay): allow agent owners to edit/manage agent-owned content ([#1403](https://github.com/block/buzz/pull/1403)) ([`0042c8e10`](https://github.com/block/buzz/commit/0042c8e106d952f408cf4afca052f7053a7c967e))\n- fix(media): support IRSA/credential-chain S3 auth and configurable ",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.39",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.38",
+      "name": "Buzz Desktop v0.3.38",
+      "published_at": "2026-06-30T02:51:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 18,
+      "total_downloads": 18,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.3.38_aarch64.dmg",
+          "size_bytes": 75051408,
+          "download_count": 12,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.38_amd64.AppImage",
+          "size_bytes": 128363000,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.38_amd64.deb",
+          "size_bytes": 59852616,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.38_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 102349867,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.3.38_x64.dmg",
+          "size_bytes": 58862859,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- feat(desktop): provider-agnostic model selection + databricks discovery ([#1307](https://github.com/block/buzz/pull/1307)) ([`eacbbe880`](https://github.com/block/buzz/commit/eacbbe880a50acf400ff7c162b5bc8705ab0063f))\n- release(helm): buzz chart 0.1.1 ([#1374](https://github.com/block/buzz/pull/1374)) ([`2561cbd06`](https://github.com/block/buzz/commit/2561cbd069a4f7a0ca4824f780867aa30ea9f744))\n- Harden relay attack surfaces ([#1369](https://github.com/block/buzz/pull/1369)) ([`29368cf17`](htt",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.38",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.37",
+      "name": "Buzz Desktop v0.3.37",
+      "published_at": "2026-06-29T17:31:14Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 15,
+      "total_downloads": 15,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "Buzz_0.3.37_aarch64.dmg",
+          "size_bytes": 74389706,
+          "download_count": 10,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.37_amd64.AppImage",
+          "size_bytes": 127572472,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.37_amd64.deb",
+          "size_bytes": 58926406,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.37_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 101980336,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        },
+        {
+          "name": "Buzz_0.3.37_x64.dmg",
+          "size_bytes": 58102151,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- feat(buzz-acp): steering as the default mid-turn mention delivery ([#1160](https://github.com/block/buzz/pull/1160)) ([`e567491a`](https://github.com/block/buzz/commit/e567491a196396658ef4c1d4ff6128efd8b2744e))\n- Multi-tenant Buzz relay: community_id as a server-resolved key (comprehensive rewrite) ([#1321](https://github.com/block/buzz/pull/1321)) ([`14fba21e`](https://github.com/block/buzz/commit/14fba21e57b8d671ebbea473226be52a5f2ae636))\n- Disable persona start while runtime discovery runs ",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.37",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.36",
+      "name": "Buzz Desktop v0.3.36",
+      "published_at": "2026-06-29T15:11:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 7,
+      "total_downloads": 7,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Buzz_0.3.36_amd64.AppImage",
+          "size_bytes": 127556088,
+          "download_count": 5,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.36_amd64.deb",
+          "size_bytes": 58879916,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.36_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 101874118,
+          "download_count": 1,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- Polish agent runtime cards ([#1327](https://github.com/block/buzz/pull/1327)) ([`a3c4f3f6`](https://github.com/block/buzz/commit/a3c4f3f625a23addb6053c12f11f79f583c394c1))\n- Rework desktop message-timeline scrolling: de-virtualize + native overflow-anchor ([#1338](https://github.com/block/buzz/pull/1338)) ([`4d619693`](https://github.com/block/buzz/commit/4d6196934e1f082ff5f16277edd33e3108aee38f))\n- Keep wave huddles pending for placeholder profiles ([#1349](https://github.com/block/buzz/pull/",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.36",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.35",
+      "name": "Buzz Desktop v0.3.35",
+      "published_at": "2026-06-26T23:27:21Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 15,
+      "total_downloads": 15,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Buzz_0.3.35_amd64.AppImage",
+          "size_bytes": 127465976,
+          "download_count": 6,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.35_amd64.deb",
+          "size_bytes": 58761292,
+          "download_count": 4,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.35_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 101823651,
+          "download_count": 5,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): split lib modules under size guard ([#1314](https://github.com/block/buzz/pull/1314)) ([`e7d43dc2`](https://github.com/block/buzz/commit/e7d43dc2253f0d1efe7689ac82a8b6b4a7788fd0))\n- Fix desktop notifications on GNOME 46+ Linux ([#1246](https://github.com/block/buzz/pull/1246)) ([`ca50d832`](https://github.com/block/buzz/commit/ca50d832892f6203a59eeaadf3fe7b7e8b8e9888))\n- perf(desktop): debounce channel-list refetch + profile get_channels ([#1310](https://github.com/block/buzz/pul",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.35",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.34",
+      "name": "Buzz Desktop v0.3.34",
+      "published_at": "2026-06-25T18:42:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 17,
+      "total_downloads": 17,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Buzz_0.3.34_amd64.AppImage",
+          "size_bytes": 127306232,
+          "download_count": 9,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.34_amd64.deb",
+          "size_bytes": 58686572,
+          "download_count": 6,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.34_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 101756739,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- feat(desktop): refresh Agents tab live on inbound relay sync ([#1256](https://github.com/block/buzz/pull/1256)) ([`9a59e308`](https://github.com/block/buzz/commit/9a59e30817c642b1e6aab296863570869e215a19))\n- fix(buzz-acp): inject Codex network allowlist for relay hostname at spawn time ([#1287](https://github.com/block/buzz/pull/1287)) ([`0379247e`](https://github.com/block/buzz/commit/0379247eba8a6c7e48a94f3fb8a329e7bdbca13c))\n- refactor(desktop): consolidate notification helpers and add chan",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.34",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.33",
+      "name": "Buzz Desktop v0.3.33",
+      "published_at": "2026-06-25T04:26:44Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 34,
+      "total_downloads": 34,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.33_aarch64.dmg",
+          "size_bytes": 73983359,
+          "download_count": 25,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.33_amd64.AppImage",
+          "size_bytes": 127232504,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.33_amd64.deb",
+          "size_bytes": 58521908,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.33_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 101748703,
+          "download_count": 3,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): always use legacy keyring for blob entry on macOS ([#1271](https://github.com/block/buzz/pull/1271)) ([`e7c3638fe`](https://github.com/block/buzz/commit/e7c3638fe984e7785a6e51e547b5844e894ed013))\n- chore(release): release Buzz Relay version 0.1.1 ([#1269](https://github.com/block/buzz/pull/1269)) ([`68a0cc850`](https://github.com/block/buzz/commit/68a0cc8506be4ea1fb110b65eec0787e4cd84378))\n- perf(desktop): consolidate keychain secrets into a single blob entry ([#1267](https://git",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.33",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.32",
+      "name": "Buzz Desktop v0.3.32",
+      "published_at": "2026-06-24T22:47:16Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 15,
+      "total_downloads": 15,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.32_aarch64.dmg",
+          "size_bytes": 73971340,
+          "download_count": 6,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.32_amd64.AppImage",
+          "size_bytes": 127216120,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.32_amd64.deb",
+          "size_bytes": 58516346,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.32_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 101715429,
+          "download_count": 5,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): restore solid dot for top-level channel unreads ([#1253](https://github.com/block/buzz/pull/1253)) ([`9d3bfd38b`](https://github.com/block/buzz/commit/9d3bfd38b0876cd1bdf5bb90d6639f200ceb12e0))\n- Allow explicit root posts from reply prompts ([#1251](https://github.com/block/buzz/pull/1251)) ([`ebd74d11b`](https://github.com/block/buzz/commit/ebd74d11b4e77195fa94158205787e6e5edca3ff))\n- feat: publish personas, teams, and managed agents as relay events ([#939](https://github.com/bl",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.32",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.31",
+      "name": "Buzz Desktop v0.3.31",
+      "published_at": "2026-06-23T22:49:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 28,
+      "total_downloads": 28,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.31_aarch64.dmg",
+          "size_bytes": 73828166,
+          "download_count": 21,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.31_amd64.AppImage",
+          "size_bytes": 126753272,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.31_amd64.deb",
+          "size_bytes": 57962680,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.31_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 101610396,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- fix(release): publish versioned relay Docker tags via independent release lanes ([#1173](https://github.com/block/buzz/pull/1173)) ([`549b7d24`](https://github.com/block/buzz/commit/549b7d24813320045bdda629d865c6c7418e7450))\n- fix(desktop): align settings section headers ([#1165](https://github.com/block/buzz/pull/1165)) ([`6ad68a6b`](https://github.com/block/buzz/commit/6ad68a6b095cd5db328ae07dfac4013eeda5820a))\n- fix(desktop): ground agent workspace, migrate legacy nest, configurable repos_d",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.31",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.30",
+      "name": "Buzz Desktop v0.3.30",
+      "published_at": "2026-06-23T14:03:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 12,
+      "total_downloads": 12,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.30_aarch64.dmg",
+          "size_bytes": 51831761,
+          "download_count": 5,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.30_amd64.AppImage",
+          "size_bytes": 126585336,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.30_amd64.deb",
+          "size_bytes": 57719732,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.30_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 101416828,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): collapse mark-read/unread menu into one toggling item ([#1188](https://github.com/block/buzz/pull/1188)) ([`ce994df74`](https://github.com/block/buzz/commit/ce994df74e60cf43b2fb0b97ea9989aacd47650e))\n- fix(channels): replace thread-unread badge frontier with per-message read markers ([#1178](https://github.com/block/buzz/pull/1178)) ([`28db41dfd`](https://github.com/block/buzz/commit/28db41dfd383f3f7acd57011bd98661a08e7bfe4))\n- fix(relay): resubscribe agents when an archived chan",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.30",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.29",
+      "name": "Buzz Desktop v0.3.29",
+      "published_at": "2026-06-22T22:44:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 9,
+      "total_downloads": 9,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.29_aarch64.dmg",
+          "size_bytes": 51830195,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.29_amd64.AppImage",
+          "size_bytes": 126556664,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.29_amd64.deb",
+          "size_bytes": 57718778,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.29_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 101430797,
+          "download_count": 3,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- build: make mesh-llm opt-in for dev/staging to speed up iteration ([#1183](https://github.com/block/buzz/pull/1183)) ([`ce526106`](https://github.com/block/buzz/commit/ce5261067d2b970ecca7e0d6c24479fcd2ccad43))\n- feat(desktop): default temporary channels to 7-day expiry ([#1182](https://github.com/block/buzz/pull/1182)) ([`4b518fc4`](https://github.com/block/buzz/commit/4b518fc4b3ec6c55eeb4d4b203057d55d8ba0c56))\n- fix(desktop): render lightbox image sharply at full resolution ([#1181](https://",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.29",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.28",
+      "name": "Buzz Desktop v0.3.28",
+      "published_at": "2026-06-22T17:52:01Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 14,
+      "total_downloads": 14,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.28_aarch64.dmg",
+          "size_bytes": 51823199,
+          "download_count": 8,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.28_amd64.AppImage",
+          "size_bytes": 126556664,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.28_amd64.deb",
+          "size_bytes": 57722266,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.28_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 69185386,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- Improve thread branch display ([#1166](https://github.com/block/buzz/pull/1166)) ([`342a251a`](https://github.com/block/buzz/commit/342a251a9199b55ffc0e19cb50ee7e09a8ec051f))\n- Copy channel name from header ([#1157](https://github.com/block/buzz/pull/1157)) ([`a96d173e`](https://github.com/block/buzz/commit/a96d173e996da82a1e59fbdd60081ead01a0e869))\n- docs: add product screenshots to README ([#1168](https://github.com/block/buzz/pull/1168)) ([`ff976e69`](https://github.com/block/buzz/commit/ff",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.28",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.27",
+      "name": "Buzz Desktop v0.3.27",
+      "published_at": "2026-06-22T00:39:06Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 10,
+      "total_downloads": 10,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.27_aarch64.dmg",
+          "size_bytes": 51816265,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.27_amd64.AppImage",
+          "size_bytes": 126552568,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.27_amd64.deb",
+          "size_bytes": 57708988,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.27_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 69180101,
+          "download_count": 3,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- chore: remove block team id from Xcode ([#1156](https://github.com/block/buzz/pull/1156)) ([`67fcf41b`](https://github.com/block/buzz/commit/67fcf41b53e081d1bed950257a3372683905a81c))\n- fix(desktop): keep channel chrome clear of window controls ([#1159](https://github.com/block/buzz/pull/1159)) ([`fa10871d`](https://github.com/block/buzz/commit/fa10871df61f4426441e887839772e49f4e03196))\n- desktop: polish sidebar search dialog ([#1155](https://github.com/block/buzz/pull/1155)) ([`5f79830e`](htt",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.27",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.26",
+      "name": "Buzz Desktop v0.3.26",
+      "published_at": "2026-06-19T02:37:52Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 15,
+      "total_downloads": 15,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.26_aarch64.dmg",
+          "size_bytes": 51807537,
+          "download_count": 7,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.26_amd64.AppImage",
+          "size_bytes": 126552568,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.26_amd64.deb",
+          "size_bytes": 57714512,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.26_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 69190239,
+          "download_count": 4,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- ci: cache Flutter pub packages in the Mobile job ([#1128](https://github.com/block/buzz/pull/1128)) ([`ceb5eff53`](https://github.com/block/buzz/commit/ceb5eff53717a18afb9ac6cd3f3a93f01394b5bc))\n- Delete RESEARCH directory ([`a1d5570d3`](https://github.com/block/buzz/commit/a1d5570d3136c2c52823f512a5c59429f8995ca0))\n- feat(cli): support ephemeral channels via --ttl on create/update ([#1126](https://github.com/block/buzz/pull/1126)) ([`4f671a255`](https://github.com/block/buzz/commit/4f671a255c",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.26",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.25",
+      "name": "Buzz Desktop v0.3.25",
+      "published_at": "2026-06-18T00:18:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 13,
+      "total_downloads": 13,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.25_aarch64.dmg",
+          "size_bytes": 51605237,
+          "download_count": 6,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.25_amd64.AppImage",
+          "size_bytes": 126339576,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.25_amd64.deb",
+          "size_bytes": 57459730,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.25_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 33355950,
+          "download_count": 3,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): stop dimming deferred message lists ([#1104](https://github.com/block/buzz/pull/1104)) ([`718b596e5`](https://github.com/block/buzz/commit/718b596e5b696dbe439993c40a16ba39dd862828))\n- Smooth channel loading: single-surface timeline state machine ([#1099](https://github.com/block/buzz/pull/1099)) ([`d47572209`](https://github.com/block/buzz/commit/d47572209dd26ee11cb7d77c85d420fb11947ce8))\n- feat: surface base + persona system prompts in observer feed ([#1103](https://github.com/b",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.25",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.24",
+      "name": "Buzz Desktop v0.3.24",
+      "published_at": "2026-06-16T18:02:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 28,
+      "total_downloads": 28,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.24_aarch64.dmg",
+          "size_bytes": 51286743,
+          "download_count": 17,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.24_amd64.AppImage",
+          "size_bytes": 125962744,
+          "download_count": 5,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.24_amd64.deb",
+          "size_bytes": 57097772,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.24_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 33002679,
+          "download_count": 3,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- feat(desktop): refine thread-unread badge to two-token form ([#1069](https://github.com/block/buzz/pull/1069)) ([`de24b90aa`](https://github.com/block/buzz/commit/de24b90aa1076822c4de184c3bb8b5f6ebc682a2))\n- fix(buzz): prevent reconnect storms from reaped ephemeral channels ([#1071](https://github.com/block/buzz/pull/1071)) ([`fd2553726`](https://github.com/block/buzz/commit/fd2553726c6a8277c472b44227d13546673117b2))\n- fix(buzz-acp): trim oversized observer frames to fit instead of dropping ([",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.24",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.23",
+      "name": "Buzz Desktop v0.3.23",
+      "published_at": "2026-06-14T05:30:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 16,
+      "total_downloads": 16,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.23_aarch64.dmg",
+          "size_bytes": 51137748,
+          "download_count": 6,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.23_amd64.AppImage",
+          "size_bytes": 125848056,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.23_amd64.deb",
+          "size_bytes": 56994248,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.23_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 32912908,
+          "download_count": 4,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- fix(release): publish manifest from successful platforms ([#1039](https://github.com/block/buzz/pull/1039)) ([`9b410325a`](https://github.com/block/buzz/commit/9b410325a754305405dbaf80b63546df9af403ea))",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.23",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.22",
+      "name": "Buzz Desktop v0.3.22",
+      "published_at": "2026-06-14T04:01:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 8,
+      "total_downloads": 8,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.22_aarch64.dmg",
+          "size_bytes": 51143861,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.22_amd64.AppImage",
+          "size_bytes": 125839864,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.22_amd64.deb",
+          "size_bytes": 56996644,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.22_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 32920611,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- fix(release): publish rolling updater manifest for automated release tags",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.22",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.21",
+      "name": "Buzz Desktop v0.3.21",
+      "published_at": "2026-06-14T03:25:11Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 8,
+      "total_downloads": 8,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "Buzz_0.3.21_aarch64.dmg",
+          "size_bytes": 51135032,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.21_amd64.AppImage",
+          "size_bytes": 125839864,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.21_amd64.deb",
+          "size_bytes": 56995382,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        },
+        {
+          "name": "Buzz_0.3.21_x64-setup_alpha-unsigned.exe",
+          "size_bytes": 32921922,
+          "download_count": 2,
+          "platform": "Windows",
+          "content_type": "application/x-msdownload"
+        }
+      ],
+      "body_excerpt": "- fix(release): use signed NSIS installer for updates ([#1036](https://github.com/block/buzz/pull/1036)) ([`4d19a5901`](https://github.com/block/buzz/commit/4d19a5901d45aab7c615440e725e6d17d799e0da))\n- handoff: pass full session history to summarizer ([#1033](https://github.com/block/buzz/pull/1033)) ([`fa1cade3b`](https://github.com/block/buzz/commit/fa1cade3ba76309bcbeac5e87e8932e2087622f2))\n- feat(emoji): latest-set-wins union for custom emoji across desktop, mobile, and CLI ([#989](https://g",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.21",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.20-rc.win.2",
+      "name": "Buzz Desktop v0.3.20-rc.win.2",
+      "published_at": "2026-06-13T17:33:59Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 6,
+      "total_downloads": 6,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Buzz_0.3.20-rc.win.2_aarch64.dmg",
+          "size_bytes": 51125732,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.20-rc.win.2_amd64.AppImage",
+          "size_bytes": 125815288,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.20-rc.win.2_amd64.deb",
+          "size_bytes": 56985210,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "Buzz Desktop v0.3.20-rc.win.2",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.20-rc.win.2",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.20",
+      "name": "Buzz Desktop v0.3.20",
+      "published_at": "2026-06-13T02:40:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 6,
+      "total_downloads": 6,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Buzz_0.3.20_aarch64.dmg",
+          "size_bytes": 50217995,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.20_amd64.AppImage",
+          "size_bytes": 124869112,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.20_amd64.deb",
+          "size_bytes": 55923950,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- fix(release): resolve Windows sidecar path and Linux AppImage updater format ([#1024](https://github.com/block/buzz/pull/1024)) ([`c7dd4295b`](https://github.com/block/buzz/commit/c7dd4295b8feee4acd78bac86d1d92cf7e7463ad))",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.20",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.19",
+      "name": "Buzz Desktop v0.3.19",
+      "published_at": "2026-06-12T23:01:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 7,
+      "total_downloads": 7,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Buzz_0.3.19_aarch64.dmg",
+          "size_bytes": 50215733,
+          "download_count": 7,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "- fix(release): ignore prerelease tags in changelog generation ([#1021](https://github.com/block/buzz/pull/1021)) ([`faf00724f`](https://github.com/block/buzz/commit/faf00724fb4d187ad92a378b4069bf4fd1b4033f))\n- fix: repair main build after cross-PR merge skew ([#1020](https://github.com/block/buzz/pull/1020)) ([`b8c0556e7`](https://github.com/block/buzz/commit/b8c0556e7cdda13c52ba1cf80e675e4fc40b6696))\n- feat(agents): show per-turn duration and prune dead turns within ~25s of host crash ([#1017]",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.19",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.18",
+      "name": "Buzz Desktop v0.3.18",
+      "published_at": "2026-06-11T23:03:00Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Buzz_0.3.18_aarch64.dmg",
+          "size_bytes": 50157922,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Buzz_0.3.18_amd64.AppImage",
+          "size_bytes": 124848632,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Buzz_0.3.18_amd64.deb",
+          "size_bytes": 55897906,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- Video Player Improvements ([#993](https://github.com/block/buzz/pull/993)) ([`05fc69b84`](https://github.com/block/buzz/commit/05fc69b84082d7e7e9360cab7ae9c9c0524511f9))\n- Improve first-run welcome setup ([#970](https://github.com/block/buzz/pull/970)) ([`d9ce0943e`](https://github.com/block/buzz/commit/d9ce0943edb286404a3c99b501d53e7b35095955))\n- fix(release): use legacy updater key secret ([#991](https://github.com/block/buzz/pull/991)) ([`50986406f`](https://github.com/block/buzz/commit/509",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.18",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.16",
+      "name": "Sprout Desktop v0.3.16",
+      "published_at": "2026-06-10T17:19:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 4,
+      "total_downloads": 4,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.16_aarch64.dmg",
+          "size_bytes": 51227125,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.16_amd64.AppImage",
+          "size_bytes": 124606968,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.16_amd64.deb",
+          "size_bytes": 55597746,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): land live presence updates for not-yet-cached pubkeys ([#947](https://github.com/block/buzz/pull/947)) ([`34c8bdab1`](https://github.com/block/buzz/commit/34c8bdab1a8bde4fa6d24afcb081a60131e10ff3))\n- fix(release): make `just release` idempotent for re-runs ([#948](https://github.com/block/buzz/pull/948)) ([`5c0af0bc9`](https://github.com/block/buzz/commit/5c0af0bc93d713beb1f77f6c9bc3dad65c0ff15b))\n- Improve mentions for agents + people ([#942](https://github.com/block/buzz/pull/9",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.16",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.15",
+      "name": "Sprout Desktop v0.3.15",
+      "published_at": "2026-06-10T01:18:15Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.15_aarch64.dmg",
+          "size_bytes": 51156619,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.15_amd64.AppImage",
+          "size_bytes": 124496376,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.15_amd64.deb",
+          "size_bytes": 55500046,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- fix: persona is source of truth at spawn + thread-depth conventions ([#930](https://github.com/block/buzz/pull/930)) ([`877048d68`](https://github.com/block/buzz/commit/877048d68fb064947c8845d0051237064937660b))\n- fix: skip avatar reconciliation for legacy agent records ([#933](https://github.com/block/buzz/pull/933)) ([`73cd8d082`](https://github.com/block/buzz/commit/73cd8d082d474a5cd16bdd4b404010027ed3ad17))\n- feat(desktop): add nest commit identity guidance with human sign-off ([#929](http",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.15",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.13",
+      "name": "Sprout Desktop v0.3.13",
+      "published_at": "2026-06-08T16:48:21Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 8,
+      "total_downloads": 8,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.13_aarch64.dmg",
+          "size_bytes": 51032717,
+          "download_count": 6,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.13_amd64.AppImage",
+          "size_bytes": 124353016,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.13_amd64.deb",
+          "size_bytes": 55359384,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- Collapse channel header actions ([#901](https://github.com/block/buzz/pull/901)) ([`ecca5e77e`](https://github.com/block/buzz/commit/ecca5e77e4ec973ddeab1d0f21981d97958515f9))\n- sprout-agent: make Databricks defaults env-only ([#868](https://github.com/block/buzz/pull/868)) ([`4ec7f8125`](https://github.com/block/buzz/commit/4ec7f8125e845783f3329ab7f2f7193dd2d83938))\n- Restyle settings sections ([#894](https://github.com/block/buzz/pull/894)) ([`b384354e2`](https://github.com/block/buzz/commit",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.13",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.12",
+      "name": "Sprout Desktop v0.3.12",
+      "published_at": "2026-06-05T21:31:33Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 6,
+      "total_downloads": 6,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.12_aarch64.dmg",
+          "size_bytes": 51010476,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.12_amd64.AppImage",
+          "size_bytes": 124340728,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.12_amd64.deb",
+          "size_bytes": 55370878,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- Show hover cards for inline message emoji ([#885](https://github.com/block/buzz/pull/885)) ([`1b7b6978f`](https://github.com/block/buzz/commit/1b7b6978fc83dc2001ce0a04380c978bd57f7a7e))\n- Fix monotonic read-state merges ([#884](https://github.com/block/buzz/pull/884)) ([`5268fac2d`](https://github.com/block/buzz/commit/5268fac2d840bb77f2c64d358ef91fa173f8295f))\n- Refine sidebar behavior and borders ([#869](https://github.com/block/buzz/pull/869)) ([`0a4783c6f`](https://github.com/block/buzz/co",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.12",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.11",
+      "name": "Sprout Desktop v0.3.11",
+      "published_at": "2026-06-05T00:46:54Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 4,
+      "total_downloads": 4,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.11_aarch64.dmg",
+          "size_bytes": 56640237,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.11_amd64.AppImage",
+          "size_bytes": 129673720,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.11_amd64.deb",
+          "size_bytes": 61196540,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- fix(mobile+desktop): cross-device read state sync + diagnostic logging ([#843](https://github.com/block/buzz/pull/843)) ([`269b35e8d`](https://github.com/block/buzz/commit/269b35e8de7b2cb6b6908b1bddee9460774b2802))\n- feat(mobile): star channels (Slack-style favorites) ([#863](https://github.com/block/buzz/pull/863)) ([`3ddfe5fcc`](https://github.com/block/buzz/commit/3ddfe5fcc25992bd0733d5013589a3521c9989f0))\n- feat: desktop-screenshot skill to stop agents uploading relay media to PRs ([#862](",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.11",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.10",
+      "name": "Sprout Desktop v0.3.10",
+      "published_at": "2026-06-04T16:20:46Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.10_aarch64.dmg",
+          "size_bytes": 56636625,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.10_amd64.AppImage",
+          "size_bytes": 129620472,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.10_amd64.deb",
+          "size_bytes": 61189258,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- fix(desktop): harden relay mesh connect p-tag ([#834](https://github.com/block/buzz/pull/834)) ([`34ac3ba1d`](https://github.com/block/buzz/commit/34ac3ba1d1825e1dfbe5d81dd67e9b7375b29785))\n- fix(desktop): scroll activity panel to bottom on open ([#848](https://github.com/block/buzz/pull/848)) ([`b3aefae15`](https://github.com/block/buzz/commit/b3aefae152ebc68a7f8d8720396f3e6ec06c947b))\n- Polish desktop profile menu interactions ([#836](https://github.com/block/buzz/pull/836)) ([`a13691b62`](h",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.10",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.9",
+      "name": "Sprout Desktop v0.3.9",
+      "published_at": "2026-06-03T18:00:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.9_aarch64.dmg",
+          "size_bytes": 56659740,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.9_amd64.AppImage",
+          "size_bytes": 129554936,
+          "download_count": 3,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.9_amd64.deb",
+          "size_bytes": 61174270,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- fix: native arbitrary-file download + image context-menu flash ([#830](https://github.com/block/buzz/pull/830)) ([`82ae85f79`](https://github.com/block/buzz/commit/82ae85f79a9e687b51a599f44cf8e8b47b756b80))\n- fix(desktop): custom emoji reaction rendering + picker autofocus ([#831](https://github.com/block/buzz/pull/831)) ([`7797ae77f`](https://github.com/block/buzz/commit/7797ae77f6412972a95a9f3ffd90555fbd2d1051))\n- Mesh-LLM v1: relay-gated direct-iroh inference between users (WAN) ([#822](htt",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.9",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.8",
+      "name": "Sprout Desktop v0.3.8",
+      "published_at": "2026-06-03T00:12:38Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.8_aarch64.dmg",
+          "size_bytes": 56645644,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.8_amd64.AppImage",
+          "size_bytes": 129571320,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.8_amd64.deb",
+          "size_bytes": 61142428,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.3.8",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.8",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.7",
+      "name": "Sprout Desktop v0.3.7",
+      "published_at": "2026-06-02T22:12:05Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.7_aarch64.dmg",
+          "size_bytes": 56642546,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.7_amd64.AppImage",
+          "size_bytes": 129587704,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.7_amd64.deb",
+          "size_bytes": 61145688,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- feat: custom emoji \u2014 user-owned NIP-30 sets with a client-side union ([#816](https://github.com/block/buzz/pull/816)) ([`234942130`](https://github.com/block/buzz/commit/2349421304d84b0b2537bebf2cf7923a1ce30e27))\n- Install sprout-cli skill at repo root + fix desktop clippy ([#818](https://github.com/block/buzz/pull/818)) ([`7a12e5051`](https://github.com/block/buzz/commit/7a12e50518ec51db23c83301b99c66e9bbfdb95f))\n- fix(desktop): use public re-export path for ensure_client_node_for_model ([#82",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.7",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.6",
+      "name": "Sprout Desktop v0.3.6",
+      "published_at": "2026-06-01T21:09:54Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.6_aarch64.dmg",
+          "size_bytes": 55091517,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.6_amd64.AppImage",
+          "size_bytes": 128002552,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.6_amd64.deb",
+          "size_bytes": 59608768,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- feat(mobile): add channel sections with relay sync ([#800](https://github.com/block/buzz/pull/800)) ([`5cbedb180`](https://github.com/block/buzz/commit/5cbedb180af56274a518c5233e4de918313bb8d1))\n- feat(desktop): sync channel sections across devices via Nostr ([#792](https://github.com/block/buzz/pull/792)) ([`753d0fe26`](https://github.com/block/buzz/commit/753d0fe264d4d997f8291f801547242420ba7d97))\n- feat(media): support arbitrary file types with download cards ([#810](https://github.com/bloc",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.6",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.5",
+      "name": "Sprout Desktop v0.3.5",
+      "published_at": "2026-05-29T22:03:04Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 8,
+      "total_downloads": 8,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.5_aarch64.dmg",
+          "size_bytes": 55059772,
+          "download_count": 4,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.5_amd64.AppImage",
+          "size_bytes": 127990264,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.5_amd64.deb",
+          "size_bytes": 59593332,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- feat(mobile): Pulse polish \u2014 flat feed, compose page, shared filter chips, like + accent fixes ([#796](https://github.com/block/buzz/pull/796)) ([`b82042090`](https://github.com/block/buzz/commit/b820420909d225b18c45f1bd330a00a2edbee09b))\n- feat(desktop): add standalone Playwright screenshot helper ([#795](https://github.com/block/buzz/pull/795)) ([`10f37e4ca`](https://github.com/block/buzz/commit/10f37e4cab244c6da319bbad803d65cf3981b794))\n- feat(sprout-agent): load AGENTS.md and SKILL.md into",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.5",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.4",
+      "name": "Sprout Desktop v0.3.4",
+      "published_at": "2026-05-29T17:08:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 8,
+      "total_downloads": 8,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.4_aarch64.dmg",
+          "size_bytes": 55052601,
+          "download_count": 4,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.4_amd64.AppImage",
+          "size_bytes": 127969784,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.4_amd64.deb",
+          "size_bytes": 59529646,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- Update desktop navigation chrome and search ([#779](https://github.com/block/buzz/pull/779)) ([`d77b111b1`](https://github.com/block/buzz/commit/d77b111b1531a7f2992ab7b60edb975549707b4f))\n- feat(desktop): reload webview on Cmd/Ctrl+R ([#785](https://github.com/block/buzz/pull/785)) ([`5ee2cd051`](https://github.com/block/buzz/commit/5ee2cd05173d5bb5a8711753394ed23ab82f0f4e))\n- fix(desktop): sync persona pack directory across worktree instances ([#782](https://github.com/block/buzz/pull/782)) (",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.4",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.3",
+      "name": "Sprout Desktop v0.3.3",
+      "published_at": "2026-05-29T00:08:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 7,
+      "total_downloads": 7,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.3_aarch64.dmg",
+          "size_bytes": 55040491,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.3_amd64.AppImage",
+          "size_bytes": 127969784,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.3_amd64.deb",
+          "size_bytes": 59522864,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- fix(release): sync release tags during preflight ([#780](https://github.com/block/buzz/pull/780)) ([`c761a76ff`](https://github.com/block/buzz/commit/c761a76ff2d5789c57159c46bcf08fd02e16d82a))\n- feat(desktop): thread-aware notifications with mutable follow/mute controls ([#761](https://github.com/block/buzz/pull/761)) ([`3f3ec6479`](https://github.com/block/buzz/commit/3f3ec64791b7cd40ddaa8d8332e00e6f11c09a8d))\n- fix(desktop): improve model picker message and runtime dropdown clarity ([#778](h",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.3",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.2",
+      "name": "Sprout Desktop v0.3.2",
+      "published_at": "2026-05-28T19:13:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.2_aarch64.dmg",
+          "size_bytes": 55037530,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.2_amd64.AppImage",
+          "size_bytes": 127973880,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.2_amd64.deb",
+          "size_bytes": 59503496,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- feat(mobile): add Pulse social feed tab ([#772](https://github.com/block/buzz/pull/772)) ([`1218572fa`](https://github.com/block/buzz/commit/1218572fa0380b5517a3c6a2aff34bdc51fa90e6))\n- feat(sidebar): add More unread floating buttons ([#771](https://github.com/block/buzz/pull/771)) ([`fec6a683e`](https://github.com/block/buzz/commit/fec6a683ea88c25c76f29d5eb4d39709765a791b))\n- chore: improve markdown spacing ([#766](https://github.com/block/buzz/pull/766)) ([`8eedec740`](https://github.com/blo",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.2",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.1",
+      "name": "Sprout Desktop v0.3.1",
+      "published_at": "2026-05-28T16:22:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.1_aarch64.dmg",
+          "size_bytes": 55038154,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.1_amd64.AppImage",
+          "size_bytes": 127965688,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.1_amd64.deb",
+          "size_bytes": 59507006,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- [codex] Default release command to patch bump ([#768](https://github.com/block/buzz/pull/768)) ([`4222a758c`](https://github.com/block/buzz/commit/4222a758c6491fbbae113e862eb732c769a3dcf8))\n- Polish desktop Pulse and Home views ([#764](https://github.com/block/buzz/pull/764)) ([`30654e95f`](https://github.com/block/buzz/commit/30654e95f6550854a16ce46bfbbd48dbcaa1b645))",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.1",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.3.0",
+      "name": "Sprout Desktop v0.3.0",
+      "published_at": "2026-05-27T23:59:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.3.0_aarch64.dmg",
+          "size_bytes": 54966772,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.3.0_amd64.AppImage",
+          "size_bytes": 127916536,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.3.0_amd64.deb",
+          "size_bytes": 59466110,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "- Initial release on the automated pipeline. Unifies OSS and internal version numbering above both v0.0.21 (OSS) and v0.2.38 (internal).",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.3.0",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.22",
+      "name": "Sprout Desktop v0.0.22",
+      "published_at": "2026-05-27T21:14:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.0.22_aarch64.dmg",
+          "size_bytes": 55010037,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.0.22_amd64.AppImage",
+          "size_bytes": 127945208,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.0.22_amd64.deb",
+          "size_bytes": 59488732,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.22",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.22",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.21",
+      "name": "Sprout Desktop v0.0.21",
+      "published_at": "2026-05-27T04:34:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.0.21_aarch64.dmg",
+          "size_bytes": 54986924,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.0.21_amd64.AppImage",
+          "size_bytes": 127932920,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.0.21_amd64.deb",
+          "size_bytes": 59488416,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.21",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.21",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.20",
+      "name": "Sprout Desktop v0.0.20",
+      "published_at": "2026-05-26T23:28:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.0.20_aarch64.dmg",
+          "size_bytes": 55004455,
+          "download_count": 1,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.0.20_amd64.AppImage",
+          "size_bytes": 127900152,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.0.20_amd64.deb",
+          "size_bytes": 59480140,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.20",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.20",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.19",
+      "name": "Sprout Desktop v0.0.19",
+      "published_at": "2026-05-23T01:39:07Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 7,
+      "total_downloads": 7,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.0.19_aarch64.dmg",
+          "size_bytes": 54729033,
+          "download_count": 4,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.0.19_amd64.AppImage",
+          "size_bytes": 127724024,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.0.19_amd64.deb",
+          "size_bytes": 59218924,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.19",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.19",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.18",
+      "name": "Sprout Desktop v0.0.18",
+      "published_at": "2026-05-23T01:07:14Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 4,
+      "total_downloads": 4,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.0.18_aarch64.dmg",
+          "size_bytes": 54703846,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.0.18_amd64.AppImage",
+          "size_bytes": 127715832,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.0.18_amd64.deb",
+          "size_bytes": 59216876,
+          "download_count": 1,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.18",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.18",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.17",
+      "name": "Sprout Desktop v0.0.17",
+      "published_at": "2026-05-21T14:27:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 8,
+      "total_downloads": 8,
+      "asset_count": 3,
+      "assets": [
+        {
+          "name": "Sprout_0.0.17_aarch64.dmg",
+          "size_bytes": 53953476,
+          "download_count": 4,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        },
+        {
+          "name": "Sprout_0.0.17_amd64.AppImage",
+          "size_bytes": 127060472,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/vnd.appimage"
+        },
+        {
+          "name": "Sprout_0.0.17_amd64.deb",
+          "size_bytes": 58483772,
+          "download_count": 2,
+          "platform": "Linux",
+          "content_type": "application/x-debian-package"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.17",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.17",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.16",
+      "name": "Sprout Desktop v0.0.16",
+      "published_at": "2026-05-14T23:13:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 12,
+      "total_downloads": 12,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.16_aarch64.dmg",
+          "size_bytes": 47478612,
+          "download_count": 12,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.16",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.16",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.15",
+      "name": "Sprout Desktop v0.0.15",
+      "published_at": "2026-05-14T17:27:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.15_aarch64.dmg",
+          "size_bytes": 47488340,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.15",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.15",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.14",
+      "name": "Sprout Desktop v0.0.14",
+      "published_at": "2026-05-13T22:34:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 2,
+      "total_downloads": 2,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.14_aarch64.dmg",
+          "size_bytes": 47473977,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.14",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.14",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.13",
+      "name": "Sprout Desktop v0.0.13",
+      "published_at": "2026-05-13T19:43:11Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 2,
+      "total_downloads": 2,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.13_aarch64.dmg",
+          "size_bytes": 47475937,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.13",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.13",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.12",
+      "name": "Sprout Desktop v0.0.12",
+      "published_at": "2026-05-12T22:20:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 4,
+      "total_downloads": 4,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.12_aarch64.dmg",
+          "size_bytes": 47499445,
+          "download_count": 4,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.12",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.12",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.11",
+      "name": "Sprout Desktop v0.0.11",
+      "published_at": "2026-05-11T23:42:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 4,
+      "total_downloads": 4,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.11_aarch64.dmg",
+          "size_bytes": 47436523,
+          "download_count": 4,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.11",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.11",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.10",
+      "name": "Sprout Desktop v0.0.10",
+      "published_at": "2026-05-11T19:57:04Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 2,
+      "total_downloads": 2,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.10_aarch64.dmg",
+          "size_bytes": 47411371,
+          "download_count": 2,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.10",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.10",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.9",
+      "name": "Sprout Desktop v0.0.9",
+      "published_at": "2026-05-08T17:47:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.9_aarch64.dmg",
+          "size_bytes": 36717801,
+          "download_count": 5,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.9",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.9",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.8",
+      "name": "Sprout Desktop v0.0.8",
+      "published_at": "2026-05-07T22:48:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 9,
+      "total_downloads": 9,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.8_aarch64.dmg",
+          "size_bytes": 36714235,
+          "download_count": 9,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.8",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.8",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.7",
+      "name": "Sprout Desktop v0.0.7",
+      "published_at": "2026-05-07T21:04:30Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 6,
+      "total_downloads": 6,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.7_aarch64.dmg",
+          "size_bytes": 36712221,
+          "download_count": 6,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.7",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.7",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.6",
+      "name": "Sprout Desktop v0.0.6",
+      "published_at": "2026-05-07T18:52:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 7,
+      "total_downloads": 7,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.6_aarch64.dmg",
+          "size_bytes": 36714859,
+          "download_count": 7,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.6",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.6",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.5",
+      "name": "Sprout Desktop v0.0.5",
+      "published_at": "2026-05-06T02:10:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.5_aarch64.dmg",
+          "size_bytes": 36664393,
+          "download_count": 5,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.5",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.5",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.4",
+      "name": "Sprout Desktop v0.0.4",
+      "published_at": "2026-05-05T22:03:39Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.4_aarch64.dmg",
+          "size_bytes": 36666554,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.4",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.4",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.3",
+      "name": "Sprout Desktop v0.0.3",
+      "published_at": "2026-05-05T00:49:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 4,
+      "total_downloads": 4,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.3_aarch64.dmg",
+          "size_bytes": 36734613,
+          "download_count": 4,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.3",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.3",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.2",
+      "name": "Sprout Desktop v0.0.2",
+      "published_at": "2026-05-04T20:39:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 3,
+      "total_downloads": 3,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.2_aarch64.dmg",
+          "size_bytes": 36604449,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.2",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.2",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.1-test.5",
+      "name": "Sprout Desktop v0.0.1-test.5",
+      "published_at": "2026-05-04T16:21:01Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 4,
+      "total_downloads": 4,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.1-test.5_aarch64.dmg",
+          "size_bytes": 36549641,
+          "download_count": 4,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.1-test.5",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.1-test.5",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.1-test.4",
+      "name": "Sprout Desktop v0.0.1-test.4",
+      "published_at": "2026-05-03T19:32:21Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.1-test.4_aarch64.dmg",
+          "size_bytes": 34401819,
+          "download_count": 5,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.1-test.4",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.1-test.4",
+      "author": "github-actions[bot]"
+    },
+    {
+      "tag": "v0.0.1-test.3",
+      "name": "Sprout Desktop v0.0.1-test.3",
+      "published_at": "2026-05-03T18:16:05Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 5,
+      "total_downloads": 5,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "Sprout_0.0.1-test.3_aarch64.dmg",
+          "size_bytes": 34417296,
+          "download_count": 5,
+          "platform": "macOS",
+          "content_type": "application/x-apple-diskimage"
+        }
+      ],
+      "body_excerpt": "Sprout Desktop v0.0.1-test.3",
+      "html_url": "https://github.com/block/buzz/releases/tag/v0.0.1-test.3",
+      "author": "github-actions[bot]"
+    }
+  ],
+  "fetched_at": "2026-07-30T18:58:35.158484+00:00",
+  "deep_dive": {
+    "days_since_launch": 87,
+    "recent_stable_releases": [
+      {
+        "tag": "v0.5.2",
+        "name": "Buzz Desktop v0.5.2",
+        "published_at": "2026-07-29T21:58:28Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 11438,
+        "total_downloads": 11438,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.5.2_aarch64.dmg",
+            "size_bytes": 88323416,
+            "download_count": 6028,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.5.2_amd64.AppImage",
+            "size_bytes": 134375928,
+            "download_count": 913,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.5.2_amd64.deb",
+            "size_bytes": 70853472,
+            "download_count": 471,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.5.2_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 42697935,
+            "download_count": 3565,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.5.2_x64.dmg",
+            "size_bytes": 70837327,
+            "download_count": 461,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- feat(cli): mirror Desktop mention delivery ([#3330](https://github.com/block/buzz/pull/3330)) ([`7adc46268`](https://github.com/block/buzz/commit/7adc46268d5e93f0b1d4dc8e700af22815dcac1b))\n- fix(desktop): deduplicate relay outage notification ([#3579](https://github.com/block/buzz/pull/3579)) ([`66e705492`](https://github.com/block/buzz/commit/66e7054928cc29395f828467c3e8c81b7408dd29))\n- fix(desktop): reconcile thread arrivals at bottom ([#3585](https://github.com/block/buzz/pull/3585)) ([`b42",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.5.2",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.5.1",
+        "name": "Buzz Desktop v0.5.1",
+        "published_at": "2026-07-29T15:47:27Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 3182,
+        "total_downloads": 3182,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.5.1_aarch64.dmg",
+            "size_bytes": 88248110,
+            "download_count": 1784,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.5.1_amd64.AppImage",
+            "size_bytes": 137349624,
+            "download_count": 266,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.5.1_amd64.deb",
+            "size_bytes": 70785174,
+            "download_count": 138,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.5.1_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 42631643,
+            "download_count": 871,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.5.1_x64.dmg",
+            "size_bytes": 70769424,
+            "download_count": 123,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- perf(desktop): move observer-feed archive and decrypt commands off main thread ([#3415](https://github.com/block/buzz/pull/3415)) ([`294c8c821`](https://github.com/block/buzz/commit/294c8c821de51442a8c384c0bdb66b1a10224ca0))\n- fix(desktop): preserve shared agent fidelity ([#3553](https://github.com/block/buzz/pull/3553)) ([`f7a3988ba`](https://github.com/block/buzz/commit/f7a3988ba13b590d9a55a7e8413fc3fb5ffbef18))\n- feat(agent): route Claude/GPT model families to their native gateway wire ([#3",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.5.1",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.5.0",
+        "name": "Buzz Desktop v0.5.0",
+        "published_at": "2026-07-28T14:23:22Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 9522,
+        "total_downloads": 9522,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.5.0_aarch64.dmg",
+            "size_bytes": 88102934,
+            "download_count": 5510,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.5.0_amd64.AppImage",
+            "size_bytes": 137087480,
+            "download_count": 786,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.5.0_amd64.deb",
+            "size_bytes": 70515846,
+            "download_count": 430,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.5.0_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 42558633,
+            "download_count": 2430,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.5.0_x64.dmg",
+            "size_bytes": 70515499,
+            "download_count": 366,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- feat(invites): add use-limited invite links ([#3141](https://github.com/block/buzz/pull/3141)) ([`d500c2d5c`](https://github.com/block/buzz/commit/d500c2d5cf5d9aabe0ca4ebebfcafdbe5f5b7fd3))\n- fix(node): bump Buzz-supplied Node runtimes past OpenClaw's >=24.15.0 floor ([#3218](https://github.com/block/buzz/pull/3218)) ([`98a7b1334`](https://github.com/block/buzz/commit/98a7b1334823ee0be3e3fa5cab7a2e349e438dab))\n- fix(desktop): preserve thread anchor through layout reflow ([#3212](https://github",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.5.0",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.4.26",
+        "name": "Buzz Desktop v0.4.26",
+        "published_at": "2026-07-25T13:58:37Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 21029,
+        "total_downloads": 21029,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.4.26_aarch64.dmg",
+            "size_bytes": 87859350,
+            "download_count": 11889,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.4.26_amd64.AppImage",
+            "size_bytes": 137079288,
+            "download_count": 1756,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.4.26_amd64.deb",
+            "size_bytes": 70137878,
+            "download_count": 2172,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.4.26_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 42407189,
+            "download_count": 4553,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.4.26_x64.dmg",
+            "size_bytes": 70391418,
+            "download_count": 659,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- Style mobile pairing QR codes ([#2775](https://github.com/block/buzz/pull/2775)) ([`50655ac09`](https://github.com/block/buzz/commit/50655ac097fbf1a7db1a5284dccc7e2a0b0f1bfc))\n- Refine community management flows ([#2738](https://github.com/block/buzz/pull/2738)) ([`384c72dee`](https://github.com/block/buzz/commit/384c72dee6336234beae3c1a0fec305044815245))\n- docs: replace VPN-vendor references with generic wording ([#2805](https://github.com/block/buzz/pull/2805)) ([`bcca885ba`](https://github.",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.4.26",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.4.25",
+        "name": "Buzz Desktop v0.4.25",
+        "published_at": "2026-07-24T23:04:14Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 3576,
+        "total_downloads": 3576,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.4.25_aarch64.dmg",
+            "size_bytes": 87890335,
+            "download_count": 2038,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.4.25_amd64.AppImage",
+            "size_bytes": 137185784,
+            "download_count": 332,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.4.25_amd64.deb",
+            "size_bytes": 70200980,
+            "download_count": 116,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.4.25_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 42423182,
+            "download_count": 936,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.4.25_x64.dmg",
+            "size_bytes": 70448982,
+            "download_count": 154,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- fix(discovery): spawn PowerShell install commands natively on Windows ([#2750](https://github.com/block/buzz/pull/2750)) ([`f3981dbfe`](https://github.com/block/buzz/commit/f3981dbfefc09e6a888ada489badb7dafdf122cf))\n- fix(desktop): use augmented PATH for model discovery subprocess ([#2753](https://github.com/block/buzz/pull/2753)) ([`3bd3a014c`](https://github.com/block/buzz/commit/3bd3a014c6ed3f8c8c6c6ea359fee9a7e98dd670))\n- Improve huddle audio failure handling ([#2578](https://github.com/bl",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.4.25",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.4.24",
+        "name": "Buzz Desktop v0.4.24",
+        "published_at": "2026-07-23T23:09:13Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 10507,
+        "total_downloads": 10507,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.4.24_aarch64.dmg",
+            "size_bytes": 87699273,
+            "download_count": 6368,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.4.24_amd64.AppImage",
+            "size_bytes": 136997368,
+            "download_count": 857,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.4.24_amd64.deb",
+            "size_bytes": 69941304,
+            "download_count": 249,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.4.24_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 42183613,
+            "download_count": 2715,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.4.24_x64.dmg",
+            "size_bytes": 70137575,
+            "download_count": 318,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- fix(desktop): suppress Windows console flashes and reject WSL bash alias ([#2587](https://github.com/block/buzz/pull/2587)) ([`5afa16157`](https://github.com/block/buzz/commit/5afa16157a63c71f2cd8a80aa7276de28ce1c54c))\n- fix(desktop): fix Windows PATH clobber and .cmd shim EINVAL ([#2563](https://github.com/block/buzz/pull/2563)) ([`cca16635d`](https://github.com/block/buzz/commit/cca16635d69dc8bea5406013095d25f3b0e287d3))\n- Gate default relay auto-connect behind release flag ([#2589](https://",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.4.24",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.4.23",
+        "name": "Buzz Desktop v0.4.23",
+        "published_at": "2026-07-22T23:17:33Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 11039,
+        "total_downloads": 11039,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.4.23_aarch64.dmg",
+            "size_bytes": 87367695,
+            "download_count": 7440,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.4.23_amd64.AppImage",
+            "size_bytes": 136579576,
+            "download_count": 765,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.4.23_amd64.deb",
+            "size_bytes": 69481922,
+            "download_count": 159,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.4.23_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 42057992,
+            "download_count": 2378,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.4.23_x64.dmg",
+            "size_bytes": 69770205,
+            "download_count": 297,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- fix(desktop): strip GIF metadata extensions before upload ([#2425](https://github.com/block/buzz/pull/2425)) ([`47d7eb698`](https://github.com/block/buzz/commit/47d7eb6982900920bcdbe7a2f5013baca37daeeb))\n- feat(desktop): gate sign-out behind key backup + typed confirmation ([#2424](https://github.com/block/buzz/pull/2424)) ([`fd967c6ea`](https://github.com/block/buzz/commit/fd967c6ea46d7454fe1adf79aacd2fc6385c4585))\n- feat(desktop+acp): spawn a harness per (agent, community) pair at GUI startu",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.4.23",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.4.22",
+        "name": "Buzz Desktop v0.4.22",
+        "published_at": "2026-07-21T20:33:28Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 13340,
+        "total_downloads": 13340,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.4.22_aarch64.dmg",
+            "size_bytes": 87258150,
+            "download_count": 9290,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.4.22_amd64.AppImage",
+            "size_bytes": 136436216,
+            "download_count": 942,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.4.22_amd64.deb",
+            "size_bytes": 69370900,
+            "download_count": 147,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.4.22_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 41944432,
+            "download_count": 2608,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.4.22_x64.dmg",
+            "size_bytes": 69500860,
+            "download_count": 353,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- Keep avatar preview visible during upload ([#2237](https://github.com/block/buzz/pull/2237)) ([`f609fcee0`](https://github.com/block/buzz/commit/f609fcee02cd3de9cde2aa4f94fc054d1865a58a))\n- fix(desktop): keep machine onboarding for unrecognized identities after reset ([#2244](https://github.com/block/buzz/pull/2244)) ([`fd55ab662`](https://github.com/block/buzz/commit/fd55ab662450a81a9ce49397f0e42aec0e4cb765))\n- fix(managed-agents): stale harness pin shadows runtime edits; add Restart quick ac",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.4.22",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.4.21",
+        "name": "Buzz Desktop v0.4.21",
+        "published_at": "2026-07-21T05:55:34Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 5170,
+        "total_downloads": 5170,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.4.21_aarch64.dmg",
+            "size_bytes": 86936387,
+            "download_count": 3979,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.4.21_amd64.AppImage",
+            "size_bytes": 136096248,
+            "download_count": 293,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.4.21_amd64.deb",
+            "size_bytes": 68972084,
+            "download_count": 44,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.4.21_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 41766739,
+            "download_count": 767,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.4.21_x64.dmg",
+            "size_bytes": 69174013,
+            "download_count": 87,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- fix(desktop): clarify data deletion action ([#2208](https://github.com/block/buzz/pull/2208)) ([`e315c498`](https://github.com/block/buzz/commit/e315c4982f5ab05d05be5935a765c3047bdc076d))\n- feat: brand authentication complete page ([#2192](https://github.com/block/buzz/pull/2192)) ([`1470ac3a`](https://github.com/block/buzz/commit/1470ac3a4c06d2f3c151750c91c3feea8d4bb1f5))\n- fix(buzz-acp,buzz-agent): surface stall duration and fate ([#2204](https://github.com/block/buzz/pull/2204)) ([`cd6b573f",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.4.21",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.4.20",
+        "name": "Buzz Desktop v0.4.20",
+        "published_at": "2026-07-20T17:44:03Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 84,
+        "total_downloads": 84,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.4.20_aarch64.dmg",
+            "size_bytes": 86813260,
+            "download_count": 72,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.4.20_amd64.AppImage",
+            "size_bytes": 136030712,
+            "download_count": 2,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.4.20_amd64.deb",
+            "size_bytes": 68912088,
+            "download_count": 3,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.4.20_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 41726730,
+            "download_count": 4,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.4.20_x64.dmg",
+            "size_bytes": 69065198,
+            "download_count": 3,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- fix(desktop): composite harness loader opacity ([#2180](https://github.com/block/buzz/pull/2180)) ([`77900e69`](https://github.com/block/buzz/commit/77900e69b3bc70a00010d826df2b55d2538ed4f2))\n- fix(desktop): modal sign-in + branded communities onboarding page ([#2147](https://github.com/block/buzz/pull/2147)) ([`8a65d81f`](https://github.com/block/buzz/commit/8a65d81fab4fee853887cad92f23b7cb581a3b53))\n- test(desktop): model membership relay in invite QR spec ([#2178](https://github.com/block/b",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.4.20",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.4.19",
+        "name": "Buzz Desktop v0.4.19",
+        "published_at": "2026-07-19T17:17:05Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 88,
+        "total_downloads": 88,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.4.19_aarch64.dmg",
+            "size_bytes": 86397519,
+            "download_count": 63,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.4.19_amd64.AppImage",
+            "size_bytes": 135567864,
+            "download_count": 7,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.4.19_amd64.deb",
+            "size_bytes": 68440680,
+            "download_count": 3,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.4.19_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 41429291,
+            "download_count": 10,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.4.19_x64.dmg",
+            "size_bytes": 68665565,
+            "download_count": 5,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- Polish onboarding runtime error states ([#2116](https://github.com/block/buzz/pull/2116)) ([`31090b186`](https://github.com/block/buzz/commit/31090b186f95f26e6a91107d7c40856ccfffe4f5))\n- feat(desktop): add tooltips to channel header actions ([#2115](https://github.com/block/buzz/pull/2115)) ([`cab47905a`](https://github.com/block/buzz/commit/cab47905a86a53cf5ff66a8c0cb359f8abf9eeae))\n- feat(desktop): add focused thread mode ([#2108](https://github.com/block/buzz/pull/2108)) ([`2d0bd6ec4`](http",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.4.19",
+        "author": "github-actions[bot]"
+      },
+      {
+        "tag": "v0.4.18",
+        "name": "Buzz Desktop v0.4.18",
+        "published_at": "2026-07-18T22:53:02Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 13,
+        "total_downloads": 13,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "Buzz_0.4.18_aarch64.dmg",
+            "size_bytes": 86197150,
+            "download_count": 7,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "Buzz_0.4.18_amd64.AppImage",
+            "size_bytes": 135444984,
+            "download_count": 1,
+            "platform": "Linux",
+            "content_type": "application/vnd.appimage"
+          },
+          {
+            "name": "Buzz_0.4.18_amd64.deb",
+            "size_bytes": 68267202,
+            "download_count": 2,
+            "platform": "Linux",
+            "content_type": "application/x-debian-package"
+          },
+          {
+            "name": "Buzz_0.4.18_x64-setup_alpha-unsigned.exe",
+            "size_bytes": 41367615,
+            "download_count": 2,
+            "platform": "Windows",
+            "content_type": "application/x-msdownload"
+          },
+          {
+            "name": "Buzz_0.4.18_x64.dmg",
+            "size_bytes": 68392675,
+            "download_count": 1,
+            "platform": "macOS",
+            "content_type": "application/x-apple-diskimage"
+          }
+        ],
+        "body_excerpt": "- fix(desktop): recover first community joins ([#2087](https://github.com/block/buzz/pull/2087)) ([`775cf672d`](https://github.com/block/buzz/commit/775cf672d11d43b07b27941a41bd2e52a9111466))\n- fix: recover community access visibility ([#2074](https://github.com/block/buzz/pull/2074)) ([`ca384d082`](https://github.com/block/buzz/commit/ca384d082d9804ec53a3fd12ccbf4a0846b21d92))",
+        "html_url": "https://github.com/block/buzz/releases/tag/v0.4.18",
+        "author": "github-actions[bot]"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 23.9,
+      "median_gap_hours": 23.9
+    }
+  },
+  "category": "Block Open Source"
+}

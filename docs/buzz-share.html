@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzz Analytics Suite - OSS App Stats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <style>
+        :root {
+            --bg: #05070A;
+            --text: #FDF6E3;
+            --text-muted: #94A3B8;
+            --accent: #E8916B;
+            --accent-glow: rgba(232, 145, 107, 0.2);
+            --surface: #0D0F14;
+            --border: rgba(253, 246, 227, 0.1);
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 4rem 2rem;
+            gap: 4rem;
+            background-image: radial-gradient(var(--border) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+
+        .capture-frame {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(180deg, var(--bg) 0%, var(--surface) 100%);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6), 0 0 0 1px var(--border);
+            padding: 2.5rem 4rem;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        /* Ambient glow */
+        .capture-frame::before {
+            content: '';
+            position: absolute;
+            top: -20%;
+            left: -10%;
+            width: 50%;
+            height: 50%;
+            background: var(--accent);
+            filter: blur(120px);
+            opacity: 0.12;
+            border-radius: 50%;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .header {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 1.5rem;
+        }
+
+        .title-block h1 {
+            font-family: 'Newsreader', serif;
+            font-size: 3rem;
+            margin: 0 0 0.5rem 0;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+        }
+
+        .title-block h1 span {
+            color: var(--accent);
+        }
+
+        .title-block p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 2.5rem;
+            text-align: right;
+        }
+
+        .stat-value {
+            font-family: 'Newsreader', serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--text);
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent);
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+
+        .chart-container {
+            position: relative;
+            z-index: 1;
+            flex-grow: 1;
+            width: 100%;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .chart-main {
+            flex-grow: 1;
+            height: 100%;
+            position: relative;
+        }
+
+        .chart-side {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .commentary-box {
+            background: rgba(253, 246, 227, 0.03);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent);
+            padding: 1.2rem;
+            border-radius: 4px;
+            font-size: 1.05rem;
+            line-height: 1.5;
+            color: var(--text);
+        }
+
+        .footer {
+            position: relative;
+            z-index: 1;
+            margin-top: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        .watermark {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text);
+        }
+
+        .watermark span {
+            color: var(--accent);
+        }
+
+        /* DAU Table Styles */
+        .dau-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        .dau-table th {
+            text-align: left;
+            padding: 0.75rem 0.5rem;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.75rem;
+        }
+
+        .dau-table td {
+            padding: 0.75rem 0.5rem;
+            border-bottom: 1px solid rgba(253, 246, 227, 0.05);
+            color: var(--text);
+        }
+
+        .dau-table td.tag {
+            font-family: monospace;
+            color: var(--accent);
+        }
+
+        .dau-table td.num {
+            text-align: right;
+            font-weight: 600;
+            font-family: monospace;
+            font-size: 1rem;
+        }
+
+        /* Platform breakdown */
+        .platform-donut {
+            width: 250px;
+            height: 250px;
+            margin: 0 auto;
+        }
+
+        .velocity-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .v-stat {
+            background: rgba(253, 246, 227, 0.03);
+            border: 1px solid var(--border);
+            padding: 1rem;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .v-stat-val {
+            font-size: 1.5rem;
+            font-family: 'Newsreader', serif;
+            color: var(--text);
+            margin-bottom: 0.25rem;
+        }
+
+        .v-stat-lbl {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .bench-toggle {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 0.4rem 1rem;
+            border-radius: 4px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .bench-toggle.active {
+            background: rgba(253, 246, 227, 0.05);
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        /* Layout specific adjustments */
+        #panel-1 .chart-main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Panel 1: Adoption Trajectory -->
+    <div class="capture-frame" id="panel-2">
+        <div class="header">
+            <div class="title-block">
+                <h1>The GA <span>Inflection</span></h1>
+                <p>Cumulative downloads since launch</p>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value" id="p1-days">--</div>
+                    <div class="stat-label">Days Since Public Launch</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="p1-stars">--</div>
+                    <div class="stat-label">GitHub Stars</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="p2-total-dl" style="color: var(--accent);">--</div>
+                    <div class="stat-label">Total Downloads</div>
+                </div>
+            </div>
+        </div>
+        <div class="chart-container">
+            <div class="chart-main">
+                <canvas id="chart-cumulative"></canvas>
+            </div>
+            <div class="chart-side">
+                <div class="commentary-box">
+                    11 weeks of silent building in private beta. Then, July 21st happened. This isn't gradual organic
+                    discovery—it's an explosive GA launch.
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="date-range">Cumulative Growth</div>
+            <div class="watermark">OSS App Stats <span>|</span> Bitcoin Data Labs</div>
+        </div>
+    </div>
+
+    <!-- Panel 2: Weekly Hockey Stick -->
+    <div class="capture-frame" id="panel-3">
+        <div class="header">
+            <div class="title-block">
+                <h1>The <span>173x Spike</span></h1>
+                <p>Weekly download velocity</p>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value" id="p3-peak-week" style="color: var(--accent);">--</div>
+                    <div class="stat-label">Peak Week Downloads</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="p3-multiplier">--</div>
+                    <div class="stat-label">WoW Growth Multiplier</div>
+                </div>
+            </div>
+        </div>
+        <div class="chart-container">
+            <div class="chart-main">
+                <canvas id="chart-weekly"></canvas>
+            </div>
+            <div class="chart-side">
+                <div class="commentary-box">
+                    A 173x week-over-week volume spike. No massive marketing spend—just developers finding a tool they
+                    immediately needed.
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="date-range">Weekly Velocity</div>
+            <div class="watermark">OSS App Stats <span>|</span> Bitcoin Data Labs</div>
+        </div>
+    </div>
+
+    <!-- Panel 3: The Shipping Machine -->
+    <div class="capture-frame" id="panel-5">
+        <div class="header">
+            <div class="title-block">
+                <h1>Ship Fast, <span>Fix Faster</span></h1>
+                <p>Release velocity & time-to-patch</p>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value" id="p5-cadence" style="color: var(--accent);">--</div>
+                    <div class="stat-label">Avg Release Cadence</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="p5-median-gap">--</div>
+                    <div class="stat-label">Median Gap (Hours)</div>
+                </div>
+            </div>
+        </div>
+        <div class="chart-container">
+            <div class="chart-main" style="height: 250px; position: relative;">
+                <div
+                    style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; text-align: center; margin-bottom: 0.5rem;">
+                    Median Gap Between Releases (Hours)</div>
+                <canvas id="chart-cadence"></canvas>
+            </div>
+            <div class="chart-side">
+                <div class="commentary-box">
+                    Velocity is a feature. Buzz accelerated to >1.5 releases per day post-launch to instantly patch edge
+                    cases and unblock users.
+                </div>
+                <div class="velocity-stats" id="p5-velocity-stats">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="date-range">Logistics & Distribution</div>
+            <div class="watermark">OSS App Stats <span>|</span> Bitcoin Data Labs</div>
+        </div>
+    </div>
+
+    <!-- Panel 4: AI OSS Benchmark (UPDATED) -->
+    <div class="capture-frame" id="panel-benchmark">
+        <div class="header">
+            <div class="title-block">
+                <h1>Buzz vs. <span>The Breakouts</span></h1>
+                <p>First 60 days vs. recent AI OSS success stories (Normalized to Day 0)</p>
+            </div>
+            <div class="hero-stats" style="flex-direction: column; align-items: flex-end; gap: 0.5rem;">
+                <div class="stat" style="display:flex; gap:1rem; margin-bottom: 0.5rem;">
+                    <button id="btn-bench-dl" class="bench-toggle active">Downloads</button>
+                    <button id="btn-bench-rel" class="bench-toggle">Velocity (Releases)</button>
+                </div>
+                <div class="stat" style="display: flex; gap: 2rem;">
+                    <div>
+                        <div class="stat-value" id="pb-buzz-60d" style="color: var(--accent);">--</div>
+                        <div class="stat-label" id="pb-buzz-60d-label">Versioned Downloads</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chart-container">
+            <div class="chart-main">
+                <canvas id="chart-benchmark"></canvas>
+            </div>
+            <div class="chart-side">
+                <div class="commentary-box" id="bench-commentary">
+                    Buzz's adoption curve is tracking aggressively against landmark open-source AI releases like
+                    OpenClaw, Hermes, and Ollama.
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="date-range">AI OSS Benchmarking</div>
+            <div class="watermark">OSS App Stats <span>|</span> Bitcoin Data Labs</div>
+        </div>
+    </div>
+
+    <!-- Panel 5: DAU & Demographics -->
+    <div class="capture-frame" id="panel-4">
+        <div class="header">
+            <div class="title-block">
+                <h1>Sticky <span>Retention</span></h1>
+                <p>macOS power users lead the charge with ~10K daily active instances.</p>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value" id="p4-dau" style="color: var(--accent);">~10K+</div>
+                    <div class="stat-label">Est. Daily Active Users</div>
+                </div>
+            </div>
+        </div>
+        <div class="chart-container">
+            <div class="chart-main"
+                style="display:flex; justify-content:space-between; align-items:center; width: 100%;">
+                <div class="platform-donut" style="width: 200px; height: 200px;">
+                    <canvas id="chart-platforms"></canvas>
+                </div>
+                <div style="flex-grow: 1; height: 250px; position: relative; margin-left: 2rem;">
+                    <canvas id="chart-dau"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="date-range">User Retention & Demographics</div>
+            <div class="watermark">OSS App Stats <span>|</span> Bitcoin Data Labs</div>
+        </div>
+    </div>
+
+
+
+    <script>
+        // Shared chart styling
+        Chart.defaults.color = '#94A3B8';
+        Chart.defaults.font.family = "'Inter', sans-serif";
+        const gridColor = 'rgba(253, 246, 227, 0.05)';
+        const tooltipBg = 'rgba(13, 15, 20, 0.9)';
+        const accentColor = '#E8916B';
+
+        let benchChart = null;
+        let aiDataStore = null;
+        let buzzDataStore = null;
+
+        async function init() {
+            try {
+                // Determine path based on where this is hosted
+                const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+
+                // Fetch Buzz Data
+                const buzzDataPath = (isLocal ? 'data/block_buzz.json' : 'data/block_buzz.json') + '?t=' + new Date().getTime();
+                const buzzResp = await fetch(buzzDataPath);
+                const buzzData = await buzzResp.json();
+                buzzDataStore = buzzData;
+
+                // Fetch AI OSS Data
+                const aiDataPath = 'data/ai_oss.json?t=' + new Date().getTime();
+                let aiData = {};
+                try {
+                    const aiResp = await fetch(aiDataPath);
+                    aiData = await aiResp.json();
+                } catch (e) {
+                    console.log("No AI OSS data found, continuing without it.");
+                }
+                aiDataStore = aiData;
+
+                processAndRender(buzzData, aiData);
+            } catch (err) {
+                console.error("Failed to load Buzz data", err);
+            }
+        }
+
+        function processAndRender(data, aiData) {
+            const deepDive = data.deep_dive;
+            if (!deepDive) {
+                console.error("Deep dive data missing!");
+                return;
+            }
+
+            // --- Polyfill removed backend deep_dive metrics ---
+            if (!deepDive.branding) {
+                const releases = data.releases || [];
+                const sortedAsc = [...releases].reverse();
+                const sprout_releases = sortedAsc.filter(r => r.name && r.name.includes('Sprout'));
+                const buzz_releases = sortedAsc.filter(r => r.name && !r.name.includes('Sprout'));
+                deepDive.branding = {
+                    sprout_count: sprout_releases.length,
+                    buzz_count: buzz_releases.length,
+                    sprout_first: sprout_releases.length > 0 ? sprout_releases[0].published_at : null,
+                    sprout_last: sprout_releases.length > 0 ? sprout_releases[sprout_releases.length - 1].published_at : null,
+                    buzz_first: buzz_releases.length > 0 ? buzz_releases[0].published_at : null
+                };
+            }
+            if (!deepDive.weekly_growth) {
+                const releases = data.releases || [];
+                const sortedAsc = [...releases].reverse();
+                const weeklyData = {};
+
+                // Helper to get ISO week
+                function getIsoWeek(dateStr) {
+                    const d = new Date(dateStr);
+                    d.setHours(0, 0, 0, 0);
+                    d.setDate(d.getDate() + 3 - (d.getDay() + 6) % 7);
+                    const week1 = new Date(d.getFullYear(), 0, 4);
+                    const week = 1 + Math.round(((d.getTime() - week1.getTime()) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);
+                    return `${d.getFullYear()}-W${week.toString().padStart(2, '0')}`;
+                }
+
+                for (const r of sortedAsc) {
+                    if (r.is_prerelease) continue;
+                    const key = getIsoWeek(r.published_at);
+                    if (!weeklyData[key]) {
+                        weeklyData[key] = { downloads: 0, date: r.published_at };
+                    }
+                    weeklyData[key].downloads += r.total_downloads;
+                }
+
+                const weeklyArray = Object.keys(weeklyData).sort().map(k => ({
+                    label: k,
+                    date: weeklyData[k].date,
+                    downloads: weeklyData[k].downloads
+                }));
+
+                let maxWeek = null;
+                let maxIdx = -1;
+                weeklyArray.forEach((w, i) => {
+                    if (!maxWeek || w.downloads > maxWeek.downloads) {
+                        maxWeek = w;
+                        maxIdx = i;
+                    }
+                });
+
+                const prevWeekDl = maxIdx > 0 ? weeklyArray[maxIdx - 1].downloads : 1;
+                const wow = maxWeek ? Math.round(maxWeek.downloads / prevWeekDl) : 0;
+
+                deepDive.weekly_growth = {
+                    chart_data: weeklyArray,
+                    peak_downloads: maxWeek ? maxWeek.downloads : 0,
+                    peak_week_label: maxWeek ? maxWeek.label : '',
+                    wow_multiplier: wow
+                };
+            }
+            // ------------------------------------------------
+
+            // Populate Panel 1: Origin Story (and moved stats)
+            if (data.releases && data.releases.length > 0) {
+                const launchDate = new Date('2026-07-21T00:00:00Z');
+                let diffDays = Math.max(1, Math.floor((new Date() - launchDate) / (1000 * 60 * 60 * 24)) - 1);
+                document.getElementById('p1-days').innerText = diffDays;
+            } else {
+                document.getElementById('p1-days').innerText = '--';
+            }
+
+            document.getElementById('p1-stars').innerText = (data.project.stars / 1000).toFixed(1) + 'K';
+
+            // Populate Panel 2 (Shipping Machine)
+            document.getElementById('p5-cadence').innerText = (deepDive.velocity.avg_gap_hours / 24).toFixed(1) + 'd';
+            document.getElementById('p5-median-gap').innerText = deepDive.velocity.median_gap_hours.toFixed(1);
+
+            renderDonutChart(data.summary.platform_breakdown);
+            renderCadenceChart(data, aiData);
+
+            document.getElementById('p5-velocity-stats').innerHTML = `
+                <div class="v-stat">
+                    <div class="v-stat-val">${data.summary.total_releases}</div>
+                    <div class="v-stat-lbl">Total Releases</div>
+                </div>
+                <div class="v-stat">
+                    <div class="v-stat-val">${data.summary.stable_releases + data.summary.pre_releases}</div>
+                    <div class="v-stat-lbl">Stable + Pre</div>
+                </div>
+            `;
+
+            // Populate Panel 3: Adoption Trajectory
+            document.getElementById('p2-total-dl').innerText = formatNumber(data.summary.total_downloads);
+            const sortedAsc = [...data.releases].reverse();
+            renderCumulativeChart(sortedAsc);
+
+            // Populate Panel 4: Hockey Stick
+            document.getElementById('p3-peak-week').innerText = formatNumber(deepDive.weekly_growth.peak_downloads);
+            document.getElementById('p3-multiplier').innerText = `${deepDive.weekly_growth.wow_multiplier}x`;
+            renderWeeklyChart(deepDive.weekly_growth.chart_data);
+
+            // Populate Panel 5: AI OSS Benchmark
+            renderBenchmarkChart('downloads');
+
+            document.getElementById('btn-bench-dl').addEventListener('click', (e) => {
+                document.querySelectorAll('.bench-toggle').forEach(el => el.classList.remove('active'));
+                e.target.classList.add('active');
+                renderBenchmarkChart('downloads');
+            });
+
+            document.getElementById('btn-bench-rel').addEventListener('click', (e) => {
+                document.querySelectorAll('.bench-toggle').forEach(el => el.classList.remove('active'));
+                e.target.classList.add('active');
+                renderBenchmarkChart('releases');
+            });
+
+            renderDauChart(deepDive.recent_stable_releases);
+        }
+
+        function renderDauChart(recentStable) {
+            const ctx = document.getElementById('chart-dau').getContext('2d');
+
+            // Get last 15 releases (reversed so chronological left-to-right)
+            const releases = recentStable.slice(0, 15).reverse();
+
+            const labels = releases.map(r => r.tag);
+            const data = releases.map(r => r.total_downloads);
+            const dates = releases.map(r => formatDateShort(r.published_at));
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Downloads (Proxy DAU)',
+                        data: data,
+                        borderColor: accentColor,
+                        backgroundColor: 'rgba(235, 87, 87, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        pointBackgroundColor: tooltipBg,
+                        pointBorderColor: accentColor,
+                        pointRadius: 4,
+                        pointHoverRadius: 6,
+                        tension: 0.3
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: tooltipBg,
+                            callbacks: {
+                                title: (ctx) => `${ctx[0].label} (${dates[ctx[0].dataIndex]})`,
+                                label: (ctx) => ` ${ctx.raw.toLocaleString()} active devices`
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { display: false },
+                            ticks: { color: '#FDF6E3', maxRotation: 45, minRotation: 45 }
+                        },
+                        y: {
+                            grid: { color: gridColor, drawBorder: false },
+                            ticks: { color: '#FDF6E3', callback: (val) => val.toLocaleString() }
+                        }
+                    }
+                }
+            });
+        }
+
+        // --- Chart Renderers ---
+
+        function renderCumulativeChart(sortedReleases) {
+            const totalVersioned = sortedReleases.reduce((sum, r) => sum + r.total_downloads, 0);
+            const totalActual = buzzDataStore.summary.total_downloads;
+            const rollingTotal = totalActual - totalVersioned;
+
+            let cumulative = 0;
+            const chartData = sortedReleases.map(r => {
+                cumulative += r.total_downloads;
+                const ratio = totalVersioned > 0 ? (cumulative / totalVersioned) : 0;
+                const adjustedCumulative = Math.round(cumulative + (rollingTotal * ratio));
+                return {
+                    x: new Date(r.published_at),
+                    y: adjustedCumulative,
+                    downloads: r.total_downloads,
+                    version: r.tag
+                };
+            });
+
+            const ctx = document.getElementById('chart-cumulative').getContext('2d');
+            const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+            gradient.addColorStop(0, 'rgba(232, 145, 107, 0.4)');
+            gradient.addColorStop(1, 'rgba(232, 145, 107, 0.0)');
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    datasets: [{
+                        label: 'Cumulative Downloads',
+                        data: chartData,
+                        borderColor: accentColor,
+                        backgroundColor: gradient,
+                        borderWidth: 3,
+                        pointBackgroundColor: '#05070A',
+                        pointBorderColor: accentColor,
+                        pointBorderWidth: 2,
+                        pointRadius: 3,
+                        pointHoverRadius: 6,
+                        fill: true,
+                        tension: 0.3
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: tooltipBg,
+                            padding: 12,
+                            borderColor: 'rgba(253, 246, 227, 0.1)',
+                            borderWidth: 1,
+                            callbacks: {
+                                title: (ctx) => ctx[0].raw.version,
+                                label: (ctx) => `Total: ${ctx.raw.y.toLocaleString()} (+${ctx.raw.downloads.toLocaleString()})`
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: { unit: 'week', displayFormats: { week: 'MMM d' } },
+                            grid: { color: gridColor, drawBorder: false },
+                        },
+                        y: {
+                            grid: { color: gridColor, drawBorder: false },
+                            ticks: {
+                                color: '#FDF6E3',
+                                font: { weight: 'bold' },
+                                callback: (val) => val >= 1000 ? (val / 1000).toFixed(0) + 'k' : val
+                            },
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderWeeklyChart(weeklyArray) {
+            const ctx = document.getElementById('chart-weekly').getContext('2d');
+            const maxDl = Math.max(...weeklyArray.map(w => w.downloads));
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: weeklyArray.map(w => w.date),
+                    datasets: [{
+                        label: 'Downloads',
+                        data: weeklyArray.map(w => w.downloads),
+                        backgroundColor: weeklyArray.map(w =>
+                            w.downloads === maxDl ? accentColor : 'rgba(100, 116, 139, 0.6)'
+                        ),
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: tooltipBg,
+                            padding: 12,
+                            borderColor: 'rgba(253, 246, 227, 0.1)',
+                            borderWidth: 1,
+                            callbacks: {
+                                title: (ctx) => {
+                                    const d = new Date(ctx[0].parsed.x);
+                                    return `Week of ${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`;
+                                },
+                                label: (ctx) => `${ctx.parsed.y.toLocaleString()} downloads`
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: { unit: 'week', displayFormats: { week: 'MMM d' } },
+                            grid: { display: false, drawBorder: false },
+                        },
+                        y: {
+                            grid: { color: gridColor, drawBorder: false },
+                            ticks: {
+                                color: '#FDF6E3',
+                                font: { weight: 'bold' },
+                                callback: (val) => val >= 1000 ? (val / 1000).toFixed(0) + 'k' : val
+                            },
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderDonutChart(platforms) {
+            const ctx = document.getElementById('chart-platforms').getContext('2d');
+            const labels = Object.keys(platforms);
+            const data = Object.values(platforms);
+            const colors = {
+                'macOS': '#E8916B',
+                'Windows': '#0078D4',
+                'Linux': '#FFB000',
+                'Other': '#5F6C7E'
+            };
+
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: data,
+                        backgroundColor: labels.map(l => colors[l]),
+                        borderWidth: 2,
+                        borderColor: '#05070A'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '65%',
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                color: '#FDF6E3',
+                                padding: 20,
+                                usePointStyle: true,
+                                pointStyle: 'circle'
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: tooltipBg,
+                            callbacks: {
+                                label: (ctx) => {
+                                    const val = ctx.raw;
+                                    const total = ctx.chart._metasets[ctx.datasetIndex].total;
+                                    const pct = ((val / total) * 100).toFixed(1);
+                                    return ` ${val.toLocaleString()} (${pct}%)`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderCadenceChart(buzzData, aiData) {
+            const ctx = document.getElementById('chart-cadence').getContext('2d');
+
+            // Calculate Buzz 60-day median gap dynamically
+            const sortedReleases = [...buzzData.releases].reverse();
+            const launchDate = new Date('2026-07-21T00:00:00Z');
+            const daysSinceLaunch = Math.max(1, Math.floor((new Date() - launchDate) / (1000 * 60 * 60 * 24)) - 1);
+
+            let bucket = Math.min(daysSinceLaunch, 60).toString();
+
+            function getBuzzGapForDays(days) {
+                const endDate = new Date(launchDate.getTime() + days * 24 * 60 * 60 * 1000);
+                const validDates = [];
+                sortedReleases.forEach(r => {
+                    const d = new Date(r.published_at);
+                    if (d >= launchDate && d < endDate && !r.is_prerelease) {
+                        validDates.push(d);
+                    }
+                });
+                validDates.sort((a, b) => a - b);
+                if (validDates.length > 1) {
+                    const gaps = [];
+                    for (let i = 0; i < validDates.length - 1; i++) {
+                        gaps.push((validDates[i + 1] - validDates[i]) / (1000 * 60 * 60));
+                    }
+                    gaps.sort((a, b) => a - b);
+                    return gaps[Math.floor(gaps.length / 2)];
+                }
+                return null;
+            }
+
+            const buzzGapN = getBuzzGapForDays(daysSinceLaunch);
+
+            const getAiGap = (repo, horizon) => {
+                const g = aiData[repo]?.median_gaps;
+                return g && g[horizon] ? g[horizon] : null;
+            }
+
+            let items = [
+                { label: 'Buzz', gap: buzzGapN, color: accentColor },
+                { label: 'OpenClaw', gap: getAiGap('openclaw/openclaw', bucket), color: '#475569' },
+                { label: 'Ollama', gap: getAiGap('ollama/ollama', bucket), color: '#475569' },
+                { label: 'Hermes', gap: getAiGap('NousResearch/hermes-agent', bucket), color: '#475569' }
+            ];
+
+            // Sort ascending (faster is better). Treat nulls as Infinity so they go to the bottom.
+            items.sort((a, b) => (a.gap || Infinity) - (b.gap || Infinity));
+
+            const labels = items.map(i => i.label);
+            const dataN = items.map(i => i.gap);
+            const bgColors = items.map(i => i.color);
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: `First ${bucket} Days (Apples-to-Apples)`,
+                            data: dataN,
+                            backgroundColor: bgColors,
+                            borderRadius: 4,
+                            barThickness: 24
+                        }
+                    ]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'bottom',
+                            onClick: (e) => e.stopPropagation(),
+                            labels: { color: '#FDF6E3', font: { size: 10 } }
+                        },
+                        tooltip: {
+                            backgroundColor: tooltipBg,
+                            callbacks: {
+                                label: (ctx) => {
+                                    if (ctx.raw == null) return ` ${ctx.dataset.label}: N/A (Too Slow)`;
+                                    return ` ${ctx.dataset.label}: ${ctx.raw.toFixed(1)} hours`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { color: gridColor, drawBorder: false },
+                            ticks: { color: '#FDF6E3' }
+                        },
+                        y: {
+                            grid: { display: false, drawBorder: false },
+                            ticks: { color: '#FDF6E3', font: { weight: 'bold' } }
+                        }
+                    }
+                }
+            });
+
+            // Add disclaimer if there are nulls in dataN
+            if (dataN.includes(null)) {
+                const container = document.getElementById('chart-cadence').parentElement;
+                if (!document.getElementById('cadence-disclaimer')) {
+                    const disclaimer = document.createElement('div');
+                    disclaimer.id = 'cadence-disclaimer';
+                    disclaimer.style = 'font-size: 0.7rem; color: var(--text-muted); text-align: center; margin-top: 5px; font-style: italic;';
+                    disclaimer.innerText = `*Apps with missing yellow bars shipped <2 releases in their first ${bucket} days, making their gap undefined.`;
+                    container.appendChild(disclaimer);
+                }
+            }
+        }
+
+        function renderBenchmarkChart(metricMode) {
+            const ctx = document.getElementById('chart-benchmark').getContext('2d');
+            if (benchChart) {
+                benchChart.destroy();
+            }
+
+            const isDl = metricMode === 'downloads';
+            const yKey = isDl ? 'cumulative_downloads' : 'cumulative_releases';
+
+            // Extract AI Data
+            const ollama = aiDataStore['ollama/ollama']?.first_60_days || [];
+            const openClaw = aiDataStore['openclaw/openclaw']?.first_60_days || [];
+            const hermes = aiDataStore['NousResearch/hermes-agent']?.first_60_days || [];
+
+            const mapData = (arr) => arr.map(d => ({ x: d.day, y: d[yKey] }));
+
+            // Buzz Data: normalized to days since launch
+            const sortedReleases = [...buzzDataStore.releases].reverse();
+            let buzzCumDl = 0;
+            let buzzCumRel = 0;
+            const buzzNormalized = [];
+
+            if (sortedReleases.length > 0) {
+                const launchDate = new Date('2026-07-21T00:00:00Z');
+                for (let dayOffset = 0; dayOffset <= 60; dayOffset++) {
+                    const currentDayEnd = new Date(launchDate.getTime() + (dayOffset + 1) * 24 * 60 * 60 * 1000);
+
+                    if (currentDayEnd > new Date()) {
+                        break;
+                    }
+
+                    let cum_dl = 0;
+                    let cum_rel = 0;
+                    sortedReleases.forEach(r => {
+                        const dDate = new Date(r.published_at);
+                        if (dDate >= launchDate && dDate < currentDayEnd) {
+                            cum_dl += r.total_downloads;
+                            cum_rel += 1;
+                        }
+                    });
+                    buzzNormalized.push({ x: dayOffset, y: isDl ? cum_dl : cum_rel });
+                }
+            }
+            if (buzzNormalized.length > 0) {
+                const latest = buzzNormalized[buzzNormalized.length - 1];
+                document.getElementById('pb-buzz-60d').innerText = isDl ? formatNumber(latest.y) : latest.y;
+                document.getElementById('pb-buzz-60d-label').innerText = isDl ? `Versioned Downloads (Day ${latest.x})` : `Versioned Releases (Day ${latest.x})`;
+            }
+
+            const comm = document.getElementById('bench-commentary');
+            if (isDl) {
+                let rollingDlText = "";
+                if (buzzNormalized.length > 0) {
+                    const rolling = buzzDataStore.summary.total_downloads - buzzNormalized[buzzNormalized.length - 1].y;
+                    if (rolling > 0) {
+                        rollingDlText = `, excluding ~${(rolling/1000).toFixed(0)}K rolling downloads`;
+                    }
+                }
+                comm.innerHTML = `Buzz's launch velocity is exceptional; its adoption curve tracks aggressively against landmark open-source AI releases like OpenClaw, Hermes, and Ollama.<br><br><span style='font-size: 0.8rem; color: var(--text-muted);'>*Tracks versioned releases only for fair comparison${rollingDlText}.</span>`;
+            } else {
+                comm.innerHTML = "Downloads show adoption, but releases show execution. This metric highlights Buzz's relentless engineering pace, severely out-shipping major AI benchmarks in its first two months.";
+            }
+
+            benchChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    datasets: [
+                        {
+                            label: 'Ollama (Jul 26, 2023)',
+                            data: mapData(ollama),
+                            borderColor: '#60A5FA',
+                            borderWidth: 2,
+                            pointRadius: 0,
+                            tension: 0.4
+                        },
+                        {
+                            label: 'OpenClaw (Jan 24, 2026)',
+                            data: mapData(openClaw),
+                            borderColor: '#34D399',
+                            borderWidth: 2,
+                            borderDash: [5, 5],
+                            pointRadius: 0,
+                            tension: 0.4
+                        },
+                        {
+                            label: 'Hermes (May 29, 2026)',
+                            data: mapData(hermes),
+                            borderColor: '#A78BFA',
+                            borderWidth: 2,
+                            pointRadius: 0,
+                            tension: 0.4
+                        },
+                        {
+                            label: 'Buzz (Jul 21, 2026)',
+                            data: buzzNormalized,
+                            borderColor: accentColor,
+                            borderWidth: 4,
+                            pointRadius: 2,
+                            tension: 0.4
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                color: '#FDF6E3',
+                                usePointStyle: true,
+                                boxWidth: 8
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: tooltipBg,
+                            padding: 12,
+                            borderColor: 'rgba(253, 246, 227, 0.1)',
+                            borderWidth: 1,
+                            callbacks: {
+                                title: (ctx) => `Day ${ctx[0].parsed.x}`,
+                                label: (ctx) => ` ${ctx.dataset.label}: ${ctx.raw.y.toLocaleString()}`
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'linear',
+                            title: {
+                                display: true,
+                                text: 'Days Since Launch',
+                                color: '#94A3B8'
+                            },
+                            grid: { color: gridColor, drawBorder: false },
+                            max: 60,
+                            min: 0
+                        },
+                        y: {
+                            type: isDl ? 'logarithmic' : 'linear',
+                            grid: { color: gridColor, drawBorder: false },
+                            ticks: {
+                                color: '#FDF6E3',
+                                callback: (val) => val >= 1000 ? (val / 1000).toFixed(0) + 'k' : val
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Utils
+        function formatNumber(n) {
+            if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
+            if (n >= 1_000) return (n / 1_000).toFixed(1) + 'K';
+            return n.toLocaleString();
+        }
+
+        function formatDateShort(dateStr) {
+            const d = new Date(dateStr);
+            return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        }
+
+        // Start
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+
+</html>

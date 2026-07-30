@@ -1,0 +1,2582 @@
+{
+  "project": {
+    "owner": "rust-bitcoin",
+    "repo": "rust-bitcoin",
+    "name": "rust-bitcoin",
+    "full_name": "rust-bitcoin/rust-bitcoin",
+    "description": "General purpose library for using and interoperating with Bitcoin.",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "language": "Rust",
+    "license": false,
+    "homepage": null,
+    "html_url": "https://crates.io/crates/bitcoin"
+  },
+  "summary": {
+    "total_downloads": 13190204,
+    "total_releases": 115,
+    "stable_releases": 108,
+    "pre_releases": 7,
+    "latest_version": "0.32.11",
+    "latest_date": "2026-07-22T12:01:34.761173Z",
+    "days_since_latest": 8,
+    "avg_cadence_days": 36.5,
+    "platform_breakdown": {
+      "Source": 13190204
+    }
+  },
+  "releases": [
+    {
+      "tag": "0.32.11",
+      "name": "bitcoin 0.32.11",
+      "published_at": "2026-07-22T12:01:34.761173Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 1160,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.11.crate",
+          "platform": "Source",
+          "size_bytes": 379301,
+          "download_count": 1160
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.11",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.102",
+      "name": "bitcoin 0.32.102",
+      "published_at": "2026-07-15T15:08:10.508370Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 82808,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.102.crate",
+          "platform": "Source",
+          "size_bytes": 405810,
+          "download_count": 82808
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.102",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.101",
+      "name": "bitcoin 0.32.101",
+      "published_at": "2026-06-24T14:49:07.399662Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 544959,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.101.crate",
+          "platform": "Source",
+          "size_bytes": 382749,
+          "download_count": 544959
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.101",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.100",
+      "name": "bitcoin 0.32.100",
+      "published_at": "2026-05-27T14:52:47.794353Z",
+      "is_prerelease": false,
+      "is_draft": true,
+      "total_downloads": 246630,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.100.crate",
+          "platform": "Source",
+          "size_bytes": 379569,
+          "download_count": 246630
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.100",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.10",
+      "name": "bitcoin 0.32.10",
+      "published_at": "2026-05-26T18:03:52.774180Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 49734,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.10.crate",
+          "platform": "Source",
+          "size_bytes": 379212,
+          "download_count": 49734
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.10",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.9",
+      "name": "bitcoin 0.32.9",
+      "published_at": "2026-05-05T22:04:23.924493Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 222831,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.9.crate",
+          "platform": "Source",
+          "size_bytes": 374196,
+          "download_count": 222831
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.9",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.31.3",
+      "name": "bitcoin 0.31.3",
+      "published_at": "2026-04-03T15:01:21.444238Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 74095,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.31.3.crate",
+          "platform": "Source",
+          "size_bytes": 369045,
+          "download_count": 74095
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.31.3",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.30.3",
+      "name": "bitcoin 0.30.3",
+      "published_at": "2026-03-26T04:03:58.827343Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 111598,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.30.3.crate",
+          "platform": "Source",
+          "size_bytes": 346655,
+          "download_count": 111598
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.30.3",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.33.0-beta",
+      "name": "bitcoin 0.33.0-beta",
+      "published_at": "2026-02-23T17:52:45.635277Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 6664,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.33.0-beta.crate",
+          "platform": "Source",
+          "size_bytes": 350308,
+          "download_count": 6664
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.33.0-beta",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.33.0-beta.0",
+      "name": "bitcoin 0.33.0-beta.0",
+      "published_at": "2026-01-01T03:57:43.721768Z",
+      "is_prerelease": true,
+      "is_draft": true,
+      "total_downloads": 1697,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.33.0-beta.0.crate",
+          "platform": "Source",
+          "size_bytes": 351888,
+          "download_count": 1697
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.33.0-beta.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.8",
+      "name": "bitcoin 0.32.8",
+      "published_at": "2025-12-06T16:12:37.211431Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 1409002,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.8.crate",
+          "platform": "Source",
+          "size_bytes": 370810,
+          "download_count": 1409002
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.8",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.7",
+      "name": "bitcoin 0.32.7",
+      "published_at": "2025-08-04T21:36:57.647838Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 712339,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.7.crate",
+          "platform": "Source",
+          "size_bytes": 370633,
+          "download_count": 712339
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.7",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.6",
+      "name": "bitcoin 0.32.6",
+      "published_at": "2025-05-13T19:45:34.859143Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 561074,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.6.crate",
+          "platform": "Source",
+          "size_bytes": 368582,
+          "download_count": 561074
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.6",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.5",
+      "name": "bitcoin 0.32.5",
+      "published_at": "2024-11-29T15:10:24.048708Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 941946,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.5.crate",
+          "platform": "Source",
+          "size_bytes": 364430,
+          "download_count": 941946
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.5",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.4",
+      "name": "bitcoin 0.32.4",
+      "published_at": "2024-10-28T23:36:57.748352Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 171680,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.4.crate",
+          "platform": "Source",
+          "size_bytes": 364046,
+          "download_count": 171680
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.4",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.3",
+      "name": "bitcoin 0.32.3",
+      "published_at": "2024-09-27T20:48:53.470850Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 145669,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.3.crate",
+          "platform": "Source",
+          "size_bytes": 360296,
+          "download_count": 145669
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.3",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.2",
+      "name": "bitcoin 0.32.2",
+      "published_at": "2024-06-08T13:51:01.092453Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 523724,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.2.crate",
+          "platform": "Source",
+          "size_bytes": 360019,
+          "download_count": 523724
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.1",
+      "name": "bitcoin 0.32.1",
+      "published_at": "2024-05-29T13:53:25.959320Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 29764,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.1.crate",
+          "platform": "Source",
+          "size_bytes": 359919,
+          "download_count": 29764
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.0",
+      "name": "bitcoin 0.32.0",
+      "published_at": "2024-04-24T15:20:14.748035Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 46425,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.0.crate",
+          "platform": "Source",
+          "size_bytes": 359508,
+          "download_count": 46425
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.32.0-rc1",
+      "name": "bitcoin 0.32.0-rc1",
+      "published_at": "2024-04-05T17:20:29.130310Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 1975,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.32.0-rc1.crate",
+          "platform": "Source",
+          "size_bytes": 359456,
+          "download_count": 1975
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.32.0-rc1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.31.2",
+      "name": "bitcoin 0.31.2",
+      "published_at": "2024-04-02T17:04:28.423993Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 811464,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.31.2.crate",
+          "platform": "Source",
+          "size_bytes": 366930,
+          "download_count": 811464
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.31.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.31.1",
+      "name": "bitcoin 0.31.1",
+      "published_at": "2024-01-09T15:55:00.797423Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 180354,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.31.1.crate",
+          "platform": "Source",
+          "size_bytes": 366631,
+          "download_count": 180354
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.31.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.30.2",
+      "name": "bitcoin 0.30.2",
+      "published_at": "2023-11-16T18:35:52.564053Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 1388547,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.30.2.crate",
+          "platform": "Source",
+          "size_bytes": 344621,
+          "download_count": 1388547
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.30.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.31.0",
+      "name": "bitcoin 0.31.0",
+      "published_at": "2023-10-28T14:57:09.822243Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 70578,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.31.0.crate",
+          "platform": "Source",
+          "size_bytes": 366598,
+          "download_count": 70578
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.31.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.31.0-rc2",
+      "name": "bitcoin 0.31.0-rc2",
+      "published_at": "2023-10-19T13:32:38.690218Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 2108,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.31.0-rc2.crate",
+          "platform": "Source",
+          "size_bytes": 367090,
+          "download_count": 2108
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.31.0-rc2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.31.0-rc1",
+      "name": "bitcoin 0.31.0-rc1",
+      "published_at": "2023-10-14T20:26:34.379250Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 2197,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.31.0-rc1.crate",
+          "platform": "Source",
+          "size_bytes": 366544,
+          "download_count": 2197
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.31.0-rc1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.30.1",
+      "name": "bitcoin 0.30.1",
+      "published_at": "2023-07-17T14:57:22.141871Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 300910,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.30.1.crate",
+          "platform": "Source",
+          "size_bytes": 344595,
+          "download_count": 300910
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.30.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.30.0",
+      "name": "bitcoin 0.30.0",
+      "published_at": "2023-03-22T01:12:33.281790Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 368198,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.30.0.crate",
+          "platform": "Source",
+          "size_bytes": 344354,
+          "download_count": 368198
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.30.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.28.2",
+      "name": "bitcoin 0.28.2",
+      "published_at": "2022-11-02T00:18:31.690320Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 703732,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.28.2.crate",
+          "platform": "Source",
+          "size_bytes": 1666669,
+          "download_count": 703732
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.28.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.29.2",
+      "name": "bitcoin 0.29.2",
+      "published_at": "2022-10-26T22:20:10.165925Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 1527791,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.29.2.crate",
+          "platform": "Source",
+          "size_bytes": 504206,
+          "download_count": 1527791
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.29.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.29.1",
+      "name": "bitcoin 0.29.1",
+      "published_at": "2022-08-12T16:28:25.078350Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 108652,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.29.1.crate",
+          "platform": "Source",
+          "size_bytes": 1699581,
+          "download_count": 108652
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.29.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.29.0",
+      "name": "bitcoin 0.29.0",
+      "published_at": "2022-08-08T18:33:36.997217Z",
+      "is_prerelease": false,
+      "is_draft": true,
+      "total_downloads": 3545,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.29.0.crate",
+          "platform": "Source",
+          "size_bytes": 1700352,
+          "download_count": 3545
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.29.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.28.1",
+      "name": "bitcoin 0.28.1",
+      "published_at": "2022-05-04T17:56:22.077078Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 342220,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.28.1.crate",
+          "platform": "Source",
+          "size_bytes": 1665305,
+          "download_count": 342220
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.28.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.28.0",
+      "name": "bitcoin 0.28.0",
+      "published_at": "2022-04-20T17:45:52.917534Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 45828,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.28.0.crate",
+          "platform": "Source",
+          "size_bytes": 1665279,
+          "download_count": 45828
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.28.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.28.0-rc.2",
+      "name": "bitcoin 0.28.0-rc.2",
+      "published_at": "2022-03-28T20:51:39.639270Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 5502,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.28.0-rc.2.crate",
+          "platform": "Source",
+          "size_bytes": 1662392,
+          "download_count": 5502
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.28.0-rc.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.28.0-rc.1",
+      "name": "bitcoin 0.28.0-rc.1",
+      "published_at": "2022-01-18T14:05:06.072381Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "total_downloads": 5994,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.28.0-rc.1.crate",
+          "platform": "Source",
+          "size_bytes": 1508123,
+          "download_count": 5994
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.28.0-rc.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.27.1",
+      "name": "bitcoin 0.27.1",
+      "published_at": "2021-09-20T14:26:37.875166Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 461974,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.27.1.crate",
+          "platform": "Source",
+          "size_bytes": 273524,
+          "download_count": 461974
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.27.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.27.0",
+      "name": "bitcoin 0.27.0",
+      "published_at": "2021-07-21T20:43:04.807977Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 58756,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.27.0.crate",
+          "platform": "Source",
+          "size_bytes": 273228,
+          "download_count": 58756
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.27.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.26.2",
+      "name": "bitcoin 0.26.2",
+      "published_at": "2021-06-08T16:44:02.950172Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 121217,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.26.2.crate",
+          "platform": "Source",
+          "size_bytes": 269929,
+          "download_count": 121217
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.26.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.26.1",
+      "name": "bitcoin 0.26.1",
+      "published_at": "2021-06-07T22:20:36.932421Z",
+      "is_prerelease": false,
+      "is_draft": true,
+      "total_downloads": 3455,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.26.1.crate",
+          "platform": "Source",
+          "size_bytes": 269690,
+          "download_count": 3455
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.26.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.26.0",
+      "name": "bitcoin 0.26.0",
+      "published_at": "2021-01-14T17:12:29.380740Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 119881,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.26.0.crate",
+          "platform": "Source",
+          "size_bytes": 260463,
+          "download_count": 119881
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.26.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.25.2",
+      "name": "bitcoin 0.25.2",
+      "published_at": "2020-10-26T19:33:43.200611Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 94855,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.25.2.crate",
+          "platform": "Source",
+          "size_bytes": 247350,
+          "download_count": 94855
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.25.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.25.1",
+      "name": "bitcoin 0.25.1",
+      "published_at": "2020-10-20T13:38:39.774189Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 22481,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.25.1.crate",
+          "platform": "Source",
+          "size_bytes": 246473,
+          "download_count": 22481
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.25.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.25.0",
+      "name": "bitcoin 0.25.0",
+      "published_at": "2020-09-11T11:26:54.213443Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 8481,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.25.0.crate",
+          "platform": "Source",
+          "size_bytes": 239324,
+          "download_count": 8481
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.25.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.24.0",
+      "name": "bitcoin 0.24.0",
+      "published_at": "2020-09-10T19:58:41.134192Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 30882,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.24.0.crate",
+          "platform": "Source",
+          "size_bytes": 239294,
+          "download_count": 30882
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.24.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.23.0",
+      "name": "bitcoin 0.23.0",
+      "published_at": "2020-01-09T17:03:22.764251Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 92632,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.23.0.crate",
+          "platform": "Source",
+          "size_bytes": 228514,
+          "download_count": 92632
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.23.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.22.0",
+      "name": "bitcoin 0.22.0",
+      "published_at": "2020-01-07T19:13:35.824342Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3489,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.22.0.crate",
+          "platform": "Source",
+          "size_bytes": 228455,
+          "download_count": 3489
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.22.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.21.0",
+      "name": "bitcoin 0.21.0",
+      "published_at": "2019-10-03T16:10:37.178240Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 47524,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.21.0.crate",
+          "platform": "Source",
+          "size_bytes": 218836,
+          "download_count": 47524
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.21.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.18.2",
+      "name": "bitcoin 0.18.2",
+      "published_at": "2019-09-04T21:19:30.339545Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 11794,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.18.2.crate",
+          "platform": "Source",
+          "size_bytes": 179383,
+          "download_count": 11794
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.18.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.18.1",
+      "name": "bitcoin 0.18.1",
+      "published_at": "2019-09-04T19:27:55.339175Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2881,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.18.1.crate",
+          "platform": "Source",
+          "size_bytes": 160585,
+          "download_count": 2881
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.18.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.20.0",
+      "name": "bitcoin 0.20.0",
+      "published_at": "2019-08-23T18:20:27.195491Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 16363,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.20.0.crate",
+          "platform": "Source",
+          "size_bytes": 217194,
+          "download_count": 16363
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.20.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.19.2",
+      "name": "bitcoin 0.19.2",
+      "published_at": "2019-08-20T18:19:35.122319Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 21498,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.19.2.crate",
+          "platform": "Source",
+          "size_bytes": 217073,
+          "download_count": 21498
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.19.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.19.1",
+      "name": "bitcoin 0.19.1",
+      "published_at": "2019-08-16T21:23:19.381484Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3723,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.19.1.crate",
+          "platform": "Source",
+          "size_bytes": 217004,
+          "download_count": 3723
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.19.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.19.0",
+      "name": "bitcoin 0.19.0",
+      "published_at": "2019-08-16T19:30:36.738257Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2890,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.19.0.crate",
+          "platform": "Source",
+          "size_bytes": 216972,
+          "download_count": 2890
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.19.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.18.0",
+      "name": "bitcoin 0.18.0",
+      "published_at": "2019-03-22T15:23:11.931409Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 15722,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.18.0.crate",
+          "platform": "Source",
+          "size_bytes": 180454,
+          "download_count": 15722
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.18.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.17.1",
+      "name": "bitcoin 0.17.1",
+      "published_at": "2019-03-04T20:21:19.923799Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 7706,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.17.1.crate",
+          "platform": "Source",
+          "size_bytes": 178848,
+          "download_count": 7706
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.17.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.17.0",
+      "name": "bitcoin 0.17.0",
+      "published_at": "2019-03-01T19:46:25.161529Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3212,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.17.0.crate",
+          "platform": "Source",
+          "size_bytes": 178325,
+          "download_count": 3212
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.17.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.16.0",
+      "name": "bitcoin 0.16.0",
+      "published_at": "2019-01-15T21:01:58.848290Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 36284,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.16.0.crate",
+          "platform": "Source",
+          "size_bytes": 164594,
+          "download_count": 36284
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.16.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.15.1",
+      "name": "bitcoin 0.15.1",
+      "published_at": "2018-11-08T22:35:32.789520Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 11442,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.15.1.crate",
+          "platform": "Source",
+          "size_bytes": 160713,
+          "download_count": 11442
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.15.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.15.0",
+      "name": "bitcoin 0.15.0",
+      "published_at": "2018-11-07T16:38:44.913446Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 2990,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.15.0.crate",
+          "platform": "Source",
+          "size_bytes": 160500,
+          "download_count": 2990
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.15.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.14.2",
+      "name": "bitcoin 0.14.2",
+      "published_at": "2018-09-11T18:46:13.633465Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 14289,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.14.2.crate",
+          "platform": "Source",
+          "size_bytes": 160645,
+          "download_count": 14289
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.14.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.14.1",
+      "name": "bitcoin 0.14.1",
+      "published_at": "2018-08-29T00:04:31.143667Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 6091,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.14.1.crate",
+          "platform": "Source",
+          "size_bytes": 160147,
+          "download_count": 6091
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.14.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.14.0",
+      "name": "bitcoin 0.14.0",
+      "published_at": "2018-08-22T22:55:09.345994Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3525,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.14.0.crate",
+          "platform": "Source",
+          "size_bytes": 159429,
+          "download_count": 3525
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.14.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.13.2",
+      "name": "bitcoin 0.13.2",
+      "published_at": "2018-06-22T16:13:51.316597Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 11263,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.13.2.crate",
+          "platform": "Source",
+          "size_bytes": 154804,
+          "download_count": 11263
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.13.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.13.1",
+      "name": "bitcoin 0.13.1",
+      "published_at": "2018-06-04T21:02:37.897153Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3727,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.13.1.crate",
+          "platform": "Source",
+          "size_bytes": 154657,
+          "download_count": 3727
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.13.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.13.0",
+      "name": "bitcoin 0.13.0",
+      "published_at": "2018-04-17T01:38:22.883896Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3382,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.13.0.crate",
+          "platform": "Source",
+          "size_bytes": 153245,
+          "download_count": 3382
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.13.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.12.0",
+      "name": "bitcoin 0.12.0",
+      "published_at": "2018-03-23T16:59:00.070658Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3496,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.12.0.crate",
+          "platform": "Source",
+          "size_bytes": 152207,
+          "download_count": 3496
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.12.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.11.0",
+      "name": "bitcoin 0.11.0",
+      "published_at": "2018-02-21T16:35:27.519571Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 4657,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.11.0.crate",
+          "platform": "Source",
+          "size_bytes": 184051,
+          "download_count": 4657
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.11.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.10.9",
+      "name": "bitcoin 0.10.9",
+      "published_at": "2018-02-18T15:05:15.175695Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 5681,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.10.9.crate",
+          "platform": "Source",
+          "size_bytes": 182103,
+          "download_count": 5681
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.10.9",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.10.8",
+      "name": "bitcoin 0.10.8",
+      "published_at": "2018-02-16T22:17:53.002368Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3025,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.10.8.crate",
+          "platform": "Source",
+          "size_bytes": 181994,
+          "download_count": 3025
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.10.8",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.10.6",
+      "name": "bitcoin 0.10.6",
+      "published_at": "2017-12-21T01:24:32.686055Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 5342,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.10.6.crate",
+          "platform": "Source",
+          "size_bytes": 180449,
+          "download_count": 5342
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.10.6",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.10.5",
+      "name": "bitcoin 0.10.5",
+      "published_at": "2017-12-13T21:21:08.055151Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3202,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.10.5.crate",
+          "platform": "Source",
+          "size_bytes": 180402,
+          "download_count": 3202
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.10.5",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.10.4",
+      "name": "bitcoin 0.10.4",
+      "published_at": "2017-12-11T14:38:06.683856Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3124,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.10.4.crate",
+          "platform": "Source",
+          "size_bytes": 180360,
+          "download_count": 3124
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.10.4",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.10.3",
+      "name": "bitcoin 0.10.3",
+      "published_at": "2017-12-07T14:15:16.744918Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3086,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.10.3.crate",
+          "platform": "Source",
+          "size_bytes": 178287,
+          "download_count": 3086
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.10.3",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.10.2",
+      "name": "bitcoin 0.10.2",
+      "published_at": "2017-12-06T15:48:53.331187Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3081,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.10.2.crate",
+          "platform": "Source",
+          "size_bytes": 177673,
+          "download_count": 3081
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.10.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.10.1",
+      "name": "bitcoin 0.10.1",
+      "published_at": "2017-10-06T19:16:12.169083Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3645,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.10.1.crate",
+          "platform": "Source",
+          "size_bytes": 177053,
+          "download_count": 3645
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.10.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.10.0",
+      "name": "bitcoin 0.10.0",
+      "published_at": "2017-07-28T16:20:25.214455Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3257,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.10.0.crate",
+          "platform": "Source",
+          "size_bytes": 176847,
+          "download_count": 3257
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.10.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.9.1",
+      "name": "bitcoin 0.9.1",
+      "published_at": "2017-04-17T00:56:00.170248Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3546,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.9.1.crate",
+          "platform": "Source",
+          "size_bytes": 176771,
+          "download_count": 3546
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.9.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.9.0",
+      "name": "bitcoin 0.9.0",
+      "published_at": "2016-10-10T13:26:32.169149Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 5343,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.9.0.crate",
+          "platform": "Source",
+          "size_bytes": 176729,
+          "download_count": 5343
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.9.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.8.1",
+      "name": "bitcoin 0.8.1",
+      "published_at": "2016-08-26T16:22:35.136728Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3190,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.8.1.crate",
+          "platform": "Source",
+          "size_bytes": 251833,
+          "download_count": 3190
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.8.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.8.0",
+      "name": "bitcoin 0.8.0",
+      "published_at": "2016-08-24T16:25:44.141189Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3138,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.8.0.crate",
+          "platform": "Source",
+          "size_bytes": 251811,
+          "download_count": 3138
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.8.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.7.4",
+      "name": "bitcoin 0.7.4",
+      "published_at": "2016-07-14T15:22:39.867592Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3192,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.7.4.crate",
+          "platform": "Source",
+          "size_bytes": 246621,
+          "download_count": 3192
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.7.4",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.7.3",
+      "name": "bitcoin 0.7.3",
+      "published_at": "2016-06-24T19:16:52.920096Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3169,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.7.3.crate",
+          "platform": "Source",
+          "size_bytes": 246700,
+          "download_count": 3169
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.7.3",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.7.2",
+      "name": "bitcoin 0.7.2",
+      "published_at": "2016-06-24T00:22:16.012500Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3110,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.7.2.crate",
+          "platform": "Source",
+          "size_bytes": 245360,
+          "download_count": 3110
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.7.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.7.1",
+      "name": "bitcoin 0.7.1",
+      "published_at": "2016-06-20T01:26:54.700152Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3135,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.7.1.crate",
+          "platform": "Source",
+          "size_bytes": 240238,
+          "download_count": 3135
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.7.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.7.0",
+      "name": "bitcoin 0.7.0",
+      "published_at": "2016-06-13T21:27:07.393618Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3131,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.7.0.crate",
+          "platform": "Source",
+          "size_bytes": 239962,
+          "download_count": 3131
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.7.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.6.0",
+      "name": "bitcoin 0.6.0",
+      "published_at": "2016-06-12T18:26:41.256086Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3116,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.6.0.crate",
+          "platform": "Source",
+          "size_bytes": 239945,
+          "download_count": 3116
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.6.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.11",
+      "name": "bitcoin 0.5.11",
+      "published_at": "2016-06-10T18:38:30.082153Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3134,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.11.crate",
+          "platform": "Source",
+          "size_bytes": 175033,
+          "download_count": 3134
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.11",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.10",
+      "name": "bitcoin 0.5.10",
+      "published_at": "2016-06-02T23:48:43.286301Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3151,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.10.crate",
+          "platform": "Source",
+          "size_bytes": 168086,
+          "download_count": 3151
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.10",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.9",
+      "name": "bitcoin 0.5.9",
+      "published_at": "2016-05-27T18:38:08.418779Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3134,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.9.crate",
+          "platform": "Source",
+          "size_bytes": 168065,
+          "download_count": 3134
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.9",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.8",
+      "name": "bitcoin 0.5.8",
+      "published_at": "2016-05-04T14:05:21.783764Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3161,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.8.crate",
+          "platform": "Source",
+          "size_bytes": 168062,
+          "download_count": 3161
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.8",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.7",
+      "name": "bitcoin 0.5.7",
+      "published_at": "2016-05-03T20:19:46.343694Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3111,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.7.crate",
+          "platform": "Source",
+          "size_bytes": 168038,
+          "download_count": 3111
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.7",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.6",
+      "name": "bitcoin 0.5.6",
+      "published_at": "2016-03-29T17:28:36.478933Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3157,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.6.crate",
+          "platform": "Source",
+          "size_bytes": 167958,
+          "download_count": 3157
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.6",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.5",
+      "name": "bitcoin 0.5.5",
+      "published_at": "2016-03-08T23:25:13.854852Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3175,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.5.crate",
+          "platform": "Source",
+          "size_bytes": 167817,
+          "download_count": 3175
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.5",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.4",
+      "name": "bitcoin 0.5.4",
+      "published_at": "2016-02-18T19:46:06.148795Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3160,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.4.crate",
+          "platform": "Source",
+          "size_bytes": 211877,
+          "download_count": 3160
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.4",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.3",
+      "name": "bitcoin 0.5.3",
+      "published_at": "2016-02-10T03:40:39.031434Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3171,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.3.crate",
+          "platform": "Source",
+          "size_bytes": 167854,
+          "download_count": 3171
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.3",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.2",
+      "name": "bitcoin 0.5.2",
+      "published_at": "2015-12-21T17:57:45.400389Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3202,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.2.crate",
+          "platform": "Source",
+          "size_bytes": 167690,
+          "download_count": 3202
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.1",
+      "name": "bitcoin 0.5.1",
+      "published_at": "2015-12-20T21:39:29.387090Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3147,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.1.crate",
+          "platform": "Source",
+          "size_bytes": 167374,
+          "download_count": 3147
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.5.0",
+      "name": "bitcoin 0.5.0",
+      "published_at": "2015-12-20T02:25:57.197040Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3168,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.5.0.crate",
+          "platform": "Source",
+          "size_bytes": 167227,
+          "download_count": 3168
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.5.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.4.5",
+      "name": "bitcoin 0.4.5",
+      "published_at": "2015-12-03T13:15:59.820920Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 4755,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.4.5.crate",
+          "platform": "Source",
+          "size_bytes": 172831,
+          "download_count": 4755
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.4.5",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.4.4",
+      "name": "bitcoin 0.4.4",
+      "published_at": "2015-11-30T13:13:06.710256Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3185,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.4.4.crate",
+          "platform": "Source",
+          "size_bytes": 171645,
+          "download_count": 3185
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.4.4",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.4.2",
+      "name": "bitcoin 0.4.2",
+      "published_at": "2015-11-22T16:53:08.335905Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3151,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.4.2.crate",
+          "platform": "Source",
+          "size_bytes": 171182,
+          "download_count": 3151
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.4.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.4.1",
+      "name": "bitcoin 0.4.1",
+      "published_at": "2015-11-15T23:25:56.837606Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3175,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.4.1.crate",
+          "platform": "Source",
+          "size_bytes": 170002,
+          "download_count": 3175
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.4.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.4.0",
+      "name": "bitcoin 0.4.0",
+      "published_at": "2015-11-04T17:07:45.480699Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3147,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.4.0.crate",
+          "platform": "Source",
+          "size_bytes": 170028,
+          "download_count": 3147
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.4.0",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.3.10",
+      "name": "bitcoin 0.3.10",
+      "published_at": "2015-10-26T19:41:25.522491Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3255,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.3.10.crate",
+          "platform": "Source",
+          "size_bytes": 212001,
+          "download_count": 3255
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.3.10",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.3.9",
+      "name": "bitcoin 0.3.9",
+      "published_at": "2015-10-25T17:57:43.070831Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3166,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.3.9.crate",
+          "platform": "Source",
+          "size_bytes": 176192,
+          "download_count": 3166
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.3.9",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.3.8",
+      "name": "bitcoin 0.3.8",
+      "published_at": "2015-10-25T15:19:03.090662Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3159,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.3.8.crate",
+          "platform": "Source",
+          "size_bytes": 169099,
+          "download_count": 3159
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.3.8",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.3.7",
+      "name": "bitcoin 0.3.7",
+      "published_at": "2015-10-25T13:42:30.944249Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3159,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.3.7.crate",
+          "platform": "Source",
+          "size_bytes": 168835,
+          "download_count": 3159
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.3.7",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.3.6",
+      "name": "bitcoin 0.3.6",
+      "published_at": "2015-10-15T03:55:37.997051Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3211,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.3.6.crate",
+          "platform": "Source",
+          "size_bytes": 168084,
+          "download_count": 3211
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.3.6",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.3.5",
+      "name": "bitcoin 0.3.5",
+      "published_at": "2015-10-15T03:32:50.835361Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3191,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.3.5.crate",
+          "platform": "Source",
+          "size_bytes": 167778,
+          "download_count": 3191
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.3.5",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.3.4",
+      "name": "bitcoin 0.3.4",
+      "published_at": "2015-10-15T03:25:43.819810Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3160,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.3.4.crate",
+          "platform": "Source",
+          "size_bytes": 167779,
+          "download_count": 3160
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.3.4",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.3.3",
+      "name": "bitcoin 0.3.3",
+      "published_at": "2015-10-15T03:03:14.207733Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3170,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.3.3.crate",
+          "platform": "Source",
+          "size_bytes": 170645,
+          "download_count": 3170
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.3.3",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.3.2",
+      "name": "bitcoin 0.3.2",
+      "published_at": "2015-10-15T00:27:39.629804Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3195,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.3.2.crate",
+          "platform": "Source",
+          "size_bytes": 166217,
+          "download_count": 3195
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.3.2",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.3.1",
+      "name": "bitcoin 0.3.1",
+      "published_at": "2015-10-14T22:20:00.614690Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3171,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.3.1.crate",
+          "platform": "Source",
+          "size_bytes": 165623,
+          "download_count": 3171
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.3.1",
+      "author": "crates.io"
+    },
+    {
+      "tag": "0.2.0",
+      "name": "bitcoin 0.2.0",
+      "published_at": "2015-09-20T21:46:15.263485Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "total_downloads": 3201,
+      "asset_count": 1,
+      "assets": [
+        {
+          "name": "bitcoin-0.2.0.crate",
+          "platform": "Source",
+          "size_bytes": 162293,
+          "download_count": 3201
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://crates.io/crates/bitcoin/0.2.0",
+      "author": "crates.io"
+    }
+  ],
+  "fetched_at": "2026-07-30T18:59:01.849677+00:00",
+  "deep_dive": {
+    "days_since_launch": 3957,
+    "recent_stable_releases": [
+      {
+        "tag": "0.32.11",
+        "name": "bitcoin 0.32.11",
+        "published_at": "2026-07-22T12:01:34.761173Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 1160,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.32.11.crate",
+            "platform": "Source",
+            "size_bytes": 379301,
+            "download_count": 1160
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.32.11",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.32.102",
+        "name": "bitcoin 0.32.102",
+        "published_at": "2026-07-15T15:08:10.508370Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 82808,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.32.102.crate",
+            "platform": "Source",
+            "size_bytes": 405810,
+            "download_count": 82808
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.32.102",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.32.101",
+        "name": "bitcoin 0.32.101",
+        "published_at": "2026-06-24T14:49:07.399662Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 544959,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.32.101.crate",
+            "platform": "Source",
+            "size_bytes": 382749,
+            "download_count": 544959
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.32.101",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.32.100",
+        "name": "bitcoin 0.32.100",
+        "published_at": "2026-05-27T14:52:47.794353Z",
+        "is_prerelease": false,
+        "is_draft": true,
+        "total_downloads": 246630,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.32.100.crate",
+            "platform": "Source",
+            "size_bytes": 379569,
+            "download_count": 246630
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.32.100",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.32.10",
+        "name": "bitcoin 0.32.10",
+        "published_at": "2026-05-26T18:03:52.774180Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 49734,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.32.10.crate",
+            "platform": "Source",
+            "size_bytes": 379212,
+            "download_count": 49734
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.32.10",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.32.9",
+        "name": "bitcoin 0.32.9",
+        "published_at": "2026-05-05T22:04:23.924493Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 222831,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.32.9.crate",
+            "platform": "Source",
+            "size_bytes": 374196,
+            "download_count": 222831
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.32.9",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.31.3",
+        "name": "bitcoin 0.31.3",
+        "published_at": "2026-04-03T15:01:21.444238Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 74095,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.31.3.crate",
+            "platform": "Source",
+            "size_bytes": 369045,
+            "download_count": 74095
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.31.3",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.30.3",
+        "name": "bitcoin 0.30.3",
+        "published_at": "2026-03-26T04:03:58.827343Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 111598,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.30.3.crate",
+            "platform": "Source",
+            "size_bytes": 346655,
+            "download_count": 111598
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.30.3",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.32.8",
+        "name": "bitcoin 0.32.8",
+        "published_at": "2025-12-06T16:12:37.211431Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 1409002,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.32.8.crate",
+            "platform": "Source",
+            "size_bytes": 370810,
+            "download_count": 1409002
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.32.8",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.32.7",
+        "name": "bitcoin 0.32.7",
+        "published_at": "2025-08-04T21:36:57.647838Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 712339,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.32.7.crate",
+            "platform": "Source",
+            "size_bytes": 370633,
+            "download_count": 712339
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.32.7",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.32.6",
+        "name": "bitcoin 0.32.6",
+        "published_at": "2025-05-13T19:45:34.859143Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 561074,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.32.6.crate",
+            "platform": "Source",
+            "size_bytes": 368582,
+            "download_count": 561074
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.32.6",
+        "author": "crates.io"
+      },
+      {
+        "tag": "0.32.5",
+        "name": "bitcoin 0.32.5",
+        "published_at": "2024-11-29T15:10:24.048708Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "total_downloads": 941946,
+        "asset_count": 1,
+        "assets": [
+          {
+            "name": "bitcoin-0.32.5.crate",
+            "platform": "Source",
+            "size_bytes": 364430,
+            "download_count": 941946
+          }
+        ],
+        "body_excerpt": "",
+        "html_url": "https://crates.io/crates/bitcoin/0.32.5",
+        "author": "crates.io"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 1308.8,
+      "median_gap_hours": 671.9
+    }
+  },
+  "category": "Libraries & Tools"
+}

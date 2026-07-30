@@ -1,0 +1,3423 @@
+{
+  "project": {
+    "owner": "nunchuk-io",
+    "repo": "nunchuk-desktop",
+    "name": "Nunchuk",
+    "full_name": "nunchuk-io/nunchuk-desktop",
+    "description": null,
+    "stars": 106,
+    "forks": 15,
+    "open_issues": 59,
+    "language": "QML",
+    "license": "GPL-3.0",
+    "homepage": null,
+    "html_url": "https://github.com/nunchuk-io/nunchuk-desktop"
+  },
+  "summary": {
+    "total_downloads": 18826,
+    "total_releases": 55,
+    "stable_releases": 55,
+    "pre_releases": 0,
+    "latest_version": "2.6.2",
+    "latest_date": "2026-07-01T15:15:01Z",
+    "days_since_latest": 29,
+    "avg_cadence_days": 22.9,
+    "platform_breakdown": {
+      "Linux": 4007,
+      "macOS": 4898,
+      "Other": 5754,
+      "Signatures": 4167
+    }
+  },
+  "releases": [
+    {
+      "tag": "2.6.2",
+      "name": "2.6.2",
+      "published_at": "2026-07-01T15:15:01Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 286,
+      "total_downloads": 286,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.6.2.zip",
+          "size_bytes": 179590359,
+          "download_count": 98,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.6.2.zip",
+          "size_bytes": 150772741,
+          "download_count": 61,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.6.2.zip",
+          "size_bytes": 123805743,
+          "download_count": 66,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 30,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 31,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.6.2",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.6.1",
+      "name": "2.6.1",
+      "published_at": "2026-06-30T15:56:58Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 20,
+      "total_downloads": 20,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.6.1.zip",
+          "size_bytes": 179607553,
+          "download_count": 4,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.6.1.zip",
+          "size_bytes": 150756857,
+          "download_count": 3,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.6.1.zip",
+          "size_bytes": 123709426,
+          "download_count": 7,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 4,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 2,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.6.1",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.6.0",
+      "name": "2.6.0",
+      "published_at": "2026-06-22T13:57:26Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 103,
+      "total_downloads": 103,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.6.0.zip",
+          "size_bytes": 179621216,
+          "download_count": 34,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.6.0.zip",
+          "size_bytes": 150698788,
+          "download_count": 27,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.6.0.zip",
+          "size_bytes": 123847805,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Off-chain inheritance protocol: Phased Rollout support\r\n- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.6.0",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.5.0",
+      "name": "2.5.0",
+      "published_at": "2026-05-21T08:28:51Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 429,
+      "total_downloads": 429,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.5.0.zip",
+          "size_bytes": 178429043,
+          "download_count": 180,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.5.0.zip",
+          "size_bytes": 149381360,
+          "download_count": 67,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.5.0.zip",
+          "size_bytes": 123406090,
+          "download_count": 117,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 33,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 32,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.5.0",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.4.3",
+      "name": "2.4.3",
+      "published_at": "2026-05-18T09:01:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 68,
+      "total_downloads": 68,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.4.3.zip",
+          "size_bytes": 178389828,
+          "download_count": 15,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.4.3.zip",
+          "size_bytes": 149389081,
+          "download_count": 14,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.4.3.zip",
+          "size_bytes": 123326457,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.4.3",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.4.2",
+      "name": "2.4.2",
+      "published_at": "2026-04-29T18:06:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 226,
+      "total_downloads": 226,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.4.2.zip",
+          "size_bytes": 178509860,
+          "download_count": 69,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.4.2.zip",
+          "size_bytes": 149329084,
+          "download_count": 44,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.4.2.zip",
+          "size_bytes": 123358168,
+          "download_count": 70,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 21,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.4.2",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.4.1",
+      "name": "2.4.1",
+      "published_at": "2026-04-18T16:09:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 226,
+      "total_downloads": 226,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.4.1.zip",
+          "size_bytes": 178493190,
+          "download_count": 67,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.4.1.zip",
+          "size_bytes": 149182040,
+          "download_count": 49,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.4.1.zip",
+          "size_bytes": 123422390,
+          "download_count": 59,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 23,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 28,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.4.1",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.4.0",
+      "name": "2.4.0",
+      "published_at": "2026-04-14T15:44:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 80,
+      "total_downloads": 80,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.4.0.zip",
+          "size_bytes": 178462823,
+          "download_count": 21,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.4.0.zip",
+          "size_bytes": 149134038,
+          "download_count": 18,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.4.0.zip",
+          "size_bytes": 123311623,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Nunchuk API support\r\n- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.4.0",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.3.0",
+      "name": "2.3.0",
+      "published_at": "2026-03-25T07:20:38Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 303,
+      "total_downloads": 303,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.3.0.zip",
+          "size_bytes": 176804495,
+          "download_count": 62,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.3.0.zip",
+          "size_bytes": 147206182,
+          "download_count": 73,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.3.0.zip",
+          "size_bytes": 134599178,
+          "download_count": 102,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 34,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 32,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Off-chain Inheritance Protocol Update: Beneficiaries can now claim assets directly using their own hardware keys\r\n- Silent Payments bug fix\r\n- General bug fixes and performance improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.3.0",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.2.2",
+      "name": "2.2.2",
+      "published_at": "2026-03-12T09:02:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 101,
+      "total_downloads": 101,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.2.2.zip",
+          "size_bytes": 174150816,
+          "download_count": 29,
+          "platform": "Linux",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-macos-v2.2.2.zip",
+          "size_bytes": 144065105,
+          "download_count": 28,
+          "platform": "macOS",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-window-2.2.2.zip",
+          "size_bytes": 133749065,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.2.2",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.2.1",
+      "name": "2.2.1",
+      "published_at": "2026-02-20T06:07:43Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 233,
+      "total_downloads": 233,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.2.1.zip",
+          "size_bytes": 173788968,
+          "download_count": 81,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.2.1.zip",
+          "size_bytes": 144037741,
+          "download_count": 43,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.2.1.zip",
+          "size_bytes": 133727762,
+          "download_count": 63,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 24,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.2.1",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.2.0",
+      "name": "2.2.0",
+      "published_at": "2026-02-12T04:44:58Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 171,
+      "total_downloads": 171,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.2.0.zip",
+          "size_bytes": 173789019,
+          "download_count": 44,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.2.0.zip",
+          "size_bytes": 144044379,
+          "download_count": 41,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.2.0.zip",
+          "size_bytes": 133703853,
+          "download_count": 49,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 17,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.2.0",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.1.1",
+      "name": "2.1.1",
+      "published_at": "2025-12-29T17:42:27Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 719,
+      "total_downloads": 719,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.1.1.zip",
+          "size_bytes": 171448576,
+          "download_count": 181,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.1.1.zip",
+          "size_bytes": 141173093,
+          "download_count": 140,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.1.1.zip",
+          "size_bytes": 132938951,
+          "download_count": 216,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 86,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 96,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.1.1",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.1.0",
+      "name": "2.1.0",
+      "published_at": "2025-12-26T17:20:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 66,
+      "total_downloads": 66,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.1.0.zip",
+          "size_bytes": 171440927,
+          "download_count": 21,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.1.0.zip",
+          "size_bytes": 141187169,
+          "download_count": 20,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.1.0.zip",
+          "size_bytes": 132969078,
+          "download_count": 19,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 3,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 3,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Support for on-chain timelock in Byzantine\r\n- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.1.0",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.0.1",
+      "name": "2.0.1",
+      "published_at": "2025-12-08T13:37:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 354,
+      "total_downloads": 354,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.0.1.zip",
+          "size_bytes": 170375422,
+          "download_count": 76,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v2.0.1.zip",
+          "size_bytes": 139925021,
+          "download_count": 86,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v2.0.1.zip",
+          "size_bytes": 132543468,
+          "download_count": 98,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 46,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 48,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Fix Taproot fee estimation\r\n- Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.0.1",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "2.0.0",
+      "name": "2.0.0",
+      "published_at": "2025-11-19T01:54:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 370,
+      "total_downloads": 370,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v2.0.0.zip",
+          "size_bytes": 170106156,
+          "download_count": 63,
+          "platform": "Linux",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-macos-v2.0.0.zip",
+          "size_bytes": 141287012,
+          "download_count": 104,
+          "platform": "macOS",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-window-v2.0.0.zip",
+          "size_bytes": 132423888,
+          "download_count": 107,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 274,
+          "download_count": 49,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1156,
+          "download_count": 47,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "* Autonomous inheritance: combining guided claim and on-chain failsafe\r\n* Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.0.0",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.55",
+      "name": "1.9.55",
+      "published_at": "2025-10-31T13:09:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 420,
+      "total_downloads": 420,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.55.zip",
+          "size_bytes": 169878418,
+          "download_count": 94,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.55.zip",
+          "size_bytes": 142872247,
+          "download_count": 107,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.55.zip",
+          "size_bytes": 132098575,
+          "download_count": 108,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 52,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 59,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Improve Liana wallet descriptors\r\nBug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.55",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.54",
+      "name": "1.9.54",
+      "published_at": "2025-10-23T11:05:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 282,
+      "total_downloads": 282,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.54.zip",
+          "size_bytes": 169847878,
+          "download_count": 67,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.54.zip",
+          "size_bytes": 142868567,
+          "download_count": 58,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.54.zip",
+          "size_bytes": 132057607,
+          "download_count": 71,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 39,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 47,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Improve Liana wallet descriptors\r\nBug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.54",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.53",
+      "name": "1.9.53",
+      "published_at": "2025-10-17T09:38:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 195,
+      "total_downloads": 195,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.53.zip",
+          "size_bytes": 169799499,
+          "download_count": 41,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.53.zip",
+          "size_bytes": 142869688,
+          "download_count": 34,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.53.zip",
+          "size_bytes": 132079642,
+          "download_count": 55,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 31,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 34,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Support Liana wallet descriptors\r\nNew \u2018Zen Hodl\u2019 Miniscript template: Locks coins immediately when deposited and only allows spending after the timelock expires\r\nBug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.53",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.52",
+      "name": "1.9.52",
+      "published_at": "2025-10-08T14:23:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 200,
+      "total_downloads": 200,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.52.zip",
+          "size_bytes": 169758574,
+          "download_count": 42,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.52.zip",
+          "size_bytes": 142867988,
+          "download_count": 47,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.52.zip",
+          "size_bytes": 132067131,
+          "download_count": 59,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 26,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 26,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Support Liana wallet descriptors\r\nNew \u2018Zen Hodl\u2019 Miniscript template: Locks coins immediately when deposited and only allows spending after the timelock expires\r\nBug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.52",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.51",
+      "name": "1.9.51",
+      "published_at": "2025-09-23T17:33:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 379,
+      "total_downloads": 379,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.51.zip",
+          "size_bytes": 169541140,
+          "download_count": 91,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.51.zip",
+          "size_bytes": 142841571,
+          "download_count": 89,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.51.zip",
+          "size_bytes": 132009707,
+          "download_count": 92,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 53,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 54,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.51",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.50",
+      "name": "1.9.50",
+      "published_at": "2025-08-29T22:52:51Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 512,
+      "total_downloads": 512,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.50.zip",
+          "size_bytes": 184567580,
+          "download_count": 130,
+          "platform": "Linux",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.50.zip",
+          "size_bytes": 142790782,
+          "download_count": 116,
+          "platform": "macOS",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-window-v1.9.50.zip",
+          "size_bytes": 132027736,
+          "download_count": 137,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 66,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 63,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Support for Miniscript: build advanced spending rules with templates or custom policies\r\nGroup Wallets now work with Miniscript\r\nBug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.50",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.49",
+      "name": "1.9.49",
+      "published_at": "2025-08-27T18:30:10Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 123,
+      "total_downloads": 123,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.49.zip",
+          "size_bytes": 184544817,
+          "download_count": 35,
+          "platform": "Linux",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.49.zip",
+          "size_bytes": 142791945,
+          "download_count": 30,
+          "platform": "macOS",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-window-v1.9.49.zip",
+          "size_bytes": 132009970,
+          "download_count": 29,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Support for Miniscript: build advanced spending rules with templates or custom policies\r\nGroup Wallets now work with Miniscript\r\nBug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.49",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.48",
+      "name": "1.9.48",
+      "published_at": "2025-06-26T13:39:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1095,
+      "total_downloads": 1095,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.48.zip",
+          "size_bytes": 199439218,
+          "download_count": 198,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.48.zip",
+          "size_bytes": 140965087,
+          "download_count": 301,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.48.zip",
+          "size_bytes": 119629216,
+          "download_count": 331,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 125,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 140,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Drag and drop to reorder wallets\r\n- Display Saved address label in TxnDetails\r\n- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.48",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.47",
+      "name": "1.9.47",
+      "published_at": "2025-06-09T13:34:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 368,
+      "total_downloads": 368,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.47.zip",
+          "size_bytes": 162590891,
+          "download_count": 78,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.47.zip",
+          "size_bytes": 140631140,
+          "download_count": 86,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.47.zip",
+          "size_bytes": 119624935,
+          "download_count": 87,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 59,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 58,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Sign in via Apple/Google\r\n- Update default signet server\r\n- Update inheritance claiming flow to support withdrawing a custom amount\r\n- Bug fixes and improvements\r\n\r\nNOTE:\r\nWindows users: please uninstall the old version before installing the new version.\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.47",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.46",
+      "name": "",
+      "published_at": "2025-05-02T06:35:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 748,
+      "total_downloads": 748,
+      "asset_count": 6,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.46-aarch64.zip",
+          "size_bytes": 66910345,
+          "download_count": 37,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-linux-v1.9.46-x86_64.zip",
+          "size_bytes": 82213443,
+          "download_count": 135,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.46.zip",
+          "size_bytes": 75002785,
+          "download_count": 164,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.46.zip",
+          "size_bytes": 70363566,
+          "download_count": 220,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 384,
+          "download_count": 100,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1266,
+          "download_count": 92,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.46",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.45",
+      "name": "1.9.45",
+      "published_at": "2025-04-21T16:56:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 216,
+      "total_downloads": 216,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.45.zip",
+          "size_bytes": 108013717,
+          "download_count": 43,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.45.zip",
+          "size_bytes": 74501921,
+          "download_count": 45,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.45.zip",
+          "size_bytes": 70333589,
+          "download_count": 74,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 27,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 27,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.45",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.44",
+      "name": "1.9.44",
+      "published_at": "2025-03-25T04:47:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 499,
+      "total_downloads": 499,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.44.zip",
+          "size_bytes": 106158604,
+          "download_count": 96,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.44.zip",
+          "size_bytes": 74425568,
+          "download_count": 111,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.44.zip",
+          "size_bytes": 70339828,
+          "download_count": 147,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 75,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 70,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Release notes:\r\n    Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.44",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.43",
+      "name": "",
+      "published_at": "2025-02-26T17:36:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 120,
+      "total_downloads": 120,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.43.zip",
+          "size_bytes": 105943704,
+          "download_count": 31,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.43.zip",
+          "size_bytes": 74416905,
+          "download_count": 26,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.43.zip",
+          "size_bytes": 70343179,
+          "download_count": 33,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 17,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Release notes:\r\n- New and improved encrypted group wallet\r\n- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.43",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.42",
+      "name": "1.9.42",
+      "published_at": "2024-12-17T16:50:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 872,
+      "total_downloads": 872,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.42.zip",
+          "size_bytes": 105824396,
+          "download_count": 162,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.42.zip",
+          "size_bytes": 65085236,
+          "download_count": 250,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.42.zip",
+          "size_bytes": 104844214,
+          "download_count": 288,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 84,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 88,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Advanced coin control\r\n- Support Jade in USB mode\r\n- Honey Badger Premier\r\n- Bug fixes and improvements\r\n- [GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.42",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.41",
+      "name": "1.9.41",
+      "published_at": "2024-12-02T13:39:45Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 824,
+      "total_downloads": 824,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.41.zip",
+          "size_bytes": 105275130,
+          "download_count": 119,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.41.zip",
+          "size_bytes": 65583184,
+          "download_count": 248,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.41.zip",
+          "size_bytes": 104574225,
+          "download_count": 271,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 96,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 90,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.41",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.40",
+      "name": "1.9.40",
+      "published_at": "2024-11-13T03:50:06Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 178,
+      "total_downloads": 178,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.40.zip",
+          "size_bytes": 105271454,
+          "download_count": 18,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.40.zip",
+          "size_bytes": 65580425,
+          "download_count": 58,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.40.zip",
+          "size_bytes": 103875019,
+          "download_count": 74,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Support Coldcard as inheritance key\r\n- Option to Send all remaining for batch transactions\r\n- Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.40",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.39",
+      "name": "1.9.39",
+      "published_at": "2024-10-23T04:02:46Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 351,
+      "total_downloads": 351,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.39.zip",
+          "size_bytes": 105267665,
+          "download_count": 66,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.39.zip",
+          "size_bytes": 65566406,
+          "download_count": 90,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.39.zip",
+          "size_bytes": 103813998,
+          "download_count": 110,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 44,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 41,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.39",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.38",
+      "name": "1.9.38",
+      "published_at": "2024-09-30T15:29:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 327,
+      "total_downloads": 327,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.38.zip",
+          "size_bytes": 105038120,
+          "download_count": 57,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.38.zip",
+          "size_bytes": 65283185,
+          "download_count": 92,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.38.zip",
+          "size_bytes": 103828762,
+          "download_count": 103,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 33,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 42,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Refactored sign-in flow\r\n- HWI 3.1.0\r\n- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.38",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.37",
+      "name": "1.9.37",
+      "published_at": "2024-08-15T08:59:52Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 704,
+      "total_downloads": 704,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.37.zip",
+          "size_bytes": 105331058,
+          "download_count": 109,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.37.zip",
+          "size_bytes": 65259418,
+          "download_count": 187,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.37.zip",
+          "size_bytes": 103667160,
+          "download_count": 225,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 93,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 90,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Added a new Byzantine role (\u201cFacilitator Admin\u201d) that can help clients set up wallets but is blinded to the wallet balance and transaction history\r\n- Syncing performance optimization for wallets with over 1000 transactions\r\n- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.37",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.36",
+      "name": "1.9.36",
+      "published_at": "2024-07-25T11:04:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 346,
+      "total_downloads": 346,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.36.zip",
+          "size_bytes": 105260587,
+          "download_count": 66,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.36.zip",
+          "size_bytes": 65082737,
+          "download_count": 93,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.36.zip",
+          "size_bytes": 115403405,
+          "download_count": 104,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 43,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 40,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Release notes:\r\nSupport for automated wallet rollover\r\nKey replacement for unassisted wallets\r\nBug fixes and improvements",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.36",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.35",
+      "name": "1.9.35",
+      "published_at": "2024-06-10T14:43:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 267,
+      "total_downloads": 267,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.35.zip",
+          "size_bytes": 104986348,
+          "download_count": 68,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.35.zip",
+          "size_bytes": 64732744,
+          "download_count": 77,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.35.zip",
+          "size_bytes": 115259407,
+          "download_count": 79,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 23,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Release notes:\r\nAdded the ability to replace key(s) in an assisted multisig wallet and roll the funds over\r\nDecreasing the Platform Key's co-signing delay now must wait for an amount of time equal to the current delay\r\nAdded Health Check History\r\nAdded the ability to show a transaction as an invoice and save as a PDF\r\n",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.35",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.34",
+      "name": "1.9.34",
+      "published_at": "2024-05-23T12:35:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 433,
+      "total_downloads": 433,
+      "asset_count": 6,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.34.zip",
+          "size_bytes": 104171188,
+          "download_count": 91,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.34.zip",
+          "size_bytes": 63892066,
+          "download_count": 110,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.34.zip",
+          "size_bytes": 115160821,
+          "download_count": 115,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-window-v1.9.34_hwi_2.2.1.zip",
+          "size_bytes": 115239381,
+          "download_count": 26,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 380,
+          "download_count": 44,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1262,
+          "download_count": 47,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Updated network settings for easily managing Electrum servers, including custom ones\r\nAbility for subscribers to securely change their email address\r\nUpdated message retention logic for Byzantine and Finney group chats\r\nBug fixes and improvements",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.34",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.33",
+      "name": "",
+      "published_at": "2024-04-08T14:39:10Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 410,
+      "total_downloads": 410,
+      "asset_count": 6,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.33.zip",
+          "size_bytes": 103942352,
+          "download_count": 74,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.33.zip",
+          "size_bytes": 63709456,
+          "download_count": 104,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.33.zip",
+          "size_bytes": 115110543,
+          "download_count": 130,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-window-v1.9.33_hwi_2.1.1.zip",
+          "size_bytes": 115219820,
+          "download_count": 34,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 380,
+          "download_count": 34,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1262,
+          "download_count": 34,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Finney: the Bitcoin wallet for families\r\n- Added support for multiple subscriptions per account\r\n- (For subscribers) Added the ability to seamlessly change types of keys\r\n- Bug fixes and improvements",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.33",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.32",
+      "name": "",
+      "published_at": "2024-04-02T14:03:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 412,
+      "total_downloads": 412,
+      "asset_count": 6,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.32.zip",
+          "size_bytes": 96403441,
+          "download_count": 57,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.32.zip",
+          "size_bytes": 66374321,
+          "download_count": 121,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.32.zip",
+          "size_bytes": 100064636,
+          "download_count": 104,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-window-v1.9.32_hwi_2.1.1.zip",
+          "size_bytes": 101017003,
+          "download_count": 38,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 380,
+          "download_count": 46,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1262,
+          "download_count": 46,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Trezor Safe 3 support\r\nBug fixes and improvements",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.32",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.31",
+      "name": "",
+      "published_at": "2024-03-28T13:25:00Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 179,
+      "total_downloads": 179,
+      "asset_count": 6,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.31.zip",
+          "size_bytes": 96384782,
+          "download_count": 38,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.31.zip",
+          "size_bytes": 66366223,
+          "download_count": 45,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.31.zip",
+          "size_bytes": 100055408,
+          "download_count": 32,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-window-v1.9.31_hwi_2.1.1.zip",
+          "size_bytes": 101048277,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 380,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1262,
+          "download_count": 25,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- New Onboarding flow for first-time users\r\n- New 'Create hot wallet' feature to quickly create a hot wallet for immediate use, and back it up later",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.31",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.30",
+      "name": "",
+      "published_at": "2024-03-12T13:45:31Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 336,
+      "total_downloads": 336,
+      "asset_count": 6,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.30.zip",
+          "size_bytes": 96142874,
+          "download_count": 66,
+          "platform": "Linux",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.30.zip",
+          "size_bytes": 66057123,
+          "download_count": 108,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.30.zip",
+          "size_bytes": 99904405,
+          "download_count": 99,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-window-v1.9.30_hwi_2.1.1_stable.zip",
+          "size_bytes": 100905247,
+          "download_count": 44,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 387,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1269,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Bug fixes\r\nHB/IR wallet dashboard",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.30",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.29",
+      "name": "",
+      "published_at": "2024-02-19T15:15:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 327,
+      "total_downloads": 327,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.29.zip",
+          "size_bytes": 95465288,
+          "download_count": 71,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.29.zip",
+          "size_bytes": 69834986,
+          "download_count": 131,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.29.zip",
+          "size_bytes": 100835679,
+          "download_count": 75,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 26,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 24,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Bug fixes and improvements",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.29",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.28",
+      "name": "1.9.28",
+      "published_at": "2024-02-03T14:24:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 217,
+      "total_downloads": 217,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.28.zip",
+          "size_bytes": 168066788,
+          "download_count": 51,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.28.zip",
+          "size_bytes": 69830031,
+          "download_count": 50,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.28.zip",
+          "size_bytes": 100834166,
+          "download_count": 66,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 27,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 23,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Release notes:\r\nAdded the ability to cancel an already broadcast transaction via RBF\r\nOption to get the derivation path for each receive address (singlesig only)\r\nByzantine: added primary owner label\r\nByzantine: added support for wallet alias\r\nBug fixes and improvements",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.28",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.27",
+      "name": "",
+      "published_at": "2024-01-08T14:54:07Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 432,
+      "total_downloads": 432,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.27.zip",
+          "size_bytes": 167872353,
+          "download_count": 67,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.27.zip",
+          "size_bytes": 69645145,
+          "download_count": 143,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.27.zip",
+          "size_bytes": 100792958,
+          "download_count": 141,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 39,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 42,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Byzantine 3-of-5\r\nAdded request-for-signature feature\r\nBug fixes and improvements",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.27",
+      "author": "barontongnunchuk"
+    },
+    {
+      "tag": "1.9.26",
+      "name": "1.9.26",
+      "published_at": "2023-12-19T13:09:16Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 204,
+      "total_downloads": 204,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.26.zip",
+          "size_bytes": 167807856,
+          "download_count": 33,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.26.zip",
+          "size_bytes": 69562962,
+          "download_count": 53,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.26.zip",
+          "size_bytes": 100711481,
+          "download_count": 61,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 32,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 25,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Bug fixes and performance improvements \r\nReusing key flows for Byzantine ",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.26",
+      "author": "barontongnunchuk"
+    },
+    {
+      "tag": "1.9.25",
+      "name": "",
+      "published_at": "2023-11-24T13:51:08Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 618,
+      "total_downloads": 618,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.25.zip",
+          "size_bytes": 166157242,
+          "download_count": 125,
+          "platform": "Linux",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.25.zip",
+          "size_bytes": 69286445,
+          "download_count": 184,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.25.zip",
+          "size_bytes": 100641306,
+          "download_count": 175,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 70,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 64,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Byzantine roll-out\r\nBug fixes and improvements",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.25",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.24",
+      "name": "",
+      "published_at": "2023-11-13T16:05:39Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 122,
+      "total_downloads": 122,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.24.zip",
+          "size_bytes": 166103789,
+          "download_count": 31,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.24.zip",
+          "size_bytes": 69238057,
+          "download_count": 32,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.24.zip",
+          "size_bytes": 100611155,
+          "download_count": 33,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Byzantine roll-out\r\nBug fixes and improvements",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.24",
+      "author": "barontongnunchuk"
+    },
+    {
+      "tag": "1.9.23",
+      "name": "",
+      "published_at": "2023-11-01T14:55:04Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 67,
+      "total_downloads": 67,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.23.zip",
+          "size_bytes": 165796111,
+          "download_count": 20,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.23.zip",
+          "size_bytes": 68670947,
+          "download_count": 15,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.23.zip",
+          "size_bytes": 100576819,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "Pre-release byzantine",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.23",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.22",
+      "name": "",
+      "published_at": "2023-10-26T09:47:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 211,
+      "total_downloads": 211,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.22.zip",
+          "size_bytes": 165607633,
+          "download_count": 40,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.22.zip",
+          "size_bytes": 68479598,
+          "download_count": 63,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.22.zip",
+          "size_bytes": 100506397,
+          "download_count": 60,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 28,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Byzantine pre-release 1.9.22",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.22",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.21",
+      "name": "1.9.21",
+      "published_at": "2023-09-28T02:38:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 149,
+      "total_downloads": 149,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.21.zip",
+          "size_bytes": 165197695,
+          "download_count": 41,
+          "platform": "Linux",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.21.zip",
+          "size_bytes": 68076163,
+          "download_count": 45,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.21.zip",
+          "size_bytes": 100387220,
+          "download_count": 36,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 18,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "Improve performance\r\nFix bugs\r\nEnable Byzantine feature",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.21",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.20",
+      "name": "",
+      "published_at": "2023-06-08T14:40:39Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 983,
+      "total_downloads": 983,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.20.zip",
+          "size_bytes": 163784359,
+          "download_count": 180,
+          "platform": "Linux",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.20.zip",
+          "size_bytes": 66081770,
+          "download_count": 330,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-v1.9.20.zip",
+          "size_bytes": 99955762,
+          "download_count": 283,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 277,
+          "download_count": 100,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 90,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Fix sync bug\r\n- Improve performance\r\n- Ability to update the inheritance plan and wallet policies\r\n- Fix bug related to signing with COLDCARD NFC on Windows\r\n- BIP48 support",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.20",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.19",
+      "name": "1.9.19",
+      "published_at": "2023-04-27T13:54:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 337,
+      "total_downloads": 337,
+      "asset_count": 5,
+      "assets": [
+        {
+          "name": "nunchuk-linux-1.9.19.zip",
+          "size_bytes": 163462933,
+          "download_count": 73,
+          "platform": "Linux",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.19.zip",
+          "size_bytes": 62415458,
+          "download_count": 115,
+          "platform": "macOS",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-1.9.19.zip",
+          "size_bytes": 99823550,
+          "download_count": 110,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size_bytes": 275,
+          "download_count": 21,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1157,
+          "download_count": 18,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* New feature:\r\n- Enable inheritance claiming\r\n- Service tab\r\n- Co-signining policy\r\n- Improve performance\r\n- Fixbug for primary key and some minor bugs",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.19",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.18",
+      "name": "1.9.18",
+      "published_at": "2023-04-06T16:21:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 313,
+      "total_downloads": 313,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "nunchuk-linux-v1.9.18.zip",
+          "size_bytes": 163150562,
+          "download_count": 63,
+          "platform": "Linux",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-macos-v1.9.18.zip",
+          "size_bytes": 62056633,
+          "download_count": 122,
+          "platform": "macOS",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "nunchuk-window-v1.9.18.zip",
+          "size_bytes": 99695165,
+          "download_count": 93,
+          "platform": "Other",
+          "content_type": "application/x-zip-compressed"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 35,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Minor improvements (UI flow, performance)\r\n- Fix bug (sync data)\r\n- Enable service tab with new feature (Emergency lockdown, Recover tapsigner)\r\n- Enable chat with expert (Nunchuk support)\r\n- Support send attachment for premium account (Support)\r\n",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.18",
+      "author": "tongvanlinh"
+    },
+    {
+      "tag": "1.9.17",
+      "name": "1.9.17",
+      "published_at": "2023-01-16T11:50:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 295,
+      "total_downloads": 295,
+      "asset_count": 4,
+      "assets": [
+        {
+          "name": "nunchuk-linux-1.9.17.zip",
+          "size_bytes": 238671664,
+          "download_count": 58,
+          "platform": "Linux",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-mac-v1.9.17.zip",
+          "size_bytes": 58936084,
+          "download_count": 109,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "nunchuk-window-1.9.17.zip",
+          "size_bytes": 98740109,
+          "download_count": 94,
+          "platform": "Other",
+          "content_type": "application/zip"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1140,
+          "download_count": 34,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Fixed a bug related to message signing using hardware devices\r\n- Fixed 'unknown address' error when sending transactions\r\n- Wallet list view improvement\r\n- Data synchronization improvement\r\n- UI improvements",
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/1.9.17",
+      "author": "tongvanlinh"
+    }
+  ],
+  "fetched_at": "2026-07-30T18:58:45.980808+00:00",
+  "deep_dive": {
+    "days_since_launch": 1262,
+    "recent_stable_releases": [
+      {
+        "tag": "2.6.2",
+        "name": "2.6.2",
+        "published_at": "2026-07-01T15:15:01Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 286,
+        "total_downloads": 286,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.6.2.zip",
+            "size_bytes": 179590359,
+            "download_count": 98,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-macos-v2.6.2.zip",
+            "size_bytes": 150772741,
+            "download_count": 61,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-window-v2.6.2.zip",
+            "size_bytes": 123805743,
+            "download_count": 66,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 30,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 31,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.6.2",
+        "author": "tongvanlinh"
+      },
+      {
+        "tag": "2.6.1",
+        "name": "2.6.1",
+        "published_at": "2026-06-30T15:56:58Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 20,
+        "total_downloads": 20,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.6.1.zip",
+            "size_bytes": 179607553,
+            "download_count": 4,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-macos-v2.6.1.zip",
+            "size_bytes": 150756857,
+            "download_count": 3,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-window-v2.6.1.zip",
+            "size_bytes": 123709426,
+            "download_count": 7,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 4,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 2,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.6.1",
+        "author": "tongvanlinh"
+      },
+      {
+        "tag": "2.6.0",
+        "name": "2.6.0",
+        "published_at": "2026-06-22T13:57:26Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 103,
+        "total_downloads": 103,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.6.0.zip",
+            "size_bytes": 179621216,
+            "download_count": 34,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-macos-v2.6.0.zip",
+            "size_bytes": 150698788,
+            "download_count": 27,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-window-v2.6.0.zip",
+            "size_bytes": 123847805,
+            "download_count": 20,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 13,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 9,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "- Off-chain inheritance protocol: Phased Rollout support\r\n- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.6.0",
+        "author": "tongvanlinh"
+      },
+      {
+        "tag": "2.5.0",
+        "name": "2.5.0",
+        "published_at": "2026-05-21T08:28:51Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 429,
+        "total_downloads": 429,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.5.0.zip",
+            "size_bytes": 178429043,
+            "download_count": 180,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-macos-v2.5.0.zip",
+            "size_bytes": 149381360,
+            "download_count": 67,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-window-v2.5.0.zip",
+            "size_bytes": 123406090,
+            "download_count": 117,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 33,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 32,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.5.0",
+        "author": "tongvanlinh"
+      },
+      {
+        "tag": "2.4.3",
+        "name": "2.4.3",
+        "published_at": "2026-05-18T09:01:24Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 68,
+        "total_downloads": 68,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.4.3.zip",
+            "size_bytes": 178389828,
+            "download_count": 15,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-macos-v2.4.3.zip",
+            "size_bytes": 149389081,
+            "download_count": 14,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-window-v2.4.3.zip",
+            "size_bytes": 123326457,
+            "download_count": 25,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 8,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 6,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.4.3",
+        "author": "tongvanlinh"
+      },
+      {
+        "tag": "2.4.2",
+        "name": "2.4.2",
+        "published_at": "2026-04-29T18:06:29Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 226,
+        "total_downloads": 226,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.4.2.zip",
+            "size_bytes": 178509860,
+            "download_count": 69,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-macos-v2.4.2.zip",
+            "size_bytes": 149329084,
+            "download_count": 44,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-window-v2.4.2.zip",
+            "size_bytes": 123358168,
+            "download_count": 70,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 22,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 21,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.4.2",
+        "author": "tongvanlinh"
+      },
+      {
+        "tag": "2.4.1",
+        "name": "2.4.1",
+        "published_at": "2026-04-18T16:09:47Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 226,
+        "total_downloads": 226,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.4.1.zip",
+            "size_bytes": 178493190,
+            "download_count": 67,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-macos-v2.4.1.zip",
+            "size_bytes": 149182040,
+            "download_count": 49,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-window-v2.4.1.zip",
+            "size_bytes": 123422390,
+            "download_count": 59,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 23,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 28,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.4.1",
+        "author": "tongvanlinh"
+      },
+      {
+        "tag": "2.4.0",
+        "name": "2.4.0",
+        "published_at": "2026-04-14T15:44:55Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 80,
+        "total_downloads": 80,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.4.0.zip",
+            "size_bytes": 178462823,
+            "download_count": 21,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-macos-v2.4.0.zip",
+            "size_bytes": 149134038,
+            "download_count": 18,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-window-v2.4.0.zip",
+            "size_bytes": 123311623,
+            "download_count": 21,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 11,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 9,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "- Nunchuk API support\r\n- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.4.0",
+        "author": "tongvanlinh"
+      },
+      {
+        "tag": "2.3.0",
+        "name": "2.3.0",
+        "published_at": "2026-03-25T07:20:38Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 303,
+        "total_downloads": 303,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.3.0.zip",
+            "size_bytes": 176804495,
+            "download_count": 62,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-macos-v2.3.0.zip",
+            "size_bytes": 147206182,
+            "download_count": 73,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-window-v2.3.0.zip",
+            "size_bytes": 134599178,
+            "download_count": 102,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 34,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 32,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "- Off-chain Inheritance Protocol Update: Beneficiaries can now claim assets directly using their own hardware keys\r\n- Silent Payments bug fix\r\n- General bug fixes and performance improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.3.0",
+        "author": "tongvanlinh"
+      },
+      {
+        "tag": "2.2.2",
+        "name": "2.2.2",
+        "published_at": "2026-03-12T09:02:24Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 101,
+        "total_downloads": 101,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.2.2.zip",
+            "size_bytes": 174150816,
+            "download_count": 29,
+            "platform": "Linux",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "nunchuk-macos-v2.2.2.zip",
+            "size_bytes": 144065105,
+            "download_count": 28,
+            "platform": "macOS",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "nunchuk-window-2.2.2.zip",
+            "size_bytes": 133749065,
+            "download_count": 28,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 8,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 8,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "Bug fixes and improvements\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.2.2",
+        "author": "tongvanlinh"
+      },
+      {
+        "tag": "2.2.1",
+        "name": "2.2.1",
+        "published_at": "2026-02-20T06:07:43Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 233,
+        "total_downloads": 233,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.2.1.zip",
+            "size_bytes": 173788968,
+            "download_count": 81,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-macos-v2.2.1.zip",
+            "size_bytes": 144037741,
+            "download_count": 43,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-window-v2.2.1.zip",
+            "size_bytes": 133727762,
+            "download_count": 63,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 24,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 22,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.2.1",
+        "author": "tongvanlinh"
+      },
+      {
+        "tag": "2.2.0",
+        "name": "2.2.0",
+        "published_at": "2026-02-12T04:44:58Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 171,
+        "total_downloads": 171,
+        "asset_count": 5,
+        "assets": [
+          {
+            "name": "nunchuk-linux-v2.2.0.zip",
+            "size_bytes": 173789019,
+            "download_count": 44,
+            "platform": "Linux",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-macos-v2.2.0.zip",
+            "size_bytes": 144044379,
+            "download_count": 41,
+            "platform": "macOS",
+            "content_type": "application/zip"
+          },
+          {
+            "name": "nunchuk-window-v2.2.0.zip",
+            "size_bytes": 133703853,
+            "download_count": 49,
+            "platform": "Other",
+            "content_type": "application/x-zip-compressed"
+          },
+          {
+            "name": "SHA256SUMS",
+            "size_bytes": 274,
+            "download_count": 17,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1156,
+            "download_count": 20,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "- Bug fixes and improvements\r\n\r\n[GPG public key](https://keys.openpgp.org/search?q=8C8ECD3F660CA53CD878792A6E38A462ED2EF525)\r\n[Build instructions](https://github.com/nunchuk-io/docs/blob/main/build_instructions.md)",
+        "html_url": "https://github.com/nunchuk-io/nunchuk-desktop/releases/tag/2.2.0",
+        "author": "tongvanlinh"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 304.2,
+      "median_gap_hours": 265.9
+    }
+  },
+  "category": "Wallets"
+}

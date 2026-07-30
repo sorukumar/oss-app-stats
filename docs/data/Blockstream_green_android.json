@@ -1,0 +1,3827 @@
+{
+  "project": {
+    "owner": "Blockstream",
+    "repo": "green_android",
+    "name": "Green Wallet",
+    "full_name": "Blockstream/green_android",
+    "description": "Blockstream Green Wallet for Android",
+    "stars": 264,
+    "forks": 105,
+    "open_issues": 94,
+    "language": "Kotlin",
+    "license": "GPL-3.0",
+    "homepage": null,
+    "html_url": "https://github.com/Blockstream/green_android"
+  },
+  "summary": {
+    "total_downloads": 34961,
+    "total_releases": 119,
+    "stable_releases": 102,
+    "pre_releases": 17,
+    "latest_version": "release_5.5.1",
+    "latest_date": "2026-06-17T15:20:57Z",
+    "days_since_latest": 43,
+    "avg_cadence_days": 25.7,
+    "platform_breakdown": {
+      "Other": 32867,
+      "Signatures": 2094
+    }
+  },
+  "releases": [
+    {
+      "tag": "release_5.5.1",
+      "name": "Release 5.5.1",
+      "published_at": "2026-06-17T15:20:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1426,
+      "total_downloads": 1426,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.5.1-productionGoogle-release.apk",
+          "size_bytes": 190644777,
+          "download_count": 1411,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n- Update GDK to Release 0.77.6\r\n- Updated LWK to version 0.18.0\r\n- Improve optional log attachment for bug reports created by the app",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.5.1",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_5.5.0",
+      "name": "Release 5.5.0",
+      "published_at": "2026-06-08T09:30:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 700,
+      "total_downloads": 700,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.5.0-productionGoogle-release.apk",
+          "size_bytes": 189156305,
+          "download_count": 692,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Added\r\n\r\n- Support LNURL, BOLT12, and BIP-353 for Liquid to Lightning swaps\r\n- Add a dedicated Lightning send flow\r\n- Add Lightning invoice screen and fee communication flow\r\n- Enable Lightning for Jade wallets (note: doesn't apply to watch-only wallets, which can't derive a bip85 child key for Lightning)\r\n\r\n### Changed\r\n\r\n- Move Lightning enable UX from dialog to onboarding screen\r\n- Handle missing Lightning invoice addresses with a fallback\r\n- Improve app s",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.5.0",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_5.4.0",
+      "name": "Release 5.4.0",
+      "published_at": "2026-05-08T15:48:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1328,
+      "total_downloads": 1328,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.4.0-productionGoogle-release.apk",
+          "size_bytes": 187672914,
+          "download_count": 1312,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 16,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\r\n## What's new in this release\r\n\r\n### Added\r\n\r\n- Aggregate fiat total balance across all wallet assets\r\n- Redesigned Send flow (recipient, select asset, select account)\r\n\r\n### Fixed\r\n\r\n- Transaction pagination in transact tab\r\n- Navigate directly to receive screen from account details\r\n- Update account name immediately after rename\r\n- Swap improvements\r\n- Retry logic and stability for watch-only wallet import\r\n\r\n### Changed\r\n\r\n- Migrate lightning from Breez to glsdk\r\n- Update GDK to Release 0.7",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.4.0",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_5.3.0",
+      "name": "Release 5.3.0",
+      "published_at": "2026-04-09T08:37:04Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1464,
+      "total_downloads": 1464,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.3.0-productionGoogle-release.apk",
+          "size_bytes": 237120086,
+          "download_count": 1450,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n\r\n### Added\r\n\r\n- Lightning support with Greenlight device credential storage\r\n- Fiat currency display for Liquid assets\r\n- Option to hide amounts in account details and transaction views\r\n- Lightning address validation for Jade wallets\r\n- Automatic swap ID linking when restoring wallets\r\n- Swipe actions for wallet list items\r\n\r\n### Fixed\r\n\r\n- Swap transaction details no longer lose the original transaction hash\r\n- Account selection and auto-unarchive now work cor",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.3.0",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_5.2.0",
+      "name": "Release 5.2.0",
+      "published_at": "2026-03-24T21:50:58Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 667,
+      "total_downloads": 667,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.2.0-productionGoogle-release.apk",
+          "size_bytes": 212846632,
+          "download_count": 662,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 5,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\r\n\r\n#### Added\r\n- Swap between chain assets\r\n- Biometrics choice dialog during Jade setup\r\n\r\n#### Changed\r\n- Bump GDK to version 0.76.3\r\n- Improve watch-only login flow for hardware wallets\r\n\r\n#### Fixed\r\n- Fix ANR caused by a coroutine being blocked in UI main thread\r\n- Fix genuine pin check in device scan flow\r\n- Fix error messages in receive amount validation\r\n- Fix auto-save when using paste/clear buttons in settings\r\n- Add retry logic for BLE notification setup\r\n- Show BTC and LBTC by defau",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.2.0",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_5.1.4",
+      "name": "Release 5.1.4",
+      "published_at": "2025-12-11T12:38:08Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1496,
+      "total_downloads": 1496,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.1.4-productionGoogle-release.apk",
+          "size_bytes": 194990891,
+          "download_count": 1450,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 46,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Added\r\n\r\n- Support for Boltz Swaps through Liquid Wallet Kit (note: currently limited to submarine and reverse swaps between LBTC and Lightning, additional pairs will be supported in the next releases)",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.1.4",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_5.1.0",
+      "name": "Release 5.1.0",
+      "published_at": "2025-10-15T12:36:07Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1119,
+      "total_downloads": 1119,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.1.0-productionGoogle-release.apk",
+          "size_bytes": 129249576,
+          "download_count": 1100,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 19,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Whats new in this release\r\n\r\n#### Added\r\n- Watch-only wallets: Export or share unsigned psbt to a file and import signed psbt (pset support coming soon)\r\n\r\n#### Fixed\r\n- Fix type mismatch in ReceiveScreen by using ImageVector instead of Painter for button icon\r\n- Show Amp accounts in liquid assets accounts list\r\n- Show the account details menu in watch-only wallets\r\n\r\n#### Changed\r\n- Refactored watch-only wallet setup with automatic network and format detection\r\n- Simplified WatchOnlyDetector",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.1.0",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_5.0.9",
+      "name": "Release 5.0.9",
+      "published_at": "2025-09-08T12:50:15Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 864,
+      "total_downloads": 864,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.0.9-productionGoogle-release.apk",
+          "size_bytes": 128680001,
+          "download_count": 843,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 21,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n**IMPORTANT: SPV options in app settings are deprecated, users who want to self validate should connect to their own electrum server**\r\n\r\n#### Added\r\n- Multi-select functionality for unarchiving multiple accounts at once in the archived accounts screen\r\n- Display pending Meld transactions with real-time status updates in transaction list\r\n- Validate an address in the receive screen for a hardware-watchonly wallet\r\n\r\n#### Fixed\r\n- Buy screen now correctly pre-sele",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.0.9",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_5.0.7",
+      "name": "Release 5.0.7",
+      "published_at": "2025-08-14T09:28:55Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 749,
+      "total_downloads": 749,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.0.7-productionGoogle-release.apk",
+          "size_bytes": 127683852,
+          "download_count": 734,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Added\r\n- Asset account details and list screens to view account-specific asset transactions and balances\r\n- Load more transactions functionality in asset account details screen\r\n- Asset account details screen with menu actions (rename, watch-only, archive) for individual accounts\r\n- Watch-only security screen with informative description and learn more link\r\n\r\n#### Fixed\r\n- 2FA popup being dismissed when user clicked outside of the dialog\r\n- Crash when shari",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.0.7",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_5.0.6",
+      "name": "Release 5.0.6",
+      "published_at": "2025-07-03T12:48:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 972,
+      "total_downloads": 972,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.0.6-productionGoogle-release.apk",
+          "size_bytes": 127700236,
+          "download_count": 939,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 33,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Fixed\r\n\r\n- Fix F-Droid startup crash\r\n- Restore wallet from exhausted PIN attempts flow\r\n- Message signing in hw-wo session\r\n- Fix crash introduced in 5.0.0",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.0.6",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_5.0.3",
+      "name": "Release 5.0.3",
+      "published_at": "2025-06-17T08:04:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 662,
+      "total_downloads": 662,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.0.3-productionGoogle-release.apk",
+          "size_bytes": 127085835,
+          "download_count": 649,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Release 5.0.3\r\n\r\n#### Fixed\r\n- Make QR pin unlock screen scrollable to support larger font sizes\r\n- Fix inconsistent asset card heights when fiat values are missing\r\n- Fix vertical alignment of asset balance when fiat value is missing\r\n- Fix app behavior during onboarding when no fingerprints are enrolled\r\n- Fix navigation to Transact after send\r\n- Fix login with a single hardware wallet non watch-only\r\n- Fix crash introduced in 5.0.0",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.0.3",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_5.0.0",
+      "name": "Release 5.0.0",
+      "published_at": "2025-05-30T10:39:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 864,
+      "total_downloads": 864,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v5.0.0-productionGoogle-release.apk",
+          "size_bytes": 127065351,
+          "download_count": 844,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Added\r\n- UI Refresh\r\n- New tab based navigation\r\n- Bitcoin price chart in Home\r\n- Nags to backup recovery phrase\r\n- Notifications for buy related events",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.0.0",
+      "author": "angelix"
+    },
+    {
+      "tag": "release_4.1.8",
+      "name": "Release 4.1.8",
+      "published_at": "2025-04-07T08:47:52Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1049,
+      "total_downloads": 1049,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.1.8-productionGoogle-release.apk",
+          "size_bytes": 126645152,
+          "download_count": 1023,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 26,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Added\r\n- Add Language preference in App Settings\r\n- Enable Android data backup for disaster recovery\r\n\r\n### Changed\r\n- Bump GDK to version 0.75.1\r\n- Rename L-BTC to LBTC\r\n- Allow setting custom Electrum gap limit with default server\r\n- Remove Lightning shortcut\r\n\r\n### Fixed\r\n- Fix Jade entry Pin timeout\r\n- Fix Trezor passphrase input",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.1.8",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.1.5",
+      "name": "Release 4.1.5",
+      "published_at": "2025-02-05T14:03:58Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1099,
+      "total_downloads": 1099,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.1.5-productionGoogle-release.apk",
+          "size_bytes": 125648533,
+          "download_count": 1058,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 41,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Added\r\n\r\n- Enable fee discount for confidential transactions in liquiid\r\n\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.1.5",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.1.4",
+      "name": "Release 4.1.4",
+      "published_at": "2025-01-29T01:28:10Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 596,
+      "total_downloads": 596,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.1.4-productionGoogle-release.apk",
+          "size_bytes": 125648533,
+          "download_count": 589,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Added\r\n\r\n- Allow users to contact support from the app\r\n\r\n#### Changed\r\n\r\n- Add payment_hash to lightning exceptions\r\n\r\n#### Fixed\r\n\r\n- Fix hide amounts button behavior in overview\r\n- Fixed for devices with a small display\r\n- Minor fixes for Jade QR \r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.1.4",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.1.3",
+      "name": "Release 4.1.3",
+      "published_at": "2025-01-09T17:58:29Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 64,
+      "total_downloads": 64,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.1.3-productionGoogle-release.apk",
+          "size_bytes": 125636693,
+          "download_count": 59,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 5,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Changed\r\n- Update dependencies\r\n- Various bug fixes\r\n\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.1.3",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.1.2",
+      "name": "Release 4.1.2",
+      "published_at": "2025-01-03T22:15:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1046,
+      "total_downloads": 1046,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.1.2-productionGoogle-release.apk",
+          "size_bytes": 125623882,
+          "download_count": 1021,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 25,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n\r\n### Added\r\n- Bump GDK to version 0.74.2",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.1.2",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_4.1.1",
+      "name": "Release 4.1.1",
+      "published_at": "2025-01-03T21:42:06Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 370,
+      "total_downloads": 370,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.1.1-productionGoogle-release.apk",
+          "size_bytes": 125623882,
+          "download_count": 363,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n\r\n### Added\r\n- Jade genuine check\r\n\r\n### Changed\r\n- Bump GDK to version 0.74.0\r\n- Bump Breez to version 0.6.6\r\n- Update dependencies\r\n- Support video content on promo screen \r\n\r\n### Fixed\r\n- Fix Jade BIP39 Passphrase input timeout\r\n- Fix recovery keyboard matching words pre-emptively\r\n- Various bug fixes",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.1.1",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_4.1.0",
+      "name": "Release 4.1.0",
+      "published_at": "2024-12-12T14:21:48Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 995,
+      "total_downloads": 995,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.1.0-productionGoogle-release.apk",
+          "size_bytes": 124827458,
+          "download_count": 973,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 22,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n\r\n### Changed\r\n- Bump GDK to version 0.73.4\r\n- Bump Breez to version 0.6.3-rc2\r\n- Update dependencies\r\n\r\n### Fixed\r\n- Various bug fixes\r\n\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.1.0",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.38",
+      "name": "Release 4.0.38",
+      "published_at": "2024-11-20T11:07:53Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 85,
+      "total_downloads": 85,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.38-productionGoogle-release.apk",
+          "size_bytes": 126107061,
+          "download_count": 83,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 2,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Added\r\n\r\n- Jade QR Mode\r\n- In app promo\r\n\r\n#### Changed\r\n\r\n- Refactor UI to Jetpack Compose Multiplatform\r\n- Refactor Jade API to Kotlin\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.38",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.37",
+      "name": "Release 4.0.37",
+      "published_at": "2024-11-07T08:44:07Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1480,
+      "total_downloads": 1480,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.37-productionGoogle-release.apk",
+          "size_bytes": 129339683,
+          "download_count": 1450,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 30,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Changed\r\n- Bump GDK to version 0.73.3\r\n\r\n#### Fixed\r\n- Crash fix",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.37",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.36",
+      "name": "Release 4.0.36",
+      "published_at": "2024-10-24T15:09:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 367,
+      "total_downloads": 367,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.36-productionGoogle-release.apk",
+          "size_bytes": 129356067,
+          "download_count": 361,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Changed\r\n\r\n- Bump GDK to version 0.73.2\r\n- Bump Breez to version 0.6.2 and enable trampoline payments by default\r\n- Update dependencies",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.36",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.35",
+      "name": "Release 4.0.35",
+      "published_at": "2024-09-30T14:37:06Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1112,
+      "total_downloads": 1112,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.35-productionGoogle-release.apk",
+          "size_bytes": 128450633,
+          "download_count": 1098,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Added\r\n- Verify address with hardware wallet during 2FA reactivation\r\n\r\n### Changed\r\n- Bump GDK to version 0.73.1",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.35",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.34",
+      "name": "Release 4.0.34",
+      "published_at": "2024-09-17T10:58:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 593,
+      "total_downloads": 593,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.34-productionGoogle-release.apk",
+          "size_bytes": 128385097,
+          "download_count": 584,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n- Update dependencies\r\n- Various bug fixes",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.34",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.33",
+      "name": "Release 4.0.33",
+      "published_at": "2024-08-28T07:06:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 810,
+      "total_downloads": 810,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.33-productionGoogle-release.apk",
+          "size_bytes": 126048992,
+          "download_count": 798,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Fixed\r\n\r\n- Fix GDK build for F-Droid",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.33",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.32",
+      "name": "Release 4.0.32",
+      "published_at": "2024-08-14T14:33:20Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 185,
+      "total_downloads": 185,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.32-productionGoogle-release.apk",
+          "size_bytes": 126048992,
+          "download_count": 179,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Added\r\n- Allow custom gap limit on personal Electrum server\r\n- Allow adding a comment on a LNURL payment\r\n\r\n### Changed\r\n- Refactor Wallet overview options menu\r\n- Bump GDK to version 0.72.2\r\n- Bump Breez to version 0.5.2\r\n \r\n### Fixed\r\n- Various bug fixes",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.32",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.31",
+      "name": "Release 4.0.31",
+      "published_at": "2024-07-24T11:30:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1125,
+      "total_downloads": 1125,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.31-productionGoogle-release.apk",
+          "size_bytes": 126330153,
+          "download_count": 1108,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 17,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Added\r\n- Allow disabling TLS on Personal Electrum servers\r\n\r\n#### Changed\r\n- Refactor ViewModels to support Kotlin Multiplatform\r\n- Refactor various UI elements\r\n- Updated project dependencies\r\n- Bump Breez to version 0.5.1-rc4\r\n\r\n#### Fixed\r\n- Fix F-Droid dependency issue",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.31",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.30",
+      "name": "Release 4.0.30",
+      "published_at": "2024-06-11T14:53:58Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 1412,
+      "total_downloads": 1412,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.30-productionGoogle-release.apk",
+          "size_bytes": 132707503,
+          "download_count": 1351,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 61,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Added\r\n- Re-enable expired 2FA UTXOs\r\n \r\n#### Changed\r\n- Update to Kotlin 2.0.0\r\n- Updated project dependencies\r\n- Bump GDK to version 0.71.3\r\n- Bump Breez to version 0.4.2-rc1\r\n- Hide fee selection on Liquid if fee estimation is network default\r\n- Refactor various UI elements\r\n\r\n#### Fixed\r\n- Fix Authenticator app 2FA setup",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.30",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.29",
+      "name": "Release 4.0.29",
+      "published_at": "2024-05-27T13:36:03Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 135,
+      "total_downloads": 135,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.29-productionGoogle-release.apk",
+          "size_bytes": 130729353,
+          "download_count": 127,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Whats new in this release\r\n\r\n- Bump Breez to version 0.4.1\r\n- Fix F-Droid dependency issue",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.29",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.28",
+      "name": "Release 4.0.28",
+      "published_at": "2024-05-14T17:30:12Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 845,
+      "total_downloads": 845,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.28-productionGoogle-release.apk",
+          "size_bytes": 129058185,
+          "download_count": 830,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Added\r\n- Revamp Sweep UI\r\n\r\n### Changed\r\n- Bump GDK to version 0.71.0\r\n- Bump Breez to version 0.4.1-rc2\r\n\r\n### Fixed\r\n- Fix v2 password login\r\n- Fix wrong conversion when generating an address with amount",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.28",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.27",
+      "name": "Release 4.0.27",
+      "published_at": "2024-03-28T17:40:44Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 916,
+      "total_downloads": 916,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.27-productionGoogle-release.apk",
+          "size_bytes": 128300074,
+          "download_count": 889,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 27,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Added\r\n- Add push notification support for Lightning payments\r\n\r\n#### Changed\r\n- Bump Breez to version 0.3.8\r\n- Make Lightning Shortcut opt-out\r\n- Update transaction details view\r\n- Improve QR code scanability",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.27",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.26",
+      "name": "Release 4.0.26",
+      "published_at": "2024-03-19T09:56:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 634,
+      "total_downloads": 634,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.26-productionGoogle-release.apk",
+          "size_bytes": 130211044,
+          "download_count": 622,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Changed\r\n\r\n- Bump Breez version to 0.3.6",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.26",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.25",
+      "name": "Release 4.0.25",
+      "published_at": "2024-03-15T16:16:32Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 80,
+      "total_downloads": 80,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.25-productionGoogle-release.apk",
+          "size_bytes": 130112740,
+          "download_count": 68,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n\r\n#### Added\r\n- Enable Singlesig Liquid watch-only descriptors\r\n- New app setting \"Remember hardware device\"\r\n- Add metadata for F-Droid build\r\n- Handle \"master blinding key\" for advanced jade users\r\n\r\n\r\n#### Changed\r\n- Bump GDK to version 0.70.3\r\n- Allow changing denomination on watch-only sessions\r\n- Rewrite some UI screens into Jetpack Compose\r\n- Enable Bluetooth adapter from the app\r\n- Change Assets cache behavior\r\n- Enable Sweep for Bitcoin Singlesig watch-o",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.25",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.24",
+      "name": "Release 4.0.24",
+      "published_at": "2024-02-07T09:15:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 687,
+      "total_downloads": 687,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.24-productionGoogle-release.apk",
+          "size_bytes": 136077143,
+          "download_count": 666,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 21,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\n### Added\r\n- Export Greenlight logs\r\n- Add \"Receive any Liquid/AMP asset\" to the assets list on Receive and Create New Account screens\r\n\r\n### Changed\r\n- 2FA SMS activation comply with US requirements\r\n- Allow setting custom fees when recovering funds from Lightning\r\n- Refactor ViewModels to support Kotlin Multiplatform\r\n- Rewrite some UI screens into Jetpack Compose\r\n- Update Jade Oracle whitelisted urls\r\n- Bump Breez to version 0.2.15\r\n- Bump GDK to version 0.70.",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.24",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.23",
+      "name": "Release 4.0.23",
+      "published_at": "2024-01-10T09:19:38Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 518,
+      "total_downloads": 518,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.23-productionGoogle-release.apk",
+          "size_bytes": 127635922,
+          "download_count": 484,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 34,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Whats new in this release\r\n\r\n#### Changed\r\n- Updated project dependencies\r\n- Improve build reproducibility\r\n\r\n\r\n#### Fixed\r\n- Various bug and crash fixes",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.23",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.22",
+      "name": "Release 4.0.22",
+      "published_at": "2023-12-21T16:48:26Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 445,
+      "total_downloads": 445,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.22-productionGoogle-release.apk",
+          "size_bytes": 132157683,
+          "download_count": 427,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 18,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Changed\r\n- Add a NoCountly no-op class to FDroid build\r\n- Updated project dependencies\r\n- Bump Breez to version 0.2.12\r\n\r\n### Fixed\r\n- Fix emergency recovery phrase restore\r\n- Fix Account Overview crash",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.22",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.21",
+      "name": "Release 4.0.21",
+      "published_at": "2023-12-06T17:31:48Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 349,
+      "total_downloads": 349,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.21-productionGoogle-release.apk",
+          "size_bytes": 128733370,
+          "download_count": 335,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Fixed\r\n- Fix logout from the Notifications menu displaying the autologout toast\r\n- Check watch-only wallet if already exists in the app\r\n- Various bug and crash fixes",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.21",
+      "author": "angelix"
+    },
+    {
+      "tag": "release_4.0.20",
+      "name": "Release 4.0.20",
+      "published_at": "2023-11-27T17:38:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 397,
+      "total_downloads": 397,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.20-productionGoogle-release.apk",
+          "size_bytes": 128737634,
+          "download_count": 371,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 26,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Changed\r\n- Bump GDK to version 0.69\r\n\r\n### Added\r\n- Support Lightning with Jade air-gapped BIP85 mnemonic\r\n- Support Jade watch-only import by scanning BCUR animated QR codes\r\n- Enable 2FA call method as an SMS backup\r\n\r\n### Fixed\r\n- Fix keystore key being invalidated when device was unlocked with face biometrics\r\n- Fix amount being calculated incorrectly for locales using comma as decimal separator\r\n- Various bug and crash fixes",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.20",
+      "author": "angelix"
+    },
+    {
+      "tag": "release_4.0.18",
+      "name": "Release 4.0.18",
+      "published_at": "2023-11-06T19:35:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 368,
+      "total_downloads": 368,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.18-productionGoogle-release.apk",
+          "size_bytes": 125213654,
+          "download_count": 352,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 16,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Fixed\r\n\r\n- Fix Jade Bluetooth connection in Android 14",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.18",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.17",
+      "name": "Release 4.0.17",
+      "published_at": "2023-11-03T16:22:59Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 51,
+      "total_downloads": 51,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.17-productionGoogle-release.apk",
+          "size_bytes": 125213654,
+          "download_count": 46,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 5,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Changed\r\n- Bump GDK to version 0.68.4\r\n- Bump Breez to version 0.2.7\r\n\r\n### Added\r\n- Add icons to menu items\r\n- Display an error message when personal electrum server is unreachable\r\n\r\n### Fixed\r\n- Fix scan of color inverted QR codes\r\n- Fix NPE crash related to session handling\r\n- Fix fetching remote config when Tor is enabled\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.17",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.15",
+      "name": "Release 4.0.15",
+      "published_at": "2023-10-17T17:49:26Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 180,
+      "total_downloads": 180,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.15-productionGoogle-release.apk",
+          "size_bytes": 120506225,
+          "download_count": 172,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Changed\r\n- Bump Breezsdk to version 0.2.5\r\n- Support Android 14\r\n\r\n### Added\r\n- Lightning Shortcut\r\n\r\n### Fixed\r\n- Minor UI improvements",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.15",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.13",
+      "name": "Release 4.0.13",
+      "published_at": "2023-09-26T08:15:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 161,
+      "total_downloads": 161,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.13-productionGoogle-release.apk",
+          "size_bytes": 110232991,
+          "download_count": 145,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 16,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Whats new in this release\r\n\r\n#### Changed\r\n\r\n- Bump GDK to version 0.67.1\r\n\r\n#### Added\r\n\r\n- Add warnings when using a personal PIN server\r\n- Add list of previous addresses in receive\r\n- Support for message signing in previous addresses list\r\n- Bug fixes",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.13",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.12",
+      "name": "Release 4.0.12",
+      "published_at": "2023-08-14T10:07:06Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 81,
+      "total_downloads": 81,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.12-productionGoogle-release.apk",
+          "size_bytes": 109720597,
+          "download_count": 70,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n## Added\r\n\r\n- Support Lightning channel closure and sweep funds to onchain address\r\n\r\n## Changed\r\n\r\n- UI improvements to lightning accounts\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.12",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.11",
+      "name": "",
+      "published_at": "2023-07-31T16:22:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 314,
+      "total_downloads": 314,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.11-productionGoogle-release.apk",
+          "size_bytes": 109695909,
+          "download_count": 288,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 26,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Whats new in this release\r\n\r\n### Changed\r\n- Bump GDK to version 0.0.65\r\n- Bump Breez to version 0.1.4\r\n- Set Native SegWit as default standard account\r\n\r\n### Added\r\n- Add lightning onchain deposits\r\n- Allow scanning QR code from images",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.11",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.10",
+      "name": "Release 4.0.10",
+      "published_at": "2023-07-06T10:42:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 76,
+      "total_downloads": 76,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.10-productionGoogle-release.apk",
+          "size_bytes": 97227500,
+          "download_count": 64,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1209,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Fixed \r\n\r\n- Fix prompt for Jade firmware update",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.10",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.9",
+      "name": "Release 4.0.9",
+      "published_at": "2023-06-21T13:10:36Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 178,
+      "total_downloads": 178,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.9-productionGoogle-release.apk",
+          "size_bytes": 97227500,
+          "download_count": 166,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Changed\r\n- Make QR code scanner take 85% of the screen\r\n- Long press a QR code to show it full screen\r\n\r\n### Fixed\r\n- Remove PIN character limit for Trezor One\r\n- Hide Denomination & Exchange dialog for watch-only multisig\r\n- Fix 2FA threshold with empty string\r\n- Fixes on denomination behaviors\r\n- Fix receive address ellipsize middle\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.9",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.8",
+      "name": "Release 4.0.8",
+      "published_at": "2023-06-09T09:15:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 93,
+      "total_downloads": 93,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.8-productionGoogle-release.apk",
+          "size_bytes": 97182275,
+          "download_count": 85,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Changed\r\n- Move \"Recovery Transactions\" setting in \"Two-Factor authentication\"\r\n\r\n### Fixed\r\n- Fix login into Bitcoin Multisig Watch-only wallet",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.8",
+      "author": "angelix"
+    },
+    {
+      "tag": "release_4.0.7",
+      "name": "Release 4.0.7",
+      "published_at": "2023-06-08T09:32:34Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 53,
+      "total_downloads": 53,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.7-productionGoogle-release.apk",
+          "size_bytes": 97182275,
+          "download_count": 45,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Changed\r\n- Bump GDK to version 0.0.63\r\n- Update dependencies\r\n\r\n### Added\r\n- Add lightning support as experimental feature\r\n- Add a blinding step in liquid for software and hardware wallets\r\n\r\n### Fixed\r\n- Fix watch-only view for large fonts",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.7",
+      "author": "angelix"
+    },
+    {
+      "tag": "release_4.0.4",
+      "name": "Release 4.0.4",
+      "published_at": "2023-05-04T12:02:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 110,
+      "total_downloads": 110,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.4-productionGoogle-release.apk",
+          "size_bytes": 143583311,
+          "download_count": 96,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Changed\r\n\r\n- Bump GDK version to 0.0.62",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.4",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.1",
+      "name": "Release 4.0.1",
+      "published_at": "2023-04-18T22:12:26Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 96,
+      "total_downloads": 96,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.1-productionGoogle-release.apk",
+          "size_bytes": 143349839,
+          "download_count": 82,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\nGreen renews itself in 4.0.0!\r\n\r\nThe new UX gives you a more refined experience which adapts to your particular self-custody needs, along with a sleeker, more intuitive redesigned look.\r\n\r\nYou can now create accounts with different security levels, and manage your funds across them, within your existing wallet!\r\n\r\n\r\n\r\n### Changed\r\n\r\n- Update GDK to version 0.0.61\r\n\r\n\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.1",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.0",
+      "name": "Release 4.0.0",
+      "published_at": "2023-04-18T08:23:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 54,
+      "total_downloads": 54,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.0-productionGoogle-release.apk",
+          "size_bytes": 143345743,
+          "download_count": 45,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\nGreen renews itself in 4.0.0!\r\n\r\nThe new UX gives you a more refined experience which adapts to your particular self-custody needs, along with a sleeker, more intuitive redesigned look.\r\n\r\nYou can now create accounts with different security levels, and manage your funds across them, within your existing wallet!\r\n\r\n### Added\r\n\r\n- Overhaul onboarding UI with and without hardware wallets;\r\n- Allow multiple account types in a single wallet, bitcoin and liquid, single",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.0",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.0-beta5",
+      "name": "Release 4.0.0-beta5",
+      "published_at": "2023-04-07T09:40:55Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 44,
+      "total_downloads": 44,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.0-beta5-productionGoogle-release.apk",
+          "size_bytes": 143775823,
+          "download_count": 38,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1219,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Whats new in this release\r\n\r\n#### Fixed\r\n\r\n- Fix some NPE from Play Store reports\r\n\r\n#### Added\r\n\r\n- Add support for Rive animations\r\n\r\n#### Changed\r\n\r\n- Update GDK to 0.0.58.post2",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.0-beta5",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.0-beta4",
+      "name": "Release 4.0.0-beta4",
+      "published_at": "2023-03-16T09:37:34Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 55,
+      "total_downloads": 55,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.0-beta4-productionGoogle-release.apk",
+          "size_bytes": 128403600,
+          "download_count": 44,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1219,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\nThis is the fourth beta release of the Green Android v4.0.0. We value your feedback and would love to hear your thoughts, suggestions and concerns so we can improve. Leave us your feedback in the About section. \r\n\r\n## Added\r\n\r\n- Add troubleshooting links in Jade onboarding\r\n- Persist last selection of the \"Remember device\" option\r\n\r\n\r\n## Fixed\r\n\r\n- Fix Jade login with bip39 passphrases\r\n- Fix Trezor signing to recognize change address when sending",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.0-beta4",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_4.0.0-beta3",
+      "name": "Release 4.0.0-beta3",
+      "published_at": "2023-03-06T13:01:02Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 38,
+      "total_downloads": 38,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v4.0.0-beta3-productionGoogle-release.apk",
+          "size_bytes": 128399504,
+          "download_count": 35,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1219,
+          "download_count": 3,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\n### Added\r\n\r\n- Allow logins with multisig and singlesig wallets, bitcoin and liquid accounts with a unique PIN.\r\n\r\n### Changed\r\n\r\n- New Hardware Wallet Onboarding UI;\r\n- Lock Jade on session logout.\r\n\r\n### Fixed\r\n\r\n - Fix device list showing previously connected devices;\r\n - Hide menu entries(rename/archive) for watch only sessions;\r\n - Show the change address in Verification bottom sheet on Trezor;\r\n - Fix wallet restore when the corresponding multisig watch-only",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_4.0.0-beta3",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.9.2",
+      "name": "Release 3.9.2",
+      "published_at": "2023-01-25T13:04:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 132,
+      "total_downloads": 132,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.9.2-productionGoogle-release.apk",
+          "size_bytes": 102519599,
+          "download_count": 119,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## Whats new in this release\r\n\r\n### Added\r\n\r\n- Added CSAT forms",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.9.2",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.9.1",
+      "name": "Release 3.9.1",
+      "published_at": "2023-01-18T09:18:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 74,
+      "total_downloads": 74,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.9.1-productionGoogle-release.apk",
+          "size_bytes": 102490814,
+          "download_count": 69,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 5,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n#### Fixed\r\n\r\n- Fix change address shown as recipient address\r\n- Fix SPV icon showing an error for unconfirmed transactions",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.9.1",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.9.0",
+      "name": "Release 3.9.0",
+      "published_at": "2022-12-02T22:24:20Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 0,
+      "total_downloads": 0,
+      "asset_count": 0,
+      "assets": [],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Added\r\n- Emergency recovery phrase restore\r\n\r\n### Changed\r\n- Update GDK to 0.0.57",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.9.0",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.8.9",
+      "name": "Release 3.8.9",
+      "published_at": "2022-10-11T14:06:46Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 124,
+      "total_downloads": 124,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.8.9-productionGoogle-release.apk",
+          "size_bytes": 100762246,
+          "download_count": 94,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 30,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## Whats new in this release\r\n\r\n### Added\r\n- Add 2FA reset option for multisig shield Liquid wallets\r\n\r\n### Changed\r\n- Update GDK to 0.0.56\r\n\r\n### Fixed\r\n- Incorrectly displaying \"insufficient funds\" when sending from Jade singlesig wallet",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.8.9",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.8.7",
+      "name": "Release 3.8.7",
+      "published_at": "2022-09-02T14:44:03Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 49,
+      "total_downloads": 49,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.8.7-productionGoogle-release.apk",
+          "size_bytes": 90448518,
+          "download_count": 40,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\n### Added\r\n- New About screen with social links\r\n- Show announcements alerts\r\n- Add BIP info on account labels\r\n\r\n### Fixed\r\n- Improve ephemeral BIP39 Passphrase based wallets\r\n- Improve errors during restore\r\n- Fix Jade login using Emergency Restore\r\n- Fix BIP21 prefix for liquid testnet",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.8.7",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.8.6",
+      "name": "Release 3.8.6",
+      "published_at": "2022-07-29T15:43:21Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 312,
+      "total_downloads": 312,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.8.6-productionGoogle-release.apk",
+          "size_bytes": 90228610,
+          "download_count": 169,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 143,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# What's new in this version\r\n\r\n\r\n### Added\r\n- Login with BIP39 Passphrase\r\n- Trezor & Ledger singlesig address display\r\n- Faster Jade firmware update with binary delta\r\n\r\n### Fixed\r\n- Improve Ledger support\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.8.6",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.8.5",
+      "name": "Release 3.8.5",
+      "published_at": "2022-07-15T17:02:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 56,
+      "total_downloads": 56,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.8.5-productionGoogle-release.apk",
+          "size_bytes": 90166270,
+          "download_count": 36,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\n### Added\r\n- Enable watch-only in Liquid\r\n\r\n### Changed\r\n- Update GDK to 0.0.55\r\n- Updated project dependencies\r\n- Display the receive address in Transaction Details\r\n- Display the amount without the fee in Transaction Details\r\n\r\n### Fixed\r\n- Fix error message on wrong PIN\r\n- Fix 27-words mnemonic wallet restore\r\n- Fix change address verification on hardware wallets",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.8.5",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.8.4",
+      "name": "Release 3.8.4",
+      "published_at": "2022-06-18T15:19:04Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 79,
+      "total_downloads": 79,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.8.4-productionGoogle-release.apk",
+          "size_bytes": 89076818,
+          "download_count": 59,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "### Changed\r\n- Update GDK to 0.0.54.post1\r\n\r\n### Fixed\r\n- Fix balances after bumping transaction fees",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.8.4",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.8.3",
+      "name": "Release 3.8.3",
+      "published_at": "2022-06-09T16:49:59Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 28,
+      "total_downloads": 28,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.8.3-productionGoogle-release.apk",
+          "size_bytes": 89068626,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\n### Added\r\n- SPV for Bitcoin multisig shield wallets\r\n- Help Green improve! If you agree, Green will collect limited usage data to optimize your experience\r\n\r\n### Fixed\r\n- Fix 2FA reset error message even on successful reset\r\n- Fix Singlesig BIP21 amount error\r\n- Fix Ledger address validation on Liquid Singlesig\r\n- Fix default wallet name was empty on rename dialog\r\n- Close drawer when clicking a wallet notification",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.8.3",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.8.2",
+      "name": "Release 3.8.2",
+      "published_at": "2022-05-31T12:32:13Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 32,
+      "total_downloads": 32,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.8.2-productionGoogle-release.apk",
+          "size_bytes": 84815623,
+          "download_count": 22,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1207,
+          "download_count": 10,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Added\r\n- Archive accounts if they're no longer needed, then unarchive them from the archived list\r\n- Support multiple hardware wallet devices on multiple networks concurrently\r\n\r\n### Changed\r\n- Updated GDK to 0.0.54\r\n- Updated project dependencies\r\n\r\n### Fixed\r\n- Crash on Liquid transactions with unblinded amounts\r\n- Crash when resuming the application after prolonged period of inactivity\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.8.2",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.8.0",
+      "name": "Release 3.8.0",
+      "published_at": "2022-04-13T18:52:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 49,
+      "total_downloads": 49,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.8.0-production-release.apk",
+          "size_bytes": 84883748,
+          "download_count": 37,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1195,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain; charset=utf-8"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\n\n### Added\n- Add Bitcoin Singlesig hardware wallet support\n- Show active wallet sessions as system notification\n- Support Jade firmware sha256 file verification\n- Add ability to copy various transaction details\n- Change network with hardware wallet from the toolbar icon\n\n### Changed\n- Updated GDK to 0.0.51\n- Slide to send a transaction\n\n### Fixed\n- Fix transaction fees amounts are not converted to fiat currencies\n- Fix Trezor passphrase entry with empty string\n- Fix ",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.8.0",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.7.9",
+      "name": "Release 3.7.9",
+      "published_at": "2022-02-22T15:15:19Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 49,
+      "total_downloads": 49,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.7.9-production-release.apk",
+          "size_bytes": 83920233,
+          "download_count": 37,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1195,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\n\r\n### Added\r\n- Romanian localization\r\n\r\n### Changed\r\n- Improved transaction review layout both for software and hardware wallets\r\n- Update translations",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.7.9",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.7.8",
+      "name": "Release 3.7.8",
+      "published_at": "2022-01-20T12:34:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 56,
+      "total_downloads": 56,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.7.8-production-release.apk",
+          "size_bytes": 84231699,
+          "download_count": 42,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1195,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\n### Added\r\n- Show recovery phrases as Qr codes, to facilitate exporting your wallets on a new device\r\n- 2of3 account creation for Bitcoin multisig shield wallets\r\n\r\n### Changed\r\n- Streamlined wallet navigation: switch between your wallets without needing to log out every time\r\n- Show a bottom sheet when an interaction with hardware wallet is needed\r\n- Updated GDK to 0.0.49\r\n- Updated project dependencies\r\n\r\n### Fixed\r\n- Jade Bluetooth pairing with Google Pixel dev",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.7.8",
+      "author": "angelix"
+    },
+    {
+      "tag": "release_3.7.7",
+      "name": "Release 3.7.7",
+      "published_at": "2021-12-20T10:22:11Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 46,
+      "total_downloads": 46,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.7.7-production-release.apk",
+          "size_bytes": 83961946,
+          "download_count": 34,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1195,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain; charset=utf-8"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\n\n### Added\n- Automatic wallet restore, Green will find any wallet associated with your recovery phrase\n- Enhanced privacy option enabling secure display throughout the app & screen lock\n- PIN keyboard shuffle, to augment your privacy when entering PIN on login\n- L-BTC and BTC asset details\n\n### Changed\n- Improved swifter Send flow, easier to use, easier to read\n- Improved sweep paper wallet\n- Improved transaction fee bumping\n- Added balances on account cards, to faci",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.7.7",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.7.6",
+      "name": "Release 3.7.6",
+      "published_at": "2021-11-10T12:17:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 51,
+      "total_downloads": 51,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.7.6-production-release.apk",
+          "size_bytes": 83176315,
+          "download_count": 38,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1195,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "text/plain; charset=utf-8"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\n### Added\r\n- Support to connect to your personal electrum server in app settings\r\n\r\n### Changed\r\n- Supports GDK 0.0.47\r\n- Update project dependencies\r\n\r\n### Fixed\r\n- Disconnects Ledger X sessions when on Dashboard app\r\n- Accounts renaming\r\n- Pasting PGP keys in settings\r\n- Biometric authentication for Android 12\r\n\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.7.6",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.7.5",
+      "name": "Release 3.7.5",
+      "published_at": "2021-10-26T21:15:45Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 17,
+      "total_downloads": 17,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.7.5-production-release.apk",
+          "size_bytes": 82664315,
+          "download_count": 13,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1195,
+          "download_count": 4,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "#### What's new in this release\r\n\r\n- Bump gdk version to 0.0.46.post1",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.7.5",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.7.4",
+      "name": "Release 3.7.4",
+      "published_at": "2021-10-22T16:31:58Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 14,
+      "total_downloads": 14,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.7.4-production-release.apk",
+          "size_bytes": 82676603,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1195,
+          "download_count": 4,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "### Added\r\n- Support GDK 0.0.46\r\n- Support for creating and restoring Singlesig wallets on Liquid & Liquid Testnet\r\n- Sweep paper wallet UI\r\n- New Camera QR Scanner\r\n- Handle BIP-21 payment uris from the Android OS (bitcoin: & liquidnetwork:)\r\n\r\n### Changed\r\n- Improved wallet restore flow\r\n- Do not pass additional root certificate when fetching files from Jade firmware server\r\n- Revamp transaction details view with new UI\r\n- Simplify Sent screen adding a quick way to paste an address or scan a Q",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.7.4",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.7.3",
+      "name": "Release 3.7.3",
+      "published_at": "2021-09-30T01:57:20Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 56,
+      "total_downloads": 56,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.7.3-production-release.apk",
+          "size_bytes": 83027344,
+          "download_count": 45,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1195,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n### Changed\r\n- Update GDK version 0.0.45.post1\r\n\r\n### Fixed\r\n- Explicitly ignore expired certificate in Jade pinserver request",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.7.3",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.7.2",
+      "name": "Release 3.7.2",
+      "published_at": "2021-09-27T09:55:15Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 18,
+      "total_downloads": 18,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.7.2-production-release.apk",
+          "size_bytes": 83047824,
+          "download_count": 11,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1195,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n### Added\r\n- Add SPV support to singlesig wallets in app settings\r\n- Support host unblinding for Blockstream Jade version 0.1.27 and higher\r\n\r\n### Changed\r\n- Revamp Wallet view with new UI\r\n- Minor improvements to the Wallet Settings UI and PIN view\r\n- Update and support GDK version 0.0.45\r\n\r\n### Fixed\r\n- Limit number of words in wallet restore to 27\r\n- Fix crash reported on Play Store\r\n- Fix bugs in hardware wallets support",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.7.2",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.7.1",
+      "name": "Release 3.7.1",
+      "published_at": "2021-09-16T16:42:40Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 376,
+      "total_downloads": 376,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.7.1-production-release.apk",
+          "size_bytes": 82537112,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1195,
+          "download_count": 353,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\r\n# What's new in this release\r\n\r\n### Fixed\r\n- Fix GDK build for f-droid",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.7.1",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.7.0",
+      "name": "Release 3.7.0",
+      "published_at": "2021-09-03T13:15:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 26,
+      "total_downloads": 26,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "BlockstreamGreen-v3.7.0-production-release.apk",
+          "size_bytes": 82586490,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1195,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "\r\n# What's new in this release\r\n\r\n### Added\r\n- Support for creating and restoring Singlesig wallets on Bitcoin\r\n\r\n### Changed\r\n- Updates GDK to version 0.0.44\r\n- Updates Gradle dependencies",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.7.0",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.6.4",
+      "name": "Release 3.6.4",
+      "published_at": "2021-08-05T17:01:43Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 51,
+      "total_downloads": 51,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "green-production-release.apk",
+          "size_bytes": 79519850,
+          "download_count": 39,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\n### Added\r\n- Adds a PIN pad for 2FA codes\r\n\r\n### Changed\r\n- Improves Wallet Settings UI\r\n- Drops support for bitcoinj and SPV on Multisig Shield wallets\r\n\r\n### Fixed\r\n- Fixes crashes with fingerprint login authentication\r\n- Shows PGP and Watch-Only settings only on Multisig Shield wallets",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.6.4",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.6.3",
+      "name": "Release 3.6.3",
+      "published_at": "2021-07-12T22:24:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 34,
+      "total_downloads": 34,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "green-production-release.apk",
+          "size_bytes": 80464448,
+          "download_count": 22,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\n\r\n#### Added\r\n- Support for creating and restoring Singlesig wallets on Bitcoin Testnet\r\n- Enhanced support for Blockstream Jade\r\n\r\n#### Changed\r\n- Improves address validation on hardware wallets\r\n- Improves settings UI\r\n- Preloads icons of Liquid assets\r\n- Improves handling of disconnection and reconnection\r\n- Adds a warning when opening Help Center articles while using Tor\r\n- Updates GDK to 0.0.43\r\n\r\n\r\n#### Fixed\r\n- Ledger NanoX devices device identification\r\n- ",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.6.3",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.6.0",
+      "name": "Release 3.6.0",
+      "published_at": "2021-05-31T18:16:50Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 32,
+      "total_downloads": 32,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "green-production-release.apk",
+          "size_bytes": 80745171,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "# What's new in this release\r\n\r\n- Generate 12 words recovery phrases by default\r\n- Update Android and GDK dependencies\r\n- Show the wallet name in the main view\r\n- Cache liquid asset registry in addition to gdk caching\r\n- Display the account type in the account cards\r\n- Improve tools for testing\r\n- Fix error handling when restoring or creating wallets\r\n- Fix migration from v2 android screenlock logins\r\n- Revamp receive view with new UI and button to verify addresses on hardware wallets",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.6.0",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.5.9",
+      "name": "Release 3.5.9",
+      "published_at": "2021-04-29T21:48:44Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 20,
+      "total_downloads": 20,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "green-production-release.apk",
+          "size_bytes": 78915911,
+          "download_count": 15,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 5,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "## What's new in this release\r\n\r\n\r\n- Fix bug in Authenticator App 2FA\r\n\r\n- Update translations\r\n\r\n- Fix crashes from Google Play store reports\r\n\r\n- Improvements to CI with unit tests and dev flavour\r\n\r\n- Add support for Anti-Exfil signatures to Jade",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.5.9",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.5.8",
+      "name": "Release 3.5.8",
+      "published_at": "2021-04-21T11:25:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 62,
+      "total_downloads": 62,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "green-production-release.apk",
+          "size_bytes": 78903542,
+          "download_count": 42,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 20,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "What's new in this release:\r\n- Revamped user interface for wallet creation\r\n- Require user authentication to access recovery phrase in settings\r\n- Support for the creation and management of multiple wallets (previously a desktop-only feature)\r\n- Auto-advance after typing last digit of 2FA codes\r\n- Prompt users to confirm receive addresses when using Blockstream Jade\r\n- Improved checks for transaction signing when using Blockstream Jade\r\n- Updated localizations\r\n- Improved UI for 2FA reset using ",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.5.8",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.5.7",
+      "name": "Release 3.5.7",
+      "published_at": "2021-04-15T10:00:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 56,
+      "total_downloads": 56,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.5.7_android_release.apk",
+          "size_bytes": 78907638,
+          "download_count": 42,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "What's new in this release:\r\n- Add auto advance after typing last digit of 2FA codes\r\n- Prompt users to confirm receive addresses  when using Jade\r\n- Improve checks for transaction signing when using Jade\r\n- Update translation source files\r\n- Improved UI for 2FA reset using new alert cards.\r\n- Allow to undo a 2FA dispute\r\n- Update gdk to version 0.0.41\r\n- Improvements to dependency verification\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.5.5..release_3.5.7",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.5.7",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.5.5",
+      "name": "Release 3.5.5",
+      "published_at": "2021-04-03T10:16:54Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "raw_downloads": 20,
+      "total_downloads": 20,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "green-production-release.apk",
+          "size_bytes": 77920502,
+          "download_count": 10,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1159,
+          "download_count": 10,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "#### Relevant changes\r\n\r\n- Revamp onboarding user interface\r\n\r\n- Require user authentication to access mnemonic in settings\r\n\r\n- Support restore for 12 words mnemonics\r\n\r\n- Support creation and management of multiple wallets\r\n\r\n- Migrate old preferences to the new db schema\r\n\r\n- Bump minimum android sdk version to 23 ",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.5.5",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.5.4",
+      "name": "Release 3.5.4",
+      "published_at": "2021-04-02T12:29:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 31,
+      "total_downloads": 31,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.5.4_android_release.apk",
+          "size_bytes": 36020491,
+          "download_count": 22,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1205,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "#### Relevant changes\r\n\r\n- Updates to transaction signing for Jade\r\n- Change the app navigation removing the bottom navigation bar\r\n- Split the app in different modules\r\n- Build tools and CI updates",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.5.4",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.4.9",
+      "name": "Release 3.4.9",
+      "published_at": "2021-02-03T00:03:42Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 50,
+      "total_downloads": 50,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.4.9_android_release.apk",
+          "size_bytes": 36114856,
+          "download_count": 40,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 10,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- added new functionality on Liquid for sharing links to unblinded transactions on blockstream.info\r\n- added new setting in bitcoin to customize the 2FA expiry period\r\n- Jade support, now over-the-air updates can handle multiple boards including M5Stack\r\n- update GDK to 0.0.39, includes support for end-to-end encrypted client data (a 'client blob'), cached locally and backed up/synchronized - between wallet installs using the Green backend servers, this way your transaction notes and account lab",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.4.9",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.4.8",
+      "name": "Release 3.4.8",
+      "published_at": "2021-01-15T17:34:50Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 34,
+      "total_downloads": 34,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.4.8_android_release.apk",
+          "size_bytes": 36116883,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "#### Changelog\r\n\r\n- Add support for Blockstream Jade via usb and bluetooth",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.4.8",
+      "author": "domegabri"
+    },
+    {
+      "tag": "release_3.4.7",
+      "name": "Release 3.4.7",
+      "published_at": "2021-01-14T03:26:02Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 25,
+      "total_downloads": 25,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.4.7_android_release.apk",
+          "size_bytes": 35916862,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- update gdk 0.0.38\r\n- check notification description\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.4.5...release_3.4.7",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.4.7",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.4.5",
+      "name": "Release 3.4.5",
+      "published_at": "2021-01-02T20:36:17Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 29,
+      "total_downloads": 29,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.4.5_android_release.apk",
+          "size_bytes": 35920827,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 6,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- update gdk 0.0.37\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.4.4...release_3.4.5",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.4.5",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.4.4",
+      "name": "Release 3.4.4",
+      "published_at": "2020-12-14T21:59:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 25,
+      "total_downloads": 25,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.4.4_android_release.apk",
+          "size_bytes": 35894742,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 7,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Update Ledger product ID model and remove Ledger Blue\r\n- Unblinding data: comply with version 0\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.4.3...release_3.4.4",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.4.4",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.4.3",
+      "name": "Release 3.4.3",
+      "published_at": "2020-12-04T16:45:06Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 29,
+      "total_downloads": 29,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.4.3_android_release.apk",
+          "size_bytes": 35894209,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- gdk: update to version 0.0.36\r\n- receive: fix bug when converting empty amounts\r\n- model: add unblinding data for liquid transactions\r\n- transactions: add a bottom sheet that allows users to export unblinding data for liquid transactions (e.g. for escrows)\r\n- translations: update source files\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.4.2...release_3.4.3",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.4.3",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.4.2",
+      "name": "Release 3.4.2",
+      "published_at": "2020-11-04T00:15:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 35,
+      "total_downloads": 35,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.4.2_android_release.apk",
+          "size_bytes": 35961102,
+          "download_count": 27,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- fixes in send, when inputing address and fees\r\n- allow screenshots in non-private views\r\n- fix scan ble permission on android\r\n- improve support for small screens\r\n- update GDK to 0.0.35\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.4.1...release_3.4.2",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.4.2",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.4.1",
+      "name": "Release 3.4.1",
+      "published_at": "2020-10-12T11:17:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 39,
+      "total_downloads": 39,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.4.1_android_release.apk",
+          "size_bytes": 28495300,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 8,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Add support for Ledger Nano X over BLE\r\n- Add czech translations\r\n- Update translations\r\n- Migrate vectordrawable to png icons to support Android Api < 24\r\n- Add phone number and email addresses check for two factor authentication\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.4.0...release_3.4.1",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.4.1",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.4.0",
+      "name": "Release 3.4.0",
+      "published_at": "2020-10-02T10:04:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 34,
+      "total_downloads": 34,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.4.0_android_release.apk",
+          "size_bytes": 27951310,
+          "download_count": 24,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 10,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Fix streaming of unnecessary data to Ledger \r\n- Update deps\r\n- Ad support for vector drawable for reproducible builds\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.3.9...release_3.4.0",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.4.0",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.3.9",
+      "name": "Release 3.3.9",
+      "published_at": "2020-08-27T19:47:30Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 45,
+      "total_downloads": 45,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.3.9_android_release.apk",
+          "size_bytes": 28311110,
+          "download_count": 33,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- update gdk library to version 0.0.34\r\n- fix bug for amounts conversions in locales using comma as decimal separator\r\n- better handling of decimal amounts\r\n- ui fixes in send when sweeping utxos and sending max amount\r\n- add checks for nullable settings and subaccounts data\r\n- provide previous transactions to ledger as required by bitcoin ledger app version 1.4.7\r\n- update login error handling\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.3.8...release_3.3.9",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.3.9",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.3.8",
+      "name": "Release 3.3.8",
+      "published_at": "2020-07-09T08:16:27Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 45,
+      "total_downloads": 45,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.3.8_android_release.apk",
+          "size_bytes": 28251002,
+          "download_count": 33,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Update gdk to version 0.0.33\r\n- UI improvements for Liquid Bitcoin and send all\r\n- Address some stability issues from play store reports\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.3.7...release_3.3.8",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.3.8",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.3.7",
+      "name": "Release 3.3.7",
+      "published_at": "2020-05-01T09:39:18Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 51,
+      "total_downloads": 51,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.3.7_android_release.apk",
+          "size_bytes": 28214704,
+          "download_count": 36,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- improves Ledger Nano S Liquid support\r\n- bug fixes\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.3.6...release_3.3.7",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.3.7",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.3.6",
+      "name": "Release 3.3.6",
+      "published_at": "2020-04-13T13:20:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.3.6_android_release.apk",
+          "size_bytes": 28195516,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- GDK 0.0.30 update, now using 52bits rangeproofs, which allow hiding larger amounts (up to ~4.5 quadrillion satoshis of an asset)\r\n- fix reconnect with hardware wallets\r\n- send to bech32 liquid addresses is now supported\r\n- migrate to RxJava\r\n- upgrade gradlew wrapper, build tools and material design library\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.3.5...release_3.3.6",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.3.6",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.3.5",
+      "name": "Release 3.3.5",
+      "published_at": "2020-03-05T10:17:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 47,
+      "total_downloads": 47,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.3.5_android_release.apk",
+          "size_bytes": 28162712,
+          "download_count": 33,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- improved UI with unstable connectivity\r\n- added support for address validation with Ledger NanoS on Liquid\r\n- update GDK library to 0.0.28\r\n- bug fixing\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.3.4...release_3.3.5",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.3.5",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.3.4",
+      "name": "Release 3.3.4",
+      "published_at": "2020-02-10T11:27:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 36,
+      "total_downloads": 36,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.3.4_android_release.apk",
+          "size_bytes": 28121413,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 16,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Bug fix\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.3.3...release_3.3.4",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.3.4",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.3.3",
+      "name": "Release 3.3.3",
+      "published_at": "2020-02-04T16:30:48Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 34,
+      "total_downloads": 34,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.3.3_android_release.apk",
+          "size_bytes": 28121547,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Adds support for Bip21 on liquid network\r\n- Updates gdk to 0.0.27\r\n- Fix minor bugs\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.3.2...release_3.3.3",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.3.3",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.3.2",
+      "name": "Release 3.3.2",
+      "published_at": "2020-01-14T15:36:37Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 33,
+      "total_downloads": 33,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.3.2_android_release.apk",
+          "size_bytes": 28094375,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 13,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Adds Liquid support for Ledger Nano S;\r\n- Improvements and small fixes for wallets with many utxos;\r\n- Updates gdk to 0.0.26\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.3.0...release_3.3.2",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.3.2",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.3.0",
+      "name": "Release 3.3.0",
+      "published_at": "2020-01-07T13:55:22Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 38,
+      "total_downloads": 38,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.3.0_android_release.apk",
+          "size_bytes": 25795931,
+          "download_count": 24,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "* Adds support for Liquid Securities accounts\r\n* Fixes for restoring encrypted mnemonics\r\n* Addresses reported stability issues\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.2.8...release_3.3.0",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.3.0",
+      "author": "RCasatta"
+    },
+    {
+      "tag": "release_3.2.8",
+      "name": "Release 3.2.8",
+      "published_at": "2019-12-10T17:16:40Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 46,
+      "total_downloads": 46,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.2.8_android_release.apk",
+          "size_bytes": 25777989,
+          "download_count": 32,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Bug fixes and refactoring\r\n- Amounts displayed and grouped according to users regional preferences\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.2.7...release_3.2.8",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.2.8",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.2.7",
+      "name": "Release 3.2.7",
+      "published_at": "2019-11-13T13:08:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 35,
+      "total_downloads": 35,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.2.7_android_release.apk",
+          "size_bytes": 25727038,
+          "download_count": 21,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- This update includes performance and maintenance improvements\r\n- Added PIN as fallback to Android native authentication\r\n- Updated GDK to 0.0.24\r\n- Updated libwally to 0.7.5\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.2.4...release_3.2.7",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.2.7",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.2.4",
+      "name": "Release 3.2.4",
+      "published_at": "2019-10-14T23:09:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 37,
+      "total_downloads": 37,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.2.4_android_release.apk",
+          "size_bytes": 25796166,
+          "download_count": 23,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Better UX for switching between bitcoin and liquid wallets\r\n- Tor support without proxies\r\n- Bug fixes\r\n- Update gdk to 0.0.21\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.2.3...release_3.2.4",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.2.4",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.2.3",
+      "name": "Release 3.2.3",
+      "published_at": "2019-09-23T15:27:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 31,
+      "total_downloads": 31,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.2.3_android_release.apk",
+          "size_bytes": 26443094,
+          "download_count": 16,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Added asset icons on Liquid\r\n- Added vietnamese localization\r\n- Added sweeping functionality in settings\r\n- General performance and UX improvements\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.2.2...release_3.2.3",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.2.3",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.2.2",
+      "name": "Release 3.2.2",
+      "published_at": "2019-09-12T08:50:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 40,
+      "total_downloads": 40,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.2.2_android_release.apk",
+          "size_bytes": 26393461,
+          "download_count": 25,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 15,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Updates android libraries\r\n- Bug fixing\r\n- UI and UX improvements\r\n- Updates gdk library\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.2.1...release_3.2.2",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.2.2",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.2.1",
+      "name": "Release 3.2.1",
+      "published_at": "2019-08-20T23:52:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 40,
+      "total_downloads": 40,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.2.1_android_release.apk",
+          "size_bytes": 26121847,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Adds sats as a unit for BTC (#stacksats)\r\n- Adds an additional option for autologout timeout\r\n- Adds a temporary wallet option\r\n- Bug fixes\r\n- Updates to latest gdk\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.2.0...release_3.2.1",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.2.1",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.2.0",
+      "name": "Release 3.2.0",
+      "published_at": "2019-08-01T16:34:27Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 42,
+      "total_downloads": 42,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.2.0_android_release.apk",
+          "size_bytes": 26109832,
+          "download_count": 31,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- 2of2 simple account creation\r\n- Liquid: Fix bug for assets with zero balance\r\n- Liquid: Fix blinding factors generation for different outputs\r\n- Localizations update\r\n\r\nGreen Liquid users should upgrade at their earliest convenience and should be advised that because of a recently discovered issue, confidential transactions made with older versions of this app might have leaked information about the assets and the amounts involved. Specifically, transactions with multiple outputs might have le",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.2.0",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.1.9",
+      "name": "Release 3.1.9",
+      "published_at": "2019-07-23T14:51:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 40,
+      "total_downloads": 40,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.1.9_android_release.apk",
+          "size_bytes": 18431694,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 12,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "* general user experience improvements on network switching, localizations, send flow on Liquid\r\n\r\nMore info at: https://github.com/Blockstream/green_android/compare/release_3.1.8...release_3.1.9",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.1.9",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.1.8",
+      "name": "Release 3.1.8",
+      "published_at": "2019-07-08T12:33:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 30,
+      "total_downloads": 30,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.1.8_android_release.apk",
+          "size_bytes": 18426993,
+          "download_count": 20,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 10,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "* Ledger NanoX support (only USB)\r\n* Bug fixes\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.1.8",
+      "author": "RCasatta"
+    },
+    {
+      "tag": "release_3.1.7",
+      "name": "Release 3.1.7",
+      "published_at": "2019-07-03T14:53:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 29,
+      "total_downloads": 29,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.1.7_android_release.apk",
+          "size_bytes": 18414995,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "* Liquid support\r\n* Bug fixes\r\n",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.1.7",
+      "author": "RCasatta"
+    },
+    {
+      "tag": "release_3.1.3",
+      "name": "",
+      "published_at": "2019-05-06T13:00:38Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 38,
+      "total_downloads": 38,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_master_android_release.apk",
+          "size_bytes": 15337070,
+          "download_count": 24,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 995,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Bug fixes",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.1.3",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.1.2",
+      "name": "Release 3.1.2",
+      "published_at": "2019-04-30T10:05:11Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 31,
+      "total_downloads": 31,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_master_android_release.apk",
+          "size_bytes": 15350087,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 995,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "- Bug fixes",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.1.2",
+      "author": "lvaccaro"
+    },
+    {
+      "tag": "release_3.1.1",
+      "name": "release_3.1.1",
+      "published_at": "2019-04-18T13:20:08Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 26,
+      "total_downloads": 26,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.1.1_android_release.apk",
+          "size_bytes": 15061937,
+          "download_count": 17,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Bug fixes",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.1.1",
+      "author": "LeoComandini"
+    },
+    {
+      "tag": "release_3.1.0",
+      "name": "release_3.1.0",
+      "published_at": "2019-04-09T19:27:01Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 27,
+      "total_downloads": 27,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.1.0_android_release.apk",
+          "size_bytes": 15067118,
+          "download_count": 18,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Bug fixes",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.1.0",
+      "author": "greenaddress"
+    },
+    {
+      "tag": "release_3.0.9",
+      "name": "release_3.0.9",
+      "published_at": "2019-04-06T14:52:38Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 38,
+      "total_downloads": 38,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.0.9_android_release.apk",
+          "size_bytes": 15064195,
+          "download_count": 28,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 10,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Add support for Trezor T",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.0.9",
+      "author": "LeoComandini"
+    },
+    {
+      "tag": "release_3.0.8",
+      "name": "release_3.0.8",
+      "published_at": "2019-04-02T10:12:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 35,
+      "total_downloads": 35,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.0.8_android_release.apk",
+          "size_bytes": 15064159,
+          "download_count": 24,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 11,
+          "platform": "Signatures",
+          "content_type": "text/plain"
+        }
+      ],
+      "body_excerpt": "- Connectivity fixes\r\n- Fix Trezor bip39 passphrase \r\n- Ignore non-HW usb devices",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.0.8",
+      "author": "LeoComandini"
+    },
+    {
+      "tag": "release_3.0.7",
+      "name": "",
+      "published_at": "2019-03-22T17:25:07Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 43,
+      "total_downloads": 43,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.0.7_android_release.apk",
+          "size_bytes": 15320547,
+          "download_count": 29,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 14,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.0.7",
+      "author": "RCasatta"
+    },
+    {
+      "tag": "release_3.0.6",
+      "name": "",
+      "published_at": "2019-03-19T14:07:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "raw_downloads": 80,
+      "total_downloads": 80,
+      "asset_count": 2,
+      "assets": [
+        {
+          "name": "Blockstream_Green_release_3.0.6_android_release.apk",
+          "size_bytes": 15239602,
+          "download_count": 71,
+          "platform": "Other",
+          "content_type": "application/vnd.android.package-archive"
+        },
+        {
+          "name": "SHA256SUMS.asc",
+          "size_bytes": 1002,
+          "download_count": 9,
+          "platform": "Signatures",
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "body_excerpt": "",
+      "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_3.0.6",
+      "author": "RCasatta"
+    }
+  ],
+  "fetched_at": "2026-07-30T18:58:44.633381+00:00",
+  "deep_dive": {
+    "days_since_launch": 2647,
+    "recent_stable_releases": [
+      {
+        "tag": "release_5.5.1",
+        "name": "Release 5.5.1",
+        "published_at": "2026-06-17T15:20:57Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1426,
+        "total_downloads": 1426,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.5.1-productionGoogle-release.apk",
+            "size_bytes": 190644777,
+            "download_count": 1411,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 15,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## What's new in this release\r\n\r\n- Update GDK to Release 0.77.6\r\n- Updated LWK to version 0.18.0\r\n- Improve optional log attachment for bug reports created by the app",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.5.1",
+        "author": "domegabri"
+      },
+      {
+        "tag": "release_5.5.0",
+        "name": "Release 5.5.0",
+        "published_at": "2026-06-08T09:30:18Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 700,
+        "total_downloads": 700,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.5.0-productionGoogle-release.apk",
+            "size_bytes": 189156305,
+            "download_count": 692,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 8,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## What's new in this release\r\n\r\n### Added\r\n\r\n- Support LNURL, BOLT12, and BIP-353 for Liquid to Lightning swaps\r\n- Add a dedicated Lightning send flow\r\n- Add Lightning invoice screen and fee communication flow\r\n- Enable Lightning for Jade wallets (note: doesn't apply to watch-only wallets, which can't derive a bip85 child key for Lightning)\r\n\r\n### Changed\r\n\r\n- Move Lightning enable UX from dialog to onboarding screen\r\n- Handle missing Lightning invoice addresses with a fallback\r\n- Improve app s",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.5.0",
+        "author": "domegabri"
+      },
+      {
+        "tag": "release_5.4.0",
+        "name": "Release 5.4.0",
+        "published_at": "2026-05-08T15:48:03Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1328,
+        "total_downloads": 1328,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.4.0-productionGoogle-release.apk",
+            "size_bytes": 187672914,
+            "download_count": 1312,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 16,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "\r\n## What's new in this release\r\n\r\n### Added\r\n\r\n- Aggregate fiat total balance across all wallet assets\r\n- Redesigned Send flow (recipient, select asset, select account)\r\n\r\n### Fixed\r\n\r\n- Transaction pagination in transact tab\r\n- Navigate directly to receive screen from account details\r\n- Update account name immediately after rename\r\n- Swap improvements\r\n- Retry logic and stability for watch-only wallet import\r\n\r\n### Changed\r\n\r\n- Migrate lightning from Breez to glsdk\r\n- Update GDK to Release 0.7",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.4.0",
+        "author": "domegabri"
+      },
+      {
+        "tag": "release_5.3.0",
+        "name": "Release 5.3.0",
+        "published_at": "2026-04-09T08:37:04Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1464,
+        "total_downloads": 1464,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.3.0-productionGoogle-release.apk",
+            "size_bytes": 237120086,
+            "download_count": 1450,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 14,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## What's new in this release\r\n\r\n\r\n### Added\r\n\r\n- Lightning support with Greenlight device credential storage\r\n- Fiat currency display for Liquid assets\r\n- Option to hide amounts in account details and transaction views\r\n- Lightning address validation for Jade wallets\r\n- Automatic swap ID linking when restoring wallets\r\n- Swipe actions for wallet list items\r\n\r\n### Fixed\r\n\r\n- Swap transaction details no longer lose the original transaction hash\r\n- Account selection and auto-unarchive now work cor",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.3.0",
+        "author": "domegabri"
+      },
+      {
+        "tag": "release_5.2.0",
+        "name": "Release 5.2.0",
+        "published_at": "2026-03-24T21:50:58Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 667,
+        "total_downloads": 667,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.2.0-productionGoogle-release.apk",
+            "size_bytes": 212846632,
+            "download_count": 662,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 5,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "\r\n\r\n#### Added\r\n- Swap between chain assets\r\n- Biometrics choice dialog during Jade setup\r\n\r\n#### Changed\r\n- Bump GDK to version 0.76.3\r\n- Improve watch-only login flow for hardware wallets\r\n\r\n#### Fixed\r\n- Fix ANR caused by a coroutine being blocked in UI main thread\r\n- Fix genuine pin check in device scan flow\r\n- Fix error messages in receive amount validation\r\n- Fix auto-save when using paste/clear buttons in settings\r\n- Add retry logic for BLE notification setup\r\n- Show BTC and LBTC by defau",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.2.0",
+        "author": "domegabri"
+      },
+      {
+        "tag": "release_5.1.4",
+        "name": "Release 5.1.4",
+        "published_at": "2025-12-11T12:38:08Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1496,
+        "total_downloads": 1496,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.1.4-productionGoogle-release.apk",
+            "size_bytes": 194990891,
+            "download_count": 1450,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 46,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## What's new in this release\r\n\r\n#### Added\r\n\r\n- Support for Boltz Swaps through Liquid Wallet Kit (note: currently limited to submarine and reverse swaps between LBTC and Lightning, additional pairs will be supported in the next releases)",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.1.4",
+        "author": "domegabri"
+      },
+      {
+        "tag": "release_5.1.0",
+        "name": "Release 5.1.0",
+        "published_at": "2025-10-15T12:36:07Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 1119,
+        "total_downloads": 1119,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.1.0-productionGoogle-release.apk",
+            "size_bytes": 129249576,
+            "download_count": 1100,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 19,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## Whats new in this release\r\n\r\n#### Added\r\n- Watch-only wallets: Export or share unsigned psbt to a file and import signed psbt (pset support coming soon)\r\n\r\n#### Fixed\r\n- Fix type mismatch in ReceiveScreen by using ImageVector instead of Painter for button icon\r\n- Show Amp accounts in liquid assets accounts list\r\n- Show the account details menu in watch-only wallets\r\n\r\n#### Changed\r\n- Refactored watch-only wallet setup with automatic network and format detection\r\n- Simplified WatchOnlyDetector",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.1.0",
+        "author": "domegabri"
+      },
+      {
+        "tag": "release_5.0.9",
+        "name": "Release 5.0.9",
+        "published_at": "2025-09-08T12:50:15Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 864,
+        "total_downloads": 864,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.0.9-productionGoogle-release.apk",
+            "size_bytes": 128680001,
+            "download_count": 843,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 21,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## What's new in this release\r\n\r\n**IMPORTANT: SPV options in app settings are deprecated, users who want to self validate should connect to their own electrum server**\r\n\r\n#### Added\r\n- Multi-select functionality for unarchiving multiple accounts at once in the archived accounts screen\r\n- Display pending Meld transactions with real-time status updates in transaction list\r\n- Validate an address in the receive screen for a hardware-watchonly wallet\r\n\r\n#### Fixed\r\n- Buy screen now correctly pre-sele",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.0.9",
+        "author": "domegabri"
+      },
+      {
+        "tag": "release_5.0.7",
+        "name": "Release 5.0.7",
+        "published_at": "2025-08-14T09:28:55Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 749,
+        "total_downloads": 749,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.0.7-productionGoogle-release.apk",
+            "size_bytes": 127683852,
+            "download_count": 734,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 15,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## What's new in this release\r\n\r\n#### Added\r\n- Asset account details and list screens to view account-specific asset transactions and balances\r\n- Load more transactions functionality in asset account details screen\r\n- Asset account details screen with menu actions (rename, watch-only, archive) for individual accounts\r\n- Watch-only security screen with informative description and learn more link\r\n\r\n#### Fixed\r\n- 2FA popup being dismissed when user clicked outside of the dialog\r\n- Crash when shari",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.0.7",
+        "author": "domegabri"
+      },
+      {
+        "tag": "release_5.0.6",
+        "name": "Release 5.0.6",
+        "published_at": "2025-07-03T12:48:32Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 972,
+        "total_downloads": 972,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.0.6-productionGoogle-release.apk",
+            "size_bytes": 127700236,
+            "download_count": 939,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 33,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## What's new in this release\r\n\r\n#### Fixed\r\n\r\n- Fix F-Droid startup crash\r\n- Restore wallet from exhausted PIN attempts flow\r\n- Message signing in hw-wo session\r\n- Fix crash introduced in 5.0.0",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.0.6",
+        "author": "domegabri"
+      },
+      {
+        "tag": "release_5.0.3",
+        "name": "Release 5.0.3",
+        "published_at": "2025-06-17T08:04:23Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 662,
+        "total_downloads": 662,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.0.3-productionGoogle-release.apk",
+            "size_bytes": 127085835,
+            "download_count": 649,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 13,
+            "platform": "Signatures",
+            "content_type": "text/plain"
+          }
+        ],
+        "body_excerpt": "## Release 5.0.3\r\n\r\n#### Fixed\r\n- Make QR pin unlock screen scrollable to support larger font sizes\r\n- Fix inconsistent asset card heights when fiat values are missing\r\n- Fix vertical alignment of asset balance when fiat value is missing\r\n- Fix app behavior during onboarding when no fingerprints are enrolled\r\n- Fix navigation to Transact after send\r\n- Fix login with a single hardware wallet non watch-only\r\n- Fix crash introduced in 5.0.0",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.0.3",
+        "author": "domegabri"
+      },
+      {
+        "tag": "release_5.0.0",
+        "name": "Release 5.0.0",
+        "published_at": "2025-05-30T10:39:42Z",
+        "is_prerelease": false,
+        "is_draft": false,
+        "raw_downloads": 864,
+        "total_downloads": 864,
+        "asset_count": 2,
+        "assets": [
+          {
+            "name": "BlockstreamGreen-v5.0.0-productionGoogle-release.apk",
+            "size_bytes": 127065351,
+            "download_count": 844,
+            "platform": "Other",
+            "content_type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.asc",
+            "size_bytes": 1207,
+            "download_count": 20,
+            "platform": "Signatures",
+            "content_type": "application/octet-stream"
+          }
+        ],
+        "body_excerpt": "## What's new in this release\r\n\r\n### Added\r\n- UI Refresh\r\n- New tab based navigation\r\n- Bitcoin price chart in Home\r\n- Nags to backup recovery phrase\r\n- Notifications for buy related events",
+        "html_url": "https://github.com/Blockstream/green_android/releases/tag/release_5.0.0",
+        "author": "angelix"
+      }
+    ],
+    "velocity": {
+      "avg_gap_hours": 836.1,
+      "median_gap_hours": 703.2
+    }
+  },
+  "category": "Wallets"
+}
